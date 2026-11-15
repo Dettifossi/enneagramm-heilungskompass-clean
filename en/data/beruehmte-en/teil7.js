@@ -3253,7 +3253,7 @@ export function michaelFassbenderPortraitPage() {
 
         <h2 class="vb-section">3. The Two-Wing: Serving the Guest</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings warmth and a willingness to serve others. Fassbender grew up in a restaurant where hosting was daily life, which can be read as a background to this coloring. He works in an ensemble, stays loyal to his directors and keeps his private life largely out of public view. A weakly developed Two-wing would leave the One more in plain strictness; here a quiet, serving warmth is added. That remains an interpretation.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings warmth and a willingness to serve others. Fassbender grew up in a restaurant where hosting was daily life, which can be read as a background to this coloring. He works in an ensemble, stays loyal to his directors and keeps his private life largely out of public view. A weakly developed Two-wing would leave the One more in plain strictness; here a quiet, serving warmth is added.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Substance: Body, Control and Danger</h2>
@@ -3280,7 +3280,7 @@ export function michaelFassbenderPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Fassbender has been married since 14 October 2017 to the Swedish actress Alicia Vikander; they have two sons and live in Lisbon. Most recently he appeared in ›The Killer‹ (2023, David Fincher), ›Next Goal Wins‹ (2023, Taika Waititi) and ›Black Bag‹ (2025, Steven Soderbergh), and in the series ›The Agency‹ (since 2024). His stated goal in racing is a return to the 24 Hours of Le Mans. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
+          <p class="vb-intro">Fassbender has been married since 14 October 2017 to the Swedish actress Alicia Vikander; they have two sons and live in Lisbon. Most recently he appeared in ›The Killer‹ (2023, David Fincher), ›Next Goal Wins‹ (2023, Taika Waititi) and ›Black Bag‹ (2025, Steven Soderbergh), and in the series ›The Agency‹ (since 2024). His stated goal in racing is a return to the 24 Hours of Le Mans. The typing is based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
         </blockquote>
 
       </div>
@@ -3322,7 +3322,7 @@ export function paulDanoPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Four: The Inner Life Goes Into the Role</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> hardly shows pain outwardly. The depth is processed quietly, often over many years, and seeks no applause. In Dano this shows in his choice of characters: in ›Little Miss Sunshine‹ (2006) the teenager Dwayne, who out of defiance and despair does not speak for months; in ›There Will Be Blood‹ (2007) the young preacher Eli Sunday, who holds his own next to Daniel Day-Lewis; in ›Love &amp; Mercy‹ (2014) the young Brian Wilson, a musician at risk of breaking under his own inner world; in ›The Batman‹ (2022) the Riddler, a man who feels invisible and wants to be seen.</p>
-          <p class="vb-intro">All four are people with great inner pressure and small outward expression. Dano plays them without a gesture of display. That fits the dove, which carries weight without complaint. This remains an interpretation.</p>
+          <p class="vb-intro">All four are people with great inner pressure and small outward expression. Dano plays them without a gesture of display. That fits the dove, which carries weight without complaint.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-Wing: Craft, Plan and the Step Behind the Camera</h2>
@@ -3344,7 +3344,7 @@ export function paulDanoPortraitPage() {
 
         <h2 class="vb-section">6. Light and Shadow of the Self-Preservation Four with a Three-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in precision and the courage for difficult, unflattering characters: Dano chooses roles that do not ingratiate, and sees them through. The shadow of the Four would be reserve, the feeling of not being seen, and the risk of hiding the inner life so well that even those closest find it hard to read. Whether and how Dano experiences this himself cannot be judged from outside; in interviews he speaks about his work, little about himself.</p>
+          <p class="vb-intro">The light lies in precision and the courage for difficult, unflattering characters: Dano chooses roles that do not ingratiate, and sees them through. The shadow of the Four is reserve, the feeling of not being seen, and the risk of hiding the inner life so well that even those closest find it hard to read. In interviews, Dano speaks about his work, little about himself.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallels in the Same Subtype: Nicolas Cage and Leonie Benesch</h2>
@@ -3354,7 +3354,7 @@ export function paulDanoPortraitPage() {
 
         <h2 class="vb-section">8. Status as of November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dano lives in Brooklyn with the actress and writer Zoe Kazan, his partner since 2007, and their two children (a daughter born in 2018, a son in 2022). Most recently he appeared in ›Spaceman‹ (2024, Netflix, as a voice), in the series ›Mr. &amp; Mrs. Smith‹ (2024, Emmy nomination as guest actor) and in ›The Wizard of the Kremlin‹ (2025); further projects are in the works. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
+          <p class="vb-intro">Dano lives in Brooklyn with the actress and writer Zoe Kazan, his partner since 2007, and their two children (a daughter born in 2018, a son in 2022). Most recently he appeared in ›Spaceman‹ (2024, Netflix, as a voice), in the series ›Mr. &amp; Mrs. Smith‹ (2024, Emmy nomination as guest actor) and in ›The Wizard of the Kremlin‹ (2025); further projects are in the works. The typing is based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
         </blockquote>
 
       </div>

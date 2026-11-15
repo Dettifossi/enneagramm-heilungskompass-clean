@@ -3305,12 +3305,12 @@ export function alexanderDudaPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Zwei: Unentbehrlichkeit als Zugang zu Nähe</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Zwei den Subtyp des <em>Privilegs</em> (Privilege): Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl gesichert, gebraucht zu werden. Der Platz im Leben anderer wird durch Unentbehrlichkeit verdient. Im Lebensmusterkompass dieser App steht dafür das Flusspferd: gutmütig, verwurzelt, mit ruhiger Kraft.</p>
-          <p class="vb-intro">Bei Duda zeigt sich das im Beruf und im Privatleben gleichermaßen: als verlässliche Größe in einem Ensemble und als langjähriger Partner. Er ist seit über dreißig Jahren mit der Schauspielerin Jutta Schmuttermaier zusammen; das Paar hat zwei erwachsene Kinder, und sie trat nach Medienberichten in mehreren Rollen in den ›Rosenheim-Cops‹ auf. Das bleibt eine Deutung aus der Außensicht.</p>
+          <p class="vb-intro">Bei Duda zeigt sich das im Beruf und im Privatleben gleichermaßen: als verlässliche Größe in einem Ensemble und als langjähriger Partner. Er ist seit über dreißig Jahren mit der Schauspielerin Jutta Schmuttermaier zusammen; das Paar hat zwei erwachsene Kinder, und sie trat nach Medienberichten in mehreren Rollen in den ›Rosenheim-Cops‹ auf.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Einserflügel: Anstand und Ordnung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Zwei Ernsthaftigkeit, Pflichtgefühl und einen inneren Maßstab dafür, wie man sich zu verhalten hat. Das passt zu seiner bekanntesten Figur: Seit 2006 spielt Duda in der ZDF-Serie ›Die Rosenheim-Cops‹ Polizeidirektor Gert Achtziger, den Vorgesetzten der Ermittler. Es ist eine Rolle, in der Fürsorge und Ordnung zusammenkommen: ein Chef, der Verantwortung trägt, ohne kalt zu wirken. Das ist eine Deutung der Figur und ihrer Darstellung, nicht aus Aussagen des Schauspielers abgeleitet.</p>
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Zwei Ernsthaftigkeit, Pflichtgefühl und einen inneren Maßstab dafür, wie man sich zu verhalten hat. Das passt zu seiner bekanntesten Figur: Seit 2006 spielt Duda in der ZDF-Serie ›Die Rosenheim-Cops‹ Polizeidirektor Gert Achtziger, den Vorgesetzten der Ermittler. Es ist eine Rolle, in der Fürsorge und Ordnung zusammenkommen: ein Chef, der Verantwortung trägt, ohne kalt zu wirken. Das lässt sich an der Figur und ihrer Darstellung ablesen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Autorität mit Wärme, eine Figur über zwei Jahrzehnte</h2>
@@ -3322,12 +3322,12 @@ export function alexanderDudaPortraitPage() {
         <h2 class="vb-section">5. Der unfreiwillige Abschied: Bleiben wollen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Im Herbst 2026 wurde bekannt, dass Duda die Serie nach rund zwanzig Jahren verlässt; seine Figur geht innerhalb der Handlung in den Ruhestand. Das ZDF nannte es eine dramaturgische Entscheidung. Nach Medienberichten sagte er sinngemäß, er finde es schade, dass dies seine letzte Staffel sei, Achtziger hätte ohne Weiteres bis achtzig weitermachen können; einen Groll hege er nicht. Der Abschied sei nicht ganz freiwillig gewesen. Sein letzter Drehtag sei emotional gewesen, auch weil seine Frau mitspielte; der Abschied im Fernsehen ist nach bisherigen Angaben für das Frühjahr 2027 vorgesehen.</p>
-          <p class="vb-intro">Für eine selbsterhaltende Zwei ist das aufschlussreich: Das Flusspferd bleibt an seinem Platz, und ein Wechsel, der nicht von ihm ausgeht, trifft die Stelle, an der Zugehörigkeit gesichert war. Dass er ohne Groll bleibt, passt zugleich zum Einserflügel, der Haltung bewahrt. Das bleibt eine Deutung aus der Außensicht.</p>
+          <p class="vb-intro">Für eine selbsterhaltende Zwei ist das aufschlussreich: Das Flusspferd bleibt an seinem Platz, und ein Wechsel, der nicht von ihm ausgeht, trifft die Stelle, an der Zugehörigkeit gesichert war. Dass er ohne Groll bleibt, passt zugleich zum Einserflügel, der Haltung bewahrt.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Zwei mit Einserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in Verlässlichkeit, Treue und einer Autorität, die Wärme zulässt. Der Schatten der Zwei wäre, den eigenen Wert zu stark davon abhängig zu machen, gebraucht zu werden; der Einserflügel kann zusätzlich Strenge gegen sich selbst bringen. Wie weit das auf Duda zutrifft, ist von außen nicht zu beurteilen.</p>
+          <p class="vb-intro">Das Licht liegt in Verlässlichkeit, Treue und einer Autorität, die Wärme zulässt. Der Schatten der Zwei liegt darin, den eigenen Wert zu stark davon abhängig zu machen, gebraucht zu werden; der Einserflügel kann zusätzlich Strenge gegen sich selbst bringen.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallelen im selben Subtyp: Joachim Llambi und Franka Potente</h2>
@@ -3337,7 +3337,7 @@ export function alexanderDudaPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Duda ist weiterhin als Achtziger zu sehen; sein Ausstieg aus den ›Rosenheim-Cops‹ ist angekündigt, der genaue Sendetermin war bei der Recherche nicht bekannt. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Gedeutet wird hier nach dem Enneagramm-Profiling-System von David L. Rathmer, gestützt auf Lebenslauf und Rollenwahl. Theaterstationen und Abschiedstermin stammen aus Presse und Datenbanken; hier kann sich noch etwas ändern.</p>
+          <p class="vb-intro">Duda ist weiterhin als Achtziger zu sehen; sein Ausstieg aus den ›Rosenheim-Cops‹ ist angekündigt, der genaue Sendetermin war bei der Recherche nicht bekannt. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Duda ist eine selbsterhaltende Zwei mit Einserflügel (SE2w1): Das zeigen Lebenslauf und Rollenwahl im Enneagramm-Profiling-System von David L. Rathmer. Theaterstationen und Abschiedstermin stammen aus Presse und Datenbanken; hier kann sich noch etwas ändern.</p>
         </blockquote>
 
       </div>

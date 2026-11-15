@@ -3298,7 +3298,7 @@ export function igorJefticPortraitPage() {
         <h2 class="vb-section">2. Der soziale Eins: Verantwortung für das Ganze</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Eins</strong> trägt ihren inneren Maßstab nicht für sich allein, sondern im Blick auf die Gemeinschaft: Was ist richtig, was dient den anderen, wo muss Ordnung herrschen? Dahinter stehen der innere Kritiker der Eins und die Leidenschaft Ärger (Wut, die sich selten zeigt und meist in Sorgfalt, Prinzipientreue und Selbstkritik umgeleitet wird).</p>
-          <p class="vb-intro">Bei Jeftić ist dieser Zug in seinen eigenen Aussagen zu erkennen. Nach Medienberichten sagte er, er bereue es, keinen Weg eingeschlagen zu haben, mit dem er mehr Einfluss auf die Welt nehmen könne, und zweifle manchmal am Sinn eines Berufs, der vor allem unterhält. Das ist kein Satz eines Zynikers, sondern eines Mannes mit hohem Anspruch an den Nutzen der eigenen Arbeit. Das bleibt eine Deutung aus der Außensicht.</p>
+          <p class="vb-intro">Bei Jeftić ist dieser Zug in seinen eigenen Aussagen zu erkennen. Nach Medienberichten sagte er, er bereue es, keinen Weg eingeschlagen zu haben, mit dem er mehr Einfluss auf die Welt nehmen könne, und zweifle manchmal am Sinn eines Berufs, der vor allem unterhält. Das ist kein Satz eines Zynikers, sondern eines Mannes mit hohem Anspruch an den Nutzen der eigenen Arbeit.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Wärme im Team</h2>
@@ -3319,7 +3319,7 @@ export function igorJefticPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in Verlässlichkeit, Teamgeist und dem Anspruch, Nützliches zu tun. Der Schatten der Eins wäre die Selbstkritik, die auch Erfolg nicht gelten lässt: Wer den eigenen Beruf an einem hohen moralischen Maßstab misst, kann ihn als zu leicht empfinden. Wie weit das auf Jeftić zutrifft, ist von außen nicht zu beurteilen.</p>
+          <p class="vb-intro">Das Licht liegt in Verlässlichkeit, Teamgeist und dem Anspruch, Nützliches zu tun. Der Schatten der Eins ist die Selbstkritik, die auch Erfolg nicht gelten lässt: Wer den eigenen Beruf an einem hohen moralischen Maßstab misst, kann ihn als zu leicht empfinden.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallelen im selben Subtyp: Jürgen Klopp und Bradley Cooper</h2>
@@ -3329,7 +3329,7 @@ export function igorJefticPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jeftić gehört weiterhin zum Ensemble der ›Rosenheim-Cops‹; Gerüchte über einen Ausstieg haben sich nach den vorliegenden Berichten nicht bestätigt. Die Einordnung als SO1w2 ist ein begründeter Vorschlag und keine Gewissheit: Sie stützt sich auf den Lebenslauf und folgt dem Enneagramm-Profiling-System von David L. Rathmer. Geburtsort, Ausbildung und die Haft-Anekdote stammen aus Presse- und Agenturprofilen und stimmen dort nicht überall überein.</p>
+          <p class="vb-intro">Jeftić gehört weiterhin zum Ensemble der ›Rosenheim-Cops‹; Gerüchte über einen Ausstieg haben sich nach den vorliegenden Berichten nicht bestätigt. Jeftić ist ein sozialer Einser mit Zweierflügel (SO1w2): Das zeigen sein Lebenslauf und das Enneagramm-Profiling-System von David L. Rathmer. Geburtsort, Ausbildung und die Haft-Anekdote stammen aus Presse- und Agenturprofilen und stimmen dort nicht überall überein.</p>
         </blockquote>
 
       </div>

@@ -3262,7 +3262,7 @@ export function oliverReedPortraitPage() {
         <h2 class="vb-section">3. The Nine-Wing: Pleasure, Numbing and Homesickness</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the Eight composure, a capacity for enjoyment and a tendency to damp tension. A weakly developed Nine-wing would let the Eight appear more angular and pressing; in Reed it colors the manner broader, more comfortable, sociable. It fits that he did not chase Hollywood: according to the sources he remained a British patriot who preferred living in Britain, and in the end moved with his wife Josephine to Churchtown in County Cork, Ireland.</p>
-          <p class="vb-intro">The wing has a darker side too. The Nine dulls what becomes too much, and alcohol was one means of that for Reed. That remains an interpretation; the sources document the drinking, not its inner life.</p>
+          <p class="vb-intro">The wing has a darker side too. The Nine dulls what becomes too much, and alcohol was one means of that for Reed. The sources document the drinking, not its inner life.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Substance: Force with a Wound in It</h2>
@@ -3290,7 +3290,7 @@ export function oliverReedPortraitPage() {
 
         <h2 class="vb-section">8. Where a Lion Left His Mark</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Oliver Reed died on 2 May 1999, aged 61, of a heart attack in Valletta, Malta, during a break in filming ›Gladiator‹. According to the screenwriter David Franzoni, sailors of HMS ›Cumberland‹ had challenged him to a drinking contest; he collapsed and died in the ambulance. His remaining scenes were completed with a double and computer effects. He is buried in Bruhenny Graveyard in Churchtown, County Cork. His gravestone reads ›He made the air move.‹ The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
+          <p class="vb-intro">Oliver Reed died on 2 May 1999, aged 61, of a heart attack in Valletta, Malta, during a break in filming ›Gladiator‹. According to the screenwriter David Franzoni, sailors of HMS ›Cumberland‹ had challenged him to a drinking contest; he collapsed and died in the ambulance. His remaining scenes were completed with a double and computer effects. He is buried in Bruhenny Graveyard in Churchtown, County Cork. His gravestone reads ›He made the air move.‹ The typing is based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
         </blockquote>
 
       </div>

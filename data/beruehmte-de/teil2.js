@@ -3315,7 +3315,7 @@ export function marisaBurgerPortraitPage() {
         <h2 class="vb-section">2. Der sexuelle Dreier: Anziehung als Lebensthema</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo nannte den sexuellen Dreier den Subtyp der <em>Männlichkeit bzw. Weiblichkeit</em> (Masculinity/Femininity): Der Wert der eigenen Person hängt hier stark daran, wie man als Frau oder Mann auf andere wirkt, begehrenswert, liebenswert, bewundert: Es ist der Subtyp, der die ideale Frau oder den idealen Mann verkörpern möchte. Die Leidenschaft der Drei, die Eitelkeit (das Bedürfnis, im Spiegel der anderen zu glänzen), hat hier ihre Bühne. Anders als der selbsterhaltende oder der soziale Dreier arbeitet dieser Subtyp nicht vorrangig an Geld oder Rang, sondern an der Anziehungskraft.</p>
-          <p class="vb-intro">Bei Burger zeigt sich das als Mischung aus Freundlichkeit, Gepflegtheit und Extrovertiertheit: Sie wirkt stets adrett, strahlend und herzlich-exaltiert und möchte gefallen. Frau Stockl, die zu allen freundlich ist, alles für andere tut und sich gern schön kleidet, ist dafür die ideale Bühne. Auch die Blickqualität stützt diese Deutung: Burger hat Strahleaugen, einen offen leuchtenden, werbenden Blick, wie er für die Drei typisch ist, und nicht den weichen, fürsorglich-bittenden Blick der Zwei. Gegen eine sexuelle Sechs spricht, dass Gefallen und Wirkung im Vordergrund stehen, nicht Angstabwehr durch Stärke. Dazu passt, dass sie in Interviews selbst von früher Unsicherheit über Aussehen und Anerkennung spricht: Nach Medienberichten litt sie in der Jugend an Magersucht und verarbeitete das in ihrem Buch ›Vergiss nie, wie dein Herz am Anfang war‹. Für den sexuellen Dreier ist das Ideal des eigenen Körperbildes ein besonders empfindliches Feld; das bleibt eine Deutung aus der Außensicht und ist kein Urteil über ihre Person.</p>
+          <p class="vb-intro">Bei Burger zeigt sich das als Mischung aus Freundlichkeit, Gepflegtheit und Extrovertiertheit: Sie wirkt stets adrett, strahlend und herzlich-exaltiert und möchte gefallen. Frau Stockl, die zu allen freundlich ist, alles für andere tut und sich gern schön kleidet, ist dafür die ideale Bühne. Auch die Blickqualität bestätigt diese Typisierung: Burger hat Strahleaugen, einen offen leuchtenden, werbenden Blick, wie er für die Drei typisch ist, und nicht den weichen, fürsorglich-bittenden Blick der Zwei. Gegen eine sexuelle Sechs spricht, dass Gefallen und Wirkung im Vordergrund stehen, nicht Angstabwehr durch Stärke. Dazu passt, dass sie in Interviews selbst von früher Unsicherheit über Aussehen und Anerkennung spricht: Nach Medienberichten litt sie in der Jugend an Magersucht und verarbeitete das in ihrem Buch ›Vergiss nie, wie dein Herz am Anfang war‹. Für den sexuellen Dreier ist das Ideal des eigenen Körperbildes ein besonders empfindliches Feld.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: die gute Seele</h2>
@@ -3337,7 +3337,7 @@ export function marisaBurgerPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten des sexuellen Dreiers mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Herzlichkeit und in einer Offenheit, die auch Schwieriges zeigt, etwa das Buch über die Magersucht, mit dem sie anderen Betroffenen Mut machen wollte. Der Schatten läge in der Eitelkeit der Drei: den eigenen Wert zu stark an die Zuneigung des Publikums zu knüpfen und dafür eigene Grenzen zu übergehen. Wie weit das auf Burger zutrifft, ist von außen nicht zu beurteilen.</p>
+          <p class="vb-intro">Das Licht liegt in der Herzlichkeit und in einer Offenheit, die auch Schwieriges zeigt, etwa das Buch über die Magersucht, mit dem sie anderen Betroffenen Mut machen wollte. Der Schatten liegt in der Eitelkeit der Drei: den eigenen Wert zu stark an die Zuneigung des Publikums zu knüpfen und dafür eigene Grenzen zu übergehen.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallelen im selben Subtyp: Christina Plate und Iris Berben</h2>
@@ -3347,7 +3347,7 @@ export function marisaBurgerPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Burger ist seit 2015 in zweiter Ehe verheiratet und arbeitet wieder am Theater. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Wie jede Typisierung ist auch diese ein Vorschlag, keine Gewissheit. Sie gründet auf Lebenslauf und öffentlichem Auftreten und folgt dem Enneagramm-Profiling-System von David L. Rathmer. Ausbildungszeiten weichen in den Quellen voneinander ab und sind deshalb bewusst offen gelassen.</p>
+          <p class="vb-intro">Burger ist seit 2015 in zweiter Ehe verheiratet und arbeitet wieder am Theater. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Burger ist eine sexuelle Drei mit Zweierflügel (SX3w2): Das zeigen Lebenslauf und öffentliches Auftreten im Enneagramm-Profiling-System von David L. Rathmer. Ausbildungszeiten weichen in den Quellen voneinander ab und sind deshalb bewusst offen gelassen.</p>
         </blockquote>
 
       </div>

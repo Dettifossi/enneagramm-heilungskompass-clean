@@ -3172,7 +3172,7 @@ export function ottoWaalkesPortraitPage() {
         <h2 class="vb-section">2. Der soziale Siebener: Komik als Gabe an die Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>soziale Siebener</strong> gilt als der <em>Kontratyp</em> (Gegentyp) der Sieben: Der Frohsinn, der sonst eher dem eigenen Vergnügen dient, wird hier in den Dienst anderer gestellt. Claudio Naranjo sprach von <em>Opfer</em> (Sacrifice): Das Vergnügen wird teilweise zurückgestellt, um dazuzugehören und für andere da zu sein. Im Lebensmusterkompass dieser App steht dafür der Biber, der rastlos im Dienst eines größeren Ganzen baut.</p>
-          <p class="vb-intro">Bei Waalkes zeigt sich das darin, dass seine Komik nie gegen jemanden gerichtet scheint, sondern für das Publikum gemacht ist. Er blödelt, damit andere lachen können, und stellt dafür gern sich selbst in den Mittelpunkt des Spotts. Das bleibt eine Deutung aus der Außensicht.</p>
+          <p class="vb-intro">Bei Waalkes zeigt sich das darin, dass seine Komik nie gegen jemanden gerichtet scheint, sondern für das Publikum gemacht ist. Er blödelt, damit andere lachen können, und stellt dafür gern sich selbst in den Mittelpunkt des Spotts.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Heimat und Zugehörigkeit</h2>
@@ -3193,7 +3193,7 @@ export function ottoWaalkesPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten des sozialen Siebeners mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Großzügigkeit des Humors, in Fleiß und Beständigkeit über ein halbes Jahrhundert. Der Schatten des Siebeners wäre, Ernstes mit einem Witz zu überspielen; der Sechserflügel kann zusätzlich die Furcht vor Ablehnung nähren, die den Wunsch nach Zugehörigkeit antreibt. Wie weit das auf Waalkes zutrifft, ist von außen nicht zu beurteilen.</p>
+          <p class="vb-intro">Das Licht liegt in der Großzügigkeit des Humors, in Fleiß und Beständigkeit über ein halbes Jahrhundert. Der Schatten des Siebeners liegt darin, Ernstes mit einem Witz zu überspielen; der Sechserflügel kann zusätzlich die Furcht vor Ablehnung nähren, die den Wunsch nach Zugehörigkeit antreibt.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallelen im selben Subtyp: Rowan Atkinson und Jan Josef Liefers</h2>
@@ -3203,7 +3203,7 @@ export function ottoWaalkesPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Waalkes ist 78 Jahre alt und lebt in Hamburg-Blankenese. Die Einordnung als SO7w6 ist ein Vorschlag, der Lebenswerk und Bühnenauftritt nach dem Enneagramm-Profiling-System von David L. Rathmer liest. Daten und Werke stammen aus Filmdatenbanken und Lexika; was ihn im Innersten antreibt, bleibt Deutung.</p>
+          <p class="vb-intro">Waalkes ist 78 Jahre alt und lebt in Hamburg-Blankenese. Waalkes ist ein sozialer Siebener mit Sechserflügel (SO7w6): Das zeigen Lebenswerk und Bühnenauftritt im Enneagramm-Profiling-System von David L. Rathmer. Daten und Werke stammen aus Filmdatenbanken und Lexika.</p>
         </blockquote>
 
       </div>

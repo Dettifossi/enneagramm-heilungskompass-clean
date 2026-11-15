@@ -3284,7 +3284,7 @@ export function axelPrahlPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Nine: Down-to-Earth as a Principle of Life</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo called the self-preservation Nine the subtype of <em>appetite</em>: it seeks calm and security in the concrete, in habit, conviviality and the small comforts of everyday life, and thereby soothes a deeper inner emptiness. In this app&rsquo;s Life Pattern Compass, this is the quiet, weighty presence.</p>
-          <p class="vb-intro">In his roles and in public, Prahl comes across as a man at rest in himself: approachable, without star airs, dry in the northern German way and still grounded. He prefers to play ordinary men with rough edges, people one meets at a snack stand, a car dealership or a police station, and gives them a dignity that needs no pose. That suits the self-preservation Nine, whose strength lies in constancy. This remains an interpretation from the outside.</p>
+          <p class="vb-intro">In his roles and in public, Prahl comes across as a man at rest in himself: approachable, without star airs, dry in the northern German way and still grounded. He prefers to play ordinary men with rough edges, people one meets at a snack stand, a car dealership or a police station, and gives them a dignity that needs no pose. That suits the self-preservation Nine, whose strength lies in constancy.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight-Wing: Directness, Grumbling and Backbone</h2>
@@ -3306,7 +3306,7 @@ export function axelPrahlPortraitPage() {
 
         <h2 class="vb-section">6. Light and Shadow of the Self-Preservation Nine with an Eight-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in reliability, in dry humour and in the warmth with which Prahl has accompanied millions of viewers for decades. The shadow of the Nine would be to dampen one&rsquo;s own wishes for the sake of harmony; the Eight-wing can then show up as sudden sharpness or stubbornness. How far Prahl experiences this himself cannot be judged from the outside.</p>
+          <p class="vb-intro">The light lies in reliability, in dry humour and in the warmth with which Prahl has accompanied millions of viewers for decades. The shadow of the Nine is to dampen one&rsquo;s own wishes for the sake of harmony; the Eight-wing can then show up as sudden sharpness or stubbornness.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallels in the Same Subtype: Dietmar Bär and Robbie Coltrane</h2>
@@ -3317,7 +3317,7 @@ export function axelPrahlPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Prahl lives in Berlin and is married for the third time. He continues to play in the Münster ›Tatort‹; according to press reports, the contracts with him and Jan Josef Liefers have been extended to 2029. The classification as SP9w8 is an interpretation based on his life path and on the Enneagram profiling system of David L. Rathmer. The sources partly contradict each other on his training and early years, and the contract extension to 2029 rests on press reports.</p>
+          <p class="vb-intro">Prahl lives in Berlin and is married for the third time. He continues to play in the Münster ›Tatort‹; according to press reports, the contracts with him and Jan Josef Liefers have been extended to 2029. Prahl is a self-preservation Nine with an Eight-wing (SP9w8), as his life path and the Enneagram profiling system of David L. Rathmer show. The sources partly contradict each other on his training and early years.</p>
         </blockquote>
 
       </div>

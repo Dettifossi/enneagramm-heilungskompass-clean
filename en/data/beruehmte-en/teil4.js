@@ -3302,7 +3302,7 @@ export function marisaBurgerPortraitPage() {
         <h2 class="vb-section">2. The Sexual Three: Attraction as a Life Theme</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo called the sexual Three the subtype of <em>masculinity/femininity</em>: here a person&rsquo;s sense of worth depends strongly on how one comes across as a woman or man, desirable, lovable, admired: it is the subtype that wants to embody the ideal woman or ideal man. The Three&rsquo;s passion, vanity (the need to shine in the mirror of others), has its stage here. Unlike the self-preservation or social Three, this subtype works not primarily on money or rank but on attractiveness.</p>
-          <p class="vb-intro">In Burger&rsquo;s case this shows as a mix of friendliness, polish and extroversion: she always appears neat, radiant and warmly exuberant, and wants to please. Frau Stockl, who is friendly to everyone, does everything for others and likes to dress well, is the ideal stage for this. The gaze quality also supports this reading: Burger has radiant eyes, an openly shining, winning look as is typical of the Three, not the soft, caring, pleading look of the Two. Against a sexual Six speaks that pleasing and impact are in the foreground, not defence against fear through strength. It fits that in interviews she herself speaks of early insecurity about appearance and recognition: according to media reports she suffered from anorexia in her youth and processed it in her book ›Vergiss nie, wie dein Herz am Anfang war‹ (›Never Forget How Your Heart Was at the Beginning‹). For the sexual Three, the ideal body image is an especially sensitive field; this remains an interpretation from the outside and is no judgement of her person.</p>
+          <p class="vb-intro">In Burger&rsquo;s case this shows as a mix of friendliness, polish and extroversion: she always appears neat, radiant and warmly exuberant, and wants to please. Frau Stockl, who is friendly to everyone, does everything for others and likes to dress well, is the ideal stage for this. The gaze quality also confirms this typing: Burger has radiant eyes, an openly shining, winning look as is typical of the Three, not the soft, caring, pleading look of the Two. Against a sexual Six speaks that pleasing and impact are in the foreground, not defence against fear through strength. It fits that in interviews she herself speaks of early insecurity about appearance and recognition: according to media reports she suffered from anorexia in her youth and processed it in her book ›Vergiss nie, wie dein Herz am Anfang war‹ (›Never Forget How Your Heart Was at the Beginning‹). For the sexual Three, the ideal body image is an especially sensitive field.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: The Good Soul</h2>
@@ -3324,7 +3324,7 @@ export function marisaBurgerPortraitPage() {
 
         <h2 class="vb-section">6. Light and Shadow of the Sexual Three with a Two-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in the cordiality and in an openness that also shows what is difficult, such as the book about anorexia, with which she wanted to encourage others affected. The shadow would lie in the Three&rsquo;s vanity: tying one&rsquo;s own worth too strongly to the audience&rsquo;s affection and overriding one&rsquo;s own limits for it. How far this applies to Burger cannot be judged from the outside.</p>
+          <p class="vb-intro">The light lies in the cordiality and in an openness that also shows what is difficult, such as the book about anorexia, with which she wanted to encourage others affected. The shadow lies in the Three&rsquo;s vanity: tying one&rsquo;s own worth too strongly to the audience&rsquo;s affection and overriding one&rsquo;s own limits for it.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallels in the Same Subtype: Christina Plate and Iris Berben</h2>
@@ -3334,7 +3334,7 @@ export function marisaBurgerPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Burger has been married for the second time since 2015 and is working in the theatre again. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. Like any typing, this one is a proposal, not a certainty. It rests on her life story and public presence and follows the Enneagram profiling system of David L. Rathmer. Training dates differ between sources and are therefore deliberately left open.</p>
+          <p class="vb-intro">Burger has been married for the second time since 2015 and is working in the theatre again. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. Burger is a sexual Three with a Two-wing (SX3w2), as her life story and public presence show in the Enneagram profiling system of David L. Rathmer. Training dates differ between sources and are therefore deliberately left open.</p>
         </blockquote>
 
       </div>

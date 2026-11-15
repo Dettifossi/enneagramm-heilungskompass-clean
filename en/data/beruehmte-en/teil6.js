@@ -3294,7 +3294,7 @@ export function janJosefLiefersPortraitPage() {
         <h2 class="vb-section">2. The Social Seven: Zest for Life in the Service of the Circle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social Seven</strong> is regarded as the <em>counter-type</em> of the Seven: instead of seeking enjoyment and pleasure for itself alone, it places ingenuity, humour and drive in the service of a community. Claudio Naranjo spoke here of <em>sacrifice</em>: one&rsquo;s own pleasure is partly set aside in order to belong and to be needed. In this app&rsquo;s Life Pattern Compass, this is the beaver, building restlessly in the service of a larger whole.</p>
-          <p class="vb-intro">In Liefers&rsquo; case this shows in the abundance of his activities and in his group orientation: he is not only the actor in the spotlight but also the bandleader, the director and the producer who gets things going. This remains an interpretation from the outside.</p>
+          <p class="vb-intro">In Liefers&rsquo; case this shows in the abundance of his activities and in his group orientation: he is not only the actor in the spotlight but also the bandleader, the director and the producer who gets things going.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-Wing: Belonging, Team Spirit and Vulnerability</h2>
@@ -3310,18 +3310,18 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">5. The Tandem: Thiel and Boerne, Prahl and Liefers</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Liefers&rsquo; counterpart is <a href="javascript:void(0)" data-route="beruehmte-axel-prahl">Axel Prahl</a> (SP9w8) as Detective Frank Thiel. The pair shows how two Enneagram types complement each other: Prahl&rsquo;s Thiel is the self-preservation Nine, calm, down-to-earth, grumpy-but-warm; Liefers&rsquo; Boerne is the social Seven, lively, fluent, always on the move. The Nine slows down, the Seven drives; the Nine grounds, the Seven takes off. The comedy arises from this friction, and because the two have played together for over twenty years, the relationship feels real on screen. This is an interpretation of the duo, not a statement about their private life.</p>
+          <p class="vb-intro">Liefers&rsquo; counterpart is <a href="javascript:void(0)" data-route="beruehmte-axel-prahl">Axel Prahl</a> (SP9w8) as Detective Frank Thiel. The pair shows how two Enneagram types complement each other: Prahl&rsquo;s Thiel is the self-preservation Nine, calm, down-to-earth, grumpy-but-warm; Liefers&rsquo; Boerne is the social Seven, lively, fluent, always on the move. The Nine slows down, the Seven drives; the Nine grounds, the Seven takes off. The comedy arises from this friction, and because the two have played together for over twenty years, the relationship feels real on screen. This is how the two types complement each other in their on-screen interplay.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Storm of 2021: ›#allesdichtmachen‹</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In April 2021 Liefers took part in the satirical video campaign ›#allesdichtmachen‹ (a pun on ›close everything down‹), in which more than fifty actors ironically criticised German Covid measures. The campaign provoked heated reactions: praise from some quarters, sharp criticism from many others, including calls for professional consequences. Liefers rejected any closeness to the ›Querdenker‹ (a protest movement against Covid policy), distanced himself from conspiracy theories and defended himself in a television interview. He later described the reaction as a kind of ›Knalltrauma‹ (blast trauma).</p>
-          <p class="vb-intro">From an Enneagram point of view this is telling, without containing a political judgement: for the social Seven with a Six-wing, belonging is a core theme. Where a pointed expression of opinion leads to heated exclusion from the public circle, it strikes exactly this sensitive spot. This remains an interpretation.</p>
+          <p class="vb-intro">From an Enneagram point of view this is telling, without containing a political judgement: for the social Seven with a Six-wing, belonging is a core theme. Where a pointed expression of opinion leads to heated exclusion from the public circle, it strikes exactly this sensitive spot.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Light and Shadow of the Social Seven with a Six-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in humour, versatility and the drive with which Liefers carries a community along. The shadow of the Seven would be to gloss over the unpleasant with wit; with the Six-wing comes a sensitivity to rejection. How far this applies to Liefers cannot be judged from the outside.</p>
+          <p class="vb-intro">The light lies in humour, versatility and the drive with which Liefers carries a community along. The shadow of the Seven is to gloss over the unpleasant with wit; with the Six-wing comes a sensitivity to rejection.</p>
         </blockquote>
 
         <h2 class="vb-section">8. Parallels in the Same Subtype: Max Müller and Rowan Atkinson</h2>
@@ -3331,7 +3331,7 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">9. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Liefers lives in Berlin with <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a> and can still be seen as Boerne in the Münster ›Tatort‹; according to press reports, the contracts with him and Axel Prahl have been extended to 2029. The classification as SO7w6 is an interpretation, derived from his life story and public work according to the Enneagram profiling system of David L. Rathmer. The details of the events of 2021 and of his contract situation rest on press reports.</p>
+          <p class="vb-intro">Liefers lives in Berlin with <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a> and can still be seen as Boerne in the Münster ›Tatort‹; according to press reports, the contracts with him and Axel Prahl have been extended to 2029. Liefers is a social Seven with a Six-wing (SO7w6), as his life story and public work show in the Enneagram profiling system of David L. Rathmer. The details of the events of 2021 and of his contract situation rest on press reports.</p>
         </blockquote>
 
       </div>

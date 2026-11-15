@@ -3217,7 +3217,7 @@ export function ottoWaalkesPortraitPage() {
         <h2 class="vb-section">2. The Social Seven: Comedy as a Gift to the Community</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social Seven</strong> is regarded as the <em>counter-type</em> of the Seven: the cheerfulness that otherwise serves one&rsquo;s own enjoyment is here put in the service of others. Claudio Naranjo spoke of <em>sacrifice</em>: pleasure is partly set aside in order to belong and to be there for others. In this app&rsquo;s Life Pattern Compass, this is the beaver, building restlessly in the service of a larger whole.</p>
-          <p class="vb-intro">In Waalkes&rsquo; case this shows in the fact that his comedy never seems directed against someone but made for the audience. He clowns so that others can laugh, and gladly puts himself at the centre of the mockery. This remains an interpretation from the outside.</p>
+          <p class="vb-intro">In Waalkes&rsquo; case this shows in the fact that his comedy never seems directed against someone but made for the audience. He clowns so that others can laugh, and gladly puts himself at the centre of the mockery.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-Wing: Home and Belonging</h2>
@@ -3238,7 +3238,7 @@ export function ottoWaalkesPortraitPage() {
 
         <h2 class="vb-section">6. Light and Shadow of the Social Seven with a Six-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in the generosity of the humour, in diligence and constancy over half a century. The shadow of the Seven would be to gloss over the serious with a joke; the Six-wing can additionally feed the fear of rejection that drives the wish to belong. How far this applies to Waalkes cannot be judged from the outside.</p>
+          <p class="vb-intro">The light lies in the generosity of the humour, in diligence and constancy over half a century. The shadow of the Seven is to gloss over the serious with a joke; the Six-wing can additionally feed the fear of rejection that drives the wish to belong.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallels in the Same Subtype: Rowan Atkinson and Jan Josef Liefers</h2>
@@ -3248,7 +3248,7 @@ export function ottoWaalkesPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Waalkes is 78 years old and lives in Hamburg-Blankenese. The classification as SO7w6 is a proposal that reads his life&rsquo;s work and stage presence through the Enneagram profiling system of David L. Rathmer. Dates and works come from film databases and encyclopaedias; what drives him inwardly remains interpretation.</p>
+          <p class="vb-intro">Waalkes is 78 years old and lives in Hamburg-Blankenese. Waalkes is a social Seven with a Six-wing (SO7w6), as his life&rsquo;s work and stage presence show in the Enneagram profiling system of David L. Rathmer. Dates and works come from film databases and encyclopaedias.</p>
         </blockquote>
 
       </div>

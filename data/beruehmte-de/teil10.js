@@ -3235,7 +3235,7 @@ export function michaelFassbenderPortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Dienst am Gast</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt Zuwendung und die Bereitschaft, anderen zu dienen. Fassbender wuchs in einem Restaurant auf, wo Gastgeben Alltag war, und das lässt sich als Hintergrund für diese Färbung lesen. Er arbeitet im Ensemble, bleibt seinen Regisseuren treu und hält sein Privatleben weitgehend aus der Öffentlichkeit heraus. Ein schwach ausgeprägter Zweierflügel würde die Eins eher in der reinen Strenge belassen; hier kommt eine leise, dienende Wärme hinzu. Das bleibt eine Deutung.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt Zuwendung und die Bereitschaft, anderen zu dienen. Fassbender wuchs in einem Restaurant auf, wo Gastgeben Alltag war, und das lässt sich als Hintergrund für diese Färbung lesen. Er arbeitet im Ensemble, bleibt seinen Regisseuren treu und hält sein Privatleben weitgehend aus der Öffentlichkeit heraus. Ein schwach ausgeprägter Zweierflügel würde die Eins eher in der reinen Strenge belassen; hier kommt eine leise, dienende Wärme hinzu.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Körper, Kontrolle und Gefahr</h2>
@@ -3262,7 +3262,7 @@ export function michaelFassbenderPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Fassbender ist seit dem 14. Oktober 2017 mit der schwedischen Schauspielerin Alicia Vikander verheiratet, die beiden haben zwei Söhne und leben in Lissabon. Zuletzt war er in ›The Killer‹ (2023, David Fincher), ›Next Goal Wins‹ (2023, Taika Waititi) und ›Black Bag‹ (2025, Steven Soderbergh) zu sehen, dazu in der Serie ›The Agency‹ (seit 2024). Sein erklärtes Ziel im Rennsport ist die Rückkehr zum 24-Stunden-Rennen von Le Mans. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer.</p>
+          <p class="vb-intro">Fassbender ist seit dem 14. Oktober 2017 mit der schwedischen Schauspielerin Alicia Vikander verheiratet, die beiden haben zwei Söhne und leben in Lissabon. Zuletzt war er in ›The Killer‹ (2023, David Fincher), ›Next Goal Wins‹ (2023, Taika Waititi) und ›Black Bag‹ (2025, Steven Soderbergh) zu sehen, dazu in der Serie ›The Agency‹ (seit 2024). Sein erklärtes Ziel im Rennsport ist die Rückkehr zum 24-Stunden-Rennen von Le Mans. Die Typisierung basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer.</p>
         </blockquote>
 
       </div>
@@ -3304,7 +3304,7 @@ export function paulDanoPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Vier: das Innenleben geht in die Rolle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> zeigt ihren Schmerz kaum nach außen. Ihre Tiefe wird still verarbeitet, oft über viele Jahre, und sucht keinen Applaus. Bei Dano zeigt sich das in der Auswahl der Figuren: in ›Little Miss Sunshine‹ (2006) der Teenager Dwayne, der aus Trotz und Verzweiflung monatelang kein Wort spricht; in ›There Will Be Blood‹ (2007) der junge Prediger Eli Sunday, der sich neben Daniel Day-Lewis behauptet; in ›Love &amp; Mercy‹ (2014) der junge Brian Wilson, ein Musiker, der an der eigenen Innenwelt zu zerbrechen droht; in ›The Batman‹ (2022) der Riddler, ein Mann, der sich unsichtbar fühlt und sichtbar werden will.</p>
-          <p class="vb-intro">Alle vier sind Menschen mit großem Innendruck und kleinem Ausdruck. Dano spielt sie ohne Ausstellungsgeste. Das passt zur Taube, die Gewicht trägt und dabei nicht klagt. Das bleibt eine Deutung.</p>
+          <p class="vb-intro">Alle vier sind Menschen mit großem Innendruck und kleinem Ausdruck. Dano spielt sie ohne Ausstellungsgeste. Das passt zur Taube, die Gewicht trägt und dabei nicht klagt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: Handwerk, Plan und der Schritt hinter die Kamera</h2>
@@ -3326,7 +3326,7 @@ export function paulDanoPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Vier mit Dreierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Genauigkeit und im Mut zu schwierigen, wenig gefälligen Figuren: Dano wählt Rollen, die sich nicht anbiedern, und führt sie zu Ende. Der Schatten der Vier wäre die Verschlossenheit, das Gefühl, nicht gesehen zu werden, und die Gefahr, das Innere so gut zu verbergen, dass es auch den Nächsten schwerfällt, es zu lesen. Ob und wie Dano das selbst erlebt, ist von außen nicht zu beurteilen; er spricht in Interviews über seine Arbeit, wenig über sich.</p>
+          <p class="vb-intro">Das Licht liegt in der Genauigkeit und im Mut zu schwierigen, wenig gefälligen Figuren: Dano wählt Rollen, die sich nicht anbiedern, und führt sie zu Ende. Der Schatten der Vier ist die Verschlossenheit, das Gefühl, nicht gesehen zu werden, und die Gefahr, das Innere so gut zu verbergen, dass es auch den Nächsten schwerfällt, es zu lesen. In Interviews spricht Dano über seine Arbeit, wenig über sich.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallelen im selben Subtyp: Nicolas Cage und Leonie Benesch</h2>
@@ -3336,7 +3336,7 @@ export function paulDanoPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dano lebt mit der Schauspielerin und Autorin Zoe Kazan, mit der er seit 2007 zusammen ist, und den beiden Kindern (Tochter 2018, Sohn 2022) in Brooklyn. Zuletzt war er in ›Spaceman‹ (2024, Netflix, als Stimme), in der Serie ›Mr. &amp; Mrs. Smith‹ (2024, Emmy-Nominierung als Gastdarsteller) und in ›The Wizard of the Kremlin‹ (2025) zu sehen; weitere Projekte sind in Arbeit. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer.</p>
+          <p class="vb-intro">Dano lebt mit der Schauspielerin und Autorin Zoe Kazan, mit der er seit 2007 zusammen ist, und den beiden Kindern (Tochter 2018, Sohn 2022) in Brooklyn. Zuletzt war er in ›Spaceman‹ (2024, Netflix, als Stimme), in der Serie ›Mr. &amp; Mrs. Smith‹ (2024, Emmy-Nominierung als Gastdarsteller) und in ›The Wizard of the Kremlin‹ (2025) zu sehen; weitere Projekte sind in Arbeit. Die Typisierung basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer.</p>
         </blockquote>
 
       </div>

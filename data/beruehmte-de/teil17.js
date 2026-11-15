@@ -3356,7 +3356,7 @@ export function oliverReedPortraitPage() {
         <h2 class="vb-section">3. Der Neunerflügel: Genuss, Betäubung und das Heimweh</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Acht Gelassenheit, Genussfähigkeit und die Neigung, Anspannung zu dämpfen. Ein schwach ausgeprägter Neunerflügel ließe die Acht kantiger und drängender auftreten; bei Reed färbt er das Auftreten breiter, behäbiger, gesellig. Dazu passt, dass er Hollywood nicht suchte: Er blieb nach den Quellen ein britischer Patriot, der lieber in Großbritannien lebte, und zog zuletzt mit seiner Frau Josephine in den Ort Churchtown in der Grafschaft Cork in Irland.</p>
-          <p class="vb-intro">Der Flügel hat auch eine dunklere Seite. Die Neun stumpft ab, was zu viel wird, und der Alkohol war für Reed ein Mittel dazu. Das bleibt eine Deutung; die Quellen belegen den Konsum, nicht dessen Innenleben.</p>
+          <p class="vb-intro">Der Flügel hat auch eine dunklere Seite. Die Neun stumpft ab, was zu viel wird, und der Alkohol war für Reed ein Mittel dazu. Die Quellen belegen den Konsum, nicht dessen Innenleben.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Wucht mit einer Wunde darin</h2>
@@ -3384,7 +3384,7 @@ export function oliverReedPortraitPage() {
 
         <h2 class="vb-section">8. Wo ein Löwe seine Spur hinterlassen hat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Oliver Reed starb am 2. Mai 1999 im Alter von 61 Jahren in Valletta auf Malta, während einer Drehpause von ›Gladiator‹, an einem Herzinfarkt. Nach dem Drehbuchautor David Franzoni hatten Matrosen der HMS ›Cumberland‹ ihn zu einem Trinkwettstreit herausgefordert; er brach zusammen und starb im Krankenwagen. Seine fehlenden Szenen wurden mit einem Doppelgänger und Computertechnik vollendet. Er liegt auf dem Friedhof von Bruhenny in Churchtown, County Cork. Auf seinem Grabstein steht ›He made the air move.‹ (›Er brachte die Luft in Bewegung.‹). Die Typisierung bleibt eine Deutung, basiert auf dem belegten Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer.</p>
+          <p class="vb-intro">Oliver Reed starb am 2. Mai 1999 im Alter von 61 Jahren in Valletta auf Malta, während einer Drehpause von ›Gladiator‹, an einem Herzinfarkt. Nach dem Drehbuchautor David Franzoni hatten Matrosen der HMS ›Cumberland‹ ihn zu einem Trinkwettstreit herausgefordert; er brach zusammen und starb im Krankenwagen. Seine fehlenden Szenen wurden mit einem Doppelgänger und Computertechnik vollendet. Er liegt auf dem Friedhof von Bruhenny in Churchtown, County Cork. Auf seinem Grabstein steht ›He made the air move.‹ (›Er brachte die Luft in Bewegung.‹). Die Typisierung basiert auf dem belegten Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer.</p>
         </blockquote>
 
       </div>

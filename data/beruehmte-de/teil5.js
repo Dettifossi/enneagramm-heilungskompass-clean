@@ -3199,7 +3199,7 @@ export function annaLoosPortraitPage() {
         <h2 class="vb-section">2. Der sexuelle Sechser: Stärke als Gegenangst</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>sexuelle Sechser</strong> gilt als der <em>Kontratyp</em> (Gegentyp) der Sechs: Statt der Angst durch Anpassung oder Rückzug zu begegnen, greift er sie frontal an. Stärke, Mut und Anziehungskraft werden zur Gegenreaktion auf eine tief sitzende Unsicherheit. Im Lebensmusterkompass dieser App steht dafür der Wolf: Angst wird zum Spielfeld, nicht zum Hindernis.</p>
-          <p class="vb-intro">Bei Loos ist dieses Muster an ihrer Lebensgeschichte ablesbar. Wer als Siebzehnjährige über die Grenze flieht, handelt gegen die Angst, nicht mit ihr im Rücken. Das bleibt eine Deutung aus der Außensicht.</p>
+          <p class="vb-intro">Bei Loos ist dieses Muster an ihrer Lebensgeschichte ablesbar. Wer als Siebzehnjährige über die Grenze flieht, handelt gegen die Angst, nicht mit ihr im Rücken.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Siebenerflügel: ›Positivistin‹ und rastlos</h2>
@@ -3215,12 +3215,12 @@ export function annaLoosPortraitPage() {
 
         <h2 class="vb-section">5. Das Paar: Sechs und Sieben im Wechselspiel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Anna Loos und <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) lernten sich 1999 bei den Dreharbeiten zu ›Halt mich fest!‹ kennen und leben heute in Berlin. Enneagrammatisch ist das Paar aufschlussreich: Beide bewegen sich auf der Sechs-Sieben-Achse, aber mit vertauschten Rollen. Sie ist die Sechs mit Siebenerflügel, gegenphobisch und frontal, mit der Unruhe der Sieben als Antrieb. Er ist die Sieben mit Sechserflügel und sozialer Ausrichtung, der die Runde in Schwung bringt und dabei auf Zugehörigkeit achtet. Wo er verbindet, geht sie voran. Das ist eine Deutung des Paares, keine Aussage über ihr Privatleben.</p>
+          <p class="vb-intro">Anna Loos und <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) lernten sich 1999 bei den Dreharbeiten zu ›Halt mich fest!‹ kennen und leben heute in Berlin. Enneagrammatisch ist das Paar aufschlussreich: Beide bewegen sich auf der Sechs-Sieben-Achse, aber mit vertauschten Rollen. Sie ist die Sechs mit Siebenerflügel, gegenphobisch und frontal, mit der Unruhe der Sieben als Antrieb. Er ist die Sieben mit Sechserflügel und sozialer Ausrichtung, der die Runde in Schwung bringt und dabei auf Zugehörigkeit achtet. Wo er verbindet, geht sie voran. So ergänzen sich die beiden Muster.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten des sexuellen Sechsers mit Siebenerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt im Mut, in der Offenheit und in der Fähigkeit, sich von Rückschlägen nicht festhalten zu lassen. Der Schatten des sexuellen Sechsers wäre, Angst immer wieder durch Aktion zu übertönen, statt ihr einmal Raum zu geben; der Siebenerflügel kann das Ausweichen in Betriebsamkeit begünstigen. Wie weit das auf Loos zutrifft, ist von außen nicht zu beurteilen.</p>
+          <p class="vb-intro">Das Licht liegt im Mut, in der Offenheit und in der Fähigkeit, sich von Rückschlägen nicht festhalten zu lassen. Der Schatten des sexuellen Sechsers liegt darin, Angst immer wieder durch Aktion zu übertönen, statt ihr einmal Raum zu geben; der Siebenerflügel kann das Ausweichen in Betriebsamkeit begünstigen.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallelen im selben Subtyp: Nina Ruge und Léa Bosco</h2>
@@ -3230,7 +3230,7 @@ export function annaLoosPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Loos lebt mit Liefers in Berlin und ist weiterhin als Schauspielerin und Sängerin aktiv. Die Zuordnung zu SX6w7 folgt dem Bewegungsmuster ihres Lebens und dem Enneagramm-Profiling-System von David L. Rathmer. Ob der Flügel bei der Sieben oder bei der Fünf liegt, wurde sorgfältig abgewogen, bleibt aber eine Einschätzung. Die Dauer ihrer Zeit bei Silly wird in den Quellen unterschiedlich angegeben und ist hier deshalb offen gelassen.</p>
+          <p class="vb-intro">Loos lebt mit Liefers in Berlin und ist weiterhin als Schauspielerin und Sängerin aktiv. Loos ist eine sexuelle Sechserin mit Siebenerflügel (SX6w7): Das zeigt das Bewegungsmuster ihres Lebens im Enneagramm-Profiling-System von David L. Rathmer. Ihr Flügel liegt bei der Sieben, nicht bei der Fünf. Die Dauer ihrer Zeit bei Silly wird in den Quellen unterschiedlich angegeben und ist hier deshalb offen gelassen.</p>
         </blockquote>
 
       </div>

@@ -3221,7 +3221,7 @@ export function axelPrahlPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Bodenständigkeit als Lebensprinzip</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Neun den Subtyp des <em>Appetits</em> (Appetite): Sie sucht Ruhe und Sicherheit im Konkreten, in Gewohnheit, Geselligkeit und den kleinen Annehmlichkeiten des Alltags, und dämpft damit eine tiefer liegende innere Leere. Im Lebensmusterkompass dieser App steht dafür die ruhige, gewichtige Präsenz.</p>
-          <p class="vb-intro">Prahl wirkt in seinen Rollen und in der Öffentlichkeit wie ein Mann, der in sich ruht: nahbar, ohne Starallüren, norddeutsch trocken und auf dem Boden geblieben. Er spielt vorzugsweise gewöhnliche Männer mit Ecken und Kanten, Leute, die man an der Imbissbude, im Autohaus oder auf der Dienststelle trifft, und gibt ihnen eine Würde, die ohne Pose auskommt. Das passt zur selbsterhaltenden Neun, deren Stärke im Beständigen liegt. Das bleibt eine Deutung aus der Außensicht.</p>
+          <p class="vb-intro">Prahl wirkt in seinen Rollen und in der Öffentlichkeit wie ein Mann, der in sich ruht: nahbar, ohne Starallüren, norddeutsch trocken und auf dem Boden geblieben. Er spielt vorzugsweise gewöhnliche Männer mit Ecken und Kanten, Leute, die man an der Imbissbude, im Autohaus oder auf der Dienststelle trifft, und gibt ihnen eine Würde, die ohne Pose auskommt. Das passt zur selbsterhaltenden Neun, deren Stärke im Beständigen liegt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterflügel: Direktheit, Grummeln und Rückgrat</h2>
@@ -3243,7 +3243,7 @@ export function axelPrahlPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Neun mit Achterflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit, im trockenen Humor und in der Wärme, mit der Prahl Millionen Zuschauer über Jahrzehnte begleitet. Der Schatten der Neun wäre, die eigenen Wünsche zugunsten der Harmonie zu dämpfen; der Achterflügel kann sich dann als plötzliche Schärfe oder als Starrsinn zeigen. Wie weit Prahl das selbst so erlebt, lässt sich von außen nicht beurteilen.</p>
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit, im trockenen Humor und in der Wärme, mit der Prahl Millionen Zuschauer über Jahrzehnte begleitet. Der Schatten der Neun liegt darin, die eigenen Wünsche zugunsten der Harmonie zu dämpfen; der Achterflügel kann sich dann als plötzliche Schärfe oder als Starrsinn zeigen.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallelen im selben Subtyp: Dietmar Bär und Robbie Coltrane</h2>
@@ -3254,7 +3254,7 @@ export function axelPrahlPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Prahl lebt in Berlin und ist in dritter Ehe verheiratet. Den Münsteraner ›Tatort‹ spielt er weiterhin; nach Presseberichten wurden die Verträge mit ihm und Jan Josef Liefers bis 2029 verlängert. Die Zuordnung zu SE9w8 ist eine Deutung, die sich auf den Lebensweg und das Enneagramm-Profiling-System von David L. Rathmer stützt. Zu Ausbildung und Frühzeit liefern die Quellen teils widersprüchliche Angaben, und die Vertragsverlängerung bis 2029 beruht auf Presseberichten.</p>
+          <p class="vb-intro">Prahl lebt in Berlin und ist in dritter Ehe verheiratet. Den Münsteraner ›Tatort‹ spielt er weiterhin; nach Presseberichten wurden die Verträge mit ihm und Jan Josef Liefers bis 2029 verlängert. Prahl ist ein selbsterhaltender Neuner mit Achterflügel (SE9w8): Das zeigen sein Lebensweg und das Enneagramm-Profiling-System von David L. Rathmer. Zu Ausbildung und Frühzeit sind die Quellen teils widersprüchlich.</p>
         </blockquote>
 
       </div>

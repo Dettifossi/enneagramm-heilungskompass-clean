@@ -3220,7 +3220,7 @@ export function annaLoosPortraitPage() {
         <h2 class="vb-section">2. The Sexual Six: Strength as Counter-Fear</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>sexual Six</strong> is regarded as the <em>counter-type</em> of the Six: instead of meeting fear through adaptation or retreat, it attacks it head-on. Strength, courage and attractiveness become the counter-reaction to a deep-seated insecurity. In this app&rsquo;s Life Pattern Compass, this is the wolf: fear becomes a playing field, not an obstacle.</p>
-          <p class="vb-intro">In Loos&rsquo; case this pattern can be read from her life story. Someone who flees across the border at seventeen acts against fear, not with it at her back. This remains an interpretation from the outside.</p>
+          <p class="vb-intro">In Loos&rsquo; case this pattern can be read from her life story. Someone who flees across the border at seventeen acts against fear, not with it at her back.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven-Wing: ›Positivist‹ and Restless</h2>
@@ -3236,12 +3236,12 @@ export function annaLoosPortraitPage() {
 
         <h2 class="vb-section">5. The Couple: Six and Seven in Interplay</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Anna Loos and <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) met in 1999 on the set of ›Halt mich fest!‹ and today live in Berlin. In Enneagram terms the couple is revealing: both move along the Six-Seven axis, but with roles reversed. She is the Six with a Seven-wing, counterphobic and head-on, with the Seven&rsquo;s restlessness as her drive. He is the Seven with a Six-wing and a social orientation, who gets the circle going and watches for belonging. Where he connects, she leads. This is an interpretation of the couple, not a statement about their private life.</p>
+          <p class="vb-intro">Anna Loos and <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) met in 1999 on the set of ›Halt mich fest!‹ and today live in Berlin. In Enneagram terms the couple is revealing: both move along the Six-Seven axis, but with roles reversed. She is the Six with a Seven-wing, counterphobic and head-on, with the Seven&rsquo;s restlessness as her drive. He is the Seven with a Six-wing and a social orientation, who gets the circle going and watches for belonging. Where he connects, she leads. This is how the two patterns complement each other.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and Shadow of the Sexual Six with a Seven-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in courage, openness and the ability not to be held back by setbacks. The shadow of the sexual Six would be to drown out fear again and again through action instead of giving it room once; the Seven-wing can encourage escape into busyness. How far this applies to Loos cannot be judged from the outside.</p>
+          <p class="vb-intro">The light lies in courage, openness and the ability not to be held back by setbacks. The shadow of the sexual Six is to drown out fear again and again through action instead of giving it room once; the Seven-wing can encourage escape into busyness.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallels in the Same Subtype: Nina Ruge and Léa Bosco</h2>
@@ -3251,7 +3251,7 @@ export function annaLoosPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Loos lives in Berlin with Liefers and remains active as an actress and singer. The classification as SX6w7 follows the movement pattern of her life and the Enneagram profiling system of David L. Rathmer. Whether the wing lies with the Seven or the Five was weighed carefully but remains an assessment. The length of her time with Silly is given differently in the sources and is therefore left open here.</p>
+          <p class="vb-intro">Loos lives in Berlin with Liefers and remains active as an actress and singer. Loos is a sexual Six with a Seven-wing (SX6w7), as the movement pattern of her life shows in the Enneagram profiling system of David L. Rathmer. Her wing lies with the Seven, not the Five. The length of her time with Silly is given differently in the sources and is therefore left open here.</p>
         </blockquote>
 
       </div>

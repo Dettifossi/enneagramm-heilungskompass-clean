@@ -3279,7 +3279,7 @@ export function maxMuellerPortraitPage() {
         <h2 class="vb-section">2. Der soziale Siebener: Lebensfreude im Dienst der Gruppe</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>soziale Siebener</strong> gilt als der <em>Kontratyp</em> (Gegentyp) der Sieben: Statt Genuss und Vergnügen für sich zu suchen, stellt er Lebensfreude, Einsatz und Planung in den Dienst einer Gemeinschaft. Claudio Naranjo sprach hier von <em>Opfer</em> (Sacrifice): Der Vergnügungssucher opfert das eigene Vergnügen, um dazuzugehören und gebraucht zu werden. Im Lebensmusterkompass dieser App steht dafür der Biber: rastloses Bauen im Dienst eines größeren Ganzen.</p>
-          <p class="vb-intro">Müller verkörpert diesen Zug in seiner Rolle wie im Beruf. Mohr ist der Mann der Streife und des Reviers, der Polizeihauptmeister, nicht der Kommissar und nicht der Star, ein Mann der Pflicht und der Gemeinschaft, der aus der zweiten Reihe heraus dem Ganzen dient. Das bleibt eine Deutung aus der Außensicht.</p>
+          <p class="vb-intro">Müller verkörpert diesen Zug in seiner Rolle wie im Beruf. Mohr ist der Mann der Streife und des Reviers, der Polizeihauptmeister, nicht der Kommissar und nicht der Star, ein Mann der Pflicht und der Gemeinschaft, der aus der zweiten Reihe heraus dem Ganzen dient.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Treue und Verlässlichkeit</h2>
@@ -3295,12 +3295,12 @@ export function maxMuellerPortraitPage() {
 
         <h2 class="vb-section">5. Das Opfer für die Familie</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Für einen sozialen Siebener ist es aufschlussreich, dass sein sichtbarster Verzicht nicht der Gruppe am Set, sondern der Familie gilt: Er nimmt sich bewusst zurück, damit er bei seiner Mutter sein kann. Der Siebener, der sonst Freiheit und Möglichkeiten liebt, entscheidet sich hier für Bindung. Das bleibt eine Deutung; er selbst begründet es schlicht mit der Notwendigkeit.</p>
+          <p class="vb-intro">Für einen sozialen Siebener ist es aufschlussreich, dass sein sichtbarster Verzicht nicht der Gruppe am Set, sondern der Familie gilt: Er nimmt sich bewusst zurück, damit er bei seiner Mutter sein kann. Der Siebener, der sonst Freiheit und Möglichkeiten liebt, entscheidet sich hier für Bindung. Er selbst begründet es schlicht mit der Notwendigkeit.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten des sozialen Siebeners mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Wärme, der Hilfsbereitschaft und der Treue, mit der Müller einer Figur und einer Gemeinschaft dient. Der Schatten des sozialen Siebeners wäre, die eigenen Wünsche und das eigene Vergnügen zu lange zurückzustellen, damit niemand enttäuscht wird, und Unangenehmes mit Freundlichkeit zu überspielen. Wie weit das auf Müller zutrifft, ist von außen nicht zu beurteilen.</p>
+          <p class="vb-intro">Das Licht liegt in der Wärme, der Hilfsbereitschaft und der Treue, mit der Müller einer Figur und einer Gemeinschaft dient. Der Schatten des sozialen Siebeners liegt darin, die eigenen Wünsche und das eigene Vergnügen zu lange zurückzustellen, damit niemand enttäuscht wird, und Unangenehmes mit Freundlichkeit zu überspielen.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallelen im selben Subtyp: Rowan Atkinson und Paul Ronzheimer</h2>
@@ -3310,7 +3310,7 @@ export function maxMuellerPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Müller spielt weiterhin Michi Mohr, seit 2026 mit reduzierten Drehtagen. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Auch diese Typisierung ist eine Deutung nach dem Enneagramm-Profiling-System von David L. Rathmer, abgeleitet aus Lebenslauf und Rolle. Der Drehbeginn und einzelne Auszeichnungen werden in den Quellen nicht einheitlich angegeben.</p>
+          <p class="vb-intro">Müller spielt weiterhin Michi Mohr, seit 2026 mit reduzierten Drehtagen. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Müller ist ein sozialer Siebener mit Sechserflügel (SO7w6): Das zeigen Lebenslauf und Rolle im Enneagramm-Profiling-System von David L. Rathmer. Der Drehbeginn und einzelne Auszeichnungen werden in den Quellen nicht einheitlich angegeben.</p>
         </blockquote>
 
       </div>

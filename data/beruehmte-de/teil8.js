@@ -3291,7 +3291,7 @@ export function janJosefLiefersPortraitPage() {
         <h2 class="vb-section">2. Der soziale Siebener: Lebenslust im Dienst der Runde</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>soziale Siebener</strong> gilt als der <em>Kontratyp</em> (Gegentyp) der Sieben: Statt Genuss und Vergnügen allein für sich zu suchen, stellt er Einfallsreichtum, Humor und Tatkraft in den Dienst einer Gemeinschaft. Claudio Naranjo sprach hier von <em>Opfer</em> (Sacrifice): Das eigene Vergnügen wird teilweise zurückgestellt, um dazuzugehören und gebraucht zu werden. Im Lebensmusterkompass dieser App steht dafür der Biber, der rastlos im Dienst eines größeren Ganzen baut.</p>
-          <p class="vb-intro">Bei Liefers zeigt sich das in der Fülle seiner Tätigkeiten und im Gruppenbezug: Er ist nicht nur der Schauspieler im Rampenlicht, sondern auch der Bandleader, der Regisseur und der Produzent, der Dinge in Gang bringt. Das bleibt eine Deutung aus der Außensicht.</p>
+          <p class="vb-intro">Bei Liefers zeigt sich das in der Fülle seiner Tätigkeiten und im Gruppenbezug: Er ist nicht nur der Schauspieler im Rampenlicht, sondern auch der Bandleader, der Regisseur und der Produzent, der Dinge in Gang bringt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Zugehörigkeit, Teamgeist und Verletzlichkeit</h2>
@@ -3307,18 +3307,18 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">5. Das Tandem: Thiel und Boerne, Prahl und Liefers</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Liefers' Gegenüber ist <a href="javascript:void(0)" data-route="beruehmte-axel-prahl">Axel Prahl</a> (SE9w8) als Kommissar Frank Thiel. Das Paar zeigt, wie zwei Enneagrammtypen einander ergänzen: Prahls Thiel ist die selbsterhaltende Neun, ruhig, bodenständig, grummelig-herzlich; Liefers' Boerne ist der soziale Siebener, quirlig, redegewandt, immer in Bewegung. Die Neun bremst, die Sieben treibt; die Neun erdet, die Sieben hebt ab. Aus dieser Reibung entsteht die Komik, und weil beide seit über zwanzig Jahren miteinander spielen, wirkt die Beziehung auf dem Bildschirm echt. Das ist eine Deutung des Duos, keine Aussage über ihr Privatleben.</p>
+          <p class="vb-intro">Liefers' Gegenüber ist <a href="javascript:void(0)" data-route="beruehmte-axel-prahl">Axel Prahl</a> (SE9w8) als Kommissar Frank Thiel. Das Paar zeigt, wie zwei Enneagrammtypen einander ergänzen: Prahls Thiel ist die selbsterhaltende Neun, ruhig, bodenständig, grummelig-herzlich; Liefers' Boerne ist der soziale Siebener, quirlig, redegewandt, immer in Bewegung. Die Neun bremst, die Sieben treibt; die Neun erdet, die Sieben hebt ab. Aus dieser Reibung entsteht die Komik, und weil beide seit über zwanzig Jahren miteinander spielen, wirkt die Beziehung auf dem Bildschirm echt. So ergänzen sich die beiden Typen im Zusammenspiel auf dem Bildschirm.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Sturm von 2021: ›#allesdichtmachen‹</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Im April 2021 beteiligte sich Liefers an der satirischen Videoaktion ›#allesdichtmachen‹, in der mehr als fünfzig Schauspieler die deutschen Corona-Maßnahmen ironisch kritisierten. Die Aktion löste heftige Reaktionen aus: Lob von einzelnen Seiten, scharfe Kritik von vielen anderen, auch Forderungen nach beruflichen Konsequenzen. Liefers wies die Nähe zu den ›Querdenkern‹ (einer Protestbewegung gegen die Corona-Politik) zurück, distanzierte sich von Verschwörungstheorien und verteidigte sich in einem Fernsehinterview. Die Reaktion beschrieb er später als eine Art ›Knalltrauma‹.</p>
-          <p class="vb-intro">Aus enneagrammatischer Sicht ist das aufschlussreich, ohne ein politisches Urteil zu enthalten: Für den sozialen Siebener mit Sechserflügel ist das Dazugehören ein Kernthema. Wo eine pointierte Meinungsäußerung zu einem heftigen Ausschluss aus dem öffentlichen Kreis führt, trifft das genau diese empfindliche Stelle. Das bleibt eine Deutung.</p>
+          <p class="vb-intro">Aus enneagrammatischer Sicht ist das aufschlussreich, ohne ein politisches Urteil zu enthalten: Für den sozialen Siebener mit Sechserflügel ist das Dazugehören ein Kernthema. Wo eine pointierte Meinungsäußerung zu einem heftigen Ausschluss aus dem öffentlichen Kreis führt, trifft das genau diese empfindliche Stelle.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Licht und Schatten des sozialen Siebeners mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in Humor, Vielseitigkeit und Tatkraft, mit der Liefers eine Gemeinschaft mitreißt. Der Schatten des Siebeners wäre, Unangenehmes mit Witz zu überspielen; beim Sechserflügel kommt die Empfindlichkeit gegenüber Ablehnung hinzu. Wie weit das auf Liefers zutrifft, ist von außen nicht zu beurteilen.</p>
+          <p class="vb-intro">Das Licht liegt in Humor, Vielseitigkeit und Tatkraft, mit der Liefers eine Gemeinschaft mitreißt. Der Schatten des Siebeners liegt darin, Unangenehmes mit Witz zu überspielen; beim Sechserflügel kommt die Empfindlichkeit gegenüber Ablehnung hinzu.</p>
         </blockquote>
 
         <h2 class="vb-section">8. Parallelen im selben Subtyp: Max Müller und Rowan Atkinson</h2>
@@ -3328,7 +3328,7 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">9. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Liefers lebt mit <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a> in Berlin und ist weiterhin als Boerne im Münsteraner ›Tatort‹ zu sehen; nach Presseberichten wurden die Verträge mit ihm und Axel Prahl bis 2029 verlängert. Die Einordnung als SO7w6 ist eine Deutung, abgeleitet aus Lebenslauf und öffentlichem Wirken nach dem Enneagramm-Profiling-System von David L. Rathmer. Die Angaben zu den Ereignissen von 2021 und zur Vertragslage beruhen auf Presseberichten.</p>
+          <p class="vb-intro">Liefers lebt mit <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a> in Berlin und ist weiterhin als Boerne im Münsteraner ›Tatort‹ zu sehen; nach Presseberichten wurden die Verträge mit ihm und Axel Prahl bis 2029 verlängert. Liefers ist ein sozialer Siebener mit Sechserflügel (SO7w6): Das zeigen Lebenslauf und öffentliches Wirken im Enneagramm-Profiling-System von David L. Rathmer. Die Angaben zu den Ereignissen von 2021 und zur Vertragslage beruhen auf Presseberichten.</p>
         </blockquote>
 
       </div>

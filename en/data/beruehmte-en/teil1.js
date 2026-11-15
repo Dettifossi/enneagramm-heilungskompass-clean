@@ -3273,12 +3273,12 @@ export function alexanderDudaPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Two: Indispensability as Access to Closeness</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo called the self-preservation Two the subtype of <em>privilege</em>: belonging and significance are not demanded but secured through care, commitment and the quiet feeling of being needed. One earns one&rsquo;s place in other people&rsquo;s lives by being indispensable. In this app&rsquo;s Life Pattern Compass, the hippopotamus stands for this: good-natured, rooted, with quiet strength.</p>
-          <p class="vb-intro">In Duda&rsquo;s case this shows in work and private life alike: as a reliable presence in an ensemble and as a long-term partner. He has been with the actress Jutta Schmuttermaier for over thirty years; the couple have two grown children, and according to media reports she appeared in several roles in the ›Rosenheim-Cops‹. This remains an interpretation from the outside.</p>
+          <p class="vb-intro">In Duda&rsquo;s case this shows in work and private life alike: as a reliable presence in an ensemble and as a long-term partner. He has been with the actress Jutta Schmuttermaier for over thirty years; the couple have two grown children, and according to media reports she appeared in several roles in the ›Rosenheim-Cops‹.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-Wing: Decency and Order</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Two seriousness, a sense of duty and an inner standard for how one should behave. That fits his best-known character: since 2006 Duda has played Police Director Gert Achtziger, the superior of the investigators, in the ZDF series ›Die Rosenheim-Cops‹ (›The Rosenheim Cops‹). It is a role in which care and order come together: a boss who carries responsibility without seeming cold. This is an interpretation of the character and his portrayal, not derived from statements by the actor.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Two seriousness, a sense of duty and an inner standard for how one should behave. That fits his best-known character: since 2006 Duda has played Police Director Gert Achtziger, the superior of the investigators, in the ZDF series ›Die Rosenheim-Cops‹ (›The Rosenheim Cops‹). It is a role in which care and order come together: a boss who carries responsibility without seeming cold. This can be read from the character and his portrayal.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Substance: Authority With Warmth, One Character Over Two Decades</h2>
@@ -3290,12 +3290,12 @@ export function alexanderDudaPortraitPage() {
         <h2 class="vb-section">5. The Involuntary Farewell: Wanting to Stay</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In autumn 2026 it became known that Duda is leaving the series after about twenty years; his character retires within the story. ZDF called it a dramaturgical decision. According to media reports, he said in essence that he found it a pity that this would be his last season, that Achtziger could easily have gone on until eighty, and that he bears no grudge. The departure was reportedly not entirely voluntary. His last day of shooting was said to be emotional, not least because his wife acted alongside him; according to current information, the on-screen farewell is planned for spring 2027.</p>
-          <p class="vb-intro">For a self-preservation Two this is telling: the hippopotamus stays at its place, and a change that does not come from him strikes the spot where belonging was secured. That he remains free of resentment fits the One-wing, which keeps its composure. This remains an interpretation from the outside.</p>
+          <p class="vb-intro">For a self-preservation Two this is telling: the hippopotamus stays at its place, and a change that does not come from him strikes the spot where belonging was secured. That he remains free of resentment fits the One-wing, which keeps its composure.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and Shadow of the Self-Preservation Two with a One-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in reliability, loyalty and an authority that allows warmth. The shadow of the Two would be to make one&rsquo;s own worth too dependent on being needed; the One-wing can add strictness towards oneself. How far this applies to Duda cannot be judged from the outside.</p>
+          <p class="vb-intro">The light lies in reliability, loyalty and an authority that allows warmth. The shadow of the Two is to make one&rsquo;s own worth too dependent on being needed; the One-wing can add strictness towards oneself.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallels in the Same Subtype: Joachim Llambi and Franka Potente</h2>
@@ -3305,7 +3305,7 @@ export function alexanderDudaPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Duda can still be seen as Achtziger; his exit from the ›Rosenheim-Cops‹ has been announced, and the exact broadcast date was not known at the time of research. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. The interpretation here follows the Enneagram profiling system of David L. Rathmer, based on his life story and choice of roles. Theatre engagements and the farewell date come from press and databases; things may still change.</p>
+          <p class="vb-intro">Duda can still be seen as Achtziger; his exit from the ›Rosenheim-Cops‹ has been announced, and the exact broadcast date was not known at the time of research. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. Duda is a self-preservation Two with a One-wing (SE2w1), as his life story and choice of roles show in the Enneagram profiling system of David L. Rathmer. Theatre engagements and the farewell date come from press and databases; things may still change.</p>
         </blockquote>
 
       </div>

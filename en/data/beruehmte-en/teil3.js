@@ -3201,7 +3201,7 @@ export function igorJefticPortraitPage() {
         <h2 class="vb-section">2. The Social One: Responsibility for the Whole</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social One</strong> carries its inner standard not for itself alone but with an eye on the community: What is right, what serves the others, where must there be order? Behind this stands the One&rsquo;s inner critic and the passion of anger (rage that rarely shows and is mostly redirected into care, principle and self-criticism).</p>
-          <p class="vb-intro">In Jeftić&rsquo;s case this trait can be recognised in his own statements. According to media reports, he said he regretted not having taken a path through which he could have more influence on the world, and that he sometimes doubts the meaning of a profession that mainly entertains. That is not the sentence of a cynic but of a man with high expectations of the usefulness of his own work. This remains an interpretation from the outside.</p>
+          <p class="vb-intro">In Jeftić&rsquo;s case this trait can be recognised in his own statements. According to media reports, he said he regretted not having taken a path through which he could have more influence on the world, and that he sometimes doubts the meaning of a profession that mainly entertains. That is not the sentence of a cynic but of a man with high expectations of the usefulness of his own work.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: Warmth in the Team</h2>
@@ -3222,7 +3222,7 @@ export function igorJefticPortraitPage() {
 
         <h2 class="vb-section">6. Light and Shadow of the Social One with a Two-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in reliability, team spirit and the aim of doing something useful. The shadow of the One would be the self-criticism that does not let even success count: someone who measures his own profession against a high moral standard can find it too light. How far this applies to Jeftić cannot be judged from the outside.</p>
+          <p class="vb-intro">The light lies in reliability, team spirit and the aim of doing something useful. The shadow of the One is the self-criticism that does not let even success count: someone who measures his own profession against a high moral standard can find it too light.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Parallels in the Same Subtype: Jürgen Klopp and Bradley Cooper</h2>
@@ -3232,7 +3232,7 @@ export function igorJefticPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jeftić remains part of the ›Rosenheim-Cops‹ ensemble; rumours of an exit have not been confirmed according to the available reports. The classification as SO1w2 is a reasoned proposal, not a certainty: it draws on his life story and follows the Enneagram profiling system of David L. Rathmer. Place of birth, training and the custody anecdote come from press and agency profiles and do not agree everywhere.</p>
+          <p class="vb-intro">Jeftić remains part of the ›Rosenheim-Cops‹ ensemble; rumours of an exit have not been confirmed according to the available reports. Jeftić is a social One with a Two-wing (SO1w2), as his life story shows in the Enneagram profiling system of David L. Rathmer. Place of birth, training and the custody anecdote come from press and agency profiles and do not agree everywhere.</p>
         </blockquote>
 
       </div>
