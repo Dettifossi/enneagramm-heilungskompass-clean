@@ -343,6 +343,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-paul-dano", label: "Neues EN-Porträt: Paul Dano" },
   { hash: "#beruehmte-axel-prahl", label: "Neues Porträt: Axel Prahl" },
   { hash: "en/#beruehmte-axel-prahl", label: "Neues EN-Porträt: Axel Prahl" },
+  { hash: "#beruehmte-marisa-burger", label: "Neues Porträt: Marisa Burger" },
+  { hash: "en/#beruehmte-marisa-burger", label: "Neues EN-Porträt: Marisa Burger" },
   { hash: "#beruehmte-heinz-erhardt", label: "Neues Porträt: Heinz Erhardt" },
   { hash: "en/#beruehmte-heinz-erhardt", label: "Neues EN-Porträt: Heinz Erhardt" },
   { hash: "#beruehmte-rainer-hunold", label: "Neues Porträt: Rainer Hunold" },

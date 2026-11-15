@@ -3277,3 +3277,76 @@ export function tomHardyPortraitPage() {
     </div>
   `);
 }
+
+export function marisaBurgerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marisa-burger-portrait.jpg" alt="Marisa Burger – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-marisa-burger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Marisa Burger</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Actress and audiobook narrator, b. 1973 in Altötting &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock from Upper Bavaria: Impact Through Warmth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> unfolds its fan because pleasing belongs to its nature. Marisa Burger was born on 10 July 1973 in Altötting. According to her agency, she trained in Munich at the Neue Münchener Schauspielschule (New Munich Drama School) and later continued her studies at the Mozarteum in Salzburg; the years differ between sources and are deliberately not given here.</p>
+          <p class="vb-intro">Her early years belonged to the stage: engagements at the Münchner Volkstheater and the Metropol-Theater in Munich, including, according to reports, Thomas Vinterberg&rsquo;s ›Das Fest‹ (›The Celebration‹). Her career thus began in the theatre, not on television, and closeness to the audience remained important to her later on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Attraction as a Life Theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual Three the subtype of <em>masculinity/femininity</em>: here a person&rsquo;s sense of worth depends strongly on how one comes across as a woman or man, desirable, lovable, admired: it is the subtype that wants to embody the ideal woman or ideal man. The Three&rsquo;s passion, vanity (the need to shine in the mirror of others), has its stage here. Unlike the self-preservation or social Three, this subtype works not primarily on money or rank but on attractiveness.</p>
+          <p class="vb-intro">In Burger&rsquo;s case this shows as a mix of friendliness, polish and extroversion: she always appears neat, radiant and warmly exuberant, and wants to please. Frau Stockl, who is friendly to everyone, does everything for others and likes to dress well, is the ideal stage for this. The gaze quality also supports this reading: Burger has radiant eyes, an openly shining, winning look as is typical of the Three, not the soft, caring, pleading look of the Two. Against a sexual Six speaks that pleasing and impact are in the foreground, not defence against fear through strength. It fits that in interviews she herself speaks of early insecurity about appearance and recognition: according to media reports she suffered from anorexia in her youth and processed it in her book ›Vergiss nie, wie dein Herz am Anfang war‹ (›Never Forget How Your Heart Was at the Beginning‹). For the sexual Three, the ideal body image is an especially sensitive field; this remains an interpretation from the outside and is no judgement of her person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: The Good Soul</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> makes the Three warmer, more relationship-oriented and less coolly goal-driven. It wants not only to be admired but to be needed and liked. That shows in the role for which Burger became known: from 2002 she played the secretary Miriam Stockl in the ZDF series ›Die Rosenheim-Cops‹ (›The Rosenheim Cops‹), the good, talkative, always attentive soul of the police station who picks up everything and has something kind to say to everyone. The character lives from cordiality, not from toughness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: A Supporting Character Who Became a Cult Figure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Burger is the instinct for keeping a supporting role alive over almost a quarter of a century. Frau Stockl is no investigator but the woman at the edge of the plot, and yet she became one of the series&rsquo; best-loved characters. This succeeds through timing, Bavarian warmth and the art of showing a whole attitude in small scenes, a glance, a sentence, a remark on the side. Added to this is her work as an audiobook narrator: here the voice alone, without costume and camera, carries warmth and atmosphere.</p>
+          <p class="vb-intro">After years in the same role this is also a craft achievement: keeping a character fresh over so long a time without letting it become routine is not given to everyone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Farewell: Courage to Change Roles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Burger left the series after almost a quarter of a century. According to media reports, the farewell episode airs on 24 November 2026 on ZDF; the character leaves the series alive. On the last day of shooting, she told the newspaper Abendzeitung, tears were shed. For a sexual Three with a Two-wing, such a step is remarkable: giving up a beloved role means exchanging the secure affection of a large audience for the unknown. She returns to the stage and, since 27 February 2026, has been appearing in places including Hamburg and Berlin in ›Kleine Verbrechen unter Liebenden‹ (›Small Crimes Among Lovers‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Sexual Three with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the cordiality and in an openness that also shows what is difficult, such as the book about anorexia, with which she wanted to encourage others affected. The shadow would lie in the Three&rsquo;s vanity: tying one&rsquo;s own worth too strongly to the audience&rsquo;s affection and overriding one&rsquo;s own limits for it. How far this applies to Burger cannot be judged from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Christina Plate and Iris Berben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-christina-plate">Christina Plate</a> (SX3w2) stands particularly close: she too has been a familiar face of German television series for decades, turning presence into a profession. <a href="javascript:void(0)" data-route="beruehmte-iris-berben">Iris Berben</a> (SX3w2) shows the same attraction in a different form: as a grande dame who consciously redefines her impact with age.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status in November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Burger has been married for the second time since 2015 and is working in the theatre again. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer. Biographical details come from media reports and an agency profile and are not consistently documented in every detail.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
+        {route:"beruehmte-christina-plate", label:"Portrait: Christina Plate (SX3w2)"},
+        {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
+      ])}
+    </div>
+  `);
+}
