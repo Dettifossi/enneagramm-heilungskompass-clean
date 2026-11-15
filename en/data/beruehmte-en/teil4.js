@@ -3334,7 +3334,7 @@ export function marisaBurgerPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Burger has been married for the second time since 2015 and is working in the theatre again. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer. Biographical details come from media reports and an agency profile and are not consistently documented in every detail.</p>
+          <p class="vb-intro">Burger has been married for the second time since 2015 and is working in the theatre again. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer. Biographical details come from media reports and an agency profile and are not consistently documented in every detail.</p>
         </blockquote>
 
       </div>
@@ -3349,6 +3349,8 @@ export function marisaBurgerPortraitPage() {
         {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
         {route:"beruehmte-alexander-duda", label:"Portrait: Alexander Duda (SE2w1)"},
         {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SO7w6)"},
+        {route:"beruehmte-igor-jeftic", label:"Portrait: Igor Jeftić (SO1w2)"},
+        {route:"beruehmte-axel-prahl", label:"Portrait: Axel Prahl (SP9w8) – Detective Thiel in the Münster Tatort"},
       ])}
     </div>
   `);

@@ -3347,7 +3347,7 @@ export function marisaBurgerPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Burger ist seit 2015 in zweiter Ehe verheiratet und arbeitet wieder am Theater. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und einem Agenturprofil und sind nicht in allen Details einheitlich belegt.</p>
+          <p class="vb-intro">Burger ist seit 2015 in zweiter Ehe verheiratet und arbeitet wieder am Theater. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und einem Agenturprofil und sind nicht in allen Details einheitlich belegt.</p>
         </blockquote>
 
       </div>
@@ -3362,6 +3362,8 @@ export function marisaBurgerPortraitPage() {
         {route:"beruehmte-iris-berben", label:"Porträt: Iris Berben (SX3w2)"},
         {route:"beruehmte-alexander-duda", label:"Porträt: Alexander Duda (SE2w1)"},
         {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6)"},
+        {route:"beruehmte-igor-jeftic", label:"Porträt: Igor Jeftić (SO1w2)"},
+        {route:"beruehmte-axel-prahl", label:"Porträt: Axel Prahl (SE9w8) – Kommissar Thiel im Münsteraner Tatort"},
       ])}
     </div>
   `);

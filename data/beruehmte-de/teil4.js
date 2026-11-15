@@ -3303,7 +3303,7 @@ export function igorJefticPortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Wärme im Team</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> macht die Eins wärmer und zugewandter. Er zeigt sich in der Bindung an das Team: Auf Gerüchte über einen Ausstieg aus den ›Rosenheim-Cops‹ antwortete Jeftić nach Medienberichten, er denke überhaupt nicht ans Aufhören, es mache mit den Kollegen viel zu viel Spaß. Der Satz zeigt, was die soziale Eins hält: nicht der Ruhm, sondern die Gemeinschaft, in der man seine Aufgabe zuverlässig erfüllt.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> macht die Eins wärmer und zugewandter. Er zeigt sich in der Bindung an das Team: Auf Gerüchte über einen Ausstieg aus den ›Rosenheim-Cops‹ antwortete Jeftić nach Medienberichten, er denke überhaupt nicht ans Aufhören, es mache mit den Kollegen viel zu viel Spaß. Der Satz zeigt, was die soziale Eins hält: nicht der Ruhm, sondern die Gemeinschaft, in der man seine Aufgabe zuverlässig erfüllt. Zu diesen Kollegen im Ensemble gehören <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a>, <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a> und <a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a>, die ebenfalls in diesem Kompass porträtiert sind.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Verlässlichkeit als Schauspielkunst</h2>
@@ -3342,6 +3342,10 @@ export function igorJefticPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
         {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-bradley-cooper", label:"Porträt: Bradley Cooper (SO1w2)"},
+        {route:"beruehmte-marisa-burger", label:"Porträt: Marisa Burger (SX3w2)"},
+        {route:"beruehmte-alexander-duda", label:"Porträt: Alexander Duda (SE2w1)"},
+        {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6)"},
+        {route:"beruehmte-axel-prahl", label:"Porträt: Axel Prahl (SE9w8) – Kommissar Thiel im Münsteraner Tatort"},
       ])}
     </div>
   `);

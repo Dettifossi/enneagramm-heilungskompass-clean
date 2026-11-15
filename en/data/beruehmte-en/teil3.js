@@ -3206,7 +3206,7 @@ export function igorJefticPortraitPage() {
 
         <h2 class="vb-section">3. The Two-Wing: Warmth in the Team</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> makes the One warmer and more attentive to others. It shows in the bond with the team: to rumours of an exit from the ›Rosenheim-Cops‹, Jeftić replied, according to media reports, that he was not thinking of stopping at all, it was far too much fun with his colleagues. The sentence shows what holds the social One: not fame but the community in which one reliably fulfils one&rsquo;s task.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> makes the One warmer and more attentive to others. It shows in the bond with the team: to rumours of an exit from the ›Rosenheim-Cops‹, Jeftić replied, according to media reports, that he was not thinking of stopping at all, it was far too much fun with his colleagues. The sentence shows what holds the social One: not fame but the community in which one reliably fulfils one&rsquo;s task. These colleagues in the ensemble include <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a>, <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a> and <a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a>, who are likewise portrayed in this compass.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Substance: Reliability as an Acting Craft</h2>
@@ -3245,6 +3245,10 @@ export function igorJefticPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
+        {route:"beruehmte-marisa-burger", label:"Portrait: Marisa Burger (SX3w2)"},
+        {route:"beruehmte-alexander-duda", label:"Portrait: Alexander Duda (SE2w1)"},
+        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SO7w6)"},
+        {route:"beruehmte-axel-prahl", label:"Portrait: Axel Prahl (SP9w8) – Detective Thiel in the Münster Tatort"},
       ])}
     </div>
   `);

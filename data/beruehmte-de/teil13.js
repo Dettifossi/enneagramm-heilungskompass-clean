@@ -3310,7 +3310,7 @@ export function maxMuellerPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Müller spielt weiterhin Michi Mohr, seit 2026 mit reduzierten Drehtagen. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und Datenbanken und sind nicht in allen Details einheitlich belegt.</p>
+          <p class="vb-intro">Müller spielt weiterhin Michi Mohr, seit 2026 mit reduzierten Drehtagen. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und Datenbanken und sind nicht in allen Details einheitlich belegt.</p>
         </blockquote>
 
       </div>
@@ -3325,6 +3325,8 @@ export function maxMuellerPortraitPage() {
         {route:"beruehmte-paul-ronzheimer", label:"Porträt: Paul Ronzheimer (SO7w6)"},
         {route:"beruehmte-marisa-burger", label:"Porträt: Marisa Burger (SX3w2)"},
         {route:"beruehmte-alexander-duda", label:"Porträt: Alexander Duda (SE2w1)"},
+        {route:"beruehmte-igor-jeftic", label:"Porträt: Igor Jeftić (SO1w2)"},
+        {route:"beruehmte-axel-prahl", label:"Porträt: Axel Prahl (SE9w8) – Kommissar Thiel im Münsteraner Tatort"},
       ])}
     </div>
   `);
