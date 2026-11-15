@@ -345,6 +345,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-axel-prahl", label: "Neues EN-Porträt: Axel Prahl" },
   { hash: "#beruehmte-marisa-burger", label: "Neues Porträt: Marisa Burger" },
   { hash: "en/#beruehmte-marisa-burger", label: "Neues EN-Porträt: Marisa Burger" },
+  { hash: "#beruehmte-igor-jeftic", label: "Neues Porträt: Igor Jeftić" },
+  { hash: "en/#beruehmte-igor-jeftic", label: "Neues EN-Porträt: Igor Jeftić" },
   { hash: "#beruehmte-heinz-erhardt", label: "Neues Porträt: Heinz Erhardt" },
   { hash: "en/#beruehmte-heinz-erhardt", label: "Neues EN-Porträt: Heinz Erhardt" },
   { hash: "#beruehmte-rainer-hunold", label: "Neues Porträt: Rainer Hunold" },

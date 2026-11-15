@@ -3273,3 +3273,76 @@ export function johnCusackPortraitPage() {
     </div>
   `);
 }
+
+export function igorJefticPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-igor-jeftic-portrait.jpg" alt="Igor Jeftić – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-igor-jeftic-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Igor Jeftić</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1971 im damaligen Jugoslawien &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans aus dem Süden: ein Zugereister, der sein Handwerk lernte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> lebt im Verband, achtet auf die Ordnung der Gruppe und fliegt selten allein. Igor Jeftić wurde am 20. November 1971 im damaligen Jugoslawien geboren (als Geburtsort wird in Datenbanken teils Belgrad genannt) und ist Serbe. Nach Angaben von Agenturprofilen ließ er sich von 1992 bis 1995 an der Schauspielschule H.D. Trayer in München ausbilden.</p>
+          <p class="vb-intro">Seit 1996 ist er regelmäßig im Fernsehen zu sehen, unter anderem in ›In aller Freundschaft‹ und ›Verliebt in Berlin‹. Seine große, dauerhafte Rolle fand er in der ZDF-Serie ›Die Rosenheim-Cops‹: Seit Staffel acht (2009) spielt er Hauptkommissar Sven Hansen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Eins: Verantwortung für das Ganze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins</strong> trägt ihren inneren Maßstab nicht für sich allein, sondern im Blick auf die Gemeinschaft: Was ist richtig, was dient den anderen, wo muss Ordnung herrschen? Dahinter steht der innere Kritiker der Eins, der Leidenschaft Ärger (Wut, die sich selten zeigt und meist in Sorgfalt, Prinzipientreue und Selbstkritik umgeleitet wird).</p>
+          <p class="vb-intro">Bei Jeftić ist dieser Zug in seinen eigenen Aussagen zu erkennen. Nach Medienberichten sagte er, er bereue es, keinen Weg eingeschlagen zu haben, mit dem er mehr Einfluss auf die Welt nehmen könne, und zweifle manchmal am Sinn eines Berufs, der vor allem unterhält. Das ist kein Satz eines Zynikers, sondern eines Mannes mit hohem Anspruch an den Nutzen der eigenen Arbeit. Das bleibt eine Deutung aus der Außensicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme im Team</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> macht die Eins wärmer und zugewandter. Er zeigt sich in der Bindung an das Team: Auf Gerüchte über einen Ausstieg aus den ›Rosenheim-Cops‹ antwortete Jeftić nach Medienberichten, er denke überhaupt nicht ans Aufhören, es mache mit den Kollegen viel zu viel Spaß. Der Satz zeigt, was die soziale Eins hält: nicht der Ruhm, sondern die Gemeinschaft, in der man seine Aufgabe zuverlässig erfüllt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Verlässlichkeit als Schauspielkunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine Rolle wie Hansen über mehr als fünfzehn Jahre zu tragen, verlangt etwas, das Zuschauer kaum bemerken: Konstanz. Die Serie lebt vom Zusammenspiel fester Figuren, und Jeftić ist als Hauptkommissar Hansen seit Jahren Teil dieses Ensembles. Er beschrieb selbst, wie anstrengend die Arbeitszeiten am Set sind; dass er sie über so viele Jahre trägt, passt zum Muster der Eins, die Pflicht ernst nimmt.</p>
+          <p class="vb-intro">Das ist kein spektakuläres Können, sondern handwerkliche Zuverlässigkeit, die ein Ensemble zusammenhält. Eine Serie dieser Länge steht und fällt mit Darstellern, die jeden Tag pünktlich und vorbereitet erscheinen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die menschliche Seite: eine Nacht im Gefängnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Offen und mit Humor erzählt Jeftić in Interviews von einer Jugendsünde: In der Studienzeit fuhr er in München schwarz und zahlte die Geldstrafen nicht. Als er sich später in Berlin ordnungsgemäß anmeldete, stand die Polizei vor der Tür; er verbrachte eine Nacht in Haft, und bis zu 20 Tage standen im Raum, bis er mit seiner Theatergage zahlte und gegen Kaution freikam. Für eine Eins, die Regeln ernst nimmt, ist das bemerkenswert: Er spricht ohne Beschönigung über den eigenen Regelverstoß. Die Quellen weichen bei Einzelheiten ab; der Kern ist übereinstimmend berichtet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in Verlässlichkeit, Teamgeist und dem Anspruch, Nützliches zu tun. Der Schatten der Eins wäre die Selbstkritik, die auch Erfolg nicht gelten lässt: Wer den eigenen Beruf an einem hohen moralischen Maßstab misst, kann ihn als zu leicht empfinden. Wie weit das auf Jeftić zutrifft, ist von außen nicht zu beurteilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp: Jürgen Klopp und Bradley Cooper</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-juergen-klopp">Jürgen Klopp</a> (SO1w2) verbindet wie Jeftić Anspruch und Teamgeist: Die Gans fliegt in der Formation. <a href="javascript:void(0)" data-route="beruehmte-bradley-cooper">Bradley Cooper</a> (SO1w2) ist ebenfalls Schauspieler und zeigt denselben hohen Maßstab an die eigene Arbeit, der ihn vom Darsteller zum Regisseur führte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jeftić gehört weiterhin zum Ensemble der ›Rosenheim-Cops‹; Gerüchte über einen Ausstieg haben sich nach den vorliegenden Berichten nicht bestätigt. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und Agenturprofilen und sind nicht in allen Details einheitlich belegt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
+        {route:"beruehmte-bradley-cooper", label:"Porträt: Bradley Cooper (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
