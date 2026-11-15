@@ -341,6 +341,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-michael-fassbender", label: "Neues EN-Porträt: Michael Fassbender" },
   { hash: "#beruehmte-paul-dano", label: "Neues Porträt: Paul Dano" },
   { hash: "en/#beruehmte-paul-dano", label: "Neues EN-Porträt: Paul Dano" },
+  { hash: "#beruehmte-axel-prahl", label: "Neues Porträt: Axel Prahl" },
+  { hash: "en/#beruehmte-axel-prahl", label: "Neues EN-Porträt: Axel Prahl" },
   { hash: "#beruehmte-heinz-erhardt", label: "Neues Porträt: Heinz Erhardt" },
   { hash: "en/#beruehmte-heinz-erhardt", label: "Neues EN-Porträt: Heinz Erhardt" },
   { hash: "#beruehmte-rainer-hunold", label: "Neues Porträt: Rainer Hunold" },

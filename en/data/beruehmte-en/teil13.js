@@ -3259,3 +3259,77 @@ export function johnCusackPortraitPage() {
     </div>
   `);
 }
+
+export function axelPrahlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-axel-prahl-portrait.jpg" alt="Axel Prahl – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-axel-prahl-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Axel Prahl</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with an Eight-Wing</p>
+        <p class="krim-portrait-subtitle">Actor and musician, b. 1960 in Eutin &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant from Holstein: A Man Who Does Not Push</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>elephant</strong> walks its path at an even pace and needs no loudness to be noticed. Axel Prahl was born on 26 March 1960 in Eutin and grew up with his brother Udo in Neustadt in Holstein. After his technical baccalaureate he first studied music and mathematics at the teacher-training college in Kiel, a course he abandoned after several semesters. From 1982 to 1985 he attended the drama school in Kiel and, during that time, was already on stage at the Theater Kiel and with a band of his own.</p>
+          <p class="vb-intro">His path then led through the Schleswig-Holstein state theatre to Berlin, where from 1992 he worked at houses such as the Renaissance-Theater, the Grips-Theater and the Kammerspiele of the Deutsches Theater. He made his film debut in 1992 in Max Färberböck&rsquo;s ›Schlafende Hunde‹ (›Sleeping Dogs‹). It was no overnight career but a long, craftsmanlike climb that reached a wide audience only in middle age.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Nine: Down-to-Earth as a Principle of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Nine the subtype of <em>appetite</em>: it seeks calm and security in the concrete, in habit, conviviality and the small comforts of everyday life, and thereby soothes a deeper inner emptiness. In this app&rsquo;s Life Pattern Compass, this is the quiet, weighty presence.</p>
+          <p class="vb-intro">In his roles and in public, Prahl comes across as a man at rest in himself: approachable, without star airs, dry in the northern German way and still grounded. He prefers to play ordinary men with rough edges, people one meets at a snack stand, a car dealership or a police station, and gives them a dignity that needs no pose. That suits the self-preservation Nine, whose strength lies in constancy. This remains an interpretation from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Directness, Grumbling and Backbone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Nine weight, straightforwardness and the ability to push back when needed. As Detective Chief Inspector Frank Thiel in the Münster ›Tatort‹ (Germany&rsquo;s long-running Sunday-night crime series on public television), exactly this trait is visible: Thiel is a down-to-earth, grumpy-but-warm investigator who does not let himself be belittled by the superior know-it-all Prof. Boerne (Jan Josef Liefers) and yet has stood beside him for over twenty years in an attitude of friction and affection. The grumbling is protection; the loyalty is real.</p>
+          <p class="vb-intro">The Eight-wing also shows in the fact that Prahl plays figures with resilience: people who take a blow and still stay standing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: People Without Pose, an Actor Without Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Prahl apart is the ability to portray completely ordinary people convincingly without putting them on display. His breakthrough in cinema came in the films of Andreas Dresen: in ›Halbe Treppe‹ (›Half Stairs‹, 2002), Dresen&rsquo;s largely improvised relationship drama from Frankfurt (Oder), he played the snack-stand owner Uwe and received the Bavarian Film Award as best leading actor. In ›Willenbrock‹ (2005, after the novel by Christoph Hein) he played the used-car dealer Bernd Willenbrock, a man whose secure life begins to slip, and was honoured with the German Film Critics&rsquo; Award as best actor. ›Die Polizistin‹ (›The Policewoman‹, 2000) belongs to the same series. His awards also include the Grimme Prize and the Goldene Kamera.</p>
+          <p class="vb-intro">The technique behind it is casualness: he acts as if nothing were being acted. Pauses, a shrug, a dry sentence instead of grand gestures carry the scene. That is the opposite of upstaging and at the same time an art of its own, hard to learn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Music as Community: Inselorchester and Inselleuchten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alongside acting, Prahl has stayed true to the music with which he once began his studies. He performs with the Inselorchester (›Island Orchestra‹), a band with which he has released several albums as singer and songwriter, and since 2007 has organised the annual summer music festival ›Inselleuchten‹ (›Island Lights‹). For a self-preservation Nine this is telling: the music serves not the solo turn but being together. An orchestra, a festival, friends on stage: community instead of limelight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Self-Preservation Nine with an Eight-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability, in dry humour and in the warmth with which Prahl has accompanied millions of viewers for decades. The shadow of the Nine would be to dampen one&rsquo;s own wishes for the sake of harmony; the Eight-wing can then show up as sudden sharpness or stubbornness. How far Prahl experiences this himself cannot be judged from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Dietmar Bär and Robbie Coltrane</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The closest parallel is <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Dietmar Bär</a> (SP9w8): he too has been a beloved ›Tatort‹ detective for decades (Ballauf in Cologne), down-to-earth, pleasure-loving and direct, and he too pairs this over many years with a fixed counterpart. <a href="javascript:void(0)" data-route="beruehmte-robbie-coltrane">Robbie Coltrane</a> (SP9w8) shows the same blend of good-natured fullness with sharpness underneath, only in other roles, from Hagrid to the police psychologist Fitz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status in November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Prahl lives in Berlin and is married for the third time. He continues to play in the Münster ›Tatort‹; according to press reports, the contracts with him and Jan Josef Liefers have been extended to 2029. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"lebensmusterkompass/se9", label:"Life Pattern Compass: SP9 – Elephant"},
+        {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SP9w8)"},
+        {route:"beruehmte-robbie-coltrane", label:"Portrait: Robbie Coltrane (SP9w8)"},
+      ])}
+    </div>
+  `);
+}
