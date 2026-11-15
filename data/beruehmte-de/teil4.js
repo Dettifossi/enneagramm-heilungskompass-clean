@@ -3297,7 +3297,7 @@ export function igorJefticPortraitPage() {
 
         <h2 class="vb-section">2. Der soziale Eins: Verantwortung für das Ganze</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Eins</strong> trägt ihren inneren Maßstab nicht für sich allein, sondern im Blick auf die Gemeinschaft: Was ist richtig, was dient den anderen, wo muss Ordnung herrschen? Dahinter steht der innere Kritiker der Eins, der Leidenschaft Ärger (Wut, die sich selten zeigt und meist in Sorgfalt, Prinzipientreue und Selbstkritik umgeleitet wird).</p>
+          <p class="vb-intro">Die <strong>soziale Eins</strong> trägt ihren inneren Maßstab nicht für sich allein, sondern im Blick auf die Gemeinschaft: Was ist richtig, was dient den anderen, wo muss Ordnung herrschen? Dahinter stehen der innere Kritiker der Eins und die Leidenschaft Ärger (Wut, die sich selten zeigt und meist in Sorgfalt, Prinzipientreue und Selbstkritik umgeleitet wird).</p>
           <p class="vb-intro">Bei Jeftić ist dieser Zug in seinen eigenen Aussagen zu erkennen. Nach Medienberichten sagte er, er bereue es, keinen Weg eingeschlagen zu haben, mit dem er mehr Einfluss auf die Welt nehmen könne, und zweifle manchmal am Sinn eines Berufs, der vor allem unterhält. Das ist kein Satz eines Zynikers, sondern eines Mannes mit hohem Anspruch an den Nutzen der eigenen Arbeit. Das bleibt eine Deutung aus der Außensicht.</p>
         </blockquote>
 
