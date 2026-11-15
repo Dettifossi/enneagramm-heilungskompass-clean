@@ -64955,6 +64955,8 @@ function flagEmoji(iso) {
 
 let LAENDER_REGIONEN = null;
 _LAZY_DATA.laender = { spec: "./data/lazy/laender.js", assign: m => { LAENDER_REGIONEN = m.LAENDER_REGIONEN; } };
+let WELTKARTE_MOD = null;
+_LAZY_DATA.weltkarte = { spec: "./data/lazy/weltkarte.js", assign: m => { WELTKARTE_MOD = m; } };
 
 const LAENDER_TYPEN_TABELLE = [
   { typ: 1, angst: "\u201eIch bin falsch.\u201c", org: "Innere Norm, Selbstkontrolle", leidenschaft: "Zorn", motivation: "Verbesserung, Richtigkeit, Integrit\u00e4t", essenz: "Weisheit" },
@@ -64980,6 +64982,7 @@ const LAENDER_DISKUSSIONSFAELLE = [
 
 function laenderzuordnungenPage() {
   { const _w = _needData("laender"); if (_w) return _w; }
+  { const _w = _needData("weltkarte"); if (_w) return _w; }
   const typenFarben = TYPE_COLORS;
 
   const tabelleHtml = `
@@ -65109,6 +65112,8 @@ function laenderzuordnungenPage() {
         </video>
       </div>
       <p style="text-align:center;font-size:0.72rem;color:var(--muted);margin:-0.8rem 0 1.2rem;">Erdrotation: NASA Blue Marble Next Generation &ndash; gemeinfrei (Public Domain)</p>
+
+      ${WELTKARTE_MOD ? WELTKARTE_MOD.weltkarteHtml(LAENDER_REGIONEN, "de") : ""}
 
       <p class="schaubild-page__intro">Rund 202 L\u00e4nder und ihr vorherrschendes Enneagramm-Prinzip &ndash; eine begr\u00fcndete, aber bewusst perspektivische Ann\u00e4herung an nationale Mentalit\u00e4ten, Geschichte und Kultur.</p>
 

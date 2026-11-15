@@ -44698,6 +44698,8 @@ function flagEmoji(iso) {
 
 let LAENDER_REGIONEN = null;
 _LAZY_DATA.laender = { spec: "./data/lazy/laender.js", assign: m => { LAENDER_REGIONEN = m.LAENDER_REGIONEN; } };
+let WELTKARTE_MOD = null;
+_LAZY_DATA.weltkarte = { spec: "../data/lazy/weltkarte.js", assign: m => { WELTKARTE_MOD = m; } };
 const LAENDER_TYPEN_TABELLE = [
   { typ: 1, angst: "\u201cI am wrong.\u201d", org: "Inner norm, self-control", leidenschaft: "Wrath", motivation: "Improvement, correctness, integrity", essenz: "Wisdom" },
   { typ: 2, angst: "\u201cI am only valuable if I am needed.\u201d", org: "Relationship as a source of self-worth", leidenschaft: "Pride", motivation: "Helping, connecting, supporting", essenz: "Love" },
@@ -44719,6 +44721,7 @@ const LAENDER_TYPEN_TABELLE = [
 ];
 function laenderzuordnungenPage() {
   { const _w = _needData("laender"); if (_w) return _w; }
+  { const _w = _needData("weltkarte"); if (_w) return _w; }
   const typenFarben = TYPE_COLORS;
 
   const tabelleHtml = `
@@ -44848,6 +44851,8 @@ function laenderzuordnungenPage() {
         </video>
       </div>
       <p style="text-align:center;font-size:0.72rem;color:var(--muted);margin:-0.8rem 0 1.2rem;">Earth rotation: NASA Blue Marble Next Generation &ndash; Public Domain</p>
+
+      ${WELTKARTE_MOD ? WELTKARTE_MOD.weltkarteHtml(LAENDER_REGIONEN, "en") : ""}
 
       <p class="schaubild-page__intro">About 202 countries and their predominant Enneagram principle &ndash; a well-founded, but deliberately perspectival approach to national mentalities, history, and culture.</p>
 
