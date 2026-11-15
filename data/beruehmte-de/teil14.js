@@ -3280,3 +3280,77 @@ export function elkeSommerPortraitPage() {
     </div>
   `);
 }
+
+export function alexanderDudaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alexander-duda-portrait.jpg" alt="Alexander Duda – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-alexander-duda-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Alexander Duda</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Theaterregisseur und Synchronsprecher, geb. 1955 in München &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd aus München: ein Schauspielerleben von Kindesbeinen an</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> wirkt behäbig und gutmütig und ist doch eines der stärksten Tiere seines Reviers: Es bleibt an seinem Platz. Alexander Duda wurde am 1. März 1955 in München geboren und stammt aus einer Schauspielerfamilie. Sein Vater Gernot Duda (1927&ndash;2004) war Theater-, Film- und Fernsehschauspieler und auch als Synchronsprecher bekannt; nach Angaben eines Porträts ging auch die jüngere Schwester Solveig in denselben Beruf.</p>
+          <p class="vb-intro">Von 1975 bis 1978 besuchte er die Otto-Falckenberg-Schule in München. Danach arbeitete er am Theater, nach Angaben von Datenbanken in Zürich am Theater am Neumarkt (ab 1979), am Thalia Theater in Hamburg (1985 bis 1988) und später am Münchner Volkstheater, mit dem er besonders eng verbunden ist. Er war außerdem als Theaterregisseur tätig und lieh als Synchronsprecher internationalen Schauspielern seine Stimme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Unentbehrlichkeit als Zugang zu Nähe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Zwei den Subtyp des <em>Privilegs</em> (Privilege): Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl gesichert, gebraucht zu werden. Der Platz im Leben anderer wird durch Unentbehrlichkeit verdient. Im Lebensmusterkompass dieser App steht dafür das Flusspferd: gutmütig, verwurzelt, mit ruhiger Kraft.</p>
+          <p class="vb-intro">Bei Duda zeigt sich das im Beruf und im Privatleben gleichermaßen: als verlässliche Größe in einem Ensemble und als langjähriger Partner. Er ist seit über dreißig Jahren mit der Schauspielerin Jutta Schmuttermaier zusammen; das Paar hat zwei erwachsene Kinder, und sie trat nach Medienberichten in mehreren Rollen in den ›Rosenheim-Cops‹ auf. Das bleibt eine Deutung aus der Außensicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Anstand und Ordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Zwei Ernsthaftigkeit, Pflichtgefühl und einen inneren Maßstab dafür, wie man sich zu verhalten hat. Das passt zu seiner bekanntesten Figur: Seit 2006 spielt Duda in der ZDF-Serie ›Die Rosenheim-Cops‹ Polizeidirektor Gert Achtziger, den Vorgesetzten der Ermittler. Es ist eine Rolle, in der Fürsorge und Ordnung zusammenkommen: ein Chef, der Verantwortung trägt, ohne kalt zu wirken. Das ist eine Deutung der Figur und ihrer Darstellung, nicht aus Aussagen des Schauspielers abgeleitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Autorität mit Wärme, eine Figur über zwei Jahrzehnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Duda auszeichnet, ist die Fähigkeit, eine Vorgesetztenrolle so zu spielen, dass sie nicht zur Schablone erstarrt. Er trat 2003 zunächst als Gastdarsteller in der Serie auf, als Apotheker Wolfgang Hartl in der Folge ›Gefährliche Freundschaft‹, und kehrte 2006 als Achtziger zurück, eine Rolle, die er rund zwanzig Jahre trug. Zugleich blieb er dem Theater und der Stimme treu: Als Synchronsprecher arbeitet man allein mit Ausdruck, Rhythmus und Atem, und als Theaterregisseur lenkt man andere, statt selbst im Mittelpunkt zu stehen. Beides passt zu einem Menschen, der Wirkung über Dienst am Ganzen sucht.</p>
+          <p class="vb-intro">2017 erhielt er gemeinsam mit seinen Kollegen Marisa Burger und Max Müller die Bayerische Staatsmedaille für Innere Sicherheit (›Stern der Sicherheit‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der unfreiwillige Abschied: Bleiben wollen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Herbst 2026 wurde bekannt, dass Duda die Serie nach rund zwanzig Jahren verlässt; seine Figur geht innerhalb der Handlung in den Ruhestand. Das ZDF nannte es eine dramaturgische Entscheidung. Nach Medienberichten sagte er sinngemäß, er finde es schade, dass dies seine letzte Staffel sei, Achtziger hätte ohne Weiteres bis achtzig weitermachen können; einen Groll hege er nicht. Der Abschied sei nicht ganz freiwillig gewesen. Sein letzter Drehtag sei emotional gewesen, auch weil seine Frau mitspielte; der Abschied im Fernsehen ist nach bisherigen Angaben für das Frühjahr 2027 vorgesehen.</p>
+          <p class="vb-intro">Für eine selbsterhaltende Zwei ist das aufschlussreich: Das Flusspferd bleibt an seinem Platz, und ein Wechsel, der nicht von ihm ausgeht, trifft die Stelle, an der Zugehörigkeit gesichert war. Dass er ohne Groll bleibt, passt zugleich zum Einserflügel, der Haltung bewahrt. Das bleibt eine Deutung aus der Außensicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Zwei mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in Verlässlichkeit, Treue und einer Autorität, die Wärme zulässt. Der Schatten der Zwei wäre, den eigenen Wert zu stark davon abhängig zu machen, gebraucht zu werden; der Einserflügel kann zusätzlich Strenge gegen sich selbst bringen. Wie weit das auf Duda zutrifft, ist von außen nicht zu beurteilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp: Joachim Llambi und Franka Potente</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-joachim-llambi">Joachim Llambi</a> (SE2w1) zeigt dieselbe Verbindung aus Strenge und Fürsorge: Das Flusspferd, dessen Härte ein Liebesdienst ist, steht auch hinter Dudas Polizeidirektor. <a href="javascript:void(0)" data-route="beruehmte-franka-potente">Franka Potente</a> (SE2w1) steht für Fürsorge im vertrauten Kreis und künstlerische Integrität, ein anderes Gesicht derselben verwurzelten Kraft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Duda ist weiterhin als Achtziger zu sehen; sein Ausstieg aus den ›Rosenheim-Cops‹ ist angekündigt, der genaue Sendetermin war bei der Recherche nicht bekannt. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und Datenbanken und sind nicht in allen Details einheitlich belegt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Flusspferd"},
+        {route:"beruehmte-joachim-llambi", label:"Porträt: Joachim Llambi (SE2w1)"},
+        {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
