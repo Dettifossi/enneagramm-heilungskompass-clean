@@ -3226,7 +3226,7 @@ export function axelPrahlPortraitPage() {
 
         <h2 class="vb-section">3. Der Achterflügel: Direktheit, Grummeln und Rückgrat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Neun Gewicht, Geradlinigkeit und die Fähigkeit, bei Bedarf dagegenzuhalten. Als Kriminalhauptkommissar Frank Thiel im Münsteraner ›Tatort‹ (der seit Jahrzehnten laufenden deutschen Krimireihe des Ersten Deutschen Fernsehens) ist genau dieser Zug zu sehen: Thiel ist ein bodenständiger, mürrisch-herzlicher Ermittler, der sich vom überlegenen Besserwisser Prof. Boerne (Jan Josef Liefers) nicht kleinmachen lässt und ihm doch seit über zwanzig Jahren in einer Haltung aus Reibung und Zuneigung gegenübersteht. Das Grummeln ist Schutz, die Loyalität ist echt.</p>
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Neun Gewicht, Geradlinigkeit und die Fähigkeit, bei Bedarf dagegenzuhalten. Als Kriminalhauptkommissar Frank Thiel im Münsteraner ›Tatort‹ (der seit Jahrzehnten laufenden deutschen Krimireihe des Ersten Deutschen Fernsehens) ist genau dieser Zug zu sehen: Thiel ist ein bodenständiger, mürrisch-herzlicher Ermittler, der sich vom überlegenen Besserwisser Prof. Boerne (<a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a>) nicht kleinmachen lässt und ihm doch seit über zwanzig Jahren in einer Haltung aus Reibung und Zuneigung gegenübersteht. Das Grummeln ist Schutz, die Loyalität ist echt.</p>
           <p class="vb-intro">Der Achterflügel zeigt sich auch darin, dass Prahl Figuren mit Widerstandskraft spielt: Menschen, die einstecken und trotzdem stehen bleiben.</p>
         </blockquote>
 
@@ -3249,6 +3249,7 @@ export function axelPrahlPortraitPage() {
         <h2 class="vb-section">7. Parallelen im selben Subtyp: Dietmar Bär und Robbie Coltrane</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die engste Parallele ist <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Dietmar Bär</a> (SE9w8): Auch er ist seit Jahrzehnten ein beliebter ›Tatort‹-Kommissar (Ballauf in Köln), bodenständig, genussfreudig und direkt, und auch er verbindet das über viele Jahre mit einem festen Gegenüber. <a href="javascript:void(0)" data-route="beruehmte-robbie-coltrane">Robbie Coltrane</a> (SE9w8) zeigt dieselbe Verbindung aus gutmütiger Fülle und Schärfe darunter, nur in anderen Rollen, vom Hagrid bis zum Polizeipsychologen Fitz.</p>
+          <p class="vb-intro">Ein besonderes Gegenüber ist <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) als Prof. Boerne: der soziale Siebener als Gegenstück zur selbsterhaltenden Neun. Beide spielen seit 2002 im Münsteraner ›Tatort‹ ein Duo, in dem die Neun erdet und die Sieben antreibt (siehe sein Porträt).</p>
         </blockquote>
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
@@ -3266,6 +3267,7 @@ export function axelPrahlPortraitPage() {
         {route:"lebensmusterkompass/se9", label:"Lebensmusterkompass: SE9 – Elefant"},
         {route:"beruehmte-dietmar-baer", label:"Porträt: Dietmar Bär (SE9w8)"},
         {route:"beruehmte-robbie-coltrane", label:"Porträt: Robbie Coltrane (SE9w8)"},
+        {route:"beruehmte-jan-josef-liefers", label:"Porträt: Jan Josef Liefers (SO7w6) – Boerne im Münsteraner Tatort"},
       ])}
     </div>
   `);

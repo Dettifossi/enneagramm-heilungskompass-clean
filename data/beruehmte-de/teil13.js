@@ -3305,7 +3305,7 @@ export function maxMuellerPortraitPage() {
 
         <h2 class="vb-section">7. Parallelen im selben Subtyp: Rowan Atkinson und Paul Ronzheimer</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) teilt mit Müller den Sechserflügel und das Muster ›Zugehörigkeit statt Ausbruch‹, nur dass Atkinson es in Komik verwandelt. <a href="javascript:void(0)" data-route="beruehmte-paul-ronzheimer">Paul Ronzheimer</a> (SO7w6) zeigt den Biber, der dort baut, wo andere nicht hinkommen: ebenfalls kein Mann des Rampenlichts um seiner selbst willen, sondern ein Dienender am Werk.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) teilt mit Müller den Sechserflügel und das Muster ›Zugehörigkeit statt Ausbruch‹, nur dass Atkinson es in Komik verwandelt. <a href="javascript:void(0)" data-route="beruehmte-paul-ronzheimer">Paul Ronzheimer</a> (SO7w6) zeigt den Biber, der dort baut, wo andere nicht hinkommen: ebenfalls kein Mann des Rampenlichts um seiner selbst willen, sondern ein Dienender am Werk. <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) schließlich ist als Boerne im Münsteraner ›Tatort‹ ebenfalls seit über zwanzig Jahren Teil eines festen Serien-Tandems.</p>
         </blockquote>
 
         <h2 class="vb-section">8. Stand im November 2026</h2>

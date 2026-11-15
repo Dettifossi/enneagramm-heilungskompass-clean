@@ -351,6 +351,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-alexander-duda", label: "Neues EN-Porträt: Alexander Duda" },
   { hash: "#beruehmte-max-mueller", label: "Neues Porträt: Max Müller" },
   { hash: "en/#beruehmte-max-mueller", label: "Neues EN-Porträt: Max Müller" },
+  { hash: "#beruehmte-jan-josef-liefers", label: "Neues Porträt: Jan Josef Liefers" },
+  { hash: "en/#beruehmte-jan-josef-liefers", label: "Neues EN-Porträt: Jan Josef Liefers" },
   { hash: "#beruehmte-heinz-erhardt", label: "Neues Porträt: Heinz Erhardt" },
   { hash: "en/#beruehmte-heinz-erhardt", label: "Neues EN-Porträt: Heinz Erhardt" },
   { hash: "#beruehmte-rainer-hunold", label: "Neues Porträt: Rainer Hunold" },

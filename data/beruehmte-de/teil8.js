@@ -3266,3 +3266,83 @@ export function katyOBrianPortraitPage() {
     </div>
   `);
 }
+
+export function janJosefLiefersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jan-josef-liefers-portrait.jpg" alt="Jan Josef Liefers – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jan-josef-liefers-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Jan Josef Liefers</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Musiker, Regisseur und Produzent, geb. 1964 in Dresden &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber aus Dresden: erst das Handwerk, dann die Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> baut, und er baut mit dem Material, das er findet. Jan Josef Liefers wurde am 8. August 1964 in Dresden geboren. Bevor er Schauspieler wurde, machte er eine Tischlerlehre, ein Handwerk, in dem man aus rohem Holz etwas Brauchbares und Schönes fügt. Von 1983 bis 1987 folgte die Schauspielausbildung an der Hochschule für Schauspielkunst ›Ernst Busch‹ in Berlin.</p>
+          <p class="vb-intro">Aus dem Schauspieler wurde über die Jahre ein Mann mit mehreren Standbeinen: Film und Fernsehen, Theater, Regie, Produktion und Musik. Das passt zum Bild des Bibers, der nie nur ein Projekt hat, sondern ein ganzes Revier, an dem er baut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Siebener: Lebenslust im Dienst der Runde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Siebener</strong> gilt als der <em>Kontratyp</em> (Gegentyp) der Sieben: Statt Genuss und Vergnügen allein für sich zu suchen, stellt er Einfallsreichtum, Humor und Tatkraft in den Dienst einer Gemeinschaft. Claudio Naranjo sprach hier von <em>Opfer</em> (Sacrifice): Das eigene Vergnügen wird teilweise zurückgestellt, um dazuzugehören und gebraucht zu werden. Im Lebensmusterkompass dieser App steht dafür der Biber, der rastlos im Dienst eines größeren Ganzen baut.</p>
+          <p class="vb-intro">Bei Liefers zeigt sich das in der Fülle seiner Tätigkeiten und im Gruppenbezug: Er ist nicht nur der Schauspieler im Rampenlicht, sondern auch der Bandleader, der Regisseur und der Produzent, der Dinge in Gang bringt. Das bleibt eine Deutung aus der Außensicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Zugehörigkeit, Teamgeist und Verletzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Loyalität, den Wunsch nach Zugehörigkeit und eine feine Wahrnehmung dafür, wie man im Kreis der anderen dasteht. Man erkennt ihn an Liefers dort, wo es um Gruppen geht: das jahrzehntelange Tandem im Münsteraner ›Tatort‹, die Band, die langjährige Partnerschaft mit der Schauspielerin und Sängerin Anna Loos, die er 1999 bei den Dreharbeiten zu ›Halt mich fest!‹ kennenlernte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Boerne, die Kunst des geistreichen Überlegenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seit 2002 spielt Liefers im WDR-›Tatort‹ aus Münster (Deutschlands langlaufende Sonntagabend-Krimireihe) den Rechtsmediziner Professor Karl-Friedrich Boerne, einen brillanten, eitlen, wortgewandten Gelehrten, der sich dem bodenständigen Kommissar Thiel überlegen fühlt. Die Kunst besteht darin, diesen Besserwisser so zu spielen, dass das Publikum ihn liebt: mit komischem Timing, Selbstironie und einem Wortwitz, der treffsicher bleibt, ohne zu verletzen. Die Münsteraner Folgen gehören seit Jahren zu den beliebtesten der Reihe.</p>
+          <p class="vb-intro">Dazu kommt seine Arbeit hinter und neben der Kamera: Die Datenbank filmportal führt ihn als Regisseur, Drehbuchautor und Produzent, und mit seiner Band Oblivion trat er unter anderem 2006 bei der RuhrTriennale auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Tandem: Thiel und Boerne, Prahl und Liefers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Liefers' Gegenüber ist <a href="javascript:void(0)" data-route="beruehmte-axel-prahl">Axel Prahl</a> (SE9w8) als Kommissar Frank Thiel. Das Paar zeigt, wie zwei Enneagramm-Typen einander ergänzen: Prahls Thiel ist die selbsterhaltende Neun, ruhig, bodenständig, grummelig-herzlich; Liefers' Boerne ist der soziale Siebener, quirlig, redegewandt, immer in Bewegung. Die Neun bremst, die Sieben treibt; die Neun erdet, die Sieben hebt ab. Aus dieser Reibung entsteht die Komik, und weil beide seit über zwanzig Jahren miteinander spielen, wirkt die Beziehung auf dem Bildschirm echt. Das ist eine Deutung des Duos, keine Aussage über ihr Privatleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Sturm von 2021: ›#allesdichtmachen‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im April 2021 beteiligte sich Liefers an der satirischen Videoaktion ›#allesdichtmachen‹, in der mehr als fünfzig Schauspieler die deutschen Corona-Maßnahmen ironisch kritisierten. Die Aktion löste heftige Reaktionen aus: Lob von einzelnen Seiten, scharfe Kritik von vielen anderen, auch Forderungen nach beruflichen Konsequenzen. Liefers wies die Nähe zu den ›Querdenkern‹ (einer Protestbewegung gegen die Corona-Politik) zurück, distanzierte sich von Verschwörungstheorien und verteidigte sich in einem Fernsehinterview. Die Reaktion beschrieb er später als eine Art ›Knalltrauma‹.</p>
+          <p class="vb-intro">Aus enneagrammatischer Sicht ist das aufschlussreich, ohne ein politisches Urteil zu enthalten: Für den sozialen Siebener mit Sechserflügel ist das Dazugehören ein Kernthema. Wo eine pointierte Meinungsäußerung zu einem heftigen Ausschluss aus dem öffentlichen Kreis führt, trifft das genau diese empfindliche Stelle. Das bleibt eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten des sozialen Siebeners mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in Humor, Vielseitigkeit und Tatkraft, mit der Liefers eine Gemeinschaft mitreißt. Der Schatten des Siebeners wäre, Unangenehmes mit Witz zu überspielen; beim Sechserflügel kommt die Empfindlichkeit gegenüber Ablehnung hinzu. Wie weit das auf Liefers zutrifft, ist von außen nicht zu beurteilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Parallelen im selben Subtyp: Max Müller und Rowan Atkinson</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a> (SO7w6) ist als Polizeihauptmeister Michi Mohr ebenfalls über zwei Jahrzehnte Teil eines festen Serien-Ensembles und dient dem Ganzen aus der zweiten Reihe. <a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) teilt mit Liefers den Sechserflügel und die Verbindung aus Komik und Perfektion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Liefers lebt mit Anna Loos in Berlin und ist weiterhin als Boerne im Münsteraner ›Tatort‹ zu sehen; nach Presseberichten wurden die Verträge mit ihm und Axel Prahl bis 2029 verlängert. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und Datenbanken und sind nicht in allen Details einheitlich belegt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-axel-prahl", label:"Porträt: Axel Prahl (SE9w8) – Thiel im Münsteraner Tatort"},
+        {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6)"},
+        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

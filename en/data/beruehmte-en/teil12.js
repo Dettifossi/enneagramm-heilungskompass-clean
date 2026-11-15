@@ -3266,7 +3266,7 @@ export function maxMuellerPortraitPage() {
 
         <h2 class="vb-section">7. Parallels in the Same Subtype: Rowan Atkinson and Paul Ronzheimer</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) shares with Müller the Six-wing and the pattern of ›belonging instead of breaking out‹, except that Atkinson turns it into comedy. <a href="javascript:void(0)" data-route="beruehmte-paul-ronzheimer">Paul Ronzheimer</a> (SO7w6) shows the beaver who builds where others cannot reach: likewise no man of the limelight for its own sake but a servant of the work.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) shares with Müller the Six-wing and the pattern of ›belonging instead of breaking out‹, except that Atkinson turns it into comedy. <a href="javascript:void(0)" data-route="beruehmte-paul-ronzheimer">Paul Ronzheimer</a> (SO7w6) shows the beaver who builds where others cannot reach: likewise no man of the limelight for its own sake but a servant of the work. <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6), finally, as Boerne in the Münster ›Tatort‹, has likewise been part of a fixed series tandem for over twenty years.</p>
         </blockquote>
 
         <h2 class="vb-section">8. Status in November 2026</h2>

@@ -3289,7 +3289,7 @@ export function axelPrahlPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Directness, Grumbling and Backbone</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Nine weight, straightforwardness and the ability to push back when needed. As Detective Chief Inspector Frank Thiel in the Münster ›Tatort‹ (Germany&rsquo;s long-running Sunday-night crime series on public television), exactly this trait is visible: Thiel is a down-to-earth, grumpy-but-warm investigator who does not let himself be belittled by the superior know-it-all Prof. Boerne (Jan Josef Liefers) and yet has stood beside him for over twenty years in an attitude of friction and affection. The grumbling is protection; the loyalty is real.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Nine weight, straightforwardness and the ability to push back when needed. As Detective Chief Inspector Frank Thiel in the Münster ›Tatort‹ (Germany&rsquo;s long-running Sunday-night crime series on public television), exactly this trait is visible: Thiel is a down-to-earth, grumpy-but-warm investigator who does not let himself be belittled by the superior know-it-all Prof. Boerne (<a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a>) and yet has stood beside him for over twenty years in an attitude of friction and affection. The grumbling is protection; the loyalty is real.</p>
           <p class="vb-intro">The Eight-wing also shows in the fact that Prahl plays figures with resilience: people who take a blow and still stay standing.</p>
         </blockquote>
 
@@ -3312,6 +3312,7 @@ export function axelPrahlPortraitPage() {
         <h2 class="vb-section">7. Parallels in the Same Subtype: Dietmar Bär and Robbie Coltrane</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The closest parallel is <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Dietmar Bär</a> (SP9w8): he too has been a beloved ›Tatort‹ detective for decades (Ballauf in Cologne), down-to-earth, pleasure-loving and direct, and he too pairs this over many years with a fixed counterpart. <a href="javascript:void(0)" data-route="beruehmte-robbie-coltrane">Robbie Coltrane</a> (SP9w8) shows the same blend of good-natured fullness with sharpness underneath, only in other roles, from Hagrid to the police psychologist Fitz.</p>
+          <p class="vb-intro">A special counterpart is <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) as Prof. Boerne: the social Seven as the counterpart of the self-preservation Nine. Since 2002 the two have formed a duo in the Münster ›Tatort‹ in which the Nine grounds and the Seven drives (see his portrait).</p>
         </blockquote>
 
         <h2 class="vb-section">8. Status in November 2026</h2>
@@ -3329,6 +3330,7 @@ export function axelPrahlPortraitPage() {
         {route:"lebensmusterkompass/se9", label:"Life Pattern Compass: SP9 – Elephant"},
         {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SP9w8)"},
         {route:"beruehmte-robbie-coltrane", label:"Portrait: Robbie Coltrane (SP9w8)"},
+        {route:"beruehmte-jan-josef-liefers", label:"Portrait: Jan Josef Liefers (SO7w6) – Boerne in the Münster Tatort"},
       ])}
     </div>
   `);
