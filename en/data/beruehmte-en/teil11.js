@@ -3257,7 +3257,7 @@ export function janoschPortraitPage() {
 
         <h2 class="vb-section">7. The path of healing: from disappearing to one&rsquo;s own voice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The path of the Nine leads from dissolving into the other to a voice of one&rsquo;s own that can be heard. With Janosch the late column can be read this way: the man who wanted to be invisible spoke to his readers every week in his own name in his early eighties. This is an interpretation, not evidence of his reasons. He died on 3 November 2026, aged 95, on Tenerife.</p>
+          <p class="vb-intro">The path of the Nine leads from dissolving into the other to a voice of one&rsquo;s own that can be heard. With Janosch the late column can be read this way: the man who wanted to be invisible spoke to his readers every week in his own name in his early eighties. He died on 3 November 2026, aged 95, on Tenerife.</p>
         </blockquote>
 
       </div>
@@ -3326,7 +3326,7 @@ export function beltracchiMalerPortraitPage() {
 
         <h2 class="vb-section">7. Light and shadow, path of healing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The bright side is the capacity for deep devotion and the craft skill that grows from it. The shadow of the Nine lies in the disappearance of one&rsquo;s own position behind the counterpart, and the One-wing can persuade itself that everything is in order. The path of healing leads from dissolving into the foreign to one&rsquo;s own hand: that Beltracchi now paints and signs under his own name can be read as a step in this direction. This is an interpretation, not evidence of his motives.</p>
+          <p class="vb-intro">The bright side is the capacity for deep devotion and the craft skill that grows from it. The shadow of the Nine lies in the disappearance of one&rsquo;s own position behind the counterpart, and the One-wing can persuade itself that everything is in order. The path of healing leads from dissolving into the foreign to one&rsquo;s own hand: that Beltracchi now paints and signs under his own name can be read as a step in this direction.</p>
         </blockquote>
 
       </div>

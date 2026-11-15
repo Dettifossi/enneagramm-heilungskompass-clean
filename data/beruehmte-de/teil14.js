@@ -3095,7 +3095,7 @@ export function jeanMaraisPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Prüfen, bevor man sich verlässt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Beschreibung Claudio Naranjos trägt die selbsterhaltende Eins den Namen <em>Worry</em> (Besorgnis): ein leises, dauerhaftes Abwägen, ob man der eigenen Vorgabe genügt. Der Maßstab liegt dabei nicht draußen, sondern im eigenen Handwerk. Bei Marais lässt sich das an der Art ablesen, wie er mit dem Körper arbeitete: Schon sein Start war kein Selbstläufer. Das Pariser Konservatorium lehnte ihn ab, er arbeitete als Fotografenlehrling und spielte Statisten- und Kleinstrollen, bis 1937 Jean Cocteau auf ihn aufmerksam wurde.</p>
-          <p class="vb-intro">Auffällig ist der Rahmen, in dem das geschah. Marais wuchs in einer Familie ohne verlässliche Ordnung auf: Der Vater, ein Tierarzt, lebte kaum im Haus, die Mutter war nach den Quellen Kleptomanin und zeitweise inhaftiert. Mit der Eins lässt sich das so verbinden, dass ein Kind, das früh erlebt, wie brüchig Regeln sein können, besonders genau darauf achtet, selbst verlässlich zu sein. Das ist eine Deutung, die die Quellenlage nicht beweist.</p>
+          <p class="vb-intro">Auffällig ist der Rahmen, in dem das geschah. Marais wuchs in einer Familie ohne verlässliche Ordnung auf: Der Vater, ein Tierarzt, lebte kaum im Haus, die Mutter war nach den Quellen Kleptomanin und zeitweise inhaftiert. Mit der Eins lässt sich das so verbinden, dass ein Kind, das früh erlebt, wie brüchig Regeln sein können, besonders genau darauf achtet, selbst verlässlich zu sein.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Die Treue zu Cocteau</h2>

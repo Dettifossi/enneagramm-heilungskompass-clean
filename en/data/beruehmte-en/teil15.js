@@ -3070,7 +3070,7 @@ export function rosalieThomassPortraitPage() {
 
         <h2 class="vb-section">7. The path of healing: from play to depth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The path of the Seven leads from the lure of the next thing to staying in the present. When an actress writes over years the story of a woman who wants to feel at home in her body, this can be read as a step towards depth: play not as escape but as a means to clarify something of one&rsquo;s own. This is an interpretation, not a finding.</p>
+          <p class="vb-intro">The path of the Seven leads from the lure of the next thing to staying in the present. When an actress writes over years the story of a woman who wants to feel at home in her body, this can be read as a step towards depth: play not as escape but as a means to clarify something of one&rsquo;s own.</p>
         </blockquote>
 
       </div>
@@ -3320,7 +3320,7 @@ export function leaBoscoPortraitPage() {
 
         <h2 class="vb-section">2. The sexual Six: fear as a playing field</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual Six (SP6)</strong> is the counter-type of the Six: she does not look anxious but strong, direct, sometimes challenging, and moves towards what frightens. In Naranjo this subtype is called &lsquo;strength and beauty&rsquo;. With Bosco this shows in her career: she keeps moving into fields in which one exposes oneself, from theatre under a famous director through English-language co-productions to directing. Her own site calls directing a &lsquo;new playing field&rsquo; with &lsquo;nouveaux défis&rsquo; (&lsquo;new challenges&rsquo;) and roles &lsquo;autant de cadeaux&rsquo; (&lsquo;so many gifts&rsquo;). The classification is an interpretation, not a diagnosis.</p>
+          <p class="vb-intro">The <strong>sexual Six (SP6)</strong> is the counter-type of the Six: she does not look anxious but strong, direct, sometimes challenging, and moves towards what frightens. In Naranjo this subtype is called &lsquo;strength and beauty&rsquo;. With Bosco this shows in her career: she keeps moving into fields in which one exposes oneself, from theatre under a famous director through English-language co-productions to directing. Her own site calls directing a &lsquo;new playing field&rsquo; with &lsquo;nouveaux défis&rsquo; (&lsquo;new challenges&rsquo;) and roles &lsquo;autant de cadeaux&rsquo; (&lsquo;so many gifts&rsquo;).</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven-wing: versatility with a wink</h2>
@@ -3336,7 +3336,7 @@ export function leaBoscoPortraitPage() {
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Bright is the agility of a woman who after decades in the business keeps finding new roles for herself: performer, director, author, teacher. The shadow of the sexual Six is the compulsion to prove oneself: whoever fights fear can hardly allow herself to show it. Her own presentation, by contrast, shows rather composure and humour.</p>
-          <p class="vb-intro">What stands out is how little private information about her is public: nothing on a partner, family or home, no interviews in which she speaks about it. This is no statement about her life but about her visibility, and the reading stays cautious. Such a pattern fits the sexual Six well: she first tests whom to trust and does not negotiate closeness in public. The wolf does not show its territory to everyone, and this subtype is often very present in the profession and very reserved in private. With Bosco the work stands in the light, the person behind it remains largely in the shadow.</p>
+          <p class="vb-intro">What stands out is how little private information about her is public: nothing on a partner, family or home, no interviews in which she speaks about it. This is no statement about her life but about her visibility. Such a pattern fits the sexual Six well: she first tests whom to trust and does not negotiate closeness in public. The wolf does not show its territory to everyone, and this subtype is often very present in the profession and very reserved in private. With Bosco the work stands in the light, the person behind it remains largely in the shadow.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
@@ -3881,7 +3881,7 @@ export function henriRousseauPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bright is the steadfastness with which Rousseau kept painting for decades although hardly anyone took him seriously. The shadow of the Nine lies in the trust that sees no danger. In 1907 he got caught up in a bank fraud: he is said to have obtained cheques under a false identity and tried to withdraw 21,000 francs. Whether he was deceived by an acquaintance or took part knowingly is unclear according to the sources. By one account he was convicted of complicity in 1909, but the sentence was suspended because of his age and his apparent failure to understand his own role. The Barnes Foundation reports that at the trial his pictures were shown as evidence of his innocence. The typing remains an interpretation, no judgement of his character.</p>
+          <p class="vb-intro">Bright is the steadfastness with which Rousseau kept painting for decades although hardly anyone took him seriously. The shadow of the Nine lies in the trust that sees no danger. In 1907 he got caught up in a bank fraud: he is said to have obtained cheques under a false identity and tried to withdraw 21,000 francs. Whether he was deceived by an acquaintance or took part knowingly is unclear according to the sources. By one account he was convicted of complicity in 1909, but the sentence was suspended because of his age and his apparent failure to understand his own role. The Barnes Foundation reports that at the trial his pictures were shown as evidence of his innocence.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>

@@ -2986,7 +2986,7 @@ export function karolinaLodygaPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Antwort</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sechs trägt Zweifel in sich, und die <strong>sexuelle Sechs (SX6)</strong> beantwortet das nach Claudio Naranjo nicht mit Anlehnung, sondern mit Stärke. Bei Lodyga lässt sich das aus ihrer Rollenwahl lesen, nicht aus eigenen Aussagen: Sie spielt häufig Frauen, die sich behaupten, etwa die Kriminalkommissarin Zofia Kowalska im ›Masuren-Krimi‹ (seit 2021) und Danuta Masik in der Reihe ›Die Eifelpraxis‹ (2016 bis 2019). Das ist eine Deutung, die sich auf die Rollen stützt, nicht auf Selbstaussagen.</p>
+          <p class="vb-intro">Die Sechs trägt Zweifel in sich, und die <strong>sexuelle Sechs (SX6)</strong> beantwortet das nach Claudio Naranjo nicht mit Anlehnung, sondern mit Stärke. Bei Lodyga lässt sich das aus ihrer Rollenwahl lesen, nicht aus eigenen Aussagen: Sie spielt häufig Frauen, die sich behaupten, etwa die Kriminalkommissarin Zofia Kowalska im ›Masuren-Krimi‹ (seit 2021) und Danuta Masik in der Reihe ›Die Eifelpraxis‹ (2016 bis 2019).</p>
           <p class="vb-intro">Auch ihr Weg zeigt Zähigkeit: Aus einer Berliner Studiobühne wurde über Jahre eine Fernsehkarriere mit Rollen von Telenovela über Drama bis zum Krimi.</p>
         </blockquote>
 
@@ -3011,7 +3011,7 @@ export function karolinaLodygaPortraitPage() {
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Stark ist die Verlässlichkeit: Wer über Jahre Rollen von der Telenovela bis zum Fernsehfilm trägt, wird zum Gesicht, auf das man zählt. Hell ist auch die Geselligkeit, die sie nach eigener Aussage aus Zusammenarbeit zieht.</p>
-          <p class="vb-intro">Die Schattenseite der Sechs mit Siebenerflügel kann der Dauereinsatz sein: Wer immer neue Rollen annimmt, hat wenig Zeit, die eigene Sorge zu spüren. Eigene Aussagen von ihr dazu liegen nicht vor, dieser Satz ist eine Deutung.</p>
+          <p class="vb-intro">Die Schattenseite der Sechs mit Siebenerflügel kann der Dauereinsatz sein: Wer immer neue Rollen annimmt, hat wenig Zeit, die eigene Sorge zu spüren. Eigene Aussagen von ihr dazu liegen nicht vor.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Franken, Familie und neue Rollen</h2>

@@ -2941,7 +2941,7 @@ export function karolinaLodygaPortraitPage() {
 
         <h2 class="vb-section">2. The sexual Six: strength as the answer</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six carries doubt within, and the <strong>sexual Six (SX6)</strong> answers this, according to Claudio Naranjo, not with leaning on others but with strength. In Lodyga this can be read from her choice of roles, not from statements of her own: she often plays women who assert themselves, such as the police inspector Zofia Kowalska in &lsquo;Der Masuren-Krimi&rsquo; (since 2021) and Danuta Masik in the series &lsquo;Die Eifelpraxis&rsquo; (2016 to 2019). This is an interpretation based on the roles, not on self-statements.</p>
+          <p class="vb-intro">The Six carries doubt within, and the <strong>sexual Six (SX6)</strong> answers this, according to Claudio Naranjo, not with leaning on others but with strength. In Lodyga this can be read from her choice of roles, not from statements of her own: she often plays women who assert themselves, such as the police inspector Zofia Kowalska in &lsquo;Der Masuren-Krimi&rsquo; (since 2021) and Danuta Masik in the series &lsquo;Die Eifelpraxis&rsquo; (2016 to 2019).</p>
           <p class="vb-intro">Her path also shows toughness: from a Berlin studio stage over the years came a television career with roles from telenovela through drama to crime.</p>
         </blockquote>
 
@@ -2966,7 +2966,7 @@ export function karolinaLodygaPortraitPage() {
         <h2 class="vb-section">6. Light and shadow of the sexual Six with Seven-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Strong is the reliability: someone who carries roles from telenovela to television film for years becomes a face one can count on. Bright too is the sociability that she, by her own account, draws from working together.</p>
-          <p class="vb-intro">The shadow side of the Six with a Seven-wing can be constant activity: someone who keeps taking on new roles has little time to feel one&rsquo;s own worry. No statements of her own on this exist; this sentence is an interpretation.</p>
+          <p class="vb-intro">The shadow side of the Six with a Seven-wing can be constant activity: someone who keeps taking on new roles has little time to feel one&rsquo;s own worry. No statements of her own on this exist.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: Franconia, family and new roles</h2>

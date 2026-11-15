@@ -3105,12 +3105,12 @@ export function joeVitalePortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the self-preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of this subtype is the readiness to share what has been gained and to encourage others. In Vitale it shows in his involvement for people without housing and in teaching. The shadow of the Two lies in the fact that giving can be linked with the quiet expectation of being needed and recognized for it. This is an interpretation of the pattern, not a statement about his motives, which only he himself knows.</p>
+          <p class="vb-intro">The light of this subtype is the readiness to share what has been gained and to encourage others. In Vitale it shows in his involvement for people without housing and in teaching. The shadow of the Two lies in the fact that giving can be linked with the quiet expectation of being needed and recognized for it.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The path of healing: from being needed to self-acceptance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The path of the Two leads from indispensability to humility: from the thought of having to earn attention to the experience that one is already enough. The sentences of the Ho&lsquo;oponopono method that Vitale has spread can be read as an invitation to this attitude: taking responsibility, saying thanks, speaking love. How far he has walked this path himself cannot be judged from outside.</p>
+          <p class="vb-intro">The path of the Two leads from indispensability to humility: from the thought of having to earn attention to the experience that one is already enough. The sentences of the Ho&lsquo;oponopono method that Vitale has spread can be read as an invitation to this attitude: taking responsibility, saying thanks, speaking love.</p>
         </blockquote>
 
       </div>
@@ -3360,7 +3360,7 @@ export function bruceDarnellPortraitPage() {
 
         <h2 class="vb-section">2. The sexual Two: turning a whole audience into one encounter</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual Two (SP2)</strong> directs the Two&rsquo;s energy not at the large group but at the direct, personal space between two people. In Naranjo this subtype is called aggressiveness/seduction: an active, forward-moving approach to the other. Darnell&rsquo;s television personality lives on exactly this: he addresses a contestant, a viewer, a camera as if she were the only one in the room. His trademark is affection and feeling, not strictness: he cries openly on television and defends it. In the documentary <em>Absolut Bruce Darnell</em> (2019) he said: &lsquo;Today there are only two options: you can play a role or you can stay yourself.&rsquo; The classification is an interpretation, not a diagnosis.</p>
+          <p class="vb-intro">The <strong>sexual Two (SP2)</strong> directs the Two&rsquo;s energy not at the large group but at the direct, personal space between two people. In Naranjo this subtype is called aggressiveness/seduction: an active, forward-moving approach to the other. Darnell&rsquo;s television personality lives on exactly this: he addresses a contestant, a viewer, a camera as if she were the only one in the room. His trademark is affection and feeling, not strictness: he cries openly on television and defends it. In the documentary <em>Absolut Bruce Darnell</em> (2019) he said: &lsquo;Today there are only two options: you can play a role or you can stay yourself.&rsquo;</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-wing: runway, camera, brand</h2>

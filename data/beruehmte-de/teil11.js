@@ -3035,7 +3035,7 @@ export function rosalieThomassPortraitPage() {
 
         <h2 class="vb-section">7. Der Heilungsweg: vom Spiel zur Tiefe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Weg der Sieben führt vom Reiz des Nächsten zum Bleiben im Gegenwärtigen. Wenn eine Schauspielerin über Jahre die Geschichte einer Frau schreibt, die sich in ihrem Körper wohlfühlen will, lässt sich das als ein Schritt zur Tiefe lesen: das Spiel nicht als Flucht, sondern als Mittel, etwas Eigenes zu klären. Das ist eine Deutung, kein Befund.</p>
+          <p class="vb-intro">Der Weg der Sieben führt vom Reiz des Nächsten zum Bleiben im Gegenwärtigen. Wenn eine Schauspielerin über Jahre die Geschichte einer Frau schreibt, die sich in ihrem Körper wohlfühlen will, lässt sich das als ein Schritt zur Tiefe lesen: das Spiel nicht als Flucht, sondern als Mittel, etwas Eigenes zu klären.</p>
         </blockquote>
 
       </div>

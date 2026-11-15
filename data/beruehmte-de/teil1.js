@@ -3336,7 +3336,7 @@ export function ilseAignerPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorgfalt als Lebensversicherung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihre Strenge auf das, was das Leben trägt: Verlässlichkeit, Ordnung, Vorsorge. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Worry</em>, die Sorge, dass etwas nicht stimmt oder nicht reicht. Das Berufsbild der Hubschrauber-Elektrikerin passt zu diesem Muster: Wer Systeme baut, an denen Leben hängt, prüft doppelt. In der Politik zeigt sich dieselbe Haltung im Satz aus ihrer Antrittsrede als Landtagspräsidentin 2018: ›Demokratie ist nie nur Gabe, sie bleibt immer Aufgabe.‹ Eine Gabe, die man nicht pflegt, geht verloren; das ist Vorsorge in der Sprache der Eins.</p>
-          <p class="vb-intro">Dazu gehört ihre Warnung vor einer ›Stimmungsdemokratie‹ und die Forderung nach respektvollem Umgang. Die Zuordnung ist eine Deutung, keine Diagnose.</p>
+          <p class="vb-intro">Dazu gehört ihre Warnung vor einer ›Stimmungsdemokratie‹ und die Forderung nach respektvollem Umgang.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Dienst, Ermutigung, Verbindlichkeit</h2>

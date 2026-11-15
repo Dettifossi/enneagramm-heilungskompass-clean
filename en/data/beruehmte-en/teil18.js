@@ -3215,7 +3215,7 @@ export function lewisCapaldiPortraitPage() {
         <h2 class="vb-section">2. The self-preservation Four: enduring pain without staging it</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> carries a deep emotional life quietly and does not put it on display. According to Claudio Naranjo her key word is <em>dauntlessness</em>: the ability to endure one&rsquo;s own suffering without making a show of it. With Capaldi the suffering becomes song, but it is not decorated: the big ballads are about heartbreak and loss, and &lsquo;Someone You Loved&rsquo; is widely reported to have been written after the death of his grandmother. He presents grief plainly, almost without a pose.</p>
-          <p class="vb-intro">Typical for this subtype is what he does around it. He makes himself small before others can: in interviews and online he mocks his looks, his songs and himself. This self-deprecating humour reads as a shield; it lets the inner depth remain private while the public gets someone to laugh with. The classification is an interpretation, not a diagnosis.</p>
+          <p class="vb-intro">Typical for this subtype is what he does around it. He makes himself small before others can: in interviews and online he mocks his looks, his songs and himself. This self-deprecating humour reads as a shield; it lets the inner depth remain private while the public gets someone to laugh with.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-wing: the stage, the charts, the pressure</h2>

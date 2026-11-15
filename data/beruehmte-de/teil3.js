@@ -3181,7 +3181,7 @@ export function lewisCapaldiPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Schmerz aushalten, ohne ihn zu inszenieren</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr tiefes Gefühlsleben still und stellt es nicht zur Schau. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Dauntlessness</em>, die Unerschrockenheit, das eigene Leiden auszuhalten, ohne es zur Schau zu stellen. Bei Capaldi wird das Leiden zum Lied, aber es wird nicht verziert: Die großen Balladen handeln von Liebeskummer und Verlust, und ›Someone You Loved‹ soll nach Medienberichten nach dem Tod seiner Großmutter entstanden sein. Er stellt Trauer schlicht dar, fast ohne Pose.</p>
-          <p class="vb-intro">Typisch für diesen Subtyp ist, was er drumherum tut. Er macht sich klein, bevor andere es tun: In Interviews und im Netz macht er sich über sein Aussehen, seine Lieder und sich selbst lustig. Dieser selbstironische Humor wirkt wie ein Schutzschild; er lässt die innere Tiefe privat und gibt der Öffentlichkeit jemanden, mit dem man lachen kann. Die Zuordnung ist eine Deutung, keine Diagnose.</p>
+          <p class="vb-intro">Typisch für diesen Subtyp ist, was er drumherum tut. Er macht sich klein, bevor andere es tun: In Interviews und im Netz macht er sich über sein Aussehen, seine Lieder und sich selbst lustig. Dieser selbstironische Humor wirkt wie ein Schutzschild; er lässt die innere Tiefe privat und gibt der Öffentlichkeit jemanden, mit dem man lachen kann.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: Bühne, Charts, Druck</h2>

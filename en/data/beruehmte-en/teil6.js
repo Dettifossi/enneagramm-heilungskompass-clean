@@ -3226,7 +3226,7 @@ export function violetJessopPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> carries the demand on itself inward. In Naranjo this subtype is called <em>Worry</em>: the quiet, constant question of whether one is really fulfilling one&rsquo;s task. Security does not come from luck but from duty, from discipline and from being able to rely on oneself.</p>
           <p class="vb-intro">This logic can be read in Jessop&rsquo;s life story. As the eldest of nine siblings, after her father&rsquo;s early death, with a mother who herself worked at sea, working on ships was not an adventure but the way to carry responsibility. That she stayed in the same profession for decades &ndash; from 1908 until her retirement in 1950, with interruptions &ndash; shows a steadiness that is typical of the SP1: not the grand appearance, but carrying on.</p>
-          <p class="vb-intro">Any classification remains an interpretation: the documented facts show the outside of a life, not its inner world. What Jessop felt when she took up a duty roster again after a disaster, we know only from her late memoirs and from the accounts of others.</p>
+          <p class="vb-intro">What Jessop felt when she took up a duty roster again after a disaster, we know only from her late memoirs and from the accounts of others.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two wing: care as a profession</h2>

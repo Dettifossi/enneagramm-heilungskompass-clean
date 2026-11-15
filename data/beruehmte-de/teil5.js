@@ -3131,7 +3131,7 @@ export function violetJessopPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt den Anspruch an sich selbst nach innen. Bei Naranjo heißt dieser Subtyp <em>Worry</em> &ndash; Besorgnis: die stille, ständige Frage, ob man seine Aufgabe wirklich erfüllt. Sicherheit entsteht für ihn nicht aus Glück, sondern aus Pflichterfüllung, aus Disziplin und daraus, dass man sich auf sich selbst verlassen kann.</p>
           <p class="vb-intro">Genau diese Logik lässt sich in Jessops Lebenslauf ablesen. Als Älteste von neun Geschwistern, nach dem frühen Tod des Vaters, mit einer Mutter, die selbst auf See arbeitete, war die Arbeit auf den Schiffen kein Abenteuer, sondern der Weg, Verantwortung zu tragen. Dass sie über Jahrzehnte im selben Beruf blieb &ndash; 1908 bis zum Ruhestand 1950, mit Unterbrechungen &ndash; zeigt eine Beständigkeit, die für die SE1 typisch ist: nicht der große Auftritt, sondern das Weitermachen.</p>
-          <p class="vb-intro">Eine Einordnung bleibt eine Deutung: Aus den überlieferten Tatsachen lässt sich die Außenseite eines Lebens ablesen, nicht seine innere Welt. Was Jessop empfand, wenn sie nach einem Unglück wieder einen Dienstplan annahm, wissen wir nur aus ihren späten Erinnerungen und aus den Berichten anderer.</p>
+          <p class="vb-intro">Was Jessop empfand, wenn sie nach einem Unglück wieder einen Dienstplan annahm, wissen wir nur aus ihren späten Erinnerungen und aus den Berichten anderer.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als Beruf</h2>
