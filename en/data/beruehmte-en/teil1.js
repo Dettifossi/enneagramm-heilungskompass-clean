@@ -3248,3 +3248,77 @@ export function mattDamonPortraitPage() {
     </div>
   `);
 }
+
+export function alexanderDudaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alexander-duda-portrait.jpg" alt="Alexander Duda – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-alexander-duda-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Alexander Duda</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">Actor, theatre director and dubbing artist, b. 1955 in Munich &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus from Munich: A Life in Acting From Childhood On</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hippopotamus</strong> looks placid and good-natured and yet is one of the strongest animals of its territory: it stays at its place. Alexander Duda was born on 1 March 1955 in Munich and comes from a family of actors. His father Gernot Duda (1927&ndash;2004) was a stage, film and television actor and also known as a dubbing artist; according to one profile, his younger sister Solveig went into the same profession.</p>
+          <p class="vb-intro">From 1975 to 1978 he attended the Otto Falckenberg School in Munich. Afterwards he worked in the theatre, according to databases at the Theater am Neumarkt in Zurich (from 1979), at the Thalia Theater in Hamburg (1985 to 1988) and later at the Münchner Volkstheater, to which he is especially closely tied. He also worked as a theatre director and, as a dubbing artist, lent his German voice to international actors.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Indispensability as Access to Closeness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Two the subtype of <em>privilege</em>: belonging and significance are not demanded but secured through care, commitment and the quiet feeling of being needed. One earns one&rsquo;s place in other people&rsquo;s lives by being indispensable. In this app&rsquo;s Life Pattern Compass, the hippopotamus stands for this: good-natured, rooted, with quiet strength.</p>
+          <p class="vb-intro">In Duda&rsquo;s case this shows in work and private life alike: as a reliable presence in an ensemble and as a long-term partner. He has been with the actress Jutta Schmuttermaier for over thirty years; the couple have two grown children, and according to media reports she appeared in several roles in the ›Rosenheim-Cops‹. This remains an interpretation from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Decency and Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Two seriousness, a sense of duty and an inner standard for how one should behave. That fits his best-known character: since 2006 Duda has played Police Director Gert Achtziger, the superior of the investigators, in the ZDF series ›Die Rosenheim-Cops‹ (›The Rosenheim Cops‹). It is a role in which care and order come together: a boss who carries responsibility without seeming cold. This is an interpretation of the character and his portrayal, not derived from statements by the actor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Authority With Warmth, One Character Over Two Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Duda is the ability to play a superior so that the role does not freeze into a template. He first appeared in the series in 2003 as a guest, as the pharmacist Wolfgang Hartl in the episode ›Gefährliche Freundschaft‹ (›Dangerous Friendship‹), and returned in 2006 as Achtziger, a role he carried for about twenty years. At the same time he stayed true to the theatre and to the voice: as a dubbing artist one works with expression, rhythm and breath alone, and as a theatre director one guides others instead of standing in the centre oneself. Both fit a person who seeks impact through service to the whole.</p>
+          <p class="vb-intro">In 2017, together with his colleagues Marisa Burger and Max Müller, he received the Bavarian State Medal for Internal Security (›Stern der Sicherheit‹, ›Star of Security‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Involuntary Farewell: Wanting to Stay</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In autumn 2026 it became known that Duda is leaving the series after about twenty years; his character retires within the story. ZDF called it a dramaturgical decision. According to media reports, he said in essence that he found it a pity that this would be his last season, that Achtziger could easily have gone on until eighty, and that he bears no grudge. The departure was reportedly not entirely voluntary. His last day of shooting was said to be emotional, not least because his wife acted alongside him; according to current information, the on-screen farewell is planned for spring 2027.</p>
+          <p class="vb-intro">For a self-preservation Two this is telling: the hippopotamus stays at its place, and a change that does not come from him strikes the spot where belonging was secured. That he remains free of resentment fits the One-wing, which keeps its composure. This remains an interpretation from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Self-Preservation Two with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability, loyalty and an authority that allows warmth. The shadow of the Two would be to make one&rsquo;s own worth too dependent on being needed; the One-wing can add strictness towards oneself. How far this applies to Duda cannot be judged from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Joachim Llambi and Franka Potente</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-joachim-llambi">Joachim Llambi</a> (SP2w1) shows the same blend of strictness and care: the hippopotamus whose toughness is an act of love also stands behind Duda&rsquo;s police director. <a href="javascript:void(0)" data-route="beruehmte-franka-potente">Franka Potente</a> (SP2w1) stands for care within the familiar circle and artistic integrity, another face of the same rooted strength.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status in November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Duda can still be seen as Achtziger; his exit from the ›Rosenheim-Cops‹ has been announced, and the exact broadcast date was not known at the time of research. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer. Biographical details come from media reports and databases and are not consistently documented in every detail.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
+        {route:"beruehmte-joachim-llambi", label:"Portrait: Joachim Llambi (SP2w1)"},
+        {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},
+      ])}
+    </div>
+  `);
+}
