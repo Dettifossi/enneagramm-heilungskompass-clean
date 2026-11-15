@@ -3299,7 +3299,7 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">3. The Six-Wing: Belonging, Team Spirit and Vulnerability</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings loyalty, the wish to belong and a fine sense of how one stands in the eyes of others. It can be recognised in Liefers wherever groups are concerned: the decades-long tandem in the Münster ›Tatort‹, the band, the long partnership with the actress and singer Anna Loos, whom he met in 1999 on the set of ›Halt mich fest!‹ (›Hold Me Tight!‹).</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings loyalty, the wish to belong and a fine sense of how one stands in the eyes of others. It can be recognised in Liefers wherever groups are concerned: the decades-long tandem in the Münster ›Tatort‹, the band, the long partnership with the actress and singer <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a>, whom he met in 1999 on the set of ›Halt mich fest!‹ (›Hold Me Tight!‹).</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Substance: Boerne, the Art of the Witty Superior</h2>
@@ -3331,7 +3331,7 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">9. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Liefers lives in Berlin with Anna Loos and can still be seen as Boerne in the Münster ›Tatort‹; according to press reports, the contracts with him and Axel Prahl have been extended to 2029. The classification as SO7w6 is an interpretation, derived from his life story and public work according to the Enneagram profiling system of David L. Rathmer. The details of the events of 2021 and of his contract situation rest on press reports.</p>
+          <p class="vb-intro">Liefers lives in Berlin with <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a> and can still be seen as Boerne in the Münster ›Tatort‹; according to press reports, the contracts with him and Axel Prahl have been extended to 2029. The classification as SO7w6 is an interpretation, derived from his life story and public work according to the Enneagram profiling system of David L. Rathmer. The details of the events of 2021 and of his contract situation rest on press reports.</p>
         </blockquote>
 
       </div>
@@ -3345,6 +3345,7 @@ export function janJosefLiefersPortraitPage() {
         {route:"beruehmte-axel-prahl", label:"Portrait: Axel Prahl (SP9w8) – Thiel in the Münster Tatort"},
         {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SO7w6)"},
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-anna-loos", label:"Portrait: Anna Loos (SX6w7) – actress and singer"},
       ])}
     </div>
   `);

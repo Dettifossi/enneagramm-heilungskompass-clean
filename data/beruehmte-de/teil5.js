@@ -3174,3 +3174,77 @@ export function violetJessopPortraitPage() {
     </div>
   `);
 }
+
+export function annaLoosPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anna-loos-portrait.jpg" alt="Anna Loos – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-anna-loos-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Anna Loos</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin und Sängerin, geb. 1970 in Brandenburg an der Havel &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf aus Brandenburg: die Flucht mit siebzehn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> sucht die Gefahr nicht, aber er weicht ihr auch nicht aus; sein Rudel ist ihm Schutz und Antrieb zugleich. Anna Loos wurde am 18. November 1970 in Brandenburg an der Havel geboren. Nach Berichten wurde ihr in der DDR erst das Musikstudium und dann das Abitur verwehrt. 1988, mit siebzehn Jahren, floh sie über die Tschechoslowakei und Ungarn nach Österreich in den Westen. Diese Erfahrung verarbeitete sie später in dem Silly-Lied ›Blutsgeschwister‹.</p>
+          <p class="vb-intro">Danach ließ sie sich in Hamburg an der Stage School of Music, Dance and Drama ausbilden, nach Angaben von Datenbanken ab 1992, und stand zunächst auf der Bühne, unter anderem in einem Musical und in Kabarettprogrammen. Es war ein Weg, auf dem Schauspiel, Gesang und Tanz früh zusammenkamen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Sechser: Stärke als Gegenangst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>sexuelle Sechser</strong> gilt als der <em>Kontratyp</em> (Gegentyp) der Sechs: Statt der Angst durch Anpassung oder Rückzug zu begegnen, greift er sie frontal an. Stärke, Mut und Anziehungskraft werden zur Gegenreaktion auf eine tief sitzende Unsicherheit. Im Lebensmusterkompass dieser App steht dafür der Wolf: Angst wird zum Spielfeld, nicht zum Hindernis.</p>
+          <p class="vb-intro">Bei Loos ist dieses Muster an ihrer Lebensgeschichte ablesbar. Wer als Siebzehnjährige über die Grenze flieht, handelt gegen die Angst, nicht mit ihr im Rücken. Das bleibt eine Deutung aus der Außensicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: ›Positivistin‹ und rastlos</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt dem Sechser Beweglichkeit, Humor und Zukunftslust. Loos nennt sich nach Berichten eine ›Positivistin‹ (auf die Frage, ob sie Optimistin oder Realistin sei) und beschreibt sich als einen rastlosen, ruhelosen Typ; früher habe sie Probleme immer sofort klären müssen, heute sei sie entspannter. Das ist die Sechs mit Siebener-Schwung: Sie geht nach vorn, statt abzuwarten, und sucht in der Unruhe die Bewegung. Im Lebensmusterkompass heißt dieses Muster ›nicht abwarten, sondern der Gruppe vorauslaufen‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: zwei Berufe, die einander tragen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Loos verbindet zwei Berufe, die einander tragen: Gesang und Schauspiel. Im Fernsehen spielt sie seit 2014 die LKA-Ermittlerin in der ZDF-Reihe ›Helen Dorn‹; für ihre Rolle der Sängerin Rita in ›Halt mich fest!‹ erhielt sie nach Berichten den Darstellerpreis des Fernsehfestivals Baden-Baden, und für ›Wohin mit Vater?‹ wird die Goldene Kamera 2011 genannt. Auf der Bühne ist sie als Frontfrau der Band Silly die Nachfolgerin von Tamara Danz, einer prägenden Sängerin, an der jede Nachfolgerin gemessen wird. Eine solche Aufgabe anzunehmen, ist für eine Sechserin des gegenphobischen Typs eine typische Handlung: Sie geht in die Aufgabe hinein, vor der andere zurückschrecken.</p>
+          <p class="vb-intro">Die Jahre bei Silly werden in den Quellen unterschiedlich angegeben, deshalb stehen hier keine Jahreszahlen. Wichtig ist das Muster: Stimme, Auftritt und Rolle verbinden sich bei ihr zu einem Ganzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Paar: Sechs und Sieben im Wechselspiel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anna Loos und <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) lernten sich 1999 bei den Dreharbeiten zu ›Halt mich fest!‹ kennen und leben heute in Berlin. Enneagrammatisch ist das Paar aufschlussreich: Beide bewegen sich auf der Sechs-Sieben-Achse, aber mit vertauschten Rollen. Sie ist die Sechs mit Siebenerflügel, gegenphobisch und frontal, mit der Unruhe der Sieben als Antrieb. Er ist die Sieben mit Sechserflügel und sozialer Ausrichtung, der die Runde in Schwung bringt und dabei auf Zugehörigkeit achtet. Wo er verbindet, geht sie voran. Das ist eine Deutung des Paares, keine Aussage über ihr Privatleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sexuellen Sechsers mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Mut, in der Offenheit und in der Fähigkeit, sich von Rückschlägen nicht festhalten zu lassen. Der Schatten des sexuellen Sechsers wäre, Angst immer wieder durch Aktion zu übertönen, statt ihr einmal Raum zu geben; der Siebenerflügel kann das Ausweichen in Betriebsamkeit begünstigen. Wie weit das auf Loos zutrifft, ist von außen nicht zu beurteilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp: Nina Ruge und Léa Bosco</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-nina-ruge">Nina Ruge</a> (SX6w7) zeigt dieselbe Mischung aus Mut und Beweglichkeit in einer anderen Laufbahn: Sie verließ die sichere Studienratslaufbahn für das Fernsehen. <a href="javascript:void(0)" data-route="beruehmte-lea-bosco">Léa Bosco</a> (SX6w7) steht ihr als Schauspielerin und Regisseurin am nächsten: Auch bei ihr wird Angst zum Spielfeld.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Loos lebt mit Liefers in Berlin und ist weiterhin als Schauspielerin und Sängerin aktiv. Die Zuordnung zu SX6w7 folgt dem Bewegungsmuster ihres Lebens und dem Enneagramm-Profiling-System von David L. Rathmer. Ob der Flügel bei der Sieben oder bei der Fünf liegt, wurde sorgfältig abgewogen, bleibt aber eine Einschätzung. Die Dauer ihrer Zeit bei Silly wird in den Quellen unterschiedlich angegeben und ist hier deshalb offen gelassen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-jan-josef-liefers", label:"Porträt: Jan Josef Liefers (SO7w6) – Partner, Boerne im Münsteraner Tatort"},
+        {route:"beruehmte-nina-ruge", label:"Porträt: Nina Ruge (SX6w7)"},
+        {route:"beruehmte-lea-bosco", label:"Porträt: Léa Bosco (SX6w7)"},
+      ])}
+    </div>
+  `);
+}

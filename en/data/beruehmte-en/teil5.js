@@ -3195,3 +3195,77 @@ export function elkeSommerPortraitPage() {
     </div>
   `);
 }
+
+export function annaLoosPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anna-loos-portrait.jpg" alt="Anna Loos – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-anna-loos-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Anna Loos</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle">Actress and singer, b. 1970 in Brandenburg an der Havel &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf from Brandenburg: Escape at Seventeen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> does not seek danger, but neither does it shy away from it; its pack is both protection and drive. Anna Loos was born on 18 November 1970 in Brandenburg an der Havel. According to reports, in East Germany she was first denied a music degree and then her school-leaving certificate. In 1988, at seventeen, she fled via Czechoslovakia and Hungary to Austria and the West. She later processed this experience in the Silly song ›Blutsgeschwister‹ (›Blood Siblings‹).</p>
+          <p class="vb-intro">She then trained in Hamburg at the Stage School of Music, Dance and Drama, according to databases from 1992, and first appeared on stage, including in a musical and in cabaret programmes. It was a path on which acting, singing and dance came together early.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Strength as Counter-Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Six</strong> is regarded as the <em>counter-type</em> of the Six: instead of meeting fear through adaptation or retreat, it attacks it head-on. Strength, courage and attractiveness become the counter-reaction to a deep-seated insecurity. In this app&rsquo;s Life Pattern Compass, this is the wolf: fear becomes a playing field, not an obstacle.</p>
+          <p class="vb-intro">In Loos&rsquo; case this pattern can be read from her life story. Someone who flees across the border at seventeen acts against fear, not with it at her back. This remains an interpretation from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: ›Positivist‹ and Restless</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six mobility, humour and zest for the future. According to reports, Loos calls herself a ›Positivistin‹ (a ›positivist‹, in answer to whether she is an optimist or a realist) and describes herself as a restless, unquiet type; she used to have to settle problems immediately, she says, but is more relaxed today. That is the Six with Seven-wing momentum: she moves forward instead of waiting and seeks movement in restlessness. In the Life Pattern Compass this pattern is called ›not waiting, but running ahead of the group‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Two Professions That Carry Each Other</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Loos combines two professions that carry each other: singing and acting. On television she has played the state-police investigator in the ZDF series ›Helen Dorn‹ since 2014; for her role as the singer Rita in ›Halt mich fest!‹ (›Hold Me Tight!‹) she reportedly received the acting prize of the Baden-Baden television festival, and for ›Wohin mit Vater?‹ (›What to Do With Father?‹) the Goldene Kamera 2011 is cited. On stage she is, as frontwoman of the band Silly, the successor of Tamara Danz, a formative singer against whom every successor is measured. Taking on such a task is a typical act for a Six of the counterphobic type: she walks into the task from which others shrink.</p>
+          <p class="vb-intro">The years with Silly are given differently in the sources, so no years are stated here. What matters is the pattern: voice, performance and role combine in her into a whole.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Couple: Six and Seven in Interplay</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anna Loos and <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) met in 1999 on the set of ›Halt mich fest!‹ and today live in Berlin. In Enneagram terms the couple is revealing: both move along the Six-Seven axis, but with roles reversed. She is the Six with a Seven-wing, counterphobic and head-on, with the Seven&rsquo;s restlessness as her drive. He is the Seven with a Six-wing and a social orientation, who gets the circle going and watches for belonging. Where he connects, she leads. This is an interpretation of the couple, not a statement about their private life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Sexual Six with a Seven-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in courage, openness and the ability not to be held back by setbacks. The shadow of the sexual Six would be to drown out fear again and again through action instead of giving it room once; the Seven-wing can encourage escape into busyness. How far this applies to Loos cannot be judged from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Nina Ruge and Léa Bosco</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-nina-ruge">Nina Ruge</a> (SX6w7) shows the same blend of courage and mobility in a different career: she left the secure career of a secondary-school teacher for television. <a href="javascript:void(0)" data-route="beruehmte-lea-bosco">Léa Bosco</a> (SX6w7) stands closest to her as an actress and director: for her, too, fear becomes a playing field.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status in November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Loos lives in Berlin with Liefers and remains active as an actress and singer. The classification as SX6w7 follows the movement pattern of her life and the Enneagram profiling system of David L. Rathmer. Whether the wing lies with the Seven or the Five was weighed carefully but remains an assessment. The length of her time with Silly is given differently in the sources and is therefore left open here.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-jan-josef-liefers", label:"Portrait: Jan Josef Liefers (SO7w6) – partner, Boerne in the Münster Tatort"},
+        {route:"beruehmte-nina-ruge", label:"Portrait: Nina Ruge (SX6w7)"},
+        {route:"beruehmte-lea-bosco", label:"Portrait: Léa Bosco (SX6w7)"},
+      ])}
+    </div>
+  `);
+}

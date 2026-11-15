@@ -3296,7 +3296,7 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">3. Der Sechserflügel: Zugehörigkeit, Teamgeist und Verletzlichkeit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Loyalität, den Wunsch nach Zugehörigkeit und eine feine Wahrnehmung dafür, wie man im Kreis der anderen dasteht. Man erkennt ihn an Liefers dort, wo es um Gruppen geht: das jahrzehntelange Tandem im Münsteraner ›Tatort‹, die Band, die langjährige Partnerschaft mit der Schauspielerin und Sängerin Anna Loos, die er 1999 bei den Dreharbeiten zu ›Halt mich fest!‹ kennenlernte.</p>
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Loyalität, den Wunsch nach Zugehörigkeit und eine feine Wahrnehmung dafür, wie man im Kreis der anderen dasteht. Man erkennt ihn an Liefers dort, wo es um Gruppen geht: das jahrzehntelange Tandem im Münsteraner ›Tatort‹, die Band, die langjährige Partnerschaft mit der Schauspielerin und Sängerin <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a>, die er 1999 bei den Dreharbeiten zu ›Halt mich fest!‹ kennenlernte.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Boerne, die Kunst des geistreichen Überlegenen</h2>
@@ -3328,7 +3328,7 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">9. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Liefers lebt mit Anna Loos in Berlin und ist weiterhin als Boerne im Münsteraner ›Tatort‹ zu sehen; nach Presseberichten wurden die Verträge mit ihm und Axel Prahl bis 2029 verlängert. Die Einordnung als SO7w6 ist eine Deutung, abgeleitet aus Lebenslauf und öffentlichem Wirken nach dem Enneagramm-Profiling-System von David L. Rathmer. Die Angaben zu den Ereignissen von 2021 und zur Vertragslage beruhen auf Presseberichten.</p>
+          <p class="vb-intro">Liefers lebt mit <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a> in Berlin und ist weiterhin als Boerne im Münsteraner ›Tatort‹ zu sehen; nach Presseberichten wurden die Verträge mit ihm und Axel Prahl bis 2029 verlängert. Die Einordnung als SO7w6 ist eine Deutung, abgeleitet aus Lebenslauf und öffentlichem Wirken nach dem Enneagramm-Profiling-System von David L. Rathmer. Die Angaben zu den Ereignissen von 2021 und zur Vertragslage beruhen auf Presseberichten.</p>
         </blockquote>
 
       </div>
@@ -3342,6 +3342,7 @@ export function janJosefLiefersPortraitPage() {
         {route:"beruehmte-axel-prahl", label:"Porträt: Axel Prahl (SE9w8) – Thiel im Münsteraner Tatort"},
         {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6)"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-anna-loos", label:"Porträt: Anna Loos (SX6w7) – Schauspielerin und Sängerin"},
       ])}
     </div>
   `);
