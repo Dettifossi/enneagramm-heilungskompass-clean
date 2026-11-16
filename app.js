@@ -45692,7 +45692,7 @@ function _cquizGameOverScreen() {
   const best = _cquizGetBest(st.level);
   const pct = Math.round((st.score / CQUIZ_TOTAL_ROUNDS) * 100);
   let msg;
-  if (pct >= 90) msg = "Außergewöhnlich &ndash; Sie erkennen die 27 Subtypen auf einen Blick!";
+  if (pct >= 90) msg = st.level === 1 ? "Außergewöhnlich &ndash; Sie erkennen die neun Typen auf einen Blick!" : "Außergewöhnlich &ndash; Sie erkennen die 27 Subtypen auf einen Blick!";
   else if (pct >= 70) msg = "Sehr gut! Die Karikaturen prägen sich bei Ihnen schon deutlich ein.";
   else if (pct >= 40) msg = "Solide Runde &ndash; mit mehr Übung wird der Blick noch sicherer.";
   else msg = "Ein Anfang &ndash; das Zuordnen braucht Übung. Nochmal versuchen?";
