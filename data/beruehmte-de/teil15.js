@@ -3078,12 +3078,12 @@ export function joeVitalePortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Zwei</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht dieses Subtyps ist die Bereitschaft, das Gewonnene zu teilen und andere zu ermutigen. Bei Vitale zeigt sie sich im Engagement für Menschen ohne Wohnung und im Lehren. Der Schatten der Zwei liegt darin, dass das Geben mit der stillen Erwartung verbunden sein kann, dafür gebraucht und anerkannt zu werden. Das ist eine Deutung des Musters, keine Aussage über seine Beweggründe, die nur er selbst kennt.</p>
+          <p class="vb-intro">Das Licht dieses Subtyps ist die Bereitschaft, das Gewonnene zu teilen und andere zu ermutigen. Bei Vitale zeigt sie sich im Engagement für Menschen ohne Wohnung und im Lehren. Der Schatten der Zwei liegt darin, dass das Geben mit der stillen Erwartung verbunden sein kann, dafür gebraucht und anerkannt zu werden.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Der Heilungsweg: vom Gebrauchtwerden zur Selbstannahme</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Weg der Zwei führt von der Unentbehrlichkeit zur Demut: vom Gedanken, sich Zuwendung verdienen zu müssen, zur Erfahrung, dass man bereits genug ist. Die Sätze der Ho&lsquo;oponopono-Methode, die Vitale verbreitet hat, lassen sich als Einladung zu dieser Haltung lesen: Verantwortung übernehmen, Dank sagen, Liebe aussprechen. Wie weit er diesen Weg selbst gegangen ist, lässt sich von außen nicht beurteilen.</p>
+          <p class="vb-intro">Der Weg der Zwei führt von der Unentbehrlichkeit zur Demut: vom Gedanken, sich Zuwendung verdienen zu müssen, zur Erfahrung, dass man bereits genug ist. Die Sätze der Ho&lsquo;oponopono-Methode, die Vitale verbreitet hat, lassen sich als Einladung zu dieser Haltung lesen: Verantwortung übernehmen, Dank sagen, Liebe aussprechen.</p>
         </blockquote>
 
       </div>
@@ -3267,7 +3267,7 @@ export function lisaKauffPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorge, die zur Struktur wird</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihre Strenge auf das, was das Leben trägt: Gesundheit, Ordnung, Verlässlichkeit. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Worry</em>, die Sorge, dass etwas nicht stimmt oder nicht reicht. Ihr Weg passt dazu: aus der Welt von Revision und Controlling, wo Ordnung die Aufgabe ist, in ein Feld, in dem sie anderen hilft, die eigene Ordnung wiederzufinden, im Körper und im Kopf. Der Markenname zeigt das Thema: Der ›Monkey Mind‹ ist der unruhige, springende Gedanke, den Yoga beruhigen soll.</p>
-          <p class="vb-intro">Auch ihr Alltag trägt die Handschrift der Eins. Sie möchte abends und am Wochenende nicht mehr arbeiten, doch dringende Kundenmails ziehen sie nach eigener Aussage oft zurück: Pflichtgefühl gegen den eigenen Vorsatz. Ihr Mantra lautet ›Ich erlaube mir, langsamer zu werden‹, ein Satz, den man sich nur aufschreibt, wenn man das Gegenteil gut kennt. Die Zuordnung ist eine Deutung.</p>
+          <p class="vb-intro">Auch ihr Alltag trägt die Handschrift der Eins. Sie möchte abends und am Wochenende nicht mehr arbeiten, doch dringende Kundenmails ziehen sie nach eigener Aussage oft zurück: Pflichtgefühl gegen den eigenen Vorsatz. Ihr Mantra lautet ›Ich erlaube mir, langsamer zu werden‹, ein Satz, den man sich nur aufschreibt, wenn man das Gegenteil gut kennt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Hilfe, die freundlich bleibt</h2>

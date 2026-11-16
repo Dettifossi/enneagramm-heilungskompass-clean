@@ -3226,7 +3226,7 @@ export function violetJessopPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> carries the demand on itself inward. In Naranjo this subtype is called <em>Worry</em>: the quiet, constant question of whether one is really fulfilling one&rsquo;s task. Security does not come from luck but from duty, from discipline and from being able to rely on oneself.</p>
           <p class="vb-intro">This logic can be read in Jessop&rsquo;s life story. As the eldest of nine siblings, after her father&rsquo;s early death, with a mother who herself worked at sea, working on ships was not an adventure but the way to carry responsibility. That she stayed in the same profession for decades &ndash; from 1908 until her retirement in 1950, with interruptions &ndash; shows a steadiness that is typical of the SP1: not the grand appearance, but carrying on.</p>
-          <p class="vb-intro">Any classification remains an interpretation: the documented facts show the outside of a life, not its inner world. What Jessop felt when she took up a duty roster again after a disaster, we know only from her late memoirs and from the accounts of others.</p>
+          <p class="vb-intro">What Jessop felt when she took up a duty roster again after a disaster, we know only from her late memoirs and from the accounts of others.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two wing: care as a profession</h2>
@@ -3265,6 +3265,87 @@ export function violetJessopPortraitPage() {
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+export function janJosefLiefersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jan-josef-liefers-portrait.jpg" alt="Jan Josef Liefers – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jan-josef-liefers-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Jan Josef Liefers</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Actor, musician, director and producer, b. 1964 in Dresden &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver from Dresden: Craft First, Then the Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> builds, and it builds with the material it finds. Jan Josef Liefers was born on 8 August 1964 in Dresden. Before becoming an actor, he completed a carpentry apprenticeship, a craft in which one joins raw wood into something useful and beautiful. From 1983 to 1987 he trained as an actor at the ›Ernst Busch‹ Academy of Dramatic Arts in Berlin.</p>
+          <p class="vb-intro">Over the years the actor became a man with several pillars: film and television, theatre, directing, producing and music. That fits the image of the beaver, which never has just one project but a whole territory on which it builds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Zest for Life in the Service of the Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven</strong> is regarded as the <em>counter-type</em> of the Seven: instead of seeking enjoyment and pleasure for itself alone, it places ingenuity, humour and drive in the service of a community. Claudio Naranjo spoke here of <em>sacrifice</em>: one&rsquo;s own pleasure is partly set aside in order to belong and to be needed. In this app&rsquo;s Life Pattern Compass, this is the beaver, building restlessly in the service of a larger whole.</p>
+          <p class="vb-intro">In Liefers&rsquo; case this shows in the abundance of his activities and in his group orientation: he is not only the actor in the spotlight but also the bandleader, the director and the producer who gets things going.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Belonging, Team Spirit and Vulnerability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings loyalty, the wish to belong and a fine sense of how one stands in the eyes of others. It can be recognised in Liefers wherever groups are concerned: the decades-long tandem in the Münster ›Tatort‹, the band, the long partnership with the actress and singer <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a>, whom he met in 1999 on the set of ›Halt mich fest!‹ (›Hold Me Tight!‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Boerne, the Art of the Witty Superior</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Since 2002 Liefers has played the forensic pathologist Professor Karl-Friedrich Boerne in the WDR ›Tatort‹ from Münster (Germany&rsquo;s long-running Sunday-night crime series), a brilliant, vain, eloquent scholar who feels superior to the down-to-earth Detective Thiel. The art lies in playing this know-it-all so that the audience loves him: with comic timing, self-irony and a wit that stays on target without wounding. The Münster episodes have been among the most popular of the series for years.</p>
+          <p class="vb-intro">Added to this is his work behind and beside the camera: the database filmportal lists him as director, screenwriter and producer, and with his band Oblivion he performed, among other occasions, at the RuhrTriennale in 2006.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Tandem: Thiel and Boerne, Prahl and Liefers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Liefers&rsquo; counterpart is <a href="javascript:void(0)" data-route="beruehmte-axel-prahl">Axel Prahl</a> (SP9w8) as Detective Frank Thiel. The pair shows how two Enneagram types complement each other: Prahl&rsquo;s Thiel is the self-preservation Nine, calm, down-to-earth, grumpy-but-warm; Liefers&rsquo; Boerne is the social Seven, lively, fluent, always on the move. The Nine slows down, the Seven drives; the Nine grounds, the Seven takes off. The comedy arises from this friction, and because the two have played together for over twenty years, the relationship feels real on screen. This is how the two types complement each other in their on-screen interplay.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Storm of 2021: ›#allesdichtmachen‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In April 2021 Liefers took part in the satirical video campaign ›#allesdichtmachen‹ (a pun on ›close everything down‹), in which more than fifty actors ironically criticised German Covid measures. The campaign provoked heated reactions: praise from some quarters, sharp criticism from many others, including calls for professional consequences. Liefers rejected any closeness to the ›Querdenker‹ (a protest movement against Covid policy), distanced himself from conspiracy theories and defended himself in a television interview. He later described the reaction as a kind of ›Knalltrauma‹ (blast trauma).</p>
+          <p class="vb-intro">From an Enneagram point of view this is telling, without containing a political judgement: for the social Seven with a Six-wing, belonging is a core theme. Where a pointed expression of opinion leads to heated exclusion from the public circle, it strikes exactly this sensitive spot.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and Shadow of the Social Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in humour, versatility and the drive with which Liefers carries a community along. The shadow of the Seven is to gloss over the unpleasant with wit; with the Six-wing comes a sensitivity to rejection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Parallels in the Same Subtype: Max Müller and Rowan Atkinson</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a> (SO7w6) has likewise been part of a fixed series ensemble for over two decades as Police Sergeant Michi Mohr and serves the whole from the second row. <a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) shares with Liefers the Six-wing and the combination of comedy and perfection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Status in November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Liefers lives in Berlin with <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a> and can still be seen as Boerne in the Münster ›Tatort‹; according to press reports, the contracts with him and Axel Prahl have been extended to 2029. Liefers is a social Seven with a Six-wing (SO7w6), as his life story and public work show in the Enneagram profiling system of David L. Rathmer. The details of the events of 2021 and of his contract situation rest on press reports.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-axel-prahl", label:"Portrait: Axel Prahl (SP9w8) – Thiel in the Münster Tatort"},
+        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SO7w6)"},
+        {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-anna-loos", label:"Portrait: Anna Loos (SX6w7) – actress and singer"},
       ])}
     </div>
   `);

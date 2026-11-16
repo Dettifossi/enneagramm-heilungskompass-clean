@@ -2941,7 +2941,7 @@ export function karolinaLodygaPortraitPage() {
 
         <h2 class="vb-section">2. The sexual Six: strength as the answer</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six carries doubt within, and the <strong>sexual Six (SX6)</strong> answers this, according to Claudio Naranjo, not with leaning on others but with strength. In Lodyga this can be read from her choice of roles, not from statements of her own: she often plays women who assert themselves, such as the police inspector Zofia Kowalska in &lsquo;Der Masuren-Krimi&rsquo; (since 2021) and Danuta Masik in the series &lsquo;Die Eifelpraxis&rsquo; (2016 to 2019). This is an interpretation based on the roles, not on self-statements.</p>
+          <p class="vb-intro">The Six carries doubt within, and the <strong>sexual Six (SX6)</strong> answers this, according to Claudio Naranjo, not with leaning on others but with strength. In Lodyga this can be read from her choice of roles, not from statements of her own: she often plays women who assert themselves, such as the police inspector Zofia Kowalska in &lsquo;Der Masuren-Krimi&rsquo; (since 2021) and Danuta Masik in the series &lsquo;Die Eifelpraxis&rsquo; (2016 to 2019).</p>
           <p class="vb-intro">Her path also shows toughness: from a Berlin studio stage over the years came a television career with roles from telenovela through drama to crime.</p>
         </blockquote>
 
@@ -2966,7 +2966,7 @@ export function karolinaLodygaPortraitPage() {
         <h2 class="vb-section">6. Light and shadow of the sexual Six with Seven-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Strong is the reliability: someone who carries roles from telenovela to television film for years becomes a face one can count on. Bright too is the sociability that she, by her own account, draws from working together.</p>
-          <p class="vb-intro">The shadow side of the Six with a Seven-wing can be constant activity: someone who keeps taking on new roles has little time to feel one&rsquo;s own worry. No statements of her own on this exist; this sentence is an interpretation.</p>
+          <p class="vb-intro">The shadow side of the Six with a Seven-wing can be constant activity: someone who keeps taking on new roles has little time to feel one&rsquo;s own worry. No statements of her own on this exist.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: Franconia, family and new roles</h2>
@@ -3211,6 +3211,83 @@ export function clintEastwoodPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function maxMuellerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-max-mueller-portrait.jpg" alt="Max Müller – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-max-mueller-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Max Müller</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Actor and singer, b. 1965 in Klagenfurt &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver from Carinthia: A Baritone Becomes a Beat Cop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> builds tirelessly, not for itself alone but for the community that lives in its territory. Max Müller was born on 12 March 1965 in Klagenfurt am Wörthersee. According to profiles, he studied acting and singing at the University of Music and Performing Arts in Vienna. He is a trained opera singer with a baritone voice; he made his debut as a lyric baritone in 2002 at the Carinthischer Sommer (›Carinthian Summer‹) festival.</p>
+          <p class="vb-intro">The wide television audience knows him as Police Sergeant Michael ›Michi‹ Mohr in the ZDF series ›Die Rosenheim-Cops‹ (›The Rosenheim Cops‹), a role he has played since the series began in 2002. The sources differ slightly here: one already names the year 2000 for the first shooting.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Joie de Vivre in the Service of the Group</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven</strong> is regarded as the <em>counter-type</em> of the Seven: instead of seeking enjoyment and pleasure for itself, it places zest for life, commitment and planning in the service of a community. Claudio Naranjo spoke here of <em>sacrifice</em>: the pleasure-seeker gives up his own pleasure in order to belong and to be needed. In this app&rsquo;s Life Pattern Compass, this is the beaver: restless building in the service of a larger whole.</p>
+          <p class="vb-intro">Müller embodies this trait in his role and in his profession. Mohr is the man of the beat and the territory, the police sergeant, not the inspector and not the star, a man of duty and community who serves the whole from the second row.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyalty and Reliability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings loyalty, commitment and the need for solid ground. This shows in his fidelity to a single series over more than two decades and in a notable decision media reported in 2026: Müller is reducing his shooting days in order to care more for his mother, who lives in a care home near Vienna. His father has died, and his mother needs him now. The character Michi Mohr is nevertheless to continue appearing in the series. Reliability toward the job and toward the family lie side by side here.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Making the Role of a Lifetime From a Supporting Part</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to media reports, Müller originally applied for a quite different role, that of the inspector beside Joseph Hannesschläger, and was instead offered the initially small role of a police officer. He turned it into a character that has carried over a quarter of a century: a policeman who acts as a dependable support in the ensemble. That is no trivial craft. Keeping a character who is not at the centre of the plot alive over years demands precision in small things: timing, warmth and a sense of when one may simply be there in the frame.</p>
+          <p class="vb-intro">Added to this is his musical side: as a trained baritone who plays piano and guitar, he brings a second world that he cultivates alongside the series. In 2017, together with his colleagues <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a> and <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a>, he received the Bavarian State Medal for Internal Security (›Stern der Sicherheit‹, ›Star of Security‹), and in 2019, according to reports, also an award from the Police Union in Hesse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Sacrifice for Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For a social Seven it is telling that his most visible renunciation is directed not at the group on set but at the family: he deliberately steps back so that he can be with his mother. The Seven, who otherwise loves freedom and possibilities, chooses attachment here. He himself justifies it simply by necessity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Social Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the warmth, helpfulness and loyalty with which Müller serves a character and a community. The shadow of the social Seven is to hold back one&rsquo;s own wishes and pleasure for too long so that no one is disappointed, and to gloss over the unpleasant with friendliness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Rowan Atkinson and Paul Ronzheimer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) shares with Müller the Six-wing and the pattern of ›belonging instead of breaking out‹, except that Atkinson turns it into comedy. <a href="javascript:void(0)" data-route="beruehmte-paul-ronzheimer">Paul Ronzheimer</a> (SO7w6) shows the beaver who builds where others cannot reach: likewise no man of the limelight for its own sake but a servant of the work. <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6), finally, as Boerne in the Münster ›Tatort‹, has likewise been part of a fixed series tandem for over twenty years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status in November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Müller continues to play Michi Mohr, with reduced shooting days since 2026. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. Müller is a social Seven with a Six-wing (SO7w6), as his life story and role show in the Enneagram profiling system of David L. Rathmer. The start of shooting and individual awards are not given consistently in the sources.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-paul-ronzheimer", label:"Portrait: Paul Ronzheimer (SO7w6)"},
+        {route:"beruehmte-marisa-burger", label:"Portrait: Marisa Burger (SX3w2)"},
+        {route:"beruehmte-alexander-duda", label:"Portrait: Alexander Duda (SE2w1)"},
+        {route:"beruehmte-igor-jeftic", label:"Portrait: Igor Jeftić (SO1w2)"},
+        {route:"beruehmte-axel-prahl", label:"Portrait: Axel Prahl (SP9w8) – Detective Thiel in the Münster Tatort"},
       ])}
     </div>
   `);

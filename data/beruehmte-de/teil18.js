@@ -2986,7 +2986,7 @@ export function karolinaLodygaPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Antwort</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sechs trägt Zweifel in sich, und die <strong>sexuelle Sechs (SX6)</strong> beantwortet das nach Claudio Naranjo nicht mit Anlehnung, sondern mit Stärke. Bei Lodyga lässt sich das aus ihrer Rollenwahl lesen, nicht aus eigenen Aussagen: Sie spielt häufig Frauen, die sich behaupten, etwa die Kriminalkommissarin Zofia Kowalska im ›Masuren-Krimi‹ (seit 2021) und Danuta Masik in der Reihe ›Die Eifelpraxis‹ (2016 bis 2019). Das ist eine Deutung, die sich auf die Rollen stützt, nicht auf Selbstaussagen.</p>
+          <p class="vb-intro">Die Sechs trägt Zweifel in sich, und die <strong>sexuelle Sechs (SX6)</strong> beantwortet das nach Claudio Naranjo nicht mit Anlehnung, sondern mit Stärke. Bei Lodyga lässt sich das aus ihrer Rollenwahl lesen, nicht aus eigenen Aussagen: Sie spielt häufig Frauen, die sich behaupten, etwa die Kriminalkommissarin Zofia Kowalska im ›Masuren-Krimi‹ (seit 2021) und Danuta Masik in der Reihe ›Die Eifelpraxis‹ (2016 bis 2019).</p>
           <p class="vb-intro">Auch ihr Weg zeigt Zähigkeit: Aus einer Berliner Studiobühne wurde über Jahre eine Fernsehkarriere mit Rollen von Telenovela über Drama bis zum Krimi.</p>
         </blockquote>
 
@@ -3011,7 +3011,7 @@ export function karolinaLodygaPortraitPage() {
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Stark ist die Verlässlichkeit: Wer über Jahre Rollen von der Telenovela bis zum Fernsehfilm trägt, wird zum Gesicht, auf das man zählt. Hell ist auch die Geselligkeit, die sie nach eigener Aussage aus Zusammenarbeit zieht.</p>
-          <p class="vb-intro">Die Schattenseite der Sechs mit Siebenerflügel kann der Dauereinsatz sein: Wer immer neue Rollen annimmt, hat wenig Zeit, die eigene Sorge zu spüren. Eigene Aussagen von ihr dazu liegen nicht vor, dieser Satz ist eine Deutung.</p>
+          <p class="vb-intro">Die Schattenseite der Sechs mit Siebenerflügel kann der Dauereinsatz sein: Wer immer neue Rollen annimmt, hat wenig Zeit, die eigene Sorge zu spüren. Eigene Aussagen von ihr dazu liegen nicht vor.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Franken, Familie und neue Rollen</h2>
@@ -3278,7 +3278,7 @@ export function paulRonzheimerPortraitPage() {
         <h2 class="vb-section">2. Die soziale Sieben: rastloses Bauen im Dienst der anderen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist der Kontratyp der Sieben: Sie wirkt ernster, verantwortungsvoller und pflichtbewusster, als man von einer Sieben erwartet, und stellt ihre Rastlosigkeit in den Dienst einer Gemeinschaft. Nach Naranjo findet sie Erfüllung im Dienst an anderen statt im eigenen Vergnügen. Bei Ronzheimer ist die Gemeinschaft das Publikum und das Team: Er geht dorthin, wo andere nicht hinkönnen, damit die Geschichten ankommen. Auf Vorwürfe, einzelne Berichte schadeten dem Ansehen der Ukraine in Deutschland, antwortete er sinngemäß: Wer anfange, seine Berichterstattung zu hinterfragen, habe ein Problem. Er trennt klar zwischen seiner Haltung, Russland sei der Aggressor, und der unabhängigen Berichterstattung.</p>
-          <p class="vb-intro">Die Sieben zeigt sich an Details. Als ihm 2014 im Donbass ein Kollege erzählte, der ukrainische Geheimdienst habe seinen Namen auf einer russischen Todesliste gefunden, soll seine Rückfrage gewesen sein: ›An welcher Stelle?‹ und dann, wer auf Platz eins stehe. Er beschreibt sich als ›totalen Optimisten‹ und sagt, das liege auch an den Menschen, die er trifft. Die Zuordnung ist eine Deutung.</p>
+          <p class="vb-intro">Die Sieben zeigt sich an Details. Als ihm 2014 im Donbass ein Kollege erzählte, der ukrainische Geheimdienst habe seinen Namen auf einer russischen Todesliste gefunden, soll seine Rückfrage gewesen sein: ›An welcher Stelle?‹ und dann, wer auf Platz eins stehe. Er beschreibt sich als ›totalen Optimisten‹ und sagt, das liege auch an den Menschen, die er trifft.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Team, Absicherung, Vorsicht in der Gefahr</h2>

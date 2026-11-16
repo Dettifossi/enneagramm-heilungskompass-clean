@@ -3254,3 +3254,80 @@ export function mattDamonPortraitPage() {
     </div>
   `);
 }
+
+export function maxMuellerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-max-mueller-portrait.jpg" alt="Max Müller – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-max-mueller-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Max Müller</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Sänger, geb. 1965 in Klagenfurt &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber aus Kärnten: ein Bariton wird Streifenpolizist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> baut unermüdlich, und zwar nicht für sich allein, sondern für die Gemeinschaft, die in seinem Revier lebt. Max Müller wurde am 12. März 1965 in Klagenfurt am Wörthersee geboren. Nach Angaben von Porträts studierte er an der Hochschule für Musik und darstellende Kunst in Wien Schauspiel und Gesang. Er ist ausgebildeter Opernsänger in der Stimmlage Bariton; sein Debüt als lyrischer Bariton gab er 2002 beim Carinthischen Sommer.</p>
+          <p class="vb-intro">Dem breiten Fernsehpublikum ist er als Polizeihauptmeister Michael ›Michi‹ Mohr in der ZDF-Serie ›Die Rosenheim-Cops‹ bekannt, einer Rolle, die er seit dem Start der Serie 2002 spielt. Die Quellen weichen hier leicht ab: Eine nennt schon das Jahr 2000 für die ersten Dreharbeiten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Siebener: Lebensfreude im Dienst der Gruppe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Siebener</strong> gilt als der <em>Kontratyp</em> (Gegentyp) der Sieben: Statt Genuss und Vergnügen für sich zu suchen, stellt er Lebensfreude, Einsatz und Planung in den Dienst einer Gemeinschaft. Claudio Naranjo sprach hier von <em>Opfer</em> (Sacrifice): Der Vergnügungssucher opfert das eigene Vergnügen, um dazuzugehören und gebraucht zu werden. Im Lebensmusterkompass dieser App steht dafür der Biber: rastloses Bauen im Dienst eines größeren Ganzen.</p>
+          <p class="vb-intro">Müller verkörpert diesen Zug in seiner Rolle wie im Beruf. Mohr ist der Mann der Streife und des Reviers, der Polizeihauptmeister, nicht der Kommissar und nicht der Star, ein Mann der Pflicht und der Gemeinschaft, der aus der zweiten Reihe heraus dem Ganzen dient.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue und Verlässlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Loyalität, Verbindlichkeit und das Bedürfnis nach festem Boden. Das zeigt sich in der Treue zu einer einzigen Serie über mehr als zwei Jahrzehnte und in einer bemerkenswerten Entscheidung, über die Medien 2026 berichteten: Müller reduziert seine Drehtage, um sich stärker um seine Mutter zu kümmern, die in einem Pflegeheim bei Wien lebt. Sein Vater sei verstorben, und die Mutter brauche ihn jetzt. Die Figur Michi Mohr soll dennoch weiter in der Serie auftreten. Verlässlichkeit gegenüber dem Beruf und gegenüber der Familie liegen hier nebeneinander.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: aus einer Nebenrolle die Rolle des Lebens gemacht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach Medienberichten bewarb sich Müller ursprünglich für eine ganz andere Rolle, die des Kommissars an der Seite von Joseph Hannesschläger, und erhielt stattdessen die zunächst kleine Rolle eines Polizisten. Er machte daraus eine Figur, die über ein Vierteljahrhundert trägt: einen Polizisten, der im Ensemble als verlässlicher Rückhalt wirkt. Das ist handwerklich nicht trivial. Eine Figur, die nicht im Zentrum der Handlung steht, über Jahre lebendig zu halten, verlangt Genauigkeit im Kleinen: Timing, Wärme und ein Gespür dafür, wann man im Bild nur da sein darf.</p>
+          <p class="vb-intro">Dazu kommt seine musikalische Seite: Als ausgebildeter Bariton, der Klavier und Gitarre spielt, bringt er eine zweite Welt mit, die er neben der Serie pflegt. 2017 erhielt er gemeinsam mit seinen Kollegen <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a> und <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a> die Bayerische Staatsmedaille für Innere Sicherheit (›Stern der Sicherheit‹), 2019 nach Berichten außerdem eine Auszeichnung der Gewerkschaft der Polizei Hessen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Opfer für die Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Für einen sozialen Siebener ist es aufschlussreich, dass sein sichtbarster Verzicht nicht der Gruppe am Set, sondern der Familie gilt: Er nimmt sich bewusst zurück, damit er bei seiner Mutter sein kann. Der Siebener, der sonst Freiheit und Möglichkeiten liebt, entscheidet sich hier für Bindung. Er selbst begründet es schlicht mit der Notwendigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sozialen Siebeners mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Wärme, der Hilfsbereitschaft und der Treue, mit der Müller einer Figur und einer Gemeinschaft dient. Der Schatten des sozialen Siebeners liegt darin, die eigenen Wünsche und das eigene Vergnügen zu lange zurückzustellen, damit niemand enttäuscht wird, und Unangenehmes mit Freundlichkeit zu überspielen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp: Rowan Atkinson und Paul Ronzheimer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) teilt mit Müller den Sechserflügel und das Muster ›Zugehörigkeit statt Ausbruch‹, nur dass Atkinson es in Komik verwandelt. <a href="javascript:void(0)" data-route="beruehmte-paul-ronzheimer">Paul Ronzheimer</a> (SO7w6) zeigt den Biber, der dort baut, wo andere nicht hinkommen: ebenfalls kein Mann des Rampenlichts um seiner selbst willen, sondern ein Dienender am Werk. <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) schließlich ist als Boerne im Münsteraner ›Tatort‹ ebenfalls seit über zwanzig Jahren Teil eines festen Serien-Tandems.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Müller spielt weiterhin Michi Mohr, seit 2026 mit reduzierten Drehtagen. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Müller ist ein sozialer Siebener mit Sechserflügel (SO7w6): Das zeigen Lebenslauf und Rolle im Enneagramm-Profiling-System von David L. Rathmer. Der Drehbeginn und einzelne Auszeichnungen werden in den Quellen nicht einheitlich angegeben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-paul-ronzheimer", label:"Porträt: Paul Ronzheimer (SO7w6)"},
+        {route:"beruehmte-marisa-burger", label:"Porträt: Marisa Burger (SX3w2)"},
+        {route:"beruehmte-alexander-duda", label:"Porträt: Alexander Duda (SE2w1)"},
+        {route:"beruehmte-igor-jeftic", label:"Porträt: Igor Jeftić (SO1w2)"},
+        {route:"beruehmte-axel-prahl", label:"Porträt: Axel Prahl (SE9w8) – Kommissar Thiel im Münsteraner Tatort"},
+      ])}
+    </div>
+  `);
+}

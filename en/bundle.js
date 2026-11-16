@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=496";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=518";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -190,6 +190,16 @@ const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-en/spirituelle
 const endeDerSuchePage = () => _lazyPage("./data/praxistipps-en/ende-der-suche.js", "endeDerSuchePage");
 const wasIstLiebePage = () => _lazyPage("./data/praxistipps-en/was-ist-liebe.js", "wasIstLiebePage");
 const wenigerIstMehrPage = () => _lazyPage("./data/praxistipps-en/weniger-ist-mehr.js", "wenigerIstMehrPage");
+const ausatmenBeruhigungPage = () => _lazyPage("./data/praxistipps-en/ausatmen-beruhigung.js", "ausatmenBeruhigungPage");
+const guteStimmungVierSchalterPage = () => _lazyPage("./data/praxistipps-en/gute-stimmung-vier-schalter.js", "guteStimmungVierSchalterPage");
+const morgenroutineFuenfGewohnheitenPage = () => _lazyPage("./data/praxistipps-en/morgenroutine-fuenf-gewohnheiten.js", "morgenroutineFuenfGewohnheitenPage");
+const gehirnUmbauenDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-en/gehirn-umbauen-drei-gewohnheiten.js", "gehirnUmbauenDreiGewohnheitenPage");
+const gefuehleAnnehmenAlteLastenPage = () => _lazyPage("./data/praxistipps-en/gefuehle-annehmen-alte-lasten.js", "gefuehleAnnehmenAlteLastenPage");
+const glueckKeineAnkunftPage = () => _lazyPage("./data/praxistipps-en/gluck-keine-ankunft.js", "glueckKeineAnkunftPage");
+const sonntagsgeschichtePage = () => _lazyPage("./data/sonntagsgeschichte-en.js", "sonntagsgeschichtePage");
+const stresslinienSymmetriePage = () => _lazyPage("./data/stresslinien-symmetrie-en.js", "stresslinienSymmetriePage");
+const reizeFastenRuhetagPage = () => _lazyPage("./data/praxistipps-en/reize-fasten-ruhetag.js", "reizeFastenRuhetagPage");
+const gluecklichDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-en/gluecklich-drei-gewohnheiten.js", "gluecklichDreiGewohnheitenPage");
  _lazyPage("./data/praxistipps-en/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "emilyBluntPortraitPage");
@@ -564,6 +574,17 @@ const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", "
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "leonieBeneschPortraitPage");
 const clausTheoGaertnerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "clausTheoGaertnerPortraitPage");
+const oliverReedPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "oliverReedPortraitPage");
+const michaelFassbenderPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "michaelFassbenderPortraitPage");
+const paulDanoPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "paulDanoPortraitPage");
+const axelPrahlPortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "axelPrahlPortraitPage");
+const marisaBurgerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "marisaBurgerPortraitPage");
+const igorJefticPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "igorJefticPortraitPage");
+const alexanderDudaPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "alexanderDudaPortraitPage");
+const maxMuellerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "maxMuellerPortraitPage");
+const janJosefLiefersPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "janJosefLiefersPortraitPage");
+const annaLoosPortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "annaLoosPortraitPage");
+const ottoWaalkesPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "ottoWaalkesPortraitPage");
 const heinzErhardtPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "heinzErhardtPortraitPage");
 const rainerHunoldPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "rainerHunoldPortraitPage");
 const henriRousseauPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "henriRousseauPortraitPage");
@@ -1931,6 +1952,50 @@ const BERUEHMT_PORTRAITS = [
     heading:"Claus Theo G\u00e4rtner \u2013 Self-Preservation Type 1",
     teaser:"SP1w9 \u00b7 b. 1943 in Berlin. Actor, 32 years \u2018Matula\u2019 in \u2018Ein Fall f\u00fcr zwei\u2019. The eagle that quietly looks closely. Animal correspondence: Eagle.",
     land:"Germany", tags:["Acting","Film"], gender:"m"},
+{ route:"beruehmte-oliver-reed", name:"Oliver Reed", added:"2026-11-12", subtyp:"SO8w9",
+    heading:"Oliver Reed \u2013 Social Type 8",
+    teaser:"SO8w9 \u00b7 1938\u20131999. Actor, \u2018hellraiser\u2019 with force and vulnerability: Bill Sikes in \u2018Oliver!\u2019, Gerald Crich in \u2018Women in Love\u2019, Proximo in \u2018Gladiator\u2019. The lion who held court in the round. Animal correspondence: Lion.",
+    land:"United Kingdom", tags:["Acting","Film"], gender:"m"},
+{ route:"beruehmte-michael-fassbender", name:"Michael Fassbender", added:"2026-11-12", subtyp:"SO1w2",
+    heading:"Michael Fassbender \u2013 Social Type 1",
+    teaser:"SO1w2 \u00b7 b. 1977 in Heidelberg. Actor and racing driver: \u2018Hunger\u2019, \u2018Shame\u2019, \u201812 Years a Slave\u2019, \u2018Steve Jobs\u2019. The goose that sets its own tasks. Animal correspondence: Goose.",
+    land:"Germany / Ireland", tags:["Acting","Film","Sport"], gender:"m"},
+{ route:"beruehmte-paul-dano", name:"Paul Dano", added:"2026-11-12", subtyp:"SE4w3",
+    heading:"Paul Dano \u2013 Self-Preservation Type 4",
+    teaser:"SP4w3 \u00b7 b. 1984 in New York. Actor and director: \u2018Little Miss Sunshine\u2019, \u2018There Will Be Blood\u2019, \u2018Love & Mercy\u2019, \u2018Wildlife\u2019, \u2018The Batman\u2019. The dove that puts the inner life into the role. Animal correspondence: Dove.",
+    land:"USA", tags:["Acting","Film","Directing"], gender:"m"},
+{ route:"beruehmte-axel-prahl", name:"Axel Prahl", added:"2026-11-15", subtyp:"SE9w8",
+    heading:"Axel Prahl \u2013 Self-Preservation Type 9",
+    teaser:"SP9w8 \u00b7 b. 1960 in Eutin. Actor and musician, Detective Thiel in the M\u00fcnster \u2018Tatort\u2019 since 2002, Dresen films such as \u2018Halbe Treppe\u2019 and \u2018Willenbrock\u2019. The elephant who plays ordinary men without pose. Animal correspondence: Elephant.",
+    land:"Germany", tags:["Acting","Film","Television","Music"], gender:"m"},
+{ route:"beruehmte-marisa-burger", name:"Marisa Burger", added:"2026-11-15", subtyp:"SX3w2",
+    heading:"Marisa Burger \u2013 Sexual Type 3",
+    teaser:"SX3w2 \u00b7 b. 1973 in Alt\u00f6tting. Actress and audiobook narrator, Frau Stockl in \u2018Die Rosenheim-Cops\u2019 since 2002. The peacock who unfolds impact through warmth and turned a supporting role into a cult figure. Animal correspondence: Peacock.",
+    land:"Germany", tags:["Acting","Television","Theatre"], gender:"f"},
+{ route:"beruehmte-igor-jeftic", name:"Igor Jefti\u0107", added:"2026-11-15", subtyp:"SO1w2",
+    heading:"Igor Jefti\u0107 \u2013 Social Type 1",
+    teaser:"SO1w2 \u00b7 b. 1971 in what was then Yugoslavia. Actor, Detective Chief Inspector Sven Hansen in \u2018Die Rosenheim-Cops\u2019 since 2009. The goose who carries responsibility in the ensemble and doubts the meaning of his own profession. Animal correspondence: Goose.",
+    land:"Germany", tags:["Acting","Television"], gender:"m"},
+{ route:"beruehmte-alexander-duda", name:"Alexander Duda", added:"2026-11-15", subtyp:"SE2w1",
+    heading:"Alexander Duda \u2013 Self-Preservation Type 2",
+    teaser:"SP2w1 \u00b7 b. 1955 in Munich. Actor, theatre director and dubbing artist, Police Director Gert Achtziger in \u2018Die Rosenheim-Cops\u2019 since 2006. The hippopotamus that stays at its place. Animal correspondence: Hippopotamus.",
+    land:"Germany", tags:["Acting","Television","Theatre"], gender:"m"},
+{ route:"beruehmte-max-mueller", name:"Max M\u00fcller", added:"2026-11-15", subtyp:"SO7w6",
+    heading:"Max M\u00fcller \u2013 Social Type 7",
+    teaser:"SO7w6 \u00b7 b. 1965 in Klagenfurt. Actor and baritone, Police Sergeant Michi Mohr in \u2018Die Rosenheim-Cops\u2019 since 2002. The beaver who serves the whole from the second row. Animal correspondence: Beaver.",
+    land:"Austria", tags:["Acting","Television","Music"], gender:"m"},
+{ route:"beruehmte-jan-josef-liefers", name:"Jan Josef Liefers", added:"2026-11-15", subtyp:"SO7w6",
+    heading:"Jan Josef Liefers \u2013 Social Type 7",
+    teaser:"SO7w6 \u00b7 b. 1964 in Dresden. Actor, musician, director and producer, Prof. Boerne in the M\u00fcnster \u2018Tatort\u2019 since 2002. The beaver who, as counterpart to Axel Prahl\u2019s Thiel, gets the circle going. Animal correspondence: Beaver.",
+    land:"Germany", tags:["Acting","Television","Music","Directing"], gender:"m"},
+{ route:"beruehmte-anna-loos", name:"Anna Loos", added:"2026-11-15", subtyp:"SX6w7",
+    heading:"Anna Loos \u2013 Sexual Type 6",
+    teaser:"SX6w7 \u00b7 b. 1970 in Brandenburg an der Havel. Actress and singer (\u2018Helen Dorn\u2019, \u2018Halt mich fest!\u2019), frontwoman of Silly. The wolf who crossed the border at seventeen. Animal correspondence: Wolf.",
+    land:"Germany", tags:["Acting","Music","Television"], gender:"f"},
+{ route:"beruehmte-otto-waalkes", name:"Otto Waalkes", added:"2026-11-15", subtyp:"SO7w6",
+    heading:"Otto Waalkes \u2013 Social Type 7",
+    teaser:"SO7w6 \u00b7 b. 1948 in Emden. Comedian, singer, actor and draughtsman (\u2018Otto \u2013 Der Film\u2019, \u2018Ottifanten\u2019, \u20187 Zwerge\u2019). The beaver who builds comedy as a gift to the community. Animal correspondence: Beaver.",
+    land:"Germany", tags:["Film","Music","Art","Comedy"], gender:"m"},
 { route:"beruehmte-heinz-erhardt", name:"Heinz Erhardt", added:"2026-11-07", subtyp:"SE7w6",
     heading:"Heinz Erhardt \u2013 Self-Preservation Type 7",
     teaser:"SP7w6 \u00b7 1909\u20131979. Comedian, musician and poet from Riga, king of the twisted word. The gorilla that fills the room with calm. Animal correspondence: Gorilla.",
@@ -3478,8 +3543,8 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sadhguru – Self-Preservation Type 3",
     teaser:"SP3w2 · born 1957. Yogi, guru, bestselling author. Founder of the Isha Foundation. Nine million volunteers, 'Inner Engineering', Save Soil – the raccoon that plants the desert.",
     tags:["Sonstiges"], gender:"m"},
-{ route:"beruehmte-vincenzo-califano", name:"Vincenzo Califano", added:"2026-09-21", subtyp:"SO3w2",
-    heading:"Vincenzo Califano – Social Type 3",
+{ route:"beruehmte-vincenzo-califano", name:"Vincenzo Califano", added:"2026-09-21", subtyp:"SE3w2",
+    heading:"Vincenzo Califano – Self-Preservation Type 3",
     teaser:"SP3w2 · Spiritual teacher (Advaita/Direct Path), Zurich. Former entrepreneur who translated his own awakening experience into a structured teaching offer – 1:1 accompaniment, Inner Circle, weekly satsangs. The raccoon that builds even the teaching of the self's dissolution into a reliable system.",
     land:"Switzerland", tags:["Sonstiges"], gender:"m"},
 { route:"beruehmte-susan-link", name:"Susan Link", added:"2026-09-12", subtyp:"SE3w2",
@@ -4484,9 +4549,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wolfram Eilenberger – Social Type 6",
     teaser:"SO6w7 · b. 1972. Philosopher, founding editor-in-chief of the Philosophie Magazin, author of the bestseller ›Time of the Magicians‹ about Cassirer, Heidegger, Wittgenstein and Benjamin. Carries intellectual history out of the seminar room into the broad public at high speed. Animal correspondence: Meerkat.",
     land:"Germany", tags:["Wissenschaft","Kultur"], gender:"m"},
-{ route:"beruehmte-anne-will", name:"Anne Will", added:"2026-09-16", subtyp:"SE1w2",
-    heading:"Anne Will – Self-Preservation One",
-    teaser:"SP1w2 · b. 1966. Journalist and talk show host, including Tagesthemen news and the political talk show ›Anne Will‹ (2007–2023). Known for meticulous preparation and strict neutrality, publicly self-critical about her own overcorrectness. Animal correspondence: Eagle.",
+{ route:"beruehmte-anne-will", name:"Anne Will", added:"2026-09-16", subtyp:"SE3w4",
+    heading:"Anne Will – Self-Preservation Three",
+    teaser:"SP3w4 · b. 1966. Journalist and talk show host, including Sportschau, Tagesthemen news and the political talk show ›Anne Will‹ (2007–2023). Competence through preparation, publicly self-critical about her own overcorrectness. Animal correspondence: Raccoon.",
     land:"Germany", tags:["Medien"], gender:"f"},
 { route:"beruehmte-ben-berndt", name:"Ben Berndt", added:"2026-09-16", subtyp:"SE1w2",
     heading:"Ben Berndt – Self-Preservation One",
@@ -6399,6 +6464,7 @@ text.nav = [
     { heading: "Theory & Dynamics" },
     { route: "typ-aendert-sich-nicht", label: "Does the Type Change Over a Lifetime?" },
     { route: "linien-dynamik-beziehungen", label: "Connecting-Line Dynamics in Relationships (Stress & Security Points)" },
+    { route: "stresslinien-symmetrie", label: "When the Masks Fall: Symmetry of the Stress Lines" },
     { route: "enneagramm-autopoese", label: "The Enneagram as an Autopoietic System (Self-Preservation)" },
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
@@ -6412,6 +6478,13 @@ text.nav = [
     { route: "tierlexikon", label: "Animal Lexicon" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
     { route: "subtyp-comicfiguren", label: "The 27 Subtypes as Comic Characters" },
+    { heading: "Reference" },
+    { route: "library", label: "Library" },
+    { route: "zahlen-fakten", label: "The Compass in Numbers" },
+    { route: "meinen-typ-finden", label: "Finding my type" },
+    { route: "register", label: "Index" },
+  ]},
+  { route: "entdecken", label: "Discover", dropdown: [
     { heading: "Practice & Play" },
     { route: "quiz", label: "Quiz" },
     { route: "enneagramm-memory", label: "Enneagram Memory (matching game, 3 levels)" },
@@ -6431,6 +6504,7 @@ text.nav = [
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "yogi-tee-kompass", label: "Yogi Tea Compass (teas for 9 types & 27 subtypes)" },
     { heading: "Enneagram in Culture & World" },
+    { route: "sonntagsgeschichte", label: "A Healing Enneagram Sunday Story" },
     { route: "ennead-enneagramm", label: "The Ennead of Heliopolis and the Enneagram" },
     { route: "navagraha-enneagramm", label: "Navagraha and the Enneagram" },
     { route: "enneagramm-odyssee", label: "Enneagram Meets the Odyssey" },
@@ -6442,10 +6516,6 @@ text.nav = [
     { route: "planetenzuordnungen", label: "Planets & Moons of the Solar System" },
     { route: "zitate", label: "Quotes of the Wise" },
     { route: "tischdialoge", label: "Table Dialogues of the 27 Subtypes" },
-    { heading: "Reference" },
-    { route: "library", label: "Library" },
-    { route: "zahlen-fakten", label: "The Compass in Numbers" },
-    { route: "register", label: "Index" },
   ]},
   { route: "schaubilder", label: "Diagrams", dropdown: [
     { heading: "Foundations & Structure of the Enneagram" },
@@ -7472,6 +7542,74 @@ function inhaltsübersichtPage() {
   `);
 }
 
+// Probe der Woche: Gratis-Nutzer sehen nur den Anfang der Seite, dann Verlaufsblende und Freischalt-Knopf
+function _probeClip() {
+  try {
+    if (hasHeilwissen() || hasPortraits()) return;
+    if (!probeDerWoche().routes.has(state.route)) return;
+    const main = document.querySelector("main.app-shell");
+    if (!main) return;
+    main.querySelectorAll(".schaubild-share, .pdf-share-btn, .share-page-btn").forEach(e => { e.style.display = "none"; });
+    if (main.dataset.probeClip === state.route) return;
+    const bar = main.querySelector(".page-back-bar");
+    const box = bar && bar.nextElementSibling;
+    if (!box) return;
+    main.dataset.probeClip = state.route;
+    box.style.cssText += ";max-height:380px;overflow:hidden;position:relative;";
+    const ov = document.createElement("div");
+    ov.style.cssText = "position:absolute;left:0;right:0;bottom:0;height:200px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:1rem;background:linear-gradient(to bottom,rgba(250,246,238,0),var(--paper,#faf6ee) 70%);";
+    ov.style.flexDirection = "column"; ov.style.alignItems = "center"; ov.style.gap = ".5rem";
+    ov.innerHTML = '<span style="font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted,#7a7468);">Preview: the rest is in full access</span><button type="button" data-route="freischalt" style="background:var(--gold,#c4a456);color:#1a1a1a;border:0;border-radius:10px;padding:.8rem 1.4rem;font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit;">Keep reading with full access →</button>';
+    box.appendChild(ov);
+  } catch (e) {}
+}
+// Probe der Woche (wechselnd): je Woche ein Porträt, ein Schaubild, ein Praxistipp und ein Wissensartikel frei, der Rest bleibt gesperrt
+let _probeCache = null;
+function probeDerWoche() {
+  const wk = Math.floor((Date.now() + 3 * 864e5) / 6048e5);
+  if (_probeCache && _probeCache.wk === wk) return _probeCache;
+  const REG = registerEntriesEN;
+  const pick = (a, s) => a[(wk * 11 + s) % a.length];
+  const IMG = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/";
+  const SAFE_SCH = ["identifikation","nicht-reale-vorstellungen","ego-persoenlichkeit","ego-fixierungen","gifte-des-geistes","leidenschaft-und-wunde","heilungsweg","prinzipien","schutzdefizite","verantwortung","wann-entsteht-der-typ","verwechslungen","naehe","schmerzschutz","bewaeltigungsstrategie"];
+  const SAFE_TIP = ["praxistipps-heilpraktiker/chakra-kern-uebung","praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit","praxistipps-heilpraktiker/fussreflexzonen-aktivierung"];
+  const schR = REG.filter(e => SAFE_SCH.includes(e.route));
+  const sch = pick(schR, 3);
+  const sch2 = pick(schR.filter(e => e.route !== sch.route), 7);
+  const tip = pick(REG.filter(e => SAFE_TIP.includes(e.route)), 5);
+  const wisR = pick(["stresslinien-symmetrie", "drei-zentren"], 0);
+  const wis = REG.find(e => e.route === wisR) || { term: wisR, route: wisR };
+  const items = [
+    { kind: "Diagram", route: sch.route, title: sch.term },
+    { kind: "Practice tip", route: tip.route, title: tip.term },
+    { kind: "Knowledge article", route: wis.route, title: wis.term },
+    { kind: "Diagram", route: sch2.route, title: sch2.term },
+  ];
+  const n = BERUEHMT_PORTRAITS.length, st = (wk * 24) % n, tiles = [];
+  for (let i = 0; i < 24; i++) { const p = BERUEHMT_PORTRAITS[(st + i * 3) % n]; tiles.push({ route: p.route, name: p.name, img: IMG + p.route + "-portrait.jpg" }); }
+  _probeCache = { wk, items, routes: new Set(items.map(x => x.route)), tiles };
+  return _probeCache;
+}
+function probeBlockHtml() {
+  const P = probeDerWoche();
+  const total = Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100;
+  const card = "background:var(--paper,#fff);border:1px solid var(--gold);border-radius:10px;padding:.7rem .8rem;text-align:left;cursor:pointer;font-family:inherit;color:var(--ink);";
+  const free = P.items.map(x => `<button data-route="${x.route}" style="${card}">${x.img ? `<img src="${x.img}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:6px;margin-bottom:.5rem;" onerror="this.style.display='none'">` : ""}<span style="display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin-bottom:.2rem;">${x.kind}</span><span style="font-size:.9rem;line-height:1.35;">${x.title}</span></button>`).join("");
+  const lock = P.tiles.map(x => `<button data-route="freischalt" style="position:relative;border:0;padding:0;background:none;cursor:pointer;border-radius:8px;overflow:hidden;" title="Locked – included in full access"><img src="${x.img}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block;filter:grayscale(.6) brightness(.8);" onerror="this.style.visibility='hidden'"><span style="position:absolute;left:0;right:0;bottom:0;padding:.35rem .3rem;background:rgba(0,0,0,.55);color:#fff;font-size:.7rem;line-height:1.25;">&#128274; ${x.name}</span></button>`).join("");
+  return `
+      <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1.2rem;margin-bottom:1.5rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:0 0 .4rem;">Sample of the week</h2>
+        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">Every week four different pages open completely: two diagrams, one practice tip and one knowledge article. Next week there will be new ones.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:.7rem;">${free}</div>
+      </div>
+      <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1.2rem;margin-bottom:1.5rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:0 0 .4rem;">A glimpse of the abundance</h2>
+        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">You can see these titles; the content stays in full access. In total there are over ${total} portraits, plus diagrams, practice tips and knowledge articles. The Compass is continuously expanded.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:.5rem;">${lock}</div>
+      </div>
+`;
+}
+
 function leseprobePage() {
   return shell(`
     ${pageHeader("leseprobe")}
@@ -7497,6 +7635,8 @@ function leseprobePage() {
         </div>
       </div>
 
+      <div style="text-align:center;margin:0 0 1.5rem;"><button type="button" data-share-probe style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.5rem 1.1rem;font-size:.9rem;cursor:pointer;font-family:inherit;">&#8599; Share the free trial</button></div>
+${probeBlockHtml()}
       <!-- Famous Personalities -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.3rem;color:var(--ink);margin:0 0 0.4rem;">
@@ -8219,6 +8359,10 @@ function startPage() {
             <button class="start-path__btn start-path__btn--test" data-route="motivations-schnelltest">
               <span class="start-path__test-label">Motivation Quick Test</span>
               <span class="start-path__test-sub">10 Questions &middot; 3&ndash;5 Minutes &middot; Focus: the inner why</span>
+            </button>
+            <button class="start-path__btn start-path__btn--test" data-route="meinen-typ-finden">
+              <span class="start-path__test-label">Finding my type</span>
+              <span class="start-path__test-sub">Search &amp; rubrics &middot; collect statements &middot; no questionnaire</span>
             </button>
             <button class="start-path__btn start-path__btn--test start-path__btn--diag${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "diagnosetest" : "freischalt/heilwissen"}">
               <span class="start-path__test-label">Diagnosis Test${hasHeilwissen() ? "" : " 🔒"}</span>
@@ -9890,6 +10034,14 @@ function praxistippsHeilpraktikerPage() {
     { slug:"kino-erwachen", titel:"Red Pill, Blue Avatar: What The Matrix, Avatar, Inception and The Game Reveal About the Enneagram Fixation", teaser:"Four films, one idea: the pattern is an operating system, not the being. With tiles for The Matrix, Avatar, Inception and The Game, the nine programs of the types and a small totem exercise for everyday life.", img:"", kategorie:"geist" },
     { slug:"was-ist-liebe", titel:"What Is Love? From Substitute Strategies to Essence", teaser:"How the concept of love has changed, what the nine types substitute for love (love instead of perfection, giving, success \u2026), what mysticism and Eckhart Tolle understand by love \u2013 with a small exercise and the short film.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/was-ist-liebe/was-ist-liebe-en.jpg", kategorie:"geist" },
     { slug:"weniger-ist-mehr", titel:"Less Is More: Impulses Need Time", teaser:"Bach flowers, Schüßler salts and homeopathic remedies are considered harmless. Why it pays to be restrained with frequency: information instead of substance, Bach's own rule, a striking contradiction and notes on sensitivity in everyday life.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/weniger-ist-mehr/weniger-ist-mehr-2.jpg", kategorie:"koerper" },
+    { slug:"ausatmen-beruhigung", titel:"The Calm Switch: Longer Exhale, Hum, Signal Safety", teaser:"A short breathing exercise for under a minute: the exhale twice as long as the inhale, a soft hum and bodily safety signals. With a picture, notes and the link to exercise 1 from »7 Wege zu dir selbst«.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ausatmen-beruhigung/ausatmen-beruhigung-1.jpg", kategorie:"geist" },
+    { slug:"gute-stimmung-vier-schalter", titel:"Four Small Switches for Your Mood: Finish, Acknowledge, Laugh, Connect", teaser:"Four simple everyday exercises for a few minutes: finish something small, acknowledge yourself, laugh and write one person personally. With overview, daily plan and notes.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gute-stimmung-vier-schalter/gute-stimmung-vier-schalter-2-en.jpg", kategorie:"geist" },
+    { slug:"morgenroutine-fuenf-gewohnheiten", titel:"Five Habits Before Nine: A Good Start to the Day", teaser:"Five small morning habits without early rising: five minutes without the phone, daylight, brief movement, one real contact and an intention for the day. With overview and morning plan.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/morgenroutine-fuenf-gewohnheiten/morgenroutine-fuenf-gewohnheiten-1-en.jpg", kategorie:"geist" },
+    { slug:"gehirn-umbauen-drei-gewohnheiten", titel:"The Brain Shapes Along: Repeat, Feel, Direct Attention", teaser:"Three simple habits for shaping everyday life consciously toward contentment: repeat one good thought, feel the good fully and direct attention toward it. With overview and daily routine.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gehirn-umbauen-drei-gewohnheiten/gehirn-umbauen-drei-gewohnheiten-2-en.jpg", kategorie:"geist" },
+    { slug:"gefuehle-annehmen-alte-lasten", titel:"Accepting Feelings, Letting Go of Old Burdens: Seven Ways Out of Brooding", teaser:"Why old experiences keep coming back and what helps in everyday life: accepting and naming feelings, involving the body, writing it down, self-compassion, trying something new and sleeping well. With overview and a small plan.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gefuehle-annehmen-alte-lasten/gefuehle-annehmen-alte-lasten-1-en.jpg", kategorie:"geist" },
+    { slug:"gluck-keine-ankunft", titel:"Happiness Is Not an Arrival: Why ‘Once I Have …’ Does Not Hold", teaser:"The most common thinking error about happiness: tying it to a future condition. Why the brain plays along and how attention can be turned back to the present, with concrete gratitude and one simple question.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluck-keine-ankunft/gluck-keine-ankunft-1.jpg", kategorie:"geist" },
+    { slug:"reize-fasten-ruhetag", titel:"Fasting from Stimulation: A Quiet Day as a Restart for Drive and Attention", teaser:"When everything feels flat and the phone is more exciting than your own goals: a quiet day with little stimulation, gentle activities and the order effort before reward, plus suggestions for everyday life.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/reize-fasten-ruhetag/reize-fasten-ruhetag-1-en.jpg", kategorie:"geist" },
+    { slug:"gluecklich-drei-gewohnheiten", titel:"Happiness Grows in Small Things: Collect Wins, Savor Good Moments, Look Forward", teaser:"Why contentment is so hard to hold on to and how three small habits help: three small wins in the evening, holding good moments for 20 seconds, one thing to look forward to each week.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluecklich-drei-gewohnheiten/gluecklich-drei-gewohnheiten-1.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -9961,6 +10113,30 @@ function praxistippsHeilpraktikerPage() {
   if (param === "weniger-ist-mehr") {
     return wenigerIstMehrPage();
   }
+  if (param === "ausatmen-beruhigung") {
+    return ausatmenBeruhigungPage();
+  }
+  if (param === "gute-stimmung-vier-schalter") {
+    return guteStimmungVierSchalterPage();
+  }
+  if (param === "morgenroutine-fuenf-gewohnheiten") {
+    return morgenroutineFuenfGewohnheitenPage();
+  }
+  if (param === "gehirn-umbauen-drei-gewohnheiten") {
+    return gehirnUmbauenDreiGewohnheitenPage();
+  }
+  if (param === "gefuehle-annehmen-alte-lasten") {
+    return gefuehleAnnehmenAlteLastenPage();
+  }
+  if (param === "gluck-keine-ankunft") {
+    return glueckKeineAnkunftPage();
+  }
+  if (param === "reize-fasten-ruhetag") {
+    return reizeFastenRuhetagPage();
+  }
+  if (param === "gluecklich-drei-gewohnheiten") {
+    return gluecklichDreiGewohnheitenPage();
+  }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();
   }
@@ -9975,8 +10151,9 @@ function praxistippsHeilpraktikerPage() {
       <h1>Practical Tips from the Naturopath</h1>
       <p class="lead-small">Concrete impulses from Detlef Rathmer's naturopathic practice – body-oriented exercises as well as tea recommendations, small rituals, and everyday remedies. This section is continually expanded with new topics.</p>
 
-      <div style="margin:1.5rem 0 0;padding:1.1rem 1.3rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
-        <p style="font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .3rem;">Important Note &amp; Personal Remark</p>
+      <details style="margin:1.5rem 0 0;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
+        <summary style="padding:.9rem 1.3rem;cursor:pointer;font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;list-style:none;">Important Note &amp; Personal Remark <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted);">\u2013 expand \u25be</span></summary>
+        <div style="padding:0 1.3rem 1.1rem;">
         <p style="font-size:.82rem;color:var(--muted);margin:0 0 .7rem;">from your naturopath (over 30 years of practical experience)</p>
         <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Dear users, the tips in this section grew out of my decades of practical experience. They are excellent for quick everyday self-help, for gently easing minor acute complaints, and for supporting the body holistically – especially when no therapist is immediately available. Please keep in mind, however:</p>
         <ol style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;padding-left:1.2rem;">
@@ -9985,7 +10162,8 @@ function praxistippsHeilpraktikerPage() {
           <li><strong>The royal discipline:</strong> From my many years of experience, classical homeopathic constitutional therapy remains the royal discipline of holistic medicine. As an information-based therapy, it works at the deepest levels of the organism and fundamentally stimulates the body's self-healing powers.</li>
         </ol>
         <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Feel free to use these practical tips as valuable companions in everyday life – and for chronic or complex issues, turn with confidence to a skilled therapist/homeopath for a well-founded homeopathic constitutional treatment.</p>
-      </div>
+        </div>
+      </details>
 
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:1.5rem;">
         ${TIPP_KATEGORIEN.map(k => `
@@ -11787,6 +11965,19 @@ function libraryPage() {
     </section>
     ${werkSection()}
 
+    <section class="narrow" style="margin-top:2rem;">
+      <p class="eyebrow">Further reading</p>
+      <div style="display:grid;gap:.8rem;">
+        <a href="https://www.verlagshausrathmer.com/nine-soul-blossoms.html" target="_blank" rel="noopener" style="display:block;border:1px solid var(--line);border-radius:10px;padding:.9rem 1rem;text-decoration:none;color:inherit;">
+          <strong>Nine Soul Blossoms</strong><br><span style="font-size:.82rem;color:var(--copper);">A Bach flower for every type</span>
+          <p style="margin:.4rem 0 0;font-size:.9rem;color:var(--muted);line-height:1.55;">Your app for the nine blossoms of the nine types.</p>
+        </a>
+        <a href="https://www.verlagshausrathmer.com/stille-and-space.html" target="_blank" rel="noopener" style="display:block;border:1px solid var(--line);border-radius:10px;padding:.9rem 1rem;text-decoration:none;color:inherit;">
+          <strong>Stillness &amp; Space</strong><br><span style="font-size:.82rem;color:var(--copper);">Deeper into the spiritual</span>
+          <p style="margin:.4rem 0 0;font-size:.9rem;color:var(--muted);line-height:1.55;">Your app for silence, sounds and awareness in everyday life: 68 sounds, exercises, paths in small steps, music.</p>
+        </a>
+      </div>
+    </section>
     <div style="text-align:center;margin:1.6rem 0 2rem;"><button class="secondary" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">&uarr; Back to top</button></div>
   `);
 }
@@ -12253,6 +12444,7 @@ function _sucheResults(q) {
   const empty = () => ({ subtypen: [], portraits: [], register: [], zitate: [], laender: [], fuzzy: false });
   if (!tokens.length) return empty();
 
+  const _fr = !hasHeilwissen() && !hasPortraits();
   const run = (fuzzy) => {
     const res = empty();
     const add = (list, obj, label, extra, item) => {
@@ -12266,16 +12458,17 @@ function _sucheResults(q) {
     });
 
     KRIMINAL_PORTRAITS.forEach(p => {
-      add(res.portraits, p, p.name, (p.beschreibung || "") + " " + (p.typ || ""), { label: p.name, sub: p.typ || "", route: p.route });
+      add(res.portraits, p, p.name, _fr ? "" : (p.beschreibung || "") + " " + (p.typ || ""), { label: p.name, sub: _fr ? "" : (p.typ || ""), route: p.route });
     });
 
     registerEntriesEN.forEach(e => {
-      add(res.register, e, e.term, e.description || "", { label: e.term, sub: (e.description || "").slice(0, 80), route: e.route });
+      const _dsc = (_fr && /\bS[EOXP][1-9]|Portrait|Portr\u00e4t|Typ \d|Type \d/i.test(e.description || "")) ? "" : (e.description || "");
+      add(res.register, e, e.term, _dsc, { label: e.term, sub: _dsc.slice(0, 80), route: e.route });
     });
 
     (LAENDER_REGIONEN || []).forEach(r => {
       r.laender.forEach(l => {
-        add(res.laender, l, l.name, "", { label: l.name, sub: r.region + " · Type " + l.typ, route: "laenderzuordnungen|ll-" + l.iso });
+        add(res.laender, l, l.name, "", { label: l.name, sub: r.region + (_fr ? "" : " · Type " + l.typ), route: "laenderzuordnungen|ll-" + l.iso });
       });
     });
 
@@ -19036,6 +19229,9 @@ function bindEvents() {
   if (state.route === "motivations-schnelltest") {
     bindSchnelltest();
   }
+  if (state.route === "meinen-typ-finden") {
+    bindTypFinden();
+  }
   bindOnboarding();
 }
 
@@ -19162,6 +19358,19 @@ let schnellState = (() => {
 })();
 function _saveSchnellState() {
   try { localStorage.setItem("kompass:schnellState", JSON.stringify(schnellState)); } catch(e) {}
+}
+
+// Meinen Typ finden: Nachschlagen (Suche und Rubriken, Ich-Sätze). Inhalt und Logik liegen in data/typ-nachschlagen.js
+function meinenTypFindenPage() {
+  return shell(`
+    ${pageHeader("meinen-typ-finden")}
+    <section class="narrow"><div id="tn-root"><p class="suche-hint" role="status">Loading …</p></div></section>
+  `);
+}
+function bindTypFinden() {
+  const r = document.getElementById("tn-root");
+  if (!r) return;
+  import("/data/typ-nachschlagen.js?v=3").then(m => m.mount(r, "en")).catch(err => { console.error(err); r.textContent = "Could not load. Please check your connection and reload the page."; });
 }
 
 function motivationsSchnelltestPage() {
@@ -21142,9 +21351,11 @@ window.ytFacadePlay = function (el, id) {
 };
 
 function detlefRathmerJazzPage() {
+  const _t10esc = s => String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+  const _t10star = (id, s, title) => `<button type="button" class="t10-star" data-t10="${id}|${s}" data-t10-t="${_t10esc(title)}" aria-pressed="false">\u2606</button>`;
   const kachel = (id, label, tracks, desc, langs) => `
     <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
-      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${label}</p>
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:.5rem;padding:0.7rem 0.8rem 0.5rem 1rem;"><p style="margin:0;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${label}</p>${_t10star(id, 0, label)}</div>
       <div style="position:relative;aspect-ratio:16/9;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'${id}')">
         <img src="https://img.youtube.com/vi/${id}/hqdefault.jpg" loading="lazy" alt="${label}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
         <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
@@ -21169,7 +21380,7 @@ function detlefRathmerJazzPage() {
           ▶ All ${tracks.length} Songs
         </summary>
         <ol style="margin:0.4rem 0 0;padding-left:1.4rem;font-size:0.81rem;line-height:1.9;">
-          ${tracks.map(trk => typeof trk === "string" ? `<li style="color:var(--ink);">${trk}</li>` : `<li><a href="https://www.youtube.com/watch?v=${id}&t=${trk.s}s" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${trk.t}</a></li>`).join("")}
+          ${tracks.map(trk => typeof trk === "string" ? `<li style="color:var(--ink);">${trk}</li>` : `<li><a href="https://www.youtube.com/watch?v=${id}&t=${trk.s}s" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${trk.t}</a> ${_t10star(id, trk.s, trk.t + " \u00b7 " + label)}</li>`).join("")}
         </ol>
       </details>` : ""}
     </div>
@@ -21386,6 +21597,8 @@ const SPIRITUELL_TRACKS = {
         you will find my jazz albums, my Enneagram songs, and spiritual songs
         – everything I have composed and recorded over the years.
       </p>
+
+      <div id="t10-panel"></div>
 
       <!-- Abschnitts-Navigation -->
       <nav id="dr-top" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:2.5rem;">
@@ -44155,6 +44368,11 @@ function freischaltPage() {
         <h1 class="freischalt-card__title">Enneagram Healing Compass</h1>
         <p class="freischalt-card__desc">The interactive navigation system for all 27 Enneagram subtypes — gazing qualities, profiling, homeopathy, Bach flowers, Schuessler salts, gemstones, TCM, music and much more.</p>
 
+        <div style="text-align:center;margin:0 0 1.4rem;">
+          <button type="button" data-route="leseprobe" style="display:block;width:100%;max-width:420px;margin:0 auto;background:var(--gold,#c4a456);color:#1a1a1a;border:0;border-radius:10px;padding:.95rem 1.2rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:inherit;">View the free trial →</button>
+          <p style="margin:.5rem 0 0;font-size:.82rem;color:var(--muted);">No sign-up: the sample of the week and a glimpse of the abundance.</p>
+        </div>
+
         <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
           <li><strong style="color:var(--ink);">All 27 subtype portraits</strong> – depth-psychological profiles with animal, healing path & natural medicine</li>
           <li><strong style="color:var(--ink);">${Math.floor((BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length) / 100) * 100}+ portraits</strong> – famous personalities, criminal cases & illness portraits</li>
@@ -44480,6 +44698,8 @@ function flagEmoji(iso) {
 
 let LAENDER_REGIONEN = null;
 _LAZY_DATA.laender = { spec: "./data/lazy/laender.js", assign: m => { LAENDER_REGIONEN = m.LAENDER_REGIONEN; } };
+let WELTKARTE_MOD = null;
+_LAZY_DATA.weltkarte = { spec: "../data/lazy/weltkarte.js", assign: m => { WELTKARTE_MOD = m; } };
 const LAENDER_TYPEN_TABELLE = [
   { typ: 1, angst: "\u201cI am wrong.\u201d", org: "Inner norm, self-control", leidenschaft: "Wrath", motivation: "Improvement, correctness, integrity", essenz: "Wisdom" },
   { typ: 2, angst: "\u201cI am only valuable if I am needed.\u201d", org: "Relationship as a source of self-worth", leidenschaft: "Pride", motivation: "Helping, connecting, supporting", essenz: "Love" },
@@ -44501,6 +44721,7 @@ const LAENDER_TYPEN_TABELLE = [
 ];
 function laenderzuordnungenPage() {
   { const _w = _needData("laender"); if (_w) return _w; }
+  { const _w = _needData("weltkarte"); if (_w) return _w; }
   const typenFarben = TYPE_COLORS;
 
   const tabelleHtml = `
@@ -44630,6 +44851,8 @@ function laenderzuordnungenPage() {
         </video>
       </div>
       <p style="text-align:center;font-size:0.72rem;color:var(--muted);margin:-0.8rem 0 1.2rem;">Earth rotation: NASA Blue Marble Next Generation &ndash; Public Domain</p>
+
+      ${WELTKARTE_MOD ? WELTKARTE_MOD.weltkarteHtml(LAENDER_REGIONEN, "en") : ""}
 
       <p class="schaubild-page__intro">About 202 countries and their predominant Enneagram principle &ndash; a well-founded, but deliberately perspectival approach to national mentalities, history, and culture.</p>
 
@@ -45126,6 +45349,7 @@ function stillePage() {
           <iframe src="https://www.youtube.com/embed/LcLK3dPagZQ?playsinline=1" title="Mindfulness Exercise: Observing the Exhale" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
         </div>
         <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;text-align:center;">Over 25 minutes – a detailed guide by Detlef Rathmer on exhale-based mindfulness.</p>
+        <div style="text-align:center;margin-top:.9rem;"><button class="secondary" data-route="praxistipps-heilpraktiker/ausatmen-beruhigung" style="font-size:0.9rem;">See the practice tip: The Calm Switch \u2192</button></div>
       </div>
 
       <div style="margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:14px;border-left:3px solid var(--copper);max-width:480px;margin-left:auto;margin-right:auto;">
@@ -47219,6 +47443,17 @@ document.addEventListener("click", function(ev) {
   }
 });
 
+document.addEventListener("click", function(ev) {
+  const sp = ev.target.closest && ev.target.closest("[data-share-probe]");
+  if (!sp) return;
+  const data = { title: "Enneagram Healing Compass: free trial", text: "A look inside the Enneagram Healing Compass: the free trial with the sample of the week.", url: "https://kompass.verlagshausrathmer.com/en/leseprobe/" };
+  if (navigator.share) {
+    navigator.share(data).catch(function(e) { if (e && e.name !== "AbortError" && navigator.clipboard) navigator.clipboard.writeText(data.url); });
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(data.url).then(function() { sp.textContent = "\u2713 Link copied"; });
+  }
+});
+
 function _favLabel(r) {
   if (!r) return null;
   const k = KRIMINAL_PORTRAITS.find(p => p.route === r);
@@ -47747,6 +47982,7 @@ function subtypeSchaubilderPage() {
     typentest: typentestPage,
     "typentest-motivational": typentestMotivationalPage,
     "motivations-schnelltest": motivationsSchnelltestPage,
+    "meinen-typ-finden": meinenTypFindenPage,
     psychogramme: psychogrammePage,
     "heilungsweg": heilungswegPage,
     "kindliche-temperamente": kindlicheTemperamentePage,
@@ -47792,6 +48028,8 @@ function subtypeSchaubilderPage() {
     "claudio-naranjo-lehrer": claudioNaranjoLehrerPage,
     "david-daniels-gesetze": davidDanielsGesetzePage,
     "tugenden-enneagramm": tugendenEnneagrammPage,
+    "sonntagsgeschichte": sonntagsgeschichtePage,
+    "stresslinien-symmetrie": stresslinienSymmetriePage,
     "enneagramm-ayurveda": enneagrammAyurvedaPage,
     "spirituelles-enneagramm": spirituellesEnneagrammPage,
     "kindheitspraegungen-enneagramm": kindheitspraegungenPage,
@@ -48548,7 +48786,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-paul-dano": paulDanoPortraitPage, "beruehmte-axel-prahl": axelPrahlPortraitPage, "beruehmte-marisa-burger": marisaBurgerPortraitPage, "beruehmte-igor-jeftic": igorJefticPortraitPage, "beruehmte-alexander-duda": alexanderDudaPortraitPage, "beruehmte-max-mueller": maxMuellerPortraitPage, "beruehmte-jan-josef-liefers": janJosefLiefersPortraitPage, "beruehmte-anna-loos": annaLoosPortraitPage, "beruehmte-otto-waalkes": ottoWaalkesPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
@@ -49065,7 +49303,7 @@ function subtypeSchaubilderPage() {
     }
     // Zugangsschutz
     if (!hasHeilwissen() && base !== "freischalt" && base !== "start") { try { localStorage.setItem("kompass:returnRoute", state.route); } catch (e) {} }
-    if (!hasHeilwissen() && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "wegweiser-premium") {
+    if (!hasHeilwissen() && !probeDerWoche().routes.has(state.route) && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "sonntagsgeschichte" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "kaufen" && base !== "meinen-typ-finden" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -49748,12 +49986,14 @@ setTimeout(showTagesimpuls, 600);
     removeSuggestionChips();
     addMsg(question, "user");
     inputEl.value = "";
+    if (!hasHeilwissen() && !hasPortraits() && !getSessionToken()) { addMsg("The Guide is unlocked with access to the Compass. It cannot be asked in the free trial. Unlock access to use it.", "meta"); return; }
     const loadingEl = addMsg("… thinking …", "meta");
 
     try {
       const headers = { "Content-Type": "application/json" };
       const sessionToken = getSessionToken();
       if (sessionToken) headers["X-Session-Token"] = sessionToken;
+      try { if (typeof fbAuth !== "undefined" && fbAuth && fbAuth.currentUser) headers["X-App-Token"] = await fbAuth.currentUser.getIdToken(); } catch (e) {}
 
       const res = await fetch(WORKER_URL, {
         method: "POST",
@@ -49982,11 +50222,32 @@ function _suchX(root) {
 _suchX(document);
 new MutationObserver(() => _suchX(document)).observe(document.body, { childList: true, subtree: true });
 
+// Sonntagsgeschichte: fertige PDF (R2) per Teilen-Dialog weitergeben, sonst herunterladen/öffnen.
+document.addEventListener("click", async (e) => {
+  const b = e.target.closest("[data-share-pdf]");
+  if (!b) return;
+  const url = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/downloads/sonntagsgeschichte-en.pdf";
+  const label = b.textContent;
+  b.disabled = true; b.textContent = "Loading PDF …";
+  try {
+    const blob = await (await fetch(url)).blob();
+    const file = new File([blob], "sunday-story-en.pdf", { type: "application/pdf" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({ files: [file], title: "A Healing Enneagram Sunday Story", text: "A Healing Enneagram Sunday Story – Enneagramm-Heilungskompass\nhttps://kompass.verlagshausrathmer.com/en/sonntagsgeschichte/" });
+    } else {
+      const u = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = u; a.download = "sunday-story-en.pdf"; document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(u), 30000);
+    }
+  } catch (err) {
+    if (!(err && err.name === "AbortError")) window.open(url, "_blank");
+  } finally { b.disabled = false; b.textContent = label; }
+});
+
 // PDF-Auszug zum Weitergeben (nur verstorbene Personen): Knopf unter dem Porträtbild, Modul wird erst bei Bedarf geladen.
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=18"))).then(m => m.mountPdfButton("en")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=19"))).then(m => m.mountPdfButton("en")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {
@@ -49999,5 +50260,10 @@ function _rsMount() {
   if (!document.querySelector('.typentest-card--result:not([data-share]), button[onclick*="_tqShare"]:not([data-share]), button.flash-btn[onclick*="Restart"]:not([data-share]), section.subtype-hero:not([data-share])')) return;
   (_rsMod || (_rsMod = import("../data/result-share.js?v=8"))).then(m => m.mountResultShare("en")).catch(() => {});
 }
-new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); }).observe(document.body, { childList: true, subtree: true });
-_pdfMount(); _sbMount(); _rsMount();
+let _t10Mod = null;
+function _t10Mount() {
+  if (!document.querySelector("#t10-panel:not([data-t10-ready]), .t10-star:not([data-t10-init])")) return;
+  (_t10Mod || (_t10Mod = import("../data/musik-top10.js?v=2"))).then(m => m.mountTop10("en")).catch(() => {});
+}
+new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); _t10Mount(); _probeClip(); }).observe(document.body, { childList: true, subtree: true });
+_pdfMount(); _sbMount(); _rsMount(); _t10Mount(); _probeClip();

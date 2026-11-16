@@ -1539,7 +1539,7 @@ export function josephHaydnPortraitPage() {
         {route:"krankheitsportraets-joseph-haydn", label:"Krankheitsporträt: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-edita-gruberova", label:"Porträt: Edita Gruberová (SE3w2)"},
         {route:"beruehmte-michael-dell", label:"Porträt: Michael Dell (SE3w2)"},
-        {route:"beruehmte-vincenzo-califano", label:"Porträt: Vincenzo Califano (SO3w2)"},
+        {route:"beruehmte-vincenzo-califano", label:"Porträt: Vincenzo Califano (SE3w2)"},
       ])}
     </div>
   `);
@@ -3286,6 +3286,84 @@ export function tomHardyPortraitPage() {
         {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
         {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7)"},
         {route:"beruehmte-alec-baldwin", label:"Porträt: Alec Baldwin (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+export function marisaBurgerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marisa-burger-portrait.jpg" alt="Marisa Burger – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-marisa-burger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Marisa Burger</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin und Hörbuchsprecherin, geb. 1973 in Altötting &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau aus Oberbayern: Wirkung durch Wärme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> entfaltet sein Rad, weil Gefallen zu seinem Wesen gehört. Marisa Burger wurde am 10. Juli 1973 in Altötting geboren. Nach Angaben ihrer Agentur ließ sie sich in München an der Neuen Münchener Schauspielschule ausbilden und bildete sich später am Mozarteum in Salzburg weiter; die Jahreszahlen dazu fallen in den Quellen unterschiedlich aus und werden hier bewusst nicht genannt.</p>
+          <p class="vb-intro">Ihre ersten Jahre gehörten der Bühne: Engagements am Münchner Volkstheater und am Metropol-Theater München, darunter nach Berichten Thomas Vinterbergs ›Das Fest‹. Ihr Beruf begann also im Theater, nicht im Fernsehen, und die Nähe zum Publikum blieb ihr auch später wichtig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Dreier: Anziehung als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sexuellen Dreier den Subtyp der <em>Männlichkeit bzw. Weiblichkeit</em> (Masculinity/Femininity): Der Wert der eigenen Person hängt hier stark daran, wie man als Frau oder Mann auf andere wirkt, begehrenswert, liebenswert, bewundert: Es ist der Subtyp, der die ideale Frau oder den idealen Mann verkörpern möchte. Die Leidenschaft der Drei, die Eitelkeit (das Bedürfnis, im Spiegel der anderen zu glänzen), hat hier ihre Bühne. Anders als der selbsterhaltende oder der soziale Dreier arbeitet dieser Subtyp nicht vorrangig an Geld oder Rang, sondern an der Anziehungskraft.</p>
+          <p class="vb-intro">Bei Burger zeigt sich das als Mischung aus Freundlichkeit, Gepflegtheit und Extrovertiertheit: Sie wirkt stets adrett, strahlend und herzlich-exaltiert und möchte gefallen. Frau Stockl, die zu allen freundlich ist, alles für andere tut und sich gern schön kleidet, ist dafür die ideale Bühne. Auch die Blickqualität bestätigt diese Typisierung: Burger hat Strahleaugen, einen offen leuchtenden, werbenden Blick, wie er für die Drei typisch ist, und nicht den weichen, fürsorglich-bittenden Blick der Zwei. Gegen eine sexuelle Sechs spricht, dass Gefallen und Wirkung im Vordergrund stehen, nicht Angstabwehr durch Stärke. Dazu passt, dass sie in Interviews selbst von früher Unsicherheit über Aussehen und Anerkennung spricht: Nach Medienberichten litt sie in der Jugend an Magersucht und verarbeitete das in ihrem Buch ›Vergiss nie, wie dein Herz am Anfang war‹. Für den sexuellen Dreier ist das Ideal des eigenen Körperbildes ein besonders empfindliches Feld.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: die gute Seele</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> macht den Dreier wärmer, beziehungsorientierter und weniger kühl-zielstrebig. Er will nicht nur bewundert, sondern gebraucht und gemocht werden. Das zeigt sich in der Rolle, mit der Burger bekannt wurde: Seit 2002 spielte sie in der ZDF-Serie ›Die Rosenheim-Cops‹ die Sekretärin Miriam Stockl, die gute, redselige, stets zugewandte Seele der Dienststelle, die alles mitbekommt und jedem etwas Freundliches zu sagen hat. Die Figur lebt von Herzlichkeit, nicht von Härte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: eine Nebenfigur, die zur Kultfigur wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Burger auszeichnet, ist das Gespür dafür, eine Nebenrolle über ein knappes Vierteljahrhundert lebendig zu halten. Frau Stockl ist keine Ermittlerin, sondern die Frau am Rand der Handlung, und doch wurde sie zu einer der beliebtesten Figuren der Serie. Das gelingt über Timing, bayerische Wärme und die Kunst, in kleinen Szenen, einem Blick, einem Satz, einem Kommentar am Rand, eine ganze Haltung zu zeigen. Dazu kommt ihre Arbeit als Hörbuchsprecherin: Hier trägt allein die Stimme, ohne Kostüm und Kamera, Wärme und Atmosphäre.</p>
+          <p class="vb-intro">Nach Jahren in derselben Rolle ist das auch eine handwerkliche Leistung: Eine Figur über so lange Zeit frisch zu halten, ohne sie zur Routine werden zu lassen, gelingt nicht jedem.</p>
+          <p class="vb-intro">2017 erhielt sie gemeinsam mit ihren Serienkollegen <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a> und <a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a> die Bayerische Staatsmedaille für Innere Sicherheit (›Stern der Sicherheit‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Abschied: Mut zum Rollenwechsel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Burger verließ die Serie nach fast einem Vierteljahrhundert. Die Abschiedsfolge läuft nach Medienberichten am 24. November 2026 im ZDF; die Figur verlässt die Serie lebend. Am letzten Drehtag, sagte sie der Abendzeitung, seien Tränen geflossen. Für einen sexuellen Dreier mit Zweierflügel ist ein solcher Schritt bemerkenswert: Eine geliebte Rolle aufzugeben heißt, die sichere Zuneigung eines großen Publikums gegen Unbekanntes einzutauschen. Sie kehrt auf die Bühne zurück und spielt seit dem 27. Februar 2026 unter anderem in Hamburg und Berlin in ›Kleine Verbrechen unter Liebenden‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sexuellen Dreiers mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Herzlichkeit und in einer Offenheit, die auch Schwieriges zeigt, etwa das Buch über die Magersucht, mit dem sie anderen Betroffenen Mut machen wollte. Der Schatten liegt in der Eitelkeit der Drei: den eigenen Wert zu stark an die Zuneigung des Publikums zu knüpfen und dafür eigene Grenzen zu übergehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp: Christina Plate und Iris Berben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-christina-plate">Christina Plate</a> (SX3w2) steht ihr besonders nahe: Auch sie ist über Jahrzehnte ein vertrautes Gesicht deutscher Fernsehserien, das Ausstrahlung zum Beruf machte. <a href="javascript:void(0)" data-route="beruehmte-iris-berben">Iris Berben</a> (SX3w2) zeigt dieselbe Anziehungskraft in einer anderen Gestalt: als Grande Dame, die ihre Wirkung mit dem Alter bewusst neu definiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Burger ist seit 2015 in zweiter Ehe verheiratet und arbeitet wieder am Theater. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Burger ist eine sexuelle Drei mit Zweierflügel (SX3w2): Das zeigen Lebenslauf und öffentliches Auftreten im Enneagramm-Profiling-System von David L. Rathmer. Ausbildungszeiten weichen in den Quellen voneinander ab und sind deshalb bewusst offen gelassen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx3", label:"Lebensmusterkompass: SX3 – Pfau"},
+        {route:"beruehmte-christina-plate", label:"Porträt: Christina Plate (SX3w2)"},
+        {route:"beruehmte-iris-berben", label:"Porträt: Iris Berben (SX3w2)"},
+        {route:"beruehmte-alexander-duda", label:"Porträt: Alexander Duda (SE2w1)"},
+        {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6)"},
+        {route:"beruehmte-igor-jeftic", label:"Porträt: Igor Jeftić (SO1w2)"},
+        {route:"beruehmte-axel-prahl", label:"Porträt: Axel Prahl (SE9w8) – Kommissar Thiel im Münsteraner Tatort"},
       ])}
     </div>
   `);

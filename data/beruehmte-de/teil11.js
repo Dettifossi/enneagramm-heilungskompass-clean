@@ -3035,7 +3035,7 @@ export function rosalieThomassPortraitPage() {
 
         <h2 class="vb-section">7. Der Heilungsweg: vom Spiel zur Tiefe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Weg der Sieben führt vom Reiz des Nächsten zum Bleiben im Gegenwärtigen. Wenn eine Schauspielerin über Jahre die Geschichte einer Frau schreibt, die sich in ihrem Körper wohlfühlen will, lässt sich das als ein Schritt zur Tiefe lesen: das Spiel nicht als Flucht, sondern als Mittel, etwas Eigenes zu klären. Das ist eine Deutung, kein Befund.</p>
+          <p class="vb-intro">Der Weg der Sieben führt vom Reiz des Nächsten zum Bleiben im Gegenwärtigen. Wenn eine Schauspielerin über Jahre die Geschichte einer Frau schreibt, die sich in ihrem Körper wohlfühlen will, lässt sich das als ein Schritt zur Tiefe lesen: das Spiel nicht als Flucht, sondern als Mittel, etwas Eigenes zu klären.</p>
         </blockquote>
 
       </div>
@@ -3192,6 +3192,86 @@ export function clintEastwoodPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function axelPrahlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-axel-prahl-portrait.jpg" alt="Axel Prahl – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-axel-prahl-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Axel Prahl</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Musiker, geb. 1960 in Eutin &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant aus Holstein: ein Mann, der nicht drängelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> geht seinen Weg in gleichmäßigem Schritt und braucht keine Lautstärke, um bemerkt zu werden. Axel Prahl wurde am 26. März 1960 in Eutin geboren und wuchs mit seinem Bruder Udo in Neustadt in Holstein auf. Nach dem Fachabitur studierte er in Kiel zunächst Musik und Mathematik an der Pädagogischen Hochschule; das Studium brach er nach mehreren Semestern ab. Von 1982 bis 1985 besuchte er die Schauspielschule Kiel und stand während dieser Zeit schon am Theater Kiel und mit einer eigenen Band auf der Bühne.</p>
+          <p class="vb-intro">Danach führte ihn sein Weg über das Schleswig-Holsteinische Landestheater nach Berlin, wo er ab 1992 an Häusern wie dem Renaissance-Theater, dem Grips-Theater und den Kammerspielen des Deutschen Theaters arbeitete. Sein Filmdebüt gab er 1992 in Max Färberböcks ›Schlafende Hunde‹. Es war keine Blitzkarriere, sondern ein langer, handwerklicher Aufstieg, der erst im mittleren Lebensalter zum großen Publikum führte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Bodenständigkeit als Lebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Neun den Subtyp des <em>Appetits</em> (Appetite): Sie sucht Ruhe und Sicherheit im Konkreten, in Gewohnheit, Geselligkeit und den kleinen Annehmlichkeiten des Alltags, und dämpft damit eine tiefer liegende innere Leere. Im Lebensmusterkompass dieser App steht dafür die ruhige, gewichtige Präsenz.</p>
+          <p class="vb-intro">Prahl wirkt in seinen Rollen und in der Öffentlichkeit wie ein Mann, der in sich ruht: nahbar, ohne Starallüren, norddeutsch trocken und auf dem Boden geblieben. Er spielt vorzugsweise gewöhnliche Männer mit Ecken und Kanten, Leute, die man an der Imbissbude, im Autohaus oder auf der Dienststelle trifft, und gibt ihnen eine Würde, die ohne Pose auskommt. Das passt zur selbsterhaltenden Neun, deren Stärke im Beständigen liegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Direktheit, Grummeln und Rückgrat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Neun Gewicht, Geradlinigkeit und die Fähigkeit, bei Bedarf dagegenzuhalten. Als Kriminalhauptkommissar Frank Thiel im Münsteraner ›Tatort‹ (der seit Jahrzehnten laufenden deutschen Krimireihe des Ersten Deutschen Fernsehens) ist genau dieser Zug zu sehen: Thiel ist ein bodenständiger, mürrisch-herzlicher Ermittler, der sich vom überlegenen Besserwisser Prof. Boerne (<a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a>) nicht kleinmachen lässt und ihm doch seit über zwanzig Jahren in einer Haltung aus Reibung und Zuneigung gegenübersteht. Das Grummeln ist Schutz, die Loyalität ist echt.</p>
+          <p class="vb-intro">Der Achterflügel zeigt sich auch darin, dass Prahl Figuren mit Widerstandskraft spielt: Menschen, die einstecken und trotzdem stehen bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Menschen ohne Pose, ein Schauspieler ohne Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Prahl auszeichnet, ist die Fähigkeit, ganz gewöhnliche Menschen glaubhaft zu verkörpern, ohne sie auszustellen. Sein Durchbruch im Kino kam in den Filmen von Andreas Dresen: In ›Halbe Treppe‹ (2002), Dresens weitgehend improvisiertem Beziehungsdrama aus Frankfurt (Oder), spielte er den Imbissbesitzer Uwe und erhielt den Bayerischen Filmpreis als bester Hauptdarsteller. In ›Willenbrock‹ (2005, nach dem Roman von Christoph Hein) gab er den Gebrauchtwagenhändler Bernd Willenbrock, einen Mann, dessen sicheres Leben ins Rutschen gerät, und wurde dafür mit dem Preis der deutschen Filmkritik als bester Darsteller geehrt. Auch ›Die Polizistin‹ (2000) gehört zu dieser Reihe. Zu seinen Auszeichnungen zählen außerdem der Grimme-Preis und die Goldene Kamera.</p>
+          <p class="vb-intro">Die Technik dahinter ist die Beiläufigkeit: Er spielt, als würde nichts gespielt. Pausen, ein Schulterzucken, ein trockener Satz statt großer Gesten tragen die Szene. Das ist das Gegenteil des Auftrumpfens und zugleich eine eigene, schwer zu erlernende Kunst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Musik als Gemeinschaft: Inselorchester und Inselleuchten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neben der Schauspielerei bleibt Prahl der Musik treu, mit der er einst sein Studium begonnen hatte. Er tritt mit dem Inselorchester auf, einer Band, mit der er als Sänger und Liedermacher mehrere Alben veröffentlicht hat, und veranstaltet seit 2007 jährlich das Sommer-Musikfestival ›Inselleuchten‹. Für eine selbsterhaltende Neun ist das aufschlussreich: Die Musik dient nicht dem Soloauftritt, sondern dem Zusammensein. Ein Orchester, ein Festival, Freunde auf der Bühne: Gemeinschaft statt Rampenlicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Neun mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit, im trockenen Humor und in der Wärme, mit der Prahl Millionen Zuschauer über Jahrzehnte begleitet. Der Schatten der Neun liegt darin, die eigenen Wünsche zugunsten der Harmonie zu dämpfen; der Achterflügel kann sich dann als plötzliche Schärfe oder als Starrsinn zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp: Dietmar Bär und Robbie Coltrane</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die engste Parallele ist <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Dietmar Bär</a> (SE9w8): Auch er ist seit Jahrzehnten ein beliebter ›Tatort‹-Kommissar (Ballauf in Köln), bodenständig, genussfreudig und direkt, und auch er verbindet das über viele Jahre mit einem festen Gegenüber. <a href="javascript:void(0)" data-route="beruehmte-robbie-coltrane">Robbie Coltrane</a> (SE9w8) zeigt dieselbe Verbindung aus gutmütiger Fülle und Schärfe darunter, nur in anderen Rollen, vom Hagrid bis zum Polizeipsychologen Fitz.</p>
+          <p class="vb-intro">Ein besonderes Gegenüber ist <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) als Prof. Boerne: der soziale Siebener als Gegenstück zur selbsterhaltenden Neun. Beide spielen seit 2002 im Münsteraner ›Tatort‹ ein Duo, in dem die Neun erdet und die Sieben antreibt (siehe sein Porträt).</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Prahl lebt in Berlin und ist in dritter Ehe verheiratet. Den Münsteraner ›Tatort‹ spielt er weiterhin; nach Presseberichten wurden die Verträge mit ihm und Jan Josef Liefers bis 2029 verlängert. Prahl ist ein selbsterhaltender Neuner mit Achterflügel (SE9w8): Das zeigen sein Lebensweg und das Enneagramm-Profiling-System von David L. Rathmer. Zu Ausbildung und Frühzeit sind die Quellen teils widersprüchlich.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se9", label:"Lebensmusterkompass: SE9 – Elefant"},
+        {route:"beruehmte-dietmar-baer", label:"Porträt: Dietmar Bär (SE9w8)"},
+        {route:"beruehmte-robbie-coltrane", label:"Porträt: Robbie Coltrane (SE9w8)"},
+        {route:"beruehmte-jan-josef-liefers", label:"Porträt: Jan Josef Liefers (SO7w6) – Boerne im Münsteraner Tatort"},
+        {route:"beruehmte-marisa-burger", label:"Porträt: Marisa Burger (SX3w2) – Rosenheim-Cops"},
+        {route:"beruehmte-alexander-duda", label:"Porträt: Alexander Duda (SE2w1) – Rosenheim-Cops"},
+        {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6) – Rosenheim-Cops"},
+        {route:"beruehmte-igor-jeftic", label:"Porträt: Igor Jeftić (SO1w2) – Rosenheim-Cops"},
       ])}
     </div>
   `);

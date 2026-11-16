@@ -2167,7 +2167,6 @@ export function benBerndtPortraitPage() {
         <h2 class="vb-section">3. The Two-Wing: The Friendly Host, Not the Detached Interviewer</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Two-wing (w2)</strong> shows in exactly this self-description as a "friendly host" rather than a detached questioner. A Self-Preservation One with a weakly developed two-wing – or even a Self-Preservation One with a nine-wing – would more likely insist on strict factual correctness and hold back more; the two-wing opens Berndt's format toward the personal, often hours-long closeness to the guest that sets "ungeskriptet" apart from classical interview journalism.</p>
-          <p class="vb-intro">The same wing coloring – discipline and strict principle turned inward, warmth and personal closeness turned outward – appears in Anne Will (SP1w2): here too a self-imposed code of honor, combined with a motto of "asking personally" rather than merely reporting factually.</p>
         </blockquote>
 
         <h2 class="vb-section">4. From the Fight Ring to Calm: Worry No Longer Directed Outward</h2>
@@ -2197,7 +2196,6 @@ export function benBerndtPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2)"},
         {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
       ])}
@@ -3221,6 +3219,154 @@ export function katyOBrianPortraitPage() {
         {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
         {route:"beruehmte-tom-hardy", label:"Portrait: Tom Hardy (SX6w7)"},
         {route:"beruehmte-steve-mcqueen", label:"Portrait: Steve McQueen (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+export function michaelFassbenderPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-fassbender-portrait.jpg" alt="Michael Fassbender – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-michael-fassbender-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Michael Fassbender</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Actor and racing driver, b. 1977 in Heidelberg &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose That Sets Its Own Tasks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> keeps watch, notices what is wrong and does not give way. Michael Fassbender was born on 2 April 1977 in Heidelberg. His mother Adele is from Larne in Northern Ireland, his father Josef is German and worked as a chef. When he was two the family moved to Killarney in Ireland's County Kerry, where his parents ran the restaurant ›West End House‹. He grew up Catholic, was an altar boy and now describes himself as lapsed. He holds a German passport and says he feels Irish and European.</p>
+          <p class="vb-intro">At seventeen, after a part in a school play, he decided to become an actor. At nineteen he went to the Drama Centre London, but in 1999 he dropped out to tour with the Oxford Stage Company in Chekhov's ›Three Sisters‹. Whoever leaves school to play has decided that the craft grows where it is practiced.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Non-Adaptation and Standards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social One (SO1)</strong> directs its standard at the cause and the community, takes responsibility and does not let itself be bent. Claudio Naranjo spoke of the subtype of non-adaptation. In Fassbender this shows in the price he is willing to pay for precision. For Steve McQueen's film ›Hunger‹ (2008) he kept to a diet of about 600 calories a day and weighed around 57 kilograms as Bobby Sands. He said he had to stick to a timetable, and also found the experience ›liberating‹. At the same time he later said he would not do that to his body again.</p>
+          <p class="vb-intro">The same stance shows in his choice of tasks: with McQueen he made ›Hunger‹, ›Shame‹ (2011) and ›12 Years a Slave‹ (2013). Whoever follows a director again and again binds himself to a shared cause rather than to his own stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Serving the Guest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings warmth and a willingness to serve others. Fassbender grew up in a restaurant where hosting was daily life, which can be read as a background to this coloring. He works in an ensemble, stays loyal to his directors and keeps his private life largely out of public view. A weakly developed Two-wing would leave the One more in plain strictness; here a quiet, serving warmth is added.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Body, Control and Danger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What marks Fassbender is the combination of utmost control and palpable danger. In ›Hunger‹ he played the imprisoned IRA hunger striker Bobby Sands; the critic Peter Bradshaw called the performance ›ferociously convincing‹. In ›Shame‹ he embodied a man struggling with sex addiction and won the Volpi Cup for Best Actor at the 2011 Venice Film Festival for it. In ›Inglourious Basterds‹ (2009) he was the British officer Archie Hicox, in the ›X-Men‹ films from 2011 Magneto, in ›12 Years a Slave‹ the slave owner Edwin Epps, which brought him an Oscar nomination for Best Supporting Actor. In 2015 came the nomination for Best Actor for ›Steve Jobs‹ (directed by Danny Boyle, written by Aaron Sorkin; the role had earlier been Christian Bale's).</p>
+          <p class="vb-intro">His technique is precision: he shows hardness and fragility at once without stressing either. That suits the One, which turns its standard inward and practices it as a craft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. On the Racetrack Too: the Discipline of the One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At forty Fassbender began to race. ›Even before I started acting, I had a big dream to go racing.‹ he said in 2020. In 2017 he debuted in the Ferrari Challenge at Mugello and finished fifteenth; in 2018 he won the season opener at Daytona on the North American schedule and finished fifth in the standings. In 2019 he drove the Porsche Carrera Cup Germany, accompanied by the video series ›Road to Le Mans‹. From 2020 to 2023 he started for Proton Competition in the European Le Mans Series, with second place at Portimão in 2021 as his first podium. At the 2022 24 Hours of Le Mans he finished sixteenth in his class; in 2023 he retired.</p>
+          <p class="vb-intro">Racing demands care, preparation and the willingness to improve the same lap again and again. It is a field in which the One can make its persistence visible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Social One with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability and in the courage for precision: a performer who takes on extreme demands and sees them through. The shadow of the One is strictness toward oneself. The body pays what the standard demands, and Fassbender himself said he would not repeat the Hunger diet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Bradley Cooper and Niki Lauda</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-bradley-cooper">Bradley Cooper</a> (SO1w2) Fassbender shares a high standard for his own craft and the will to change over the years, in Cooper through directing, in Fassbender through extreme roles. <a href="javascript:void(0)" data-route="beruehmte-niki-lauda">Niki Lauda</a> (SO1w2) shares the racetrack with him: both are Ones who find care and sobriety in motor racing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status in November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fassbender has been married since 14 October 2017 to the Swedish actress Alicia Vikander; they have two sons and live in Lisbon. Most recently he appeared in ›The Killer‹ (2023, David Fincher), ›Next Goal Wins‹ (2023, Taika Waititi) and ›Black Bag‹ (2025, Steven Soderbergh), and in the series ›The Agency‹ (since 2024). His stated goal in racing is a return to the 24 Hours of Le Mans. The typing is based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
+        {route:"beruehmte-niki-lauda", label:"Portrait: Niki Lauda (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+export function paulDanoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-dano-portrait.jpg" alt="Paul Dano – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-paul-dano-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Paul Dano</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">Actor and director, b. 1984 in New York &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove That Stays Quiet While the Film Gets Loud</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> returns, carries the load and makes no fuss about it. Paul Dano was born on 19 June 1984 in New York City. His father worked as a financial advisor, his mother was a homemaker, and he has a younger sister, Sarah. He attended the Browning School in Manhattan, then high school in Wilton, Connecticut (graduating in 2002) and Eugene Lang College in New York.</p>
+          <p class="vb-intro">He was on stage early: in 1996 he played the little boy Edgar in the world premiere of the musical ›Ragtime‹ in Toronto, and at twelve he made his Broadway debut in the revival of ›Inherit the Wind‹ alongside George C. Scott and Charles Durning. His film debut came at sixteen in ›L.I.E.‹ (2001) as Howie Blitzer, a withdrawn teenager at the edge of a group that does not see him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: The Inner Life Goes Into the Role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> hardly shows pain outwardly. The depth is processed quietly, often over many years, and seeks no applause. In Dano this shows in his choice of characters: in ›Little Miss Sunshine‹ (2006) the teenager Dwayne, who out of defiance and despair does not speak for months; in ›There Will Be Blood‹ (2007) the young preacher Eli Sunday, who holds his own next to Daniel Day-Lewis; in ›Love &amp; Mercy‹ (2014) the young Brian Wilson, a musician at risk of breaking under his own inner world; in ›The Batman‹ (2022) the Riddler, a man who feels invisible and wants to be seen.</p>
+          <p class="vb-intro">All four are people with great inner pressure and small outward expression. Dano plays them without a gesture of display. That fits the dove, which carries weight without complaint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Craft, Plan and the Step Behind the Camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings drive and the will to create something presentable. Dano did not remain the fine supporting actor. He played in a band (Mook, singer and lead guitarist, 2007 to 2016), wrote the comic ›The Riddler: Year One‹ (2022) about the character he played on screen, and in 2018 directed his first film, ›Wildlife‹. He co-wrote the screenplay with his partner Zoe Kazan, based on the novel by Richard Ford. A weakly developed Three-wing would leave the Four more in the inner room; in Dano the depth turns into visible work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Tension Beneath the Surface</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dano plays people in whom something is working that they cannot say aloud. In ›There Will Be Blood‹ he played the double role of Paul and Eli Sunday and received a BAFTA nomination for best supporting actor; ›Texas Monthly‹ wrote that his performance was ›so electric that the movie sags whenever he's not around‹. In ›Love &amp; Mercy‹ he played the young Brian Wilson and received a Golden Globe nomination for best supporting actor in 2014. He followed with ›Prisoners‹ and ›12 Years a Slave‹ (both 2013), ›Swiss Army Man‹ (2016) with Daniel Radcliffe, and in the miniseries ›Escape at Dannemora‹ (2018) the escaped prisoner David Sweat, which earned him an Emmy nomination. In ›The Fabelmans‹ (2022) he played Burt Fabelman, a version of Steven Spielberg's father Arnold.</p>
+          <p class="vb-intro">His technique is restraint. He puts pressure into a look, a pause, a held body, and lets the audience hear the rest. It is the opposite of the loud transformation and suits a Four who protects the inner life by dosing it precisely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Family as Material: ›Wildlife‹ and What Goes Unsaid</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">›Wildlife‹ tells of a family in Montana falling apart in the 1960s, seen through the eyes of the fourteen-year-old son. The film played at Sundance in 2018 and later at Cannes. On his motivation, Dano said: ›I have always wanted to make films and have always known I would make films about family.‹</p>
+          <p class="vb-intro">This too fits the self-preservation Four: what is one's own is not confessed but laid into a story that stands by itself. Directing gives him room to set the tone himself, which as an actor he can usually only help carry.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Self-Preservation Four with a Three-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in precision and the courage for difficult, unflattering characters: Dano chooses roles that do not ingratiate, and sees them through. The shadow of the Four is reserve, the feeling of not being seen, and the risk of hiding the inner life so well that even those closest find it hard to read. In interviews, Dano speaks about his work, little about himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Nicolas Cage and Leonie Benesch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-nicolas-cage">Nicolas Cage</a> (SP4w3) shares with Dano the path through unusual, vulnerable roles; in Cage the inner life gets loud, in Dano it stays quiet. <a href="javascript:void(0)" data-route="beruehmte-leonie-benesch">Leonie Benesch</a> (SP4w3) is closest to him in technique: both make pressure visible without needing a big gesture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status as of November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dano lives in Brooklyn with the actress and writer Zoe Kazan, his partner since 2007, and their two children (a daughter born in 2018, a son in 2022). Most recently he appeared in ›Spaceman‹ (2024, Netflix, as a voice), in the series ›Mr. &amp; Mrs. Smith‹ (2024, Emmy nomination as guest actor) and in ›The Wizard of the Kremlin‹ (2025); further projects are in the works. The typing is based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
+        {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SP4w3)"},
+        {route:"beruehmte-leonie-benesch", label:"Portrait: Leonie Benesch (SP4w3)"},
       ])}
     </div>
   `);

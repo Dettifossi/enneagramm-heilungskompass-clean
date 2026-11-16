@@ -3316,7 +3316,7 @@ export function ilseAignerPortraitPage() {
         <h2 class="vb-section">2. The self-preservation One: care as life insurance</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs her strictness at what keeps life going: reliability, order, precaution. According to Claudio Naranjo her key word is <em>worry</em>, the concern that something is not right or not enough. The job of a helicopter electrician fits this pattern: whoever builds systems on which lives depend checks twice. In politics the same attitude shows in the sentence from her inaugural speech as president of the Landtag in 2018: &lsquo;Democracy is never just a gift, it always remains a task&rsquo; (&lsquo;Demokratie ist nie nur Gabe, sie bleibt immer Aufgabe&rsquo;). A gift that is not cared for is lost; that is precaution in the language of the One.</p>
-          <p class="vb-intro">This includes her warning against a &lsquo;mood democracy&rsquo; (&lsquo;Stimmungsdemokratie&rsquo;) and her call for respectful conduct. The classification is an interpretation, not a diagnosis.</p>
+          <p class="vb-intro">This includes her warning against a &lsquo;mood democracy&rsquo; (&lsquo;Stimmungsdemokratie&rsquo;) and her call for respectful conduct.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: service, encouragement, reliability</h2>

@@ -2198,7 +2198,6 @@ export function alainDelonPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-arnold-schwarzenegger", label:"Porträt: Arnold Schwarzenegger (SE1w2)"},
-        {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2)"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-tim-cook", label:"Porträt: Tim Cook (SE1w9)"},
         {route:"krankheitsportraets-alain-delon", label:"Krankheitsporträt: Alain Delon (SE1w2)"},
@@ -2218,45 +2217,49 @@ export function anneWillPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anne-will-portrait.jpg" alt="Anne Will" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anne Will</p>
-        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltende Eins mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Journalistin &amp; Moderatorin, geb. 1966 &ndash; Tierentsprechung: Adler</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltende Drei mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Journalistin &amp; Moderatorin, geb. 1966 &ndash; Tierentsprechung: Waschbär</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Adler, der die eigene Flugbahn korrigiert, bevor jemand anderes es tut</h2>
+        <h2 class="vb-section">1. Der Waschbär, der sich sein Territorium erarbeitet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> fliegt nicht wild und ungeplant, sondern kontrolliert, geradlinig, mit ständigem Blick auf die eigene Flugbahn. Anne Will, 1966 in Köln geboren, verkörpert diese Geradlinigkeit seit Jahrzehnten: von den "Tagesthemen" über die "Sportschau" bis zur eigenen politischen Talkshow "Anne Will" (2007–2023, 553 Folgen) verlief ihr Weg bemerkenswert konsequent – ein Aufstieg durch Disziplin und Vorbereitung, nicht durch spektakuläre Brüche.</p>
-          <p class="vb-intro">Bezeichnend ist, wie sie ihren eigenen Moderationsstil beschreibt: zurückhaltend, nicht auf sich selbst, sondern auf die Sache konzentriert. Das ist kein Zufall, sondern Methode – der Adler der selbsterhaltenden Eins lenkt seine Energie nicht auf die eigene Bühnenpräsenz, sondern auf die makellose Ausführung der eigenen Aufgabe.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die Tierentsprechung der selbsterhaltenden Drei: kein Auftritt für die Galerie, sondern geschickte, beharrliche Arbeit, mit der er sich ein sicheres Revier schafft. Anne Will, am 18. März 1966 in Köln geboren, volontierte beim Sender Freies Berlin und moderierte ab 1999 die ›Sportschau‹, nach Angaben von turi2 als erste Frau in diesem Format. Von April 2001 bis Juni 2007 stand sie bei den ›Tagesthemen‹ vor der Kamera, abwechselnd mit Ulrich Wickert und später Tom Buhrow. Am 14. September 2007 startete ihre eigene politische Talkshow ›Anne Will‹ im Ersten, die bis zur letzten Ausgabe am 3. Dezember 2023 lief, 553 Folgen lang.</p>
+          <p class="vb-intro">Dieser Weg wirkt wie eine Leiter, die Sprosse für Sprosse erklommen wurde: Sport, Nachrichten, politischer Talk, jeder Schritt auf das Können des vorigen gebaut. Der Waschbär prüft, bevor er greift, und hält fest, was er einmal als sicher erkannt hat.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die Sorge: Die eigene Korrektheit als Maßstab, nicht die der anderen</h2>
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Kompetenz als Sicherheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Eins die <strong>Sorge</strong> – der innere Kritiker richtet sich nicht primär nach außen, sondern zuerst gegen die eigene Unvollkommenheit. Ein Interview-Moment bei ZDF "Til Tonight" bringt das auf den Punkt: Will übte scharfe Selbstkritik und beschrieb ihre eigene Sprache als "übersteigert, extra korrekt, superangesagt" – und nannte das selbst "hochunsympathisch".</p>
-          <p class="vb-intro">Hier zeigt sich die selbsterhaltende Eins in Reinform: nicht andere für mangelnde Korrektheit rügen (das wäre eher die soziale Eins), sondern die eigene Überkorrektheit selbst als Fehler erkennen und benennen. Ihre eigene Beschreibung – "ich bin sowieso ein ruhiger Typ", "Ruhe, Souveränität, journalistische Kompetenz und gute Vorbereitung" – liest sich wie eine Selbstverpflichtung, der eigenen Arbeit gerecht zu werden, nicht wie ein Anspruch an andere.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei, also die Form des Typs, die am wenigsten nach Eitelkeit aussieht. Sie sucht nicht den Applaus, sondern die Sicherheit, die aus verlässlichem Können kommt. Wills eigene Beschreibung klingt entsprechend: ›Ich bin sowieso ein ruhiger Typ‹, und als ihre Stärken nennt sie Ruhe, Souveränität, journalistische Kompetenz und gute Vorbereitung. Das ist die Selbstdarstellung einer Fachfrau, nicht einer Entertainerin. Das Bild von sich selbst, das die Drei pflegt, ist hier das einer Fachfrau, die ihr Handwerk beherrscht und nichts dem Zufall überlässt.</p>
+          <p class="vb-intro">Dass sie 1999 in einem damals von Männern geprägten Feld, dem Sportjournalismus, antrat und dort bestand, passt zur selben Logik. Ein Platz, der durch nachweisbare Leistung erobert ist, ist sicherer als einer, der durch Charme gewonnen wurde.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Zweierflügel: Persönlich fragen, nicht nur politisch denken</h2>
+        <h2 class="vb-section">3. Der Viererflügel: Selbstbeobachtung und die Frage nach der Person</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> zeigt sich im Motto ihrer eigenen Sendung: "Politisch denken, persönlich fragen". Eine selbsterhaltende Eins mit schwach ausgeprägtem Zweierflügel würde beim rein Sachlichen bleiben; der Zweierflügel öffnet die Interviewführung für die persönliche, beziehungsorientierte Dimension – nicht nur, welche Position ein Gast vertritt, sondern wer die Person hinter der Position ist.</p>
-          <p class="vb-intro">Dieselbe Flügelfärbung findet sich bei Alain Delon (SE1w2): eine kontrollierte, disziplinierte Fassade, unter der eine echte, aber sorgfältig dosierte Zuwendung zu anderen liegt – bei Will sichtbar in der journalistischen Neugier auf den Menschen hinter dem Amt, nicht in öffentlicher Emotionalität.</p>
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei die Neigung, sich selbst von außen zu betrachten und Unverwechselbares zu suchen. Ein Moment aus der ZDF-Sendung ›Til Tonight‹ zeigt das: Will kritisierte dort ihre eigene Sprache als ›übersteigert, extra korrekt, superangesagt‹ und nannte das selbst ›hochunsympathisch‹. Wer sich so ironisch in den Blick nimmt, hat einen Spiegel, den die reine Sachorientierung der Drei allein nicht mitbringt. Darin zeigt sich die Selbstbefragung des Viererflügels.</p>
+          <p class="vb-intro">Auch das Motto ihrer Sendung, ›Politisch denken, persönlich fragen‹, trägt diese Färbung: Neben der Sachposition interessiert sie, wer die Person hinter dem Amt ist. Eine selbsterhaltende Drei mit schwach ausgeprägtem Viererflügel bliebe eher bei der reinen Sachlichkeit; hier kommt die leise persönliche Frage hinzu.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Bühne, die sie nicht wollte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">"Ich habe mich vor der Kamera total unwohl gefühlt", sagte Will rückblickend über ihre frühen Jahre. Das ist kein Widerspruch zur öffentlichen Karriere, sondern typisch für die selbsterhaltende Eins: Die Bühne wird nicht gesucht, weil sie Aufmerksamkeit verspricht, sondern in Kauf genommen, weil die Aufgabe – korrekte, seriöse politische Information – es verlangt. Die Disziplin gilt der Sache, nicht dem eigenen Auftritt.</p>
-          <p class="vb-intro">Genau diese Spannung – öffentlich sichtbar sein müssen, obwohl die eigene Neigung zur Zurückhaltung drängt – lässt sich als die typische Reibung der selbsterhaltenden Eins in einem sozialen Beruf lesen: die eigene Unsicherheit wird durch noch mehr Vorbereitung, noch mehr Kontrolle kompensiert, nicht durch Rückzug.</p>
+          <p class="vb-intro">›Ich habe mich vor der Kamera total unwohl gefühlt‹, sagte Will rückblickend über ihre frühen Jahre. Für eine selbsterhaltende Drei ist das stimmig: Die Bühne gehört zum Beruf, aber das Wohlgefühl auf ihr ist nicht das Ziel. Die Unsicherheit wird nicht durch Rückzug beantwortet, sondern durch noch mehr Vorbereitung, noch mehr Verlässlichkeit. Wer jede Sendung so gründlich vorbereitet, dass keine Frage ins Leere geht, schützt sich vor der Angst, vor aller Augen zu scheitern.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins mit Zweierflügel</h2>
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Viererflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Beste an der SE1w2 zeigt sich in Wills journalistischer Verlässlichkeit über mehr als zwei Jahrzehnte hinweg – eine Moderatorin, der man zutraute, bei jedem Thema gründlich vorbereitet und fair zu sein, gerade weil sie die eigene Fehlbarkeit ernst nahm, statt sie zu verdrängen.</p>
-          <p class="vb-intro">Der Schatten liegt in genau der Selbstkritik, die sie selbst offenlegte: die Gefahr, dass die eigene Korrektheit zur Fassade gerinnt, die als unsympathisch oder unnahbar wahrgenommen wird – eine Strenge gegen sich selbst, die nach außen kälter wirkt, als sie gemeint ist.</p>
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit über mehr als zwei Jahrzehnte: Eine Moderatorin, der man zutraute, bei jedem Thema vorbereitet und fair zu sein. Die Strenge gegen sich selbst, die sie öffentlich beschrieb, ist dabei kein Fremdkörper, sondern die Rückseite des Könnens.</p>
+          <p class="vb-intro">Der Schatten gehört zum Muster der Drei. Ihre Leidenschaft ist die Eitelkeit, und bei der selbsterhaltenden Drei versteckt sie sich im Auftreten der Sachlichkeit: Wer ›extra korrekt‹ erscheint, pflegt auch ein Bild. Will hat das selbst benannt. Die Gefahr bleibt, dass die Korrektheit zur Fassade wird, die kühler wirkt, als sie gemeint ist.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Der Adler, der lieber zu korrekt als zu lässig sein wollte</h2>
+        <h2 class="vb-section">6. Zwei Waschbären auf demselben Sendeplatz</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am Ende bleibt das Bild einer Journalistin, die ihre eigene Überkorrektheit selbst erkannt und offen ausgesprochen hat – ein seltener Moment, in dem die selbsterhaltende Eins ihren eigenen inneren Kritiker öffentlich zitiert, statt ihn nur im Stillen wirken zu lassen.</p>
-          <p class="vb-intro">Geradliniger Aufstieg, akribische Vorbereitung, öffentliche Zurückhaltung trotz jahrzehntelanger Sichtbarkeit – darin zeigt sich die selbsterhaltende Eins mit Zweierflügel, die lieber als zu korrekt denn als zu lässig in Erinnerung bleiben wollte.</p>
+          <p class="vb-intro">Am 3. Dezember 2023 lief die letzte Ausgabe von ›Anne Will‹, verabschiedet mit den Worten ›Danke, danke, danke‹. Ihren Sonntagabend-Sendeplatz im Ersten übernahm <a href="javascript:void(0)" data-route="beruehmte-caren-miosga">Caren Miosga (SE3w4)</a>, ebenfalls Waschbär mit Viererflügel. Beide stehen für Kompetenz statt Glanz; im Porträt Miosgas ist beschrieben, wie sich ihr ruhigerer Ton von Wills Gesprächsführung unterscheidet. Dieselbe Grundhaltung kann sich im selben Subtyp in verschiedenen Stilen zeigen.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-kathrin-bauerfeind">Kathrin Bauerfeind (SE3w4)</a> gehört in diese Reihe: Journalistinnen, die ihre Stellung über nachweisbares Können aufgebaut haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Die Frau, die ihre eigene Korrektheit durchschaute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Rückblick bleibt eine Journalistin, die sich ihren Platz erarbeitet und ihre eigene Überkorrektheit offen ausgesprochen hat. Die Typisierung basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer, nicht auf Kenntnis ihres Innenlebens.</p>
         </blockquote>
 
       </div>
@@ -2265,11 +2268,9 @@ export function anneWillPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
-        {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
-        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
-        {route:"beruehmte-ben-berndt", label:"Porträt: Ben Berndt (SE1w2)"},
-        {route:"beruehmte-herfried-muenkler", label:"Porträt: Herfried Münkler (SO6w7)"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-caren-miosga", label:"Porträt: Caren Miosga (SE3w4)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
         {route:"beruehmte-jens-riewa", label:"Porträt: Jens Riewa (SO9w1)"},
       ])}
     </div>
@@ -3261,6 +3262,87 @@ export function katyOBrianPortraitPage() {
         {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
         {route:"beruehmte-tom-hardy", label:"Porträt: Tom Hardy (SX6w7)"},
         {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+export function janJosefLiefersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jan-josef-liefers-portrait.jpg" alt="Jan Josef Liefers – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jan-josef-liefers-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Jan Josef Liefers</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Musiker, Regisseur und Produzent, geb. 1964 in Dresden &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber aus Dresden: erst das Handwerk, dann die Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> baut, und er baut mit dem Material, das er findet. Jan Josef Liefers wurde am 8. August 1964 in Dresden geboren. Bevor er Schauspieler wurde, machte er eine Tischlerlehre, ein Handwerk, in dem man aus rohem Holz etwas Brauchbares und Schönes zusammenfügt. Von 1983 bis 1987 folgte die Schauspielausbildung an der Hochschule für Schauspielkunst ›Ernst Busch‹ in Berlin.</p>
+          <p class="vb-intro">Aus dem Schauspieler wurde über die Jahre ein Mann mit mehreren Standbeinen: Film und Fernsehen, Theater, Regie, Produktion und Musik. Das passt zum Bild des Bibers, der nie nur ein Projekt hat, sondern ein ganzes Revier, an dem er baut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Siebener: Lebenslust im Dienst der Runde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Siebener</strong> gilt als der <em>Kontratyp</em> (Gegentyp) der Sieben: Statt Genuss und Vergnügen allein für sich zu suchen, stellt er Einfallsreichtum, Humor und Tatkraft in den Dienst einer Gemeinschaft. Claudio Naranjo sprach hier von <em>Opfer</em> (Sacrifice): Das eigene Vergnügen wird teilweise zurückgestellt, um dazuzugehören und gebraucht zu werden. Im Lebensmusterkompass dieser App steht dafür der Biber, der rastlos im Dienst eines größeren Ganzen baut.</p>
+          <p class="vb-intro">Bei Liefers zeigt sich das in der Fülle seiner Tätigkeiten und im Gruppenbezug: Er ist nicht nur der Schauspieler im Rampenlicht, sondern auch der Bandleader, der Regisseur und der Produzent, der Dinge in Gang bringt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Zugehörigkeit, Teamgeist und Verletzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Loyalität, den Wunsch nach Zugehörigkeit und eine feine Wahrnehmung dafür, wie man im Kreis der anderen dasteht. Man erkennt ihn an Liefers dort, wo es um Gruppen geht: das jahrzehntelange Tandem im Münsteraner ›Tatort‹, die Band, die langjährige Partnerschaft mit der Schauspielerin und Sängerin <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a>, die er 1999 bei den Dreharbeiten zu ›Halt mich fest!‹ kennenlernte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Boerne, die Kunst des geistreichen Überlegenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seit 2002 spielt Liefers im WDR-›Tatort‹ aus Münster (Deutschlands langlaufende Sonntagabend-Krimireihe) den Rechtsmediziner Professor Karl-Friedrich Boerne, einen brillanten, eitlen, wortgewandten Gelehrten, der sich dem bodenständigen Kommissar Thiel überlegen fühlt. Die Kunst besteht darin, diesen Besserwisser so zu spielen, dass das Publikum ihn liebt: mit komischem Timing, Selbstironie und einem Wortwitz, der treffsicher bleibt, ohne zu verletzen. Die Münsteraner Folgen gehören seit Jahren zu den beliebtesten der Reihe.</p>
+          <p class="vb-intro">Dazu kommt seine Arbeit hinter und neben der Kamera: Die Datenbank filmportal führt ihn als Regisseur, Drehbuchautor und Produzent, und mit seiner Band Oblivion trat er unter anderem 2006 bei der RuhrTriennale auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Tandem: Thiel und Boerne, Prahl und Liefers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Liefers' Gegenüber ist <a href="javascript:void(0)" data-route="beruehmte-axel-prahl">Axel Prahl</a> (SE9w8) als Kommissar Frank Thiel. Das Paar zeigt, wie zwei Enneagrammtypen einander ergänzen: Prahls Thiel ist die selbsterhaltende Neun, ruhig, bodenständig, grummelig-herzlich; Liefers' Boerne ist der soziale Siebener, quirlig, redegewandt, immer in Bewegung. Die Neun bremst, die Sieben treibt; die Neun erdet, die Sieben hebt ab. Aus dieser Reibung entsteht die Komik, und weil beide seit über zwanzig Jahren miteinander spielen, wirkt die Beziehung auf dem Bildschirm echt. So ergänzen sich die beiden Typen im Zusammenspiel auf dem Bildschirm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Sturm von 2021: ›#allesdichtmachen‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im April 2021 beteiligte sich Liefers an der satirischen Videoaktion ›#allesdichtmachen‹, in der mehr als fünfzig Schauspieler die deutschen Corona-Maßnahmen ironisch kritisierten. Die Aktion löste heftige Reaktionen aus: Lob von einzelnen Seiten, scharfe Kritik von vielen anderen, auch Forderungen nach beruflichen Konsequenzen. Liefers wies die Nähe zu den ›Querdenkern‹ (einer Protestbewegung gegen die Corona-Politik) zurück, distanzierte sich von Verschwörungstheorien und verteidigte sich in einem Fernsehinterview. Die Reaktion beschrieb er später als eine Art ›Knalltrauma‹.</p>
+          <p class="vb-intro">Aus enneagrammatischer Sicht ist das aufschlussreich, ohne ein politisches Urteil zu enthalten: Für den sozialen Siebener mit Sechserflügel ist das Dazugehören ein Kernthema. Wo eine pointierte Meinungsäußerung zu einem heftigen Ausschluss aus dem öffentlichen Kreis führt, trifft das genau diese empfindliche Stelle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten des sozialen Siebeners mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in Humor, Vielseitigkeit und Tatkraft, mit der Liefers eine Gemeinschaft mitreißt. Der Schatten des Siebeners liegt darin, Unangenehmes mit Witz zu überspielen; beim Sechserflügel kommt die Empfindlichkeit gegenüber Ablehnung hinzu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Parallelen im selben Subtyp: Max Müller und Rowan Atkinson</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a> (SO7w6) ist als Polizeihauptmeister Michi Mohr ebenfalls über zwei Jahrzehnte Teil eines festen Serien-Ensembles und dient dem Ganzen aus der zweiten Reihe. <a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) teilt mit Liefers den Sechserflügel und die Verbindung aus Komik und Perfektion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Liefers lebt mit <a href="javascript:void(0)" data-route="beruehmte-anna-loos">Anna Loos</a> in Berlin und ist weiterhin als Boerne im Münsteraner ›Tatort‹ zu sehen; nach Presseberichten wurden die Verträge mit ihm und Axel Prahl bis 2029 verlängert. Liefers ist ein sozialer Siebener mit Sechserflügel (SO7w6): Das zeigen Lebenslauf und öffentliches Wirken im Enneagramm-Profiling-System von David L. Rathmer. Die Angaben zu den Ereignissen von 2021 und zur Vertragslage beruhen auf Presseberichten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-axel-prahl", label:"Porträt: Axel Prahl (SE9w8) – Thiel im Münsteraner Tatort"},
+        {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6)"},
+        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-anna-loos", label:"Porträt: Anna Loos (SX6w7) – Schauspielerin und Sängerin"},
       ])}
     </div>
   `);

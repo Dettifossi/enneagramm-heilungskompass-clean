@@ -1413,7 +1413,7 @@ export function sadhguruPortraitPage() {
         {route:"beruehmte-joseph-haydn", label:"Portr\u00e4t: Joseph Haydn (SE3w2)"},
         {route:"krankheitsportraets-sadhguru", label:"Krankheitsportr\u00e4t: Sadhguru (SE3w2) \u2013 chronisches subdurales H\u00e4matom"},
         {route:"beruehmte-susan-link", label:"Portr\u00e4t: Susan Link (SE3w2)"},
-        {route:"beruehmte-vincenzo-califano", label:"Portr\u00e4t: Vincenzo Califano (SO3w2) \u2013 spiritueller Lehrer, dieselbe Kombination im kleineren Ma\u00dfstab"},
+        {route:"beruehmte-vincenzo-califano", label:"Portr\u00e4t: Vincenzo Califano (SE3w2) \u2013 spiritueller Lehrer, dieselbe Kombination im kleineren Ma\u00dfstab"},
         {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
         {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
@@ -3181,7 +3181,7 @@ export function lewisCapaldiPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Schmerz aushalten, ohne ihn zu inszenieren</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr tiefes Gefühlsleben still und stellt es nicht zur Schau. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Dauntlessness</em>, die Unerschrockenheit, das eigene Leiden auszuhalten, ohne es zur Schau zu stellen. Bei Capaldi wird das Leiden zum Lied, aber es wird nicht verziert: Die großen Balladen handeln von Liebeskummer und Verlust, und ›Someone You Loved‹ soll nach Medienberichten nach dem Tod seiner Großmutter entstanden sein. Er stellt Trauer schlicht dar, fast ohne Pose.</p>
-          <p class="vb-intro">Typisch für diesen Subtyp ist, was er drumherum tut. Er macht sich klein, bevor andere es tun: In Interviews und im Netz macht er sich über sein Aussehen, seine Lieder und sich selbst lustig. Dieser selbstironische Humor wirkt wie ein Schutzschild; er lässt die innere Tiefe privat und gibt der Öffentlichkeit jemanden, mit dem man lachen kann. Die Zuordnung ist eine Deutung, keine Diagnose.</p>
+          <p class="vb-intro">Typisch für diesen Subtyp ist, was er drumherum tut. Er macht sich klein, bevor andere es tun: In Interviews und im Netz macht er sich über sein Aussehen, seine Lieder und sich selbst lustig. Dieser selbstironische Humor wirkt wie ein Schutzschild; er lässt die innere Tiefe privat und gibt der Öffentlichkeit jemanden, mit dem man lachen kann.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: Bühne, Charts, Druck</h2>
@@ -3250,7 +3250,7 @@ export function grandmaMosesPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorge ums Auskommen und um das Richtige</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihre Strenge auf das, was das Leben trägt: Existenz, Ordnung, Verlässlichkeit. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Worry</em>, die Sorge, dass etwas nicht stimmt oder nicht reicht. Moses sorgte für das Auskommen buchstäblich: Sie verkaufte Butter, zeitweise rund 160 Pfund pro Woche, stellte Kartoffelchips her und verlieh, wie ein Lexikon vermerkt, Geld an ihren Mann gegen Zinsen. Eine Frau, die ein Geschäft führt und dabei Haushalt und Kinder trägt, handelt nicht aus Bequemlichkeit, sondern aus dem Gefühl, dass es richtig gemacht werden muss.</p>
-          <p class="vb-intro">Das Richtige galt auch für die Malerei: ›Ich male nichts, wovon wir nichts wissen‹ (›I’ll not paint something we know nothing about‹), wird ihr zugeschrieben. Sie malte nur, was sie erlebt hatte. Ihr Leitsatz ›Malen ist nicht wichtig. Wichtig ist, beschäftigt zu bleiben‹ (›Painting’s not important. The important thing is to keep busy‹) und ihr Rückblick ›Ich sehe auf mein Leben zurück wie auf einen guten Arbeitstag‹ (›I look back on my life like a good day’s work‹) zeigen die Pflichtethik der Eins: Wert entsteht durch Arbeit, nicht durch Ruhm. Beide Sätze stammen aus einem Essay, nicht aus der Originalquelle. Die Zuordnung ist eine Deutung.</p>
+          <p class="vb-intro">Das Richtige galt auch für die Malerei: ›Ich male nichts, wovon wir nichts wissen‹ (›I’ll not paint something we know nothing about‹), wird ihr zugeschrieben. Sie malte nur, was sie erlebt hatte. Ihr Leitsatz ›Malen ist nicht wichtig. Wichtig ist, beschäftigt zu bleiben‹ (›Painting’s not important. The important thing is to keep busy‹) und ihr Rückblick ›Ich sehe auf mein Leben zurück wie auf einen guten Arbeitstag‹ (›I look back on my life like a good day’s work‹) zeigen die Pflichtethik der Eins: Wert entsteht durch Arbeit, nicht durch Ruhm. Beide Sätze stammen aus einem Essay, nicht aus der Originalquelle.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Gelassenheit vor dem Ruhm</h2>

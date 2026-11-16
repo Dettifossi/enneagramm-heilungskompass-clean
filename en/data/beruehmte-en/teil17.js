@@ -3015,7 +3015,7 @@ export function jeanMaraisPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation One: Checking Before Relying</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In Claudio Naranjo&rsquo;s description the self-preservation One bears the name <em>Worry</em>: a quiet, constant weighing of whether one meets one&rsquo;s own standard. The standard lies not outside but in one&rsquo;s own craft. In Marais this can be read in the way he worked with his body: even his start was no walkover. The Paris Conservatoire turned him down, he worked as a photographer&rsquo;s apprentice and played extras and bit parts until Jean Cocteau noticed him in 1937.</p>
-          <p class="vb-intro">The setting in which this happened is striking. Marais grew up in a family without reliable order: his father, a veterinarian, was hardly present, and according to the sources his mother was a kleptomaniac who was imprisoned for periods. With the One this can be connected in the sense that a child who experiences early how fragile rules can be pays particular attention to being reliable himself. This is an interpretation that the sources do not prove.</p>
+          <p class="vb-intro">The setting in which this happened is striking. Marais grew up in a family without reliable order: his father, a veterinarian, was hardly present, and according to the sources his mother was a kleptomaniac who was imprisoned for periods. With the One this can be connected in the sense that a child who experiences early how fragile rules can be pays particular attention to being reliable himself.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: Loyalty to Cocteau</h2>
@@ -3225,7 +3225,7 @@ export function lisaKauffPortraitPage() {
         <h2 class="vb-section">2. The self-preservation One: worry turned into structure</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs her strictness at what keeps life going: health, order, reliability. According to Claudio Naranjo her key word is <em>worry</em>, the concern that something is not right or not enough. Her path fits: from the world of audit and controlling, where order is the job, to a field in which she helps others restore their own order, in body and head. The brand name shows the theme: the &lsquo;monkey mind&rsquo; is the restless, jumping thought that yoga is meant to calm.</p>
-          <p class="vb-intro">Her everyday life also bears the One&rsquo;s signature. She wants to stop working evenings and weekends, yet urgent customer emails often pull her back, by her own account: duty against her own resolve. Her mantra is &lsquo;I allow myself to slow down&rsquo;, a sentence one only writes down if one knows the opposite well. The classification is an interpretation.</p>
+          <p class="vb-intro">Her everyday life also bears the One&rsquo;s signature. She wants to stop working evenings and weekends, yet urgent customer emails often pull her back, by her own account: duty against her own resolve. Her mantra is &lsquo;I allow myself to slow down&rsquo;, a sentence one only writes down if one knows the opposite well.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: help that stays kind</h2>

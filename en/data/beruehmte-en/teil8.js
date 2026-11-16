@@ -2117,7 +2117,6 @@ export function alainDelonPortraitPage() {
         {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-arnold-schwarzenegger", label:"Portrait: Arnold Schwarzenegger (SP1w2)"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2)"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
         {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SP1w9)"},
         {route:"krankheitsportraets-alain-delon", label:"Illness Portrait: Alain Delon (SP1w2)"},
@@ -2189,7 +2188,6 @@ export function herfriedMuenklerPortraitPage() {
         {route:"beruehmte-anne-applebaum", label:"Portrait: Anne Applebaum (SO6w7)"},
         {route:"beruehmte-donata-hopfen", label:"Portrait: Donata Hopfen (SO6w7)"},
         {route:"beruehmte-wolfram-eilenberger", label:"Portrait: Wolfram Eilenberger (SO6w7) – same watch, different danger"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2)"},
         {route:"beruehmte-heinz-rudolf-kunze", label:"Portrait: Heinz Rudolf Kunze (SE6w7)"},
       ])}
     </div>
@@ -2270,26 +2268,26 @@ export function vincenzoCalifanoPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vincenzo-califano-portrait.jpg" alt="Vincenzo Califano" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Vincenzo Califano</p>
-        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
-        <p class="krim-portrait-subtitle">Spiritual teacher (Advaita/Direct Path), b. unknown, Zurich &ndash; Animal correspondence: Cheetah</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Spiritual teacher (Advaita/Direct Path), b. unknown, Zurich &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Cheetah Who Built a Business Into a Teaching</h2>
+        <h2 class="vb-section">1. The Raccoon Who Built a Business Into a Teaching</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Vincenzo Califano lives and teaches in Zurich. By his own account, he had an experience in his youth "for which there was no explanation" – a sudden break in ordinary experience. In parallel, he lived a completely ordinary life for years: he worked, took on responsibility, ran a business. Only after years of intensive seeking – meditation, studying various methods – came the actual turning point: not an event brought about by effort, but the sudden falling away of the seeker itself.</p>
-          <p class="vb-intro">The <strong>cheetah</strong> is the animal counterpart of the social Three – it lies quietly for a long time and decides in one moment that then changes everything. That fits Califano's path: years of seeking were followed by a sudden turning point, and out of the sober entrepreneurial biography grew a teaching practice that became visible in the scene – satsangs in several cities, a weekly YouTube channel, his own book, fixed programs for one-on-one guidance.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal counterpart of the self-preservation Three – an animal that works patiently and thoroughly out of sight before it shows itself. That fits Califano's path: years of quiet seeking were followed by a sudden turning point, and out of the sober entrepreneurial biography grew a teaching practice built step by step – satsangs in several cities, a weekly YouTube channel, his own book, fixed programs for one-on-one guidance.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Three: Standing in the Community of Seekers</h2>
+        <h2 class="vb-section">2. The Self-Preservation Three: Security Through a Sustainable Offering</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Three (SO3)</strong> asks who counts one as part of the community, and Claudio Naranjo spoke of prestige here. Califano answers by having earned a place in the German-speaking scene of nondual teachers: he regularly holds satsangs, is listed in directories such as Jetzt-TV and appears publicly. His offering is clearly structured: an "8-week 1:1 accompaniment," individual sessions, a fixed membership ("Inner Circle"), bookable day events with a specific date and countdown on his own website.</p>
-          <p class="vb-intro">This shows the social Three in a field that traditionally resists structure: even the teaching of the radical dissolution of the seeking self gets translated by Califano into a reliable, repeatable system lived in a community of participants – competence and consistency as the foundation, visibility in the scene as the result.</p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the countertype of the Three: it seeks security not through glamour but through demonstrable, reliable competence, and Claudio Naranjo called this subtype <em>Security</em>. Califano answers by putting his teaching on a sustainable foundation: he regularly holds satsangs, is listed in directories such as Jetzt-TV and builds step by step what gives him lasting ground. His offering is clearly structured: an "8-week 1:1 accompaniment," individual sessions, a fixed membership ("Inner Circle"), bookable day events with a specific date and countdown on his own website.</p>
+          <p class="vb-intro">This shows the self-preservation Three in a field that traditionally resists structure: even the teaching of the radical dissolution of the seeking self gets translated by Califano into a reliable, repeatable system lived in a community of participants – competence and consistency as the foundation, not the performance as the goal.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: Accompaniment as the Actual Drive</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three its genuine impulse toward personal warmth. Califano describes his current work explicitly in this language: "I accompany people who are at a similar point… I open a space." This isn't detached lecturing on abstract concepts, but deliberately personal accompaniment – reinforced by regular live chats and Q&A formats in which he responds directly to individual people and their concrete questions.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the self-preservation Three its genuine impulse toward personal warmth. Califano describes his current work explicitly in this language: "I accompany people who are at a similar point… I open a space." This isn't detached lecturing on abstract concepts, but deliberately personal accompaniment – reinforced by regular live chats and Q&A formats in which he responds directly to individual people and their concrete questions.</p>
           <p class="vb-intro">This same warmth explains why he's listed in the German-speaking nondual-teacher scene alongside established names like Gangaji, Mooji, or Byron Katie, even though his reach is considerably smaller: it isn't scale that makes the difference, but the palpable, direct attention to the individual within a space deliberately opened for that purpose.</p>
         </blockquote>
 
@@ -2299,16 +2297,16 @@ export function vincenzoCalifanoPortraitPage() {
           <p class="vb-intro">In his book ›Vom einfachen Finden des Glücks – Über den Sinn des Lebens‹ (›On Simply Finding Happiness – On the Meaning of Life‹), he translates his own experience into accessible, everyday language – without the esoteric jargon typical of many teachers in the field. This translation work, from an abstract awakening experience into a concrete, bookable format, is the actual professional achievement: clarity and structure as a deliberate choice, not a compromise.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Social Three with Two-Wing</h2>
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three with Two-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO3w2 shows in the fact that Califano turns complex, often inaccessibly worded nondual teachings into a concrete, reliable offering that people can actually reach and use – structure in service of genuine care, not as an end in itself.</p>
-          <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> – in the social Three it shows in the claim to be recognized as a teacher in the scene: the message "There is nothing to find, no one who needs to arrive" itself becomes a marketable, paid product – individual sessions, a membership, ticketed day events. This tension between a radical message of non-necessity and a clearly structured business built around exactly that message is not unique to Califano in this scene, but deserves particular attention here because it is so unmistakably entrepreneurially organized.</p>
+          <p class="vb-intro">The light of the SP3w2 shows in the fact that Califano turns complex, often inaccessibly worded nondual teachings into a concrete, reliable offering that people can actually reach and use – structure in service of genuine care, not as an end in itself.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> – in the self-preservation Three it shows more quietly, as a countertype: in the claim to have a reliable, sustainable offering behind which the vanity hardly stands out: the message "There is nothing to find, no one who needs to arrive" itself becomes a marketable, paid product – individual sessions, a membership, ticketed day events. This tension between a radical message of non-necessity and a clearly structured business built around exactly that message is not unique to Califano in this scene, but deserves particular attention here because it is so unmistakably entrepreneurially organized.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Healing Path: From Building to Being</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Three's healing path leads from the question <em>What have I achieved?</em> to the insight <em>I am – beyond all achievement.</em> Califano teaches exactly this as the core of his own message: "It's not about creating a better life. It's about recognizing what is already complete." Notably, he himself states that identification with the seeking itself was the actual obstacle – a very direct, almost literal description of what the Three's healing path is meant to lead away from: fixation on achievement.</p>
-          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Sadhguru</a> (SP3w2), who lives the same Two-wing in a different subtype: in him the construction of a spiritual institution is in the foreground, in Califano the standing in the community of seekers. More in the <a href="javascript:void(0)" data-route="beruehmte-sadhguru">portrait of Sadhguru</a>. Within the same subtype, <a href="javascript:void(0)" data-route="beruehmte-christiane-hoerbiger">Christiane Hörbiger (SO3w2)</a> shows the same warmth that reaches a broad audience.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Sadhguru</a> (SP3w2), who lives the same subtype with the same Two-wing: in him the construction of a spiritual institution grew into a worldwide movement, in Califano it remains a manageable teaching practice with personal accompaniment. More in the <a href="javascript:void(0)" data-route="beruehmte-sadhguru">portrait of Sadhguru</a>. By contrast, <a href="javascript:void(0)" data-route="beruehmte-christiane-hoerbiger">Christiane Hörbiger (SO3w2)</a> lives the same Two-wing as a social Three: there the warmth moves into the spotlight of a broad audience.</p>
         </blockquote>
 
       </div>
@@ -2317,10 +2315,10 @@ export function vincenzoCalifanoPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
-        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
-        {route:"beruehmte-christiane-hoerbiger", label:"Portrait: Christiane Hörbiger (SO3w2)"},
-        {route:"beruehmte-pharrell-williams", label:"Portrait: Pharrell Williams (SO3w2)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SP3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
       ])}
     </div>
@@ -3000,7 +2998,7 @@ export function danielleVasinovaPortraitPage() {
         <h2 class="vb-section">6. Light and shadow of the social Three with Four-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Impressive is the perseverance: someone who almost gives up and then receives two major roles has held on where others would have quit. Her respect for the people she learns from belongs here too.</p>
-          <p class="vb-intro">The shadow side of the Three is the dependence on the success of the moment: whoever draws standing from the next job feels the pauses. This is an interpretation based on her statement that she was close to giving up.</p>
+          <p class="vb-intro">The shadow side of the Three is the dependence on the success of the moment: whoever draws standing from the next job feels the pauses. This follows from her statement that she was close to giving up.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: after the hardest time</h2>
@@ -3229,6 +3227,83 @@ export function methodManPortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+export function oliverReedPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-oliver-reed-portrait.jpg" alt="Oliver Reed – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-oliver-reed-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Oliver Reed</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Actor, 1938&ndash;1999 &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion Who Held Court in the Pub</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> does not need to roar to rule the room. Robert Oliver Reed was born on 13 February 1938 in Wimbledon. His father Peter was a sports journalist, his uncle Sir Carol Reed a film director, his grandfather the actor-manager Sir Herbert Beerbohm Tree. Stage and screen ran in the family, yet the boy failed at school: he attended fourteen different schools, including Ewell Castle School in Surrey. By Reed's own recollection his father thought him lazy and a dunce.</p>
+          <p class="vb-intro">He did national service in the Royal Army Medical Corps and later claimed to have worked as a boxer, bouncer, taxi driver and hospital porter. In the mid-1950s he began as an uncredited extra in films, and in 1959 came a BBC role as Richard of Gloucester in ›The Golden Spur‹. Anyone who starts like this has learned early to hold his ground physically where school marks do not help.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Solidarity in the Pack</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Eight (SO8)</strong> puts its strength to work for the group: friends, comrades, the pack. Claudio Naranjo called this subtype <em>Solidarity</em>: strength that binds itself to others and stands up for them. In Reed this shows in the bonds that carried his life. He made six films with the director Michael Winner, beginning in 1964 with ›The System‹; of his career he said that Hammer gave him his start, Winner his bread and Ken Russell his art. That is gratitude in the language of a man who sorts loyalty into teachers and companions.</p>
+          <p class="vb-intro">The pub belonged to this pack as well. Reed did not drink alone but in company, with colleagues, friends and strangers who wanted to keep up. That he died in a bar in Valletta during a drinking contest with sailors fits a man who used the round as a place of belonging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Pleasure, Numbing and Homesickness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the Eight composure, a capacity for enjoyment and a tendency to damp tension. A weakly developed Nine-wing would let the Eight appear more angular and pressing; in Reed it colors the manner broader, more comfortable, sociable. It fits that he did not chase Hollywood: according to the sources he remained a British patriot who preferred living in Britain, and in the end moved with his wife Josephine to Churchtown in County Cork, Ireland.</p>
+          <p class="vb-intro">The wing has a darker side too. The Nine dulls what becomes too much, and alcohol was one means of that for Reed. The sources document the drinking, not its inner life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Force with a Wound in It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Reed's gift lay in a physical presence that radiated danger and still let vulnerability show through. He had his first lead in 1961 in Terence Fisher's Hammer film ›The Curse of the Werewolf‹, as a man fighting the beast within. In 1968 he played the brutal Bill Sikes in ›Oliver!‹, directed by his uncle Carol Reed, which won the Oscar for Best Picture. In ›Women in Love‹ (1969) he was the mine owner Gerald Crich under Ken Russell, in the famous wrestling scene with Alan Bates as much a fighter as a man in need of control. In Russell's ›The Devils‹ (1971) he carried, as the priest Grandier, the weight of a man who pays for his passions.</p>
+          <p class="vb-intro">British exhibitors voted him the fifth most popular star at the box office in 1971. Later came Athos in Richard Lester's Musketeers films, Uncle Frank in ›Tommy‹ (1975) and, as his last role, Proximo in ›Gladiator‹ (2000), which earned him a posthumous BAFTA nomination for Best Supporting Actor. His power was physical, but he used it so that behind the force a hurt remained legible. This is only an excerpt of Reed's work, yet it shows why directors cast him in roles where strength and damage appear together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Passion: Lust and the Staged Mask</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Eight is <strong>lust</strong>, the craving for intensity, for more of everything. In Reed it became the reputation of the ›hellraiser‹: he himself called a handed-down anecdote about sixty gallons of beer in one evening ›highly exaggerated‹. His colleague Christopher Lee said that after about eight drinks Reed became ›a complete monster‹.</p>
+          <p class="vb-intro">Reed also said, however, that some of his television appearances were acted: the ›vodka was water‹ and he was paid to appear drunk (according to Wikipedia, one of his statements). Whoever talks like this separates the mask from the man. The intoxication was partly real, partly role, and the audience expected the role. Reed complained that his talk show appearances were about his drinking feats instead of his films. The mask of the Eight had become independent.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Social Eight with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in loyalty and presence. Reed stood by his directors, his face and stature carried films, and as an actor he managed to turn hardness into character. His weakness for company made him approachable.</p>
+          <p class="vb-intro">The shadow is that pack loyalty can turn against the individual. Whoever cannot say no in the round drinks to the end. The Nine-wing does not take warning signs seriously enough, and the Eight regards weakness as something one does not show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Bud Spencer, Gunter Gabriel and Joshua Richards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-bud-spencer">Bud Spencer</a> (SO8w9) is the calm variant: he too stood for solidarity and family but used his force only when needed. Reed shows the same basic strength with the louder, more sociable side of the subtype. In <a href="javascript:void(0)" data-route="beruehmte-gunter-gabriel">Gunter Gabriel</a> (SO8w9) we find the pattern of the hard shell and the soft core, and <a href="javascript:void(0)" data-route="beruehmte-joshua-richards">Joshua Richards</a> (SO8w9) also stands for strength that is there for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Where a Lion Left His Mark</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Oliver Reed died on 2 May 1999, aged 61, of a heart attack in Valletta, Malta, during a break in filming ›Gladiator‹. According to the screenwriter David Franzoni, sailors of HMS ›Cumberland‹ had challenged him to a drinking contest; he collapsed and died in the ambulance. His remaining scenes were completed with a double and computer effects. He is buried in Bruhenny Graveyard in Churchtown, County Cork. His gravestone reads ›He made the air move.‹ The typing is based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"lebensmusterkompass/so8", label:"Life Pattern Compass: SO8 – Lion"},
+        {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-gunter-gabriel", label:"Portrait: Gunter Gabriel (SO8w9)"},
+        {route:"beruehmte-joshua-richards", label:"Portrait: Joshua Richards (SO8w9)"},
       ])}
     </div>
   `);

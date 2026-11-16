@@ -2189,7 +2189,6 @@ export function herfriedMuenklerPortraitPage() {
         {route:"beruehmte-anne-applebaum", label:"Porträt: Anne Applebaum (SO6w7)"},
         {route:"beruehmte-donata-hopfen", label:"Porträt: Donata Hopfen (SO6w7)"},
         {route:"beruehmte-wolfram-eilenberger", label:"Porträt: Wolfram Eilenberger (SO6w7) – dieselbe Wache, andere Gefahr"},
-        {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2)"},
         {route:"beruehmte-heinz-rudolf-kunze", label:"Porträt: Heinz Rudolf Kunze (SO6w7)"},
       ])}
     </div>
@@ -3164,7 +3163,7 @@ export function janoschPortraitPage() {
 
         <h2 class="vb-section">7. Der Heilungsweg: vom Verschwinden zur eigenen Stimme</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Weg der Neun führt vom Aufgehen im anderen zur eigenen, hörbaren Stimme. Bei Janosch lässt sich die späte Kolumne so lesen: Der Mann, der unsichtbar sein wollte, sprach mit Anfang achtzig jede Woche in eigenem Namen zu seinem Publikum. Das ist eine Deutung, kein Beleg für seine Gründe. Er starb am 3. November 2026 im Alter von 95 Jahren auf Teneriffa.</p>
+          <p class="vb-intro">Der Weg der Neun führt vom Aufgehen im anderen zur eigenen, hörbaren Stimme. Bei Janosch lässt sich die späte Kolumne so lesen: Der Mann, der unsichtbar sein wollte, sprach mit Anfang achtzig jede Woche in eigenem Namen zu seinem Publikum. Er starb am 3. November 2026 im Alter von 95 Jahren auf Teneriffa.</p>
         </blockquote>
 
       </div>
@@ -3233,7 +3232,7 @@ export function beltracchiMalerPortraitPage() {
 
         <h2 class="vb-section">7. Licht und Schatten, Heilungsweg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hell ist die Fähigkeit zu tiefer Hingabe und das handwerkliche Können, das daraus entsteht. Der Schatten der Neun liegt im Verschwinden der eigenen Position hinter dem Gegenüber, und der Einserflügel kann sich dabei einreden, es sei alles in Ordnung. Der Heilungsweg führt vom Aufgehen im Fremden zur eigenen Handschrift: Dass Beltracchi heute unter seinem Namen malt und signiert, lässt sich als Schritt in diese Richtung lesen. Das ist eine Deutung, kein Beleg für seine Beweggründe.</p>
+          <p class="vb-intro">Hell ist die Fähigkeit zu tiefer Hingabe und das handwerkliche Können, das daraus entsteht. Der Schatten der Neun liegt im Verschwinden der eigenen Position hinter dem Gegenüber, und der Einserflügel kann sich dabei einreden, es sei alles in Ordnung. Der Heilungsweg führt vom Aufgehen im Fremden zur eigenen Handschrift: Dass Beltracchi heute unter seinem Namen malt und signiert, lässt sich als Schritt in diese Richtung lesen.</p>
         </blockquote>
 
       </div>
