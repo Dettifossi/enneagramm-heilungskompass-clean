@@ -5905,3 +5905,10 @@ p, li, .vb-intro { text-wrap: pretty; }
   flex-direction: column;
   gap: 14px;
 }
+
+/* Touch-Ziele am Handy (17.11.2026): kleine Knöpfe oben bekommen mindestens ca. 40 px Tippfläche, Aussehen bleibt gleich */
+@media (pointer: coarse) {
+  .lang-switcher { display: inline-flex; align-items: center; min-height: 40px; min-width: 44px; justify-content: center; }
+  #fzb { min-height: 40px !important; min-width: 44px !important; }
+  .start-path__btn { min-height: 40px; display: inline-flex; align-items: center; justify-content: center; }
+}
