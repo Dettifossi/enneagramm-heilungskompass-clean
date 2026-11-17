@@ -37050,7 +37050,7 @@ function verlagsAppsSection() {
       const link = (p.bald || !href)
         ? `<span class="deepen-link deepen-link--pending">demnächst</span>`
         : `<a class="deepen-link" href="${esc(/^https?:/.test(href) ? href : BASE + href)}" target="_blank" rel="noopener">Öffnen →</a>`;
-      return `<article style="display:flex;gap:.9rem;align-items:flex-start;">${icon}<div><h2 style="margin-top:0;">${esc(name)}${schild ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(schild)}</small>` : ""}</h2><p>${esc(kurz)}</p>${link}</div></article>`;
+      return `<article style="display:flex;gap:.9rem;align-items:flex-start;min-width:0;overflow-wrap:anywhere;">${icon}<div style="min-width:0;"><h2 style="margin-top:0;font-size:1.05rem;">${esc(name)}${schild ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(schild)}</small>` : ""}</h2><p>${esc(kurz)}</p>${link}</div></article>`;
     }).join("");
     const K = d.kostenlos;
     let free = "";
@@ -37062,7 +37062,7 @@ function verlagsAppsSection() {
       const kicon = K.icon ? `<img src="${esc(BASE + K.icon)}" alt="" loading="lazy" width="56" height="56" style="width:56px;height:56px;flex-shrink:0;border-radius:12px;object-fit:contain;background:#f4efe3;padding:5px;box-sizing:border-box;" onerror="this.style.display='none'">` : "";
       if (kh) free = `<a href="${esc(/^https?:/.test(kh) ? kh : BASE + kh)}" target="_blank" rel="noopener" style="display:flex;gap:1rem;align-items:center;max-width:720px;margin:1.2rem auto;padding:1rem 1.2rem;border:2px solid #c9a227;border-radius:14px;color:inherit;text-decoration:none;background:rgba(201,162,39,.08);">${kicon}<div><span style="display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#c9a227;color:#fff;border-radius:999px;padding:.1rem .6rem;margin-bottom:.35rem;">Kostenlos · weltweit</span><h2 style="margin:.1rem 0;">${esc(kn)}${ks ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(ks)}</small>` : ""}</h2><p style="margin:.2rem 0.4rem;">${esc(kk)}</p><span class="deepen-link">Kostenlos ansehen →</span></div></a>`;
     }
-    return `<div class="narrow centered"><h2>Die Apps des Verlagshauses</h2><p class="lead-small">Das Verlagshaus Rathmer bietet mehrere Apps zum Enneagramm, zur Selbsterkenntnis und zur Heilkunde an. Jede ist ein eigenes Werkzeug, aus einem Buch entstanden. Tippen Sie auf eine App, um sie zu öffnen.</p></div>${free}<div class="narrow centered"><h3>Unsere Apps an Bord</h3></div><div class="library-grid">${cards}</div>`;
+    return `<div class="narrow centered"><h2>Die Apps des Verlagshauses</h2><p class="lead-small">Das Verlagshaus Rathmer bietet mehrere Apps zum Enneagramm, zur Selbsterkenntnis und zur Heilkunde an. Jede ist ein eigenes Werkzeug, aus einem Buch entstanden. Tippen Sie auf eine App, um sie zu öffnen.</p></div>${free}<div class="narrow centered"><h3>Unsere Apps an Bord</h3></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:0 1rem;">${cards}</div>`;
   };
   let cached = null;
   try { cached = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) {}
