@@ -5912,3 +5912,26 @@ p, li, .vb-intro { text-wrap: pretty; }
   #fzb { min-height: 40px !important; min-width: 44px !important; }
   .start-path__btn { min-height: 40px; display: inline-flex; align-items: center; justify-content: center; }
 }
+
+/* Bibliothek: Bereichs-Kacheln oben sind antippbar und am Handy kompakt (17.11.2026) */
+.area-tile { cursor: pointer; -webkit-tap-highlight-color: transparent; transition: transform 0.12s ease, box-shadow 0.12s ease; }
+.area-tile h2::after { content: " \2192"; opacity: 0.45; font-size: 0.8em; }
+.area-tile:active { transform: scale(0.985); }
+.area-tile:focus-visible { outline: 2px solid var(--gold, #b8892b); outline-offset: 2px; }
+@media (max-width: 860px) {
+  .library-grid--areas { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .library-grid--areas article { padding: 12px 12px 14px; }
+  .library-grid--areas h2 { font-size: 1.02rem; line-height: 1.2; }
+  .library-grid--areas p { margin: 0.35rem 0 0; font-size: 0.8rem; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+}
+
+/* Bibliothek: Sprungleiste und eingeklappte Bücherliste am Handy (17.11.2026) */
+.jump-chips { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 0 0 18px; }
+.jump-chips button { min-height: 40px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--line); background: rgba(255, 250, 240, 0.76); color: var(--ink); font: inherit; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+.jump-chips button:active { transform: scale(0.97); }
+.werk-more-wrap { display: none; }
+@media (max-width: 860px) {
+  .werk-grid--collapsed .werk-card:nth-child(n+7) { display: none !important; }
+  .werk-more-wrap { display: block; text-align: center; margin: 14px 0 0; }
+  .werk-more { min-height: 44px; padding: 0 22px; border-radius: 999px; border: 1px solid var(--line); background: rgba(255, 250, 240, 0.9); color: var(--ink); font: inherit; font-weight: 600; cursor: pointer; }
+}

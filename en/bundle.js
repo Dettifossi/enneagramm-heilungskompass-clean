@@ -11864,9 +11864,10 @@ function libraryPage() {
       <h1>${copy.headline}</h1>
       <p class="lead-small">${copy.lead}</p>
     </section>
-    <section class="library-grid">
+    <nav class="jump-chips" aria-label="Springen zu"><button type="button" data-jump="werk-sektion">Books</button><button type="button" data-jump="verlags-apps">Apps</button></nav>
+    <section class="library-grid library-grid--areas">
       ${architectureAreas
-        .map((area) => `<article><h2>${area.title}</h2><p>${area.text}</p></article>`)
+        .map((area) => `<article class="area-tile" data-route="${area.route}" role="link" tabindex="0"><h2>${area.title}</h2><p>${area.text}</p></article>`)
         .join("")}
     </section>
     <section class="formula-overview">
@@ -12251,7 +12252,7 @@ function verlagsAppsSection() {
       const kicon = K.icon ? `<img src="${esc(BASE + K.icon)}" alt="" loading="lazy" width="56" height="56" style="width:56px;height:56px;flex-shrink:0;border-radius:12px;object-fit:contain;background:#f4efe3;padding:5px;box-sizing:border-box;" onerror="this.style.display='none'">` : "";
       if (kh) free = `<a href="${esc(/^https?:/.test(kh) ? kh : BASE + kh)}" target="_blank" rel="noopener" style="display:flex;gap:1rem;align-items:center;max-width:720px;margin:1.2rem auto;padding:1rem 1.2rem;border:2px solid #c9a227;border-radius:14px;color:inherit;text-decoration:none;background:rgba(201,162,39,.08);">${kicon}<div><span style="display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#c9a227;color:#fff;border-radius:999px;padding:.1rem .6rem;margin-bottom:.35rem;">Free · worldwide</span><h2 style="margin:.1rem 0;">${esc(kn)}${ks ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(ks)}</small>` : ""}</h2><p style="margin:.2rem 0.4rem;">${esc(kk)}</p><span class="deepen-link">See it for free →</span></div></a>`;
     }
-    return `<div class="narrow centered"><h2>The Publisher's Apps</h2><p class="lead-small">Verlagshaus Rathmer offers several apps on the Enneagram, self-knowledge and healing. Each is a tool of its own, grown out of a book. Tap an app to open it.</p></div>${free}<div class="narrow centered"><h3>Our apps on board</h3></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:0 1rem;">${cards}</div>`;
+    return `<div class="narrow centered" id="verlags-apps"><h2>The Publisher's Apps</h2><p class="lead-small">Verlagshaus Rathmer offers several apps on the Enneagram, self-knowledge and healing. Each is a tool of its own, grown out of a book. Tap an app to open it.</p></div>${free}<div class="narrow centered"><h3>Our apps on board</h3></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:0 1rem;">${cards}</div>`;
   };
   let cached = null;
   try { cached = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) {}
@@ -12307,11 +12308,12 @@ function werkSection() {
   }).join("");
 
   return `
-    <section class="werk">
+    <section class="werk" id="werk-sektion">
       <div class="section-divider"><span>${w.title}</span></div>
       <p class="lead-small werk__lead">${w.lead}</p>
       <div class="werk-filterbar">${filterBar}</div>
-      <div class="werk-grid">${cards}</div>
+      <div class="werk-grid werk-grid--collapsed">${cards}</div>
+      <p class="werk-more-wrap"><button type="button" class="werk-more" data-werk-more>Show all books</button></p>
     </section>
   `;
 }
@@ -19124,10 +19126,26 @@ function bindEvents() {
       const filter = btn.dataset.werkFilter;
       document.querySelectorAll("[data-werk-filter]").forEach(b => b.classList.remove("is-active"));
       btn.classList.add("is-active");
+      const _wg = document.querySelector(".werk-grid"); if (_wg) _wg.classList.remove("werk-grid--collapsed");
+      const _wm = document.querySelector(".werk-more-wrap"); if (_wm) _wm.remove();
       document.querySelectorAll(".werk-card").forEach(card => {
         const match = filter === "all" || card.dataset.category === filter;
         card.style.display = match ? "" : "none";
       });
+    });
+  });
+
+  document.querySelectorAll("[data-werk-more]").forEach((b) => {
+    b.addEventListener("click", () => {
+      const g = document.querySelector(".werk-grid");
+      if (g) g.classList.remove("werk-grid--collapsed");
+      b.parentElement.remove();
+    });
+  });
+  document.querySelectorAll("[data-jump]").forEach((b) => {
+    b.addEventListener("click", () => {
+      const t = document.getElementById(b.dataset.jump);
+      if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 
