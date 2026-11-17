@@ -11964,6 +11964,7 @@ function libraryPage() {
         .join("")}
     </section>
     ${werkSection()}
+    ${verlagsAppsSection()}
 
     <section class="narrow" style="margin-top:2rem;">
       <p class="eyebrow">Further reading</p>
@@ -12218,6 +12219,44 @@ function zahlenFaktenPage() {
       ])}
     </section>
   `);
+}
+
+// Apps des Verlagshauses (Bibliothek): zur Laufzeit aus der zentralen Liste, letzter Stand in localStorage
+function verlagsAppsSection() {
+  const KEY = "kompass_verlagsapps_v1", BASE = "https://www.verlagshausrathmer.com/";
+  const EN = true;
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const cleanKurz = (s) => String(s || "").split(/(?<=[.!?])\s+/).filter((x) => !/[€$]|\bEUR\b|gratis|erhältlich|\b[Ff]ree\b|available|\btrial\b|Probeversion/i.test(x)).join(" ").replace(/­/g, "");
+  const render = (d) => {
+    const items = ((d && d.reihenfolge_apps) || []).filter((id) => id !== "kompass" && d.produkte && d.produkte[id]).map((id) => d.produkte[id]);
+    if (!items.length) return "";
+    const cards = items.map((p) => {
+      const name = EN ? (p.name_en || p.name) : p.name;
+      const kurz = cleanKurz(EN ? (p.kurz_en || p.kurz) : p.kurz);
+      const href = EN ? (p.href_en || p.href) : p.href;
+      const icon = p.icon ? `<img src="${esc(BASE + p.icon)}" alt="" loading="lazy" width="48" height="48" style="width:48px;height:48px;flex-shrink:0;border-radius:10px;object-fit:contain;" onerror="this.style.display='none'">` : "";
+      const link = (p.bald || !href)
+        ? `<span class="deepen-link deepen-link--pending">coming soon</span>`
+        : `<a class="deepen-link" href="${esc(/^https?:/.test(href) ? href : BASE + href)}" target="_blank" rel="noopener">Open →</a>`;
+      return `<article style="display:flex;gap:.9rem;align-items:flex-start;">${icon}<div><h2 style="margin-top:0;">${esc(name)}</h2><p>${esc(kurz)}</p>${link}</div></article>`;
+    }).join("");
+    return `<div class="narrow centered"><h2>The Publisher's Apps</h2><p class="lead-small">More apps from Verlagshaus Rathmer, each one a separate app.</p></div><div class="library-grid">${cards}</div>`;
+  };
+  let cached = null;
+  try { cached = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) {}
+  const fill = (d) => {
+    const html = render(d);
+    const el = document.getElementById("verlagsapps-section");
+    if (el) { el.innerHTML = html; el.style.display = html ? "" : "none"; }
+  };
+  setTimeout(() => {
+    fetch(BASE + "verknuepfungen.json", { cache: "no-cache" })
+      .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then((d) => { if (d && d.produkte && d.reihenfolge_apps) { try { localStorage.setItem(KEY, JSON.stringify({ produkte: d.produkte, reihenfolge_apps: d.reihenfolge_apps })); } catch (e) {} fill(d); } })
+      .catch(() => {});
+  }, 0);
+  const first = render(cached);
+  return `<section id="verlagsapps-section" style="${first ? "" : "display:none"}">${first}</section>`;
 }
 
 function werkSection() {
