@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=518";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=519";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -160,6 +160,7 @@ const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "p
 const beltracchiMalerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "beltracchiMalerPortraitPage");
 const janoschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "janoschPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "artGarfunkelPortraitPage");
+const rodStewartPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "rodStewartPortraitPage");
 const jamesStewartPortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "jamesStewartPortraitPage");
 const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "marieleMillowitschPortraitPage");
 const georgPreussePortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "georgPreussePortraitPage");
@@ -2220,6 +2221,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Janosch \u2013 Sexual Type 9",
     teaser:"SX9w1 \u00b7 Horst Eckert, born 1931 in Hindenburg (Upper Silesia), died on 3 November 2026 on Tenerife. Children\u2019s author and illustrator (\u2018Oh, wie sch\u00f6n ist Panama\u2019, Tigerente). The Sloth who found his happiness for two in his own house.",
     land:"Germany", tags:["Literature","Children\u2019s books","Art"], gender:"m"},
+{ route:"beruehmte-rod-stewart", name:"Rod Stewart", added:"2026-11-20", subtyp:"SX9w1",
+    heading:"Rod Stewart \u2013 Sexual Type 9",
+    teaser:"SX9w1 \u00b7 born 1945 in London. English singer and songwriter (Jeff Beck Group, Faces, \u2018Maggie May\u2019, Great American Songbook). The Sloth who takes its time and makes other people\u2019s songs its own.",
+    land:"United Kingdom", tags:["Musik"], gender:"m"},
 { route:"beruehmte-art-garfunkel", name:"Art Garfunkel", added:"2026-10-26", subtyp:"SX9w1",
     heading:"Art Garfunkel \u2013 Sexual Type 9",
     teaser:"SX9w1 \u00b7 born 1941 in New York. American singer, poet and actor (Simon & Garfunkel, \u2018Bright Eyes\u2019). The Sloth who moves calmly in the duo and on long walks.",
@@ -48224,7 +48229,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-robbie-coltrane": robbieColtranePortraitPage,
       "beruehmte-happy-anderson": happyAndersonPortraitPage,
       "beruehmte-paul-simon": paulSimonPortraitPage,
-      "beruehmte-art-garfunkel": artGarfunkelPortraitPage, "beruehmte-janosch": janoschPortraitPage, "beruehmte-wolfgang-beltracchi": beltracchiMalerPortraitPage,
+      "beruehmte-rod-stewart": rodStewartPortraitPage, "beruehmte-art-garfunkel": artGarfunkelPortraitPage, "beruehmte-janosch": janoschPortraitPage, "beruehmte-wolfgang-beltracchi": beltracchiMalerPortraitPage,
       "beruehmte-john-neumeier": johnNeumeierPortraitPage,
       "beruehmte-sulli": sulliPortraitPage,
       "beruehmte-rj-mitte": rjMittePortraitPage,

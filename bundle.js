@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=521";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=522";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -146,6 +146,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.j
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
+const rodStewartPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "rodStewartPortraitPage");
 const jamesStewartPortraitPage = () => _lazyPage("./data/beruehmte-de/teil14.js", "jamesStewartPortraitPage");
 const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "marieleMillowitschPortraitPage");
 const georgPreussePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "georgPreussePortraitPage");
@@ -27971,6 +27972,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Paul Simon \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1941 in Newark, New Jersey. US-amerikanischer Singer-Songwriter (Simon & Garfunkel, \u203aGraceland\u2039, \u203aSeven Psalms\u2039). Die Taube, die tiefe Trauer still in Lieder fasst.",
     land:"USA", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-rod-stewart", name:"Rod Stewart", added:"2026-11-20", subtyp:"SX9w1",
+    heading:"Rod Stewart \u2013 Sexueller Typ 9",
+    teaser:"SX9w1 \u00b7 1945 in London. Englischer Sänger und Songschreiber (Jeff Beck Group, Faces, \u203aMaggie May\u2039, Great American Songbook). Das Faultier, das sich Zeit lässt und fremde Lieder in die eigene Stimme legt.",
+    land:"Großbritannien", tags:["Musik"], gender:"m"},
   { route:"beruehmte-art-garfunkel", name:"Art Garfunkel", added:"2026-10-26", subtyp:"SX9w1",
     heading:"Art Garfunkel \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 1941 in New York. US-amerikanischer Sänger, Dichter und Schauspieler (Simon & Garfunkel, \u203aBright Eyes\u2039). Das Faultier, das sich im Duo und auf langen Wanderungen ruhig bewegt.",
@@ -68387,6 +68392,7 @@ const ROUTES = {
       "beruehmte-happy-anderson": happyAndersonPortraitPage,
       "beruehmte-paul-simon": paulSimonPortraitPage,
       "beruehmte-art-garfunkel": artGarfunkelPortraitPage,
+      "beruehmte-rod-stewart": rodStewartPortraitPage,
       "beruehmte-john-neumeier": johnNeumeierPortraitPage,
       "beruehmte-sulli": sulliPortraitPage,
       "beruehmte-rj-mitte": rjMittePortraitPage,

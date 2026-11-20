@@ -3117,6 +3117,7 @@ export function artGarfunkelPortraitPage() {
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
         {route:"beruehmte-gary-cooper", label:"Portrait: Gary Cooper (SX9w1)"},
         {route:"beruehmte-james-stewart", label:"Portrait: James Stewart (SX9w1)"},
+        {route:"beruehmte-rod-stewart", label:"Portrait: Rod Stewart (SX9w1)"},
       ])}
     </div>
   `);
@@ -3262,6 +3263,76 @@ export function ottoWaalkesPortraitPage() {
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
         {route:"beruehmte-jan-josef-liefers", label:"Portrait: Jan Josef Liefers (SO7w6)"},
         {route:"beruehmte-dieter-nuhr", label:"Portrait: Dieter Nuhr (SO7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+export function rodStewartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rod-stewart-portrait.jpg" alt="Rod Stewart – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rod Stewart</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">English singer and songwriter, born 1945 in London &ndash; Jeff Beck Group, Faces, solo career &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth: calm that gets far</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sloth</strong> does not let itself be hurried. It hangs in the branch, moves sparingly and still gets where it wants to go. Roderick David Stewart was born on 10 January 1945 in Highgate in north London, the youngest of five children of Robert and Elsie Stewart. His father came from Scotland. The family lived in modest circumstances.</p>
+          <p class="vb-intro">His first love was football. In the early 1960s he gave up an apprenticeship with Brentford FC to become a musician. He stayed attached to the game: he is described as a lifelong supporter of Celtic, like the men in his family. The road into music did not come as a leap but as a stepping on. He performed alone for two years before the Jeff Beck Group took him on in 1967 as vocalist and songwriter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: finding oneself in the other</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo the sexual Nine is the subtype of <em>Union</em>: it seeks not the group but a single counterpart, a person or a work, and dissolves into it until its own contour recedes. In Stewart the career consists strikingly of connections. After the Jeff Beck Group came the band Faces in 1969, which the guitarist Ronnie Wood brought him into. There his rough, warm voice found its place in the interplay.</p>
+          <p class="vb-intro">As a solo artist he often carried the songs of others. In the early 2000s he released a series of successful albums with pieces from the <em>Great American Songbook</em>. One can read this as a trait of the sexual Nine: one&rsquo;s own voice as a vessel for what another has written, until both become one. This is a reading, not proof.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: measure and care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine standards and order. In Stewart this shows in things that ask for rules and patience. Football is one of them. Another is the model railway, which counts as his main hobby: a small world in which every piece has its place. The Songbook albums, too, tend a canon. They are not an experiment but craft on good material.</p>
+          <p class="vb-intro">It fits a Nine with a One-wing that she seeks measure in the familiar. Renewal comes quietly, through care, not through rupture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: voice, song and memory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1971 his album &lsquo;Every Picture Tells a Story&rsquo; appeared. Together with the single &lsquo;Maggie May&rsquo; it topped the charts in Britain and the United States at the same time. Decades as a singer and solo artist followed. Figures for records sold differ. According to Wikipedia it is more than 120 million worldwide.</p>
+          <p class="vb-intro">In 2012 his autobiography &lsquo;Rod: The Autobiography&rsquo; was published. In 2016 he was knighted for services to music and charity and has since carried the title Sir.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With the sexual Nine in the One-wing he stands beside <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a>, <a href="#beruehmte-bruce-springsteen">Bruce Springsteen (SX9w1)</a>, <a href="#beruehmte-willie-nelson">Willie Nelson (SX9w1)</a> and <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a>, musicians who understand their art as part of a larger, connected path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The bright part of this constellation is the warmth of the voice and the ability to carry a song and to give a counterpart room. The shadow of the Nine lies in avoiding conflict and in the blurring of one&rsquo;s own position. I have no documented statements of his own about his private life that would support this, and the portrait assumes nothing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The path of healing: from fusion to one&rsquo;s own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The path of the Nine leads from dissolving into the other to a voice of one&rsquo;s own, one that can be heard. The autobiography can be read as a step in this direction, because there he speaks in his own words. The Songbook albums, too, are more than singing along: they show how a voice makes a foreign song its own.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: subtype profile"},
+        {route:"beruehmte-art-garfunkel", label:"Portrait: Art Garfunkel (SX9w1)"},
+        {route:"beruehmte-bruce-springsteen", label:"Portrait: Bruce Springsteen (SX9w1)"},
+        {route:"beruehmte-willie-nelson", label:"Portrait: Willie Nelson (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
     </div>
   `);

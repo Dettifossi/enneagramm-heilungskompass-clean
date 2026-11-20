@@ -590,6 +590,7 @@ export function willieNelsonPortraitPage() {
         {route:"beruehmte-owen-wilson", label:"Porträt: Owen Wilson (SX9w1)"},
         {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
         {route:"beruehmte-gary-cooper", label:"Porträt: Gary Cooper (SX9w1)"},
+        {route:"beruehmte-rod-stewart", label:"Porträt: Rod Stewart (SX9w1)"},
       ])}
     </div>
   `);
