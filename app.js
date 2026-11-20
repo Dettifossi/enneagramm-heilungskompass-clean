@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=521";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=523";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -146,6 +146,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.j
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
+const rodStewartPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "rodStewartPortraitPage");
 const jamesStewartPortraitPage = () => _lazyPage("./data/beruehmte-de/teil14.js", "jamesStewartPortraitPage");
 const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "marieleMillowitschPortraitPage");
 const georgPreussePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "georgPreussePortraitPage");
@@ -27971,6 +27972,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Paul Simon \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1941 in Newark, New Jersey. US-amerikanischer Singer-Songwriter (Simon & Garfunkel, \u203aGraceland\u2039, \u203aSeven Psalms\u2039). Die Taube, die tiefe Trauer still in Lieder fasst.",
     land:"USA", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-rod-stewart", name:"Rod Stewart", added:"2026-11-20", subtyp:"SX9w1",
+    heading:"Rod Stewart \u2013 Sexueller Typ 9",
+    teaser:"SX9w1 \u00b7 1945 in London. Englischer Sänger und Songschreiber (Jeff Beck Group, Faces, \u203aMaggie May\u2039, Great American Songbook). Das Faultier, das sich Zeit lässt und fremde Lieder in die eigene Stimme legt.",
+    land:"Großbritannien", tags:["Musik"], gender:"m"},
   { route:"beruehmte-art-garfunkel", name:"Art Garfunkel", added:"2026-10-26", subtyp:"SX9w1",
     heading:"Art Garfunkel \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 1941 in New York. US-amerikanischer Sänger, Dichter und Schauspieler (Simon & Garfunkel, \u203aBright Eyes\u2039). Das Faultier, das sich im Duo und auf langen Wanderungen ruhig bewegt.",
@@ -30484,9 +30489,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mutter Teresa – Sozialer Typ 2",
     teaser:"SO2w1 · 1910–1997. Ordensgründerin, Friedensnobelpreis 1979. Von zwölf Schwestern zu 610 Niederlassungen – und fast fünfzig Jahre verborgene spirituelle Dunkelheit hinter unerschütterlicher öffentlicher Gewissheit.",
     land:"Indien", tags:["Religion","Geschichte"], gender:"w"},
-  { route:"beruehmte-coco-chanel", name:"Coco Chanel", added:"2026-09-27", subtyp:"SE3w4",
-    heading:"Coco Chanel – Selbsterhaltender Typ 3",
-    teaser:"SE3w4 · 1883–1971. Französische Modeschöpferin. Vom Waisenhaus zur Weltmarke, lebenslang gepflegte Herkunftslegende, nie verwundener Verlust – und Kollaboration mit der NS-Besatzung im Kampf um die eigene Sicherheit.",
+  { route:"beruehmte-coco-chanel", name:"Coco Chanel", added:"2026-09-27", subtyp:"SO3w4",
+    heading:"Coco Chanel – Sozialer Typ 3",
+    teaser:"SO3w4 · 1883–1971. Französische Modeschöpferin. Vom Waisenhaus zur Weltmarke, lebenslang gepflegte Herkunftslegende, nie verwundener Verlust – und Kollaboration mit der NS-Besatzung im Kampf um die eigene Position.",
     land:"Frankreich", tags:["Mode","Geschichte"], gender:"w"},
   { route:"beruehmte-aylin-tezel", name:"Aylin Tezel", added:"2026-09-27", subtyp:"SE3w2",
     heading:"Aylin Tezel – Selbsterhaltender Typ 3",
@@ -36699,9 +36704,10 @@ function libraryPage() {
       <h1>${copy.headline}</h1>
       <p class="lead-small">${copy.lead}</p>
     </section>
-    <section class="library-grid">
+    <nav class="jump-chips" aria-label="Springen zu"><button type="button" data-jump="werk-sektion">Bücher</button><button type="button" data-jump="verlags-apps">Apps</button><button type="button" data-jump="interview">Interview</button></nav>
+    <section class="library-grid library-grid--areas">
       ${architectureAreas
-        .map((area) => `<article><h2>${area.title}</h2><p>${area.text}</p></article>`)
+        .map((area) => `<article class="area-tile" data-route="${area.route}" role="link" tabindex="0"><h2>${area.title}</h2><p>${area.text}</p></article>`)
         .join("")}
     </section>
     <section class="formula-overview">
@@ -36721,7 +36727,7 @@ function libraryPage() {
     </section>
     ${werkSection()}
     ${verlagsAppsSection()}
-    <section style="background:#2c2c2c;padding:3.5rem 1.5rem;text-align:center;">
+    <section id="interview" style="background:#2c2c2c;padding:3.5rem 1.5rem;text-align:center;">
       <div style="max-width:700px;margin:0 auto;">
         <div style="color:#c4a456;font-size:0.78rem;letter-spacing:0.25em;text-transform:uppercase;margin-bottom:0.8rem;">Interview \u00b7 22 Minuten</div>
         <h2 style="font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.5rem,3vw,2rem);font-weight:400;color:#f5e9d0;margin:0 0 0.8rem;line-height:1.35;">\u00bbWarum dein Enneagrammtyp<br>deine Gesundheit bestimmt\u00ab</h2>
@@ -37050,7 +37056,7 @@ function verlagsAppsSection() {
       const link = (p.bald || !href)
         ? `<span class="deepen-link deepen-link--pending">demnächst</span>`
         : `<a class="deepen-link" href="${esc(/^https?:/.test(href) ? href : BASE + href)}" target="_blank" rel="noopener">Öffnen →</a>`;
-      return `<article style="display:flex;gap:.9rem;align-items:flex-start;">${icon}<div><h2 style="margin-top:0;">${esc(name)}${schild ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(schild)}</small>` : ""}</h2><p>${esc(kurz)}</p>${link}</div></article>`;
+      return `<article style="display:flex;gap:.9rem;align-items:flex-start;min-width:0;overflow-wrap:anywhere;">${icon}<div style="min-width:0;"><h2 style="margin-top:0;font-size:1.05rem;">${esc(name)}${schild ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(schild)}</small>` : ""}</h2><p>${esc(kurz)}</p>${link}</div></article>`;
     }).join("");
     const K = d.kostenlos;
     let free = "";
@@ -37062,7 +37068,7 @@ function verlagsAppsSection() {
       const kicon = K.icon ? `<img src="${esc(BASE + K.icon)}" alt="" loading="lazy" width="56" height="56" style="width:56px;height:56px;flex-shrink:0;border-radius:12px;object-fit:contain;background:#f4efe3;padding:5px;box-sizing:border-box;" onerror="this.style.display='none'">` : "";
       if (kh) free = `<a href="${esc(/^https?:/.test(kh) ? kh : BASE + kh)}" target="_blank" rel="noopener" style="display:flex;gap:1rem;align-items:center;max-width:720px;margin:1.2rem auto;padding:1rem 1.2rem;border:2px solid #c9a227;border-radius:14px;color:inherit;text-decoration:none;background:rgba(201,162,39,.08);">${kicon}<div><span style="display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#c9a227;color:#fff;border-radius:999px;padding:.1rem .6rem;margin-bottom:.35rem;">Kostenlos · weltweit</span><h2 style="margin:.1rem 0;">${esc(kn)}${ks ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(ks)}</small>` : ""}</h2><p style="margin:.2rem 0.4rem;">${esc(kk)}</p><span class="deepen-link">Kostenlos ansehen →</span></div></a>`;
     }
-    return `<div class="narrow centered"><h2>Die Apps des Verlagshauses</h2><p class="lead-small">Das Verlagshaus Rathmer bietet mehrere Apps zum Enneagramm, zur Selbsterkenntnis und zur Heilkunde an. Jede ist ein eigenes Werkzeug, aus einem Buch entstanden. Tippen Sie auf eine App, um sie zu öffnen.</p></div>${free}<div class="narrow centered"><h3>Unsere Apps an Bord</h3></div><div class="library-grid">${cards}</div>`;
+    return `<div class="narrow centered" id="verlags-apps"><h2>Die Apps des Verlagshauses</h2><p class="lead-small">Das Verlagshaus Rathmer bietet mehrere Apps zum Enneagramm, zur Selbsterkenntnis und zur Heilkunde an. Jede ist ein eigenes Werkzeug, aus einem Buch entstanden. Tippen Sie auf eine App, um sie zu öffnen.</p></div>${free}<div class="narrow centered"><h3>Unsere Apps an Bord</h3></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:0 1rem;">${cards}</div>`;
   };
   let cached = null;
   try { cached = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) {}
@@ -37118,11 +37124,12 @@ function werkSection() {
   }).join("");
 
   return `
-    <section class="werk">
+    <section class="werk" id="werk-sektion">
       <div class="section-divider"><span>${w.title}</span></div>
       <p class="lead-small werk__lead">${w.lead}</p>
       <div class="werk-filterbar">${filterBar}</div>
-      <div class="werk-grid">${cards}</div>
+      <div class="werk-grid werk-grid--collapsed">${cards}</div>
+      <p class="werk-more-wrap"><button type="button" class="werk-more" data-werk-more>Alle Bücher anzeigen</button></p>
     </section>
   `;
 }
@@ -40317,10 +40324,26 @@ function bindEvents() {
       const filter = btn.dataset.werkFilter;
       document.querySelectorAll("[data-werk-filter]").forEach(b => b.classList.remove("is-active"));
       btn.classList.add("is-active");
+      const _wg = document.querySelector(".werk-grid"); if (_wg) _wg.classList.remove("werk-grid--collapsed");
+      const _wm = document.querySelector(".werk-more-wrap"); if (_wm) _wm.remove();
       document.querySelectorAll(".werk-card").forEach(card => {
         const match = filter === "all" || card.dataset.category === filter;
         card.style.display = match ? "" : "none";
       });
+    });
+  });
+
+  document.querySelectorAll("[data-werk-more]").forEach((b) => {
+    b.addEventListener("click", () => {
+      const g = document.querySelector(".werk-grid");
+      if (g) g.classList.remove("werk-grid--collapsed");
+      b.parentElement.remove();
+    });
+  });
+  document.querySelectorAll("[data-jump]").forEach((b) => {
+    b.addEventListener("click", () => {
+      const t = document.getElementById(b.dataset.jump);
+      if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 
@@ -68369,6 +68392,7 @@ const ROUTES = {
       "beruehmte-happy-anderson": happyAndersonPortraitPage,
       "beruehmte-paul-simon": paulSimonPortraitPage,
       "beruehmte-art-garfunkel": artGarfunkelPortraitPage,
+      "beruehmte-rod-stewart": rodStewartPortraitPage,
       "beruehmte-john-neumeier": johnNeumeierPortraitPage,
       "beruehmte-sulli": sulliPortraitPage,
       "beruehmte-rj-mitte": rjMittePortraitPage,
