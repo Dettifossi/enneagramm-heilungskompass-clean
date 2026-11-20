@@ -148,27 +148,27 @@ export function cocoChanelPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-coco-chanel-portrait.jpg" alt="Coco Chanel – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Coco Chanel</p>
-        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
-        <p class="krim-portrait-subtitle">French fashion designer, 1883–1971 – Animal correspondence: Raccoon</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">French fashion designer, 1883–1971 – Animal correspondence: Cheetah</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The raccoon that sewed itself a new origin</h2>
+        <h2 class="vb-section">1. The cheetah that sewed itself a new origin</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the symbolic animal of the self-preservation Three – an animal that moves unobtrusively but with great skill through any environment, crafting exactly what's needed to survive from whatever materials are at hand. Gabrielle Bonheur Chanel was born illegitimate in 1883 in a poorhouse hospital in Saumur, the daughter of an itinerant market hawker and an exhausted laundrywoman. Her mother died of tuberculosis when Gabrielle was about eleven; her father abandoned her and her sisters at the Aubazine convent orphanage shortly after, where the nuns taught her sewing – the direct technical root of her later career.</p>
-          <p class="vb-intro">After years at the convent she worked as a seamstress and as a cabaret singer in Moulins and Vichy, where songs like "Ko Ko Ri Ko" earned her the nickname "Coco." Throughout her life she invented herself a more glamorous past: instead of the orphanage, she spoke of "aunts" who raised her, and consistently obscured her real age and origins. The raccoon that shapes its own story out of whatever it finds – for Chanel, that wasn't just fashion, but her own biography itself.</p>
+          <p class="vb-intro">The <strong>cheetah</strong> is the symbolic animal of the social Three – an animal that moves in full view with elegance and speed, and whose appearance decides how others see it. Gabrielle Bonheur Chanel was born illegitimate in 1883 in a poorhouse hospital in Saumur, the daughter of an itinerant market hawker and an exhausted laundrywoman. Her mother died of tuberculosis when Gabrielle was about eleven; her father abandoned her and her sisters at the Aubazine convent orphanage shortly after, where the nuns taught her sewing – the direct technical root of her later career.</p>
+          <p class="vb-intro">After years at the convent she worked as a seamstress and as a cabaret singer in Moulins and Vichy, where songs like "Ko Ko Ri Ko" earned her the nickname "Coco." Throughout her life she invented herself a more glamorous past: instead of the orphanage, she spoke of "aunts" who raised her, and consistently obscured her real age and origins. The cheetah that designs its own image – for Chanel, that wasn't just fashion, but her own biography itself.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The self-preservation Three: security through practical success</h2>
+        <h2 class="vb-section">2. The social Three: standing as currency, a name as a brand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Three (SP3)</strong> seeks security not through public brilliance like the social Three, but through concrete, practical competence and economic independence. Financed first by her lover Étienne Balsan, then by Arthur "Boy" Capel, Chanel built an independent, profitable fashion brand out of a hat shop – her most defining innovations were never mere ornament, but radically practical: jersey fabric, previously used only for men's underwear, cheap and stretchy; the little black dress of 1926, deliberately designed as accessible simplicity for as wide a market as possible; costume jewelry instead of real stones; the perfume Chanel No. 5.</p>
-          <p class="vb-intro">The SP3 shows most clearly in how she consistently freed women from the corset and the rigid silhouettes of the Belle Époque toward looser, genuinely wearable clothing. Not design for its own sake, but functionality and comfort as a business foundation: security through what actually works and is needed, not through mere glamour.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>social Three (SO3)</strong> seeks standing within society: recognition, influence and a name that means something. It makes success not only its goal but its way of being. Financed first by her lover Étienne Balsan, then by Arthur "Boy" Capel, Chanel built an independent, profitable fashion brand out of a hat shop – her most defining innovations were never mere ornament, but radically practical: jersey fabric, previously used only for men's underwear, cheap and stretchy; the little black dress of 1926, deliberately designed as accessible simplicity for as wide a market as possible; costume jewelry instead of real stones; the perfume Chanel No. 5.</p>
+          <p class="vb-intro">The SO3 shows most clearly in how Chanel turned her name into a brand and herself into the face of that brand. She freed women from the corset and the rigid silhouettes of the Belle Époque toward looser, genuinely wearable clothing, and the style she created for this became the standard by which she was recognised: standing through an image that was accessible to many and yet unmistakably hers.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four-wing: the loss she never got over</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the self-preservation Three a melancholic, dramatizing depth – her own success isn't managed soberly, but underlaid with a tragic, singular life narrative. When Boy Capel, the great love of her life, died in a car accident in 1919, Chanel had herself driven to the crash site immediately. Twenty-five years later she told her friend Paul Morand: "His death was a terrible blow to me. In losing Capel, I lost everything. What followed was not a life of happiness." No other loss in her life was ever discussed in a similarly central way – the grief remained unprocessed and central for decades.</p>
-          <p class="vb-intro">Her famously sharp tongue also fits this picture: of a rival she reportedly said he "doesn't dress women, he upholsters them" – distancing through demonstrative superiority rather than warmth. Of herself she once said: "I am an odious person." This mix of morbid self-staging, never-resolved loss, and cutting social distance is the characteristic signature of the SP3w4 – success as a shield surrounding a deep, never fully closed wound.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the social Three a melancholic, dramatizing depth – the public image isn't tended soberly, but underlaid with a tragic, singular life narrative. When Boy Capel, the great love of her life, died in a car accident in 1919, Chanel had herself driven to the crash site immediately. Twenty-five years later she told her friend Paul Morand: "His death was a terrible blow to me. In losing Capel, I lost everything. What followed was not a life of happiness." No other loss in her life was ever discussed in a similarly central way – the grief remained unprocessed and central for decades.</p>
+          <p class="vb-intro">Her famously sharp tongue also fits this picture: of a rival she reportedly said he "doesn't dress women, he upholsters them" – distancing through demonstrative superiority rather than warmth. Of herself she once said: "I am an odious person." This mix of morbid self-staging, never-resolved loss, and cutting social distance is the characteristic signature of the SO3w4 – a glittering public image surrounding a deep, never fully closed wound.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Controversy: collaboration and an Aryanization attempt in occupied Paris</h2>
@@ -177,16 +177,16 @@ export function cocoChanelPortraitPage() {
           <p class="vb-intro">In 1941 she also attempted to use Nazi Aryanization laws to strip her Jewish business partners, the Wertheimer brothers, of full control over Parfums Chanel and thus over her own perfume No. 5 – she failed only because the Wertheimers had pre-emptively transferred their stake to a Christian associate. After the war she went into exile in Switzerland for roughly a decade, likely escaping formal prosecution partly thanks to Churchill's intervention, before relaunching her fashion house in 1954.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and shadow of the self-preservation Three with Four-wing</h2>
+        <h2 class="vb-section">5. Light and shadow of the social Three with Four-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP3w4 shows in how pure economic necessity turned into one of the most influential reinventions of 20th-century women's fashion – practical, wearable, accessible to many rather than a narrow elite. The Three's fatal flaw is <strong>vanity / deceit</strong> – the conviction that one's own worth is measured solely by visible success.</p>
-          <p class="vb-intro">In Chanel this shows in two ways: in the lifelong fiction of a more glamorous origin, and in the opportunistic attempt to secure her own economic position at the expense of Jewish business partners under Nazi occupation – security pursued past any moral boundary. The Four-wing intensifies this into tragedy: the never-resolved loss of Capel and the cutting distance to other people show how much outer success covered an inner, never-closed gap.</p>
+          <p class="vb-intro">The light of the SO3w4 shows in how pure economic necessity turned into one of the most influential reinventions of 20th-century women's fashion – practical, wearable, accessible to many rather than a narrow elite. The Three's fatal flaw is <strong>vanity / deceit</strong> – the conviction that one's own worth is measured solely by visible success.</p>
+          <p class="vb-intro">In Chanel this shows in two ways: in the lifelong fiction of a more glamorous origin, and in the opportunistic attempt to secure her own economic position at the expense of Jewish business partners under Nazi occupation – her standing and her control over her own name defended past any moral boundary. The Four-wing intensifies this into tragedy: the never-resolved loss of Capel and the cutting distance to other people show how much outer success covered an inner, never-closed gap.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The path to healing: from the image to genuine security</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three's path to healing runs from the belief <em>I am only valuable through visible success</em> to the realization <em>I am valuable as I am.</em> For the SP3w4, this means in particular no longer needing one's own tragic life narrative to justify ruthless self-securing – and allowing genuine grief to be processed rather than stylized into a lifelong, untouched wound.</p>
-          <p class="vb-intro">Much like Madame Tussaud (SP3w4) – who likewise crafted her own, partly dramatized life legend to build an independent, secure business out of precarious circumstances – Chanel shows the same underlying movement of the SP3w4: one's own origin is rewritten so the rise appears seamless and self-evident. The actual step toward healing would lie in acknowledging the real, imperfect story rather than replacing it with a controlled, tragically glamorous version.</p>
+          <p class="vb-intro">The Three's path to healing runs from the belief <em>I am only valuable through visible success</em> to the realization <em>I am valuable as I am.</em> For the SO3w4, this means in particular no longer needing one's own tragic life narrative as a stage and a justification for ruthless self-assertion – and allowing genuine grief to be processed rather than stylized into a lifelong, untouched wound.</p>
+          <p class="vb-intro">Much like <a href="#beruehmte-karl-lagerfeld">Karl Lagerfeld (SO3w4)</a> – who led the house of Chanel from 1983 and turned himself into a symbol – Chanel shows the same underlying movement of the SO3w4: one's own image is consciously shaped and controlled so the rise appears seamless and self-evident. The actual step toward healing would lie in acknowledging the real, imperfect story rather than replacing it with a controlled, tragically glamorous version.</p>
         </blockquote>
 
       </div>
@@ -195,8 +195,8 @@ export function cocoChanelPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype profile"},
-        {route:"beruehmte-madame-tussaud", label:"Portrait: Madame Tussaud (SP3w4)"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SP8w9)"},
       ])}
     </div>
@@ -1754,7 +1754,7 @@ export function madameTussaudPortraitPage() {
         {route:"subtype/se3", label:"SP3 – The Raccoon: subtype profile"},
         {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
-        {route:"beruehmte-coco-chanel", label:"Portrait: Coco Chanel (SP3w4)"},
+        {route:"beruehmte-coco-chanel", label:"Portrait: Coco Chanel (SO3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SP3w4)"},
       ])}
     </div>

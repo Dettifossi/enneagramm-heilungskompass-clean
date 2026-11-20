@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=519";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=520";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -4682,9 +4682,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mother Teresa – Social Type 2",
     teaser:"SO2w1 · 1910–1997. Founder of a religious order, Nobel Peace Prize 1979. From twelve sisters to 610 foundations – and nearly fifty years of hidden spiritual darkness behind unshakeable public certainty.",
     land:"India", tags:["Religion","History"], gender:"f"},
-{ route:"beruehmte-coco-chanel", name:"Coco Chanel", added:"2026-09-27", subtyp:"SE3w4",
-    heading:"Coco Chanel – Self-Preservation Type 3",
-    teaser:"SP3w4 · 1883–1971. French fashion designer. From orphanage to global brand, a lifelong curated origin legend, a never-resolved loss – and collaboration with the Nazi occupation in the fight for her own security.",
+{ route:"beruehmte-coco-chanel", name:"Coco Chanel", added:"2026-09-27", subtyp:"SO3w4",
+    heading:"Coco Chanel – Social Type 3",
+    teaser:"SO3w4 · 1883–1971. French fashion designer. From orphanage to global brand, a lifelong curated origin legend, a never-resolved loss – and collaboration with the Nazi occupation in the fight for her own position.",
     land:"France", tags:["Fashion","History"], gender:"f"},
 { route:"beruehmte-aylin-tezel", name:"Aylin Tezel", added:"2026-09-27", subtyp:"SE3w2",
     heading:"Aylin Tezel – Self-Preservation Type 3",

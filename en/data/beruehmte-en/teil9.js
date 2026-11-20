@@ -1720,7 +1720,7 @@ export function winstonChurchillPortraitPage() {
         {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SP8w9) – also a statesman, same subtype"},
         {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SP8w9)"},
         {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SP8w9)"},
-        {route:"beruehmte-coco-chanel", label:"Portrait: Coco Chanel (SP3w4)"},
+        {route:"beruehmte-coco-chanel", label:"Portrait: Coco Chanel (SO3w4)"},
         {route:"beruehmte-ryke-geerd-hamer", label:"Portrait: Ryke Geerd Hamer (SP8w9)"},
         {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bible Portrait: The Centurion at the Cross (SP8w9)"},
       ])}

@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=522";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=523";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -30489,9 +30489,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mutter Teresa – Sozialer Typ 2",
     teaser:"SO2w1 · 1910–1997. Ordensgründerin, Friedensnobelpreis 1979. Von zwölf Schwestern zu 610 Niederlassungen – und fast fünfzig Jahre verborgene spirituelle Dunkelheit hinter unerschütterlicher öffentlicher Gewissheit.",
     land:"Indien", tags:["Religion","Geschichte"], gender:"w"},
-  { route:"beruehmte-coco-chanel", name:"Coco Chanel", added:"2026-09-27", subtyp:"SE3w4",
-    heading:"Coco Chanel – Selbsterhaltender Typ 3",
-    teaser:"SE3w4 · 1883–1971. Französische Modeschöpferin. Vom Waisenhaus zur Weltmarke, lebenslang gepflegte Herkunftslegende, nie verwundener Verlust – und Kollaboration mit der NS-Besatzung im Kampf um die eigene Sicherheit.",
+  { route:"beruehmte-coco-chanel", name:"Coco Chanel", added:"2026-09-27", subtyp:"SO3w4",
+    heading:"Coco Chanel – Sozialer Typ 3",
+    teaser:"SO3w4 · 1883–1971. Französische Modeschöpferin. Vom Waisenhaus zur Weltmarke, lebenslang gepflegte Herkunftslegende, nie verwundener Verlust – und Kollaboration mit der NS-Besatzung im Kampf um die eigene Position.",
     land:"Frankreich", tags:["Mode","Geschichte"], gender:"w"},
   { route:"beruehmte-aylin-tezel", name:"Aylin Tezel", added:"2026-09-27", subtyp:"SE3w2",
     heading:"Aylin Tezel – Selbsterhaltender Typ 3",
