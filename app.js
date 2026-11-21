@@ -64821,6 +64821,8 @@ function showTagesimpuls(force) {
       <div class="tagesimpuls-card__text">${paragraphs}</div>
       <p class="tagesimpuls-card__impuls"><em>${impuls.impuls}</em></p>
       <p class="tagesimpuls-card__autor">\u2014 Detlef Rathmer</p>
+      <button class="tagesimpuls-card__share tagesimpuls-card__audio" hidden style="width:100%;margin-top:0.6rem">\ud83d\udd0a Anh\u00f6ren</button>
+      <p class="tagesimpuls-card__voice" hidden style="font-size:0.78rem;opacity:0.7;margin:0.4rem 0 0">Vorgelesen von Detlef Rathmer, digital vertont, mit Zustimmung des Autors.</p>
       <div class="tagesimpuls-card__actions">
         <button class="tagesimpuls-card__btn">Den Impuls merken \u2726</button>
         <button class="tagesimpuls-card__share">\u2197 Teilen</button>
@@ -64829,8 +64831,18 @@ function showTagesimpuls(force) {
     </div>
   `;
   document.body.appendChild(card);
+  // Vorlesen mit Detlefs Stimme (Aufnahmen auf R2; der Knopf erscheint nur, wenn es die Aufnahme f\u00fcr diesen Tag gibt)
+  const au = new Audio("https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/impulse/de/k" + String(dayOfYear % TAGESIMPULSE.length).padStart(3, "0") + ".mp3");
+  au.preload = "metadata";
+  const auBtn = card.querySelector(".tagesimpuls-card__audio"), auNote = card.querySelector(".tagesimpuls-card__voice");
+  au.addEventListener("loadedmetadata", () => { auBtn.hidden = false; auNote.hidden = false; });
+  au.addEventListener("ended", () => { auBtn.textContent = "\ud83d\udd0a Anh\u00f6ren"; });
+  au.addEventListener("pause", () => { auBtn.textContent = "\ud83d\udd0a Anh\u00f6ren"; });
+  au.addEventListener("play", () => { auBtn.textContent = "\u23f8 Pause"; });
+  auBtn.addEventListener("click", () => { if (au.paused) { au.play().catch(() => {}); } else { au.pause(); } });
   requestAnimationFrame(() => requestAnimationFrame(() => card.classList.add("tagesimpuls-overlay--open")));
   const close = () => {
+    try { au.pause(); } catch (e) {}
     localStorage.setItem(IMPULS_KEY, today);
     card.classList.remove("tagesimpuls-overlay--open");
     setTimeout(() => card.remove(), 350);
