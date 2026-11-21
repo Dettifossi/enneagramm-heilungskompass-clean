@@ -64853,13 +64853,13 @@ function showTagesimpuls(force) {
     _saveImpuls(impuls, today);
     const btn = e.currentTarget;
     btn.style.display = "none";
-    card.querySelector(".tagesimpuls-card__share").style.display = "none";
+    card.querySelector(".tagesimpuls-card__actions .tagesimpuls-card__share").style.display = "none";
     const hint = card.querySelector(".tagesimpuls-card__saved-hint");
     hint.style.display = "block";
     hint.querySelector("a").addEventListener("click", () => { close(); go("gemerkte-impulse"); });
     localStorage.setItem(IMPULS_KEY, today);
   });
-  card.querySelector(".tagesimpuls-card__share").addEventListener("click", () => {
+  card.querySelector(".tagesimpuls-card__actions .tagesimpuls-card__share").addEventListener("click", () => {
     const shareText = `\u201e${impuls.impuls}\u201c \u2014 Detlef Rathmer\nhttps://dettifossi.github.io/enneagramm-heilungskompass/`;
     if (navigator.share) { navigator.share({ text: shareText }); }
     else { window.open("https://wa.me/?text=" + encodeURIComponent(shareText), "_blank"); }
