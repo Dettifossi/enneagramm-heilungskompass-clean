@@ -600,6 +600,14 @@ const IGNORED_PAYMENT_LINKS = [
   "plink_1Ua6OWHPQz587pegj5UFqzD2", // Neun Seelenblüten (eigene App)
   "plink_1UayRGHPQz587pegnK6C06hU", // Enneagramm Biochemie (eigene App)
   "plink_1UcPgaHPQz587pegJ0L0kVxm", // Enneagramm-Aromatherapie (eigene App)
+  "plink_1UcXMfHPQz587peguuXcJBgT", // Führung mit Fundament (eigene App)
+  "plink_1UcmBbHPQz587pegNS5zBMim", // Chrono-Ennea-Typ (eigene App)
+  "plink_1UctAmHPQz587pegPWKMX4qm", // Meta-Intelligenz (eigene App)
+  "plink_1UctP6HPQz587pegdJq55Pbi", // Der Code der Persönlichkeit (eigene App)
+  "plink_1Ud3YZHPQz587pegc4nehDqR", // Die Sprache unserer Beziehungen (eigene App)
+  "plink_1Ud5gTHPQz587peg3Ny0i1dC", // Die Sprache unserer Sexualität (eigene App)
+  "plink_1Ud8DJHPQz587peg1C5ArjwL", // Die verborgene Dynamik der 27 Subtypen (eigene App)
+  "plink_1UeJJYHPQz587pegDEExSJwA", // Burnout – Wenn die Stille brennt (eigene App)
 ];
 
 async function handleStripeWebhook(request, env) {
