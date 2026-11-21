@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=520";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=521";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -2592,9 +2592,9 @@ const BERUEHMT_PORTRAITS = [
   heading:"Atze Schr\u00f6der \u2013 Sexual Type 7",
   teaser:"SX7w6 \u00b7 German comedy character (\u2018Alles Atze\u2019, \u2018Lovemachine\u2019). The chimpanzee with curls and aviator glasses who delivers punchlines as a Ruhr-area lout and protects his name behind the mask.",
   land:"Germany", tags:["Comedy","Fernsehen"], gender:"m"},
-{ route:"beruehmte-heinz-rudolf-kunze", name:"Heinz Rudolf Kunze", added:"2026-10-23", subtyp:"SE6w7",
-  heading:"Heinz Rudolf Kunze \u2013 Social Type 6",
-  teaser:"SO6w7 \u00b7 b. 1956. German singer-songwriter and lyricist (\u2018Dein ist mein ganzes Herz\u2019, \u2018Verst\u00e4rkung\u2019). The meerkat with the wit that has kept watch with the same band for four decades.",
+{ route:"beruehmte-heinz-rudolf-kunze", name:"Heinz Rudolf Kunze", added:"2026-10-23", subtyp:"SE1w9",
+  heading:"Heinz Rudolf Kunze \u2013 Self-Preservation Type 1",
+  teaser:"SP1w9 \u00b7 b. 1956. German singer-songwriter and lyricist (\u2018Dein ist mein ganzes Herz\u2019, \u2018Verst\u00e4rkung\u2019). The eagle with the wit that has worked for four decades with the same band on the right word.",
   land:"Germany", tags:["Musik","Literatur"], gender:"m"},
 { route:"beruehmte-joshua-richards", name:"Joshua Richards", added:"2026-10-23", subtyp:"SE8w9",
   heading:"Joshua Richards \u2013 Social Type 8",

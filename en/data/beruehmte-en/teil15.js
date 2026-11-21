@@ -2809,51 +2809,58 @@ export function heinzRudolfKunzePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heinz-rudolf-kunze-portrait.jpg" alt="Heinz Rudolf Kunze – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-heinz-rudolf-kunze-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Heinz Rudolf Kunze</p>
-        <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with a Seven-wing</p>
-        <p class="krim-portrait-subtitle">German singer-songwriter and lyricist, b. 1956 &ndash; Verstärkung &ndash; Animal correspondence: Meerkat</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">German singer-songwriter and lyricist, b. 1956 &ndash; Verstärkung &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Meerkat: the sentinel from Osnabrück</h2>
+        <h2 class="vb-section">1. The Eagle: the examiner from Osnabrück</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>meerkat</strong> stands up and checks whether the group is safe before it eats itself. Heinz Rudolf Kunze was born on 30 November 1956 in a refugee camp near Espelkamp. The family moved often and settled in Osnabrück at the end of 1963. In his autobiography &lsquo;Werdegang&rsquo; (&lsquo;Career&rsquo;, 2021) he addresses the fact that his father had been an officer in the Waffen-SS and was released from Soviet captivity in 1956. A child who grows up with this family history learns early to watch for authority, guilt and reliability.</p>
+          <p class="vb-intro">The <strong>eagle</strong> circles high above the terrain and examines for a long time before it strikes. Heinz Rudolf Kunze was born on 30 November 1956 in a refugee camp near Espelkamp. The family moved often and settled in Osnabrück at the end of 1963. In his autobiography &lsquo;Werdegang&rsquo; (&lsquo;Career&rsquo;, 2021) he addresses the fact that his father had been an officer in the Waffen-SS and was released from Soviet captivity in 1956. A child who grows up with this family history learns early to watch for authority, guilt and reliability.</p>
           <p class="vb-intro">He attended the Graf-Stauffenberg-Gymnasium in Osnabrück, finished school with an average of 1.4 and became a scholarship holder of the German National Academic Foundation. He studied German literature and philosophy and passed both state examinations for teaching at grammar schools, but never taught. His doctoral thesis on the concept of God in Spinoza and Schelling remained unfinished after his first record deal in 1980.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The social Six: duty and belonging</h2>
+        <h2 class="vb-section">2. The self-preservation One: the standard turned inward</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six seeks security, and Claudio Naranjo described the <strong>social Six (SO6)</strong> as the subtype of duty and warmth: security arises through belonging, rules and reliable bonds. In Kunze this shows in his loyalty to his groups. His band &lsquo;Verstärkung&rsquo; (&lsquo;Reinforcement&rsquo;) has existed since the early eighties, he has written with the composer Heiner Lürig since &lsquo;Dein ist mein ganzes Herz&rsquo; (&lsquo;All My Heart Is Yours&rsquo;, 1985), and there is also the acoustic trio &lsquo;Räuberzivil&rsquo;. His long-time musical director and companion belongs to his circle.</p>
-          <p class="vb-intro">His public roles also carry the signature of duty towards the community. He was a long-time SPD member and left in 1996 over the German spelling reform. In the same year he spoke as a spokesman for about 600 German-language artists in favour of a radio quota for German rock music, a demand that earned him a lot of criticism. For about three and a half years he served as an expert on the Bundestag&rsquo;s Enquete Commission &lsquo;Culture in Germany&rsquo;. This shows the Six in social service: he cares about the rules and the fabric in which language and culture live.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> turns its standard not primarily outward but inward. Naranjo called this subtype <em>Worry</em>: the quiet, constant question whether one is really doing justice to the task. In Kunze this shows in thoroughness: school-leaving grades averaging 1.4, the scholarship foundation, two state examinations and a doctoral thesis on Spinoza and Schelling that remained unfinished when the first record deal came in 1980. His way of working is also that of the One who relies on what is dependable: his band &lsquo;Verstärkung&rsquo; (&lsquo;Reinforcement&rsquo;) has existed since the early eighties, he has written with the composer Heiner Lürig since &lsquo;Dein ist mein ganzes Herz&rsquo; (&lsquo;All My Heart Is Yours&rsquo;, 1985), and there is also the acoustic trio &lsquo;Räuberzivil&rsquo;.</p>
+          <p class="vb-intro">The One's stamina shows in abundance: more than 500 songs and, by his own account, around 13,000 texts in all. Someone who writes so much while keeping the same high demands on precision does not work on a whim but out of inner obligation.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven-wing: wit and wordplay</h2>
+        <h2 class="vb-section">3. The Nine-wing: irony as composure</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Six lightness, curiosity and humour. In Kunze the wing is clearly audible: wordplay, ironic refraction and delight in language games are his trademarks, from the early records onward. One of his albums is called &lsquo;Können vor Lachen&rsquo; (&lsquo;Can&rsquo;t Stop Laughing&rsquo;, 2023). He appears as an actor in TV series, among them &lsquo;In aller Freundschaft&rsquo;, &lsquo;Großstadtrevier&rsquo; and two &lsquo;Tatort&rsquo; episodes, and has hosted the podcast &lsquo;Durch die Brille gefragt&rsquo; since June 2020.</p>
-          <p class="vb-intro">Behind the wit stands the vigilance of the Six. Irony keeps distance, protects against too much pathos and allows serious things to be said without giving oneself away. The Seven side shows in abundance: more than 500 songs and, by his own account, around 13,000 texts in all.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> makes the One calmer and more agreeable and softens its strictness with calm and humour. In Kunze this is audible: wordplay, ironic refraction and delight in language games are his trademarks, from the early records onward. One of his albums is called &lsquo;Können vor Lachen&rsquo; (&lsquo;Can&rsquo;t Stop Laughing&rsquo;, 2023). He appears as an actor in TV series, among them &lsquo;In aller Freundschaft&rsquo;, &lsquo;Großstadtrevier&rsquo; and two &lsquo;Tatort&rsquo; episodes, and has hosted the podcast &lsquo;Durch die Brille gefragt&rsquo; since June 2020.</p>
+          <p class="vb-intro">Behind the wit stands the One's standard. Irony keeps distance, protects against too much pathos and allows serious things to be said without preaching. In this way the strictness stays bearable, for him and for his audience.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The substance: word, song and translation</h2>
+        <h2 class="vb-section">4. The passion: anger as a struggle for the right word</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's passion is <strong>anger</strong>. In the SP1 it turns first inward, as a standard applied to one's own ability; where language and culture are in Kunze&rsquo;s view being damaged, it becomes public. He was a long-time SPD member and left in 1996 over the German spelling reform. In the same year he spoke as a spokesman for about 600 German-language artists in favour of a radio quota for German rock music, a demand that earned him a lot of criticism. For about three and a half years he served as an expert on the Bundestag&rsquo;s Enquete Commission &lsquo;Culture in Germany&rsquo;.</p>
+          <p class="vb-intro">Here the One shows in the service of correctness: he cares about the rules by which language and culture live. He also calls gender-inclusive language &lsquo;madness&rsquo;, and his radio quota demand made him a target.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The substance: word, song and translation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In German pop music Kunze is regarded as a literary lyricist. Early on he was classed as a philosophical singer-songwriter in the tradition of Bob Dylan, and a mocker coined the word &lsquo;Niedermacher&rsquo; for it. His strength is the combination of education and everyday language: he writes lines that stick in the mind because they fold double meaning, quotation and observation into one another. In 1982 his album &lsquo;Eine Form von Gewalt&rsquo; (&lsquo;A Form of Violence&rsquo;) won the Deutscher Schallplattenpreis, and in 1985 &lsquo;Dein ist mein ganzes Herz&rsquo; became his biggest single hit.</p>
-          <p class="vb-intro">Added to this is his work on the German word for others: he rendered the musicals &lsquo;Les Misérables&rsquo; (&lsquo;The Wretched&rsquo;, 1987), &lsquo;Miss Saigon&rsquo; (1994), &lsquo;Joseph and the Amazing Technicolor Dreamcoat&rsquo; (1996) and &lsquo;RENT&rsquo; (1999) into German and wrote librettos with Heiner Lürig for Shakespeare adaptations, among them &lsquo;A Midsummer Night&rsquo;s Dream&rsquo; (2003 to 2014 in Hannover-Herrenhausen). In 2007 he taught songwriting for two semesters at Osnabrück University of Applied Sciences. Someone who pays such close attention to language is a craftsman of the text, and this fits the Six, who likes to build on proven rules.</p>
+          <p class="vb-intro">Added to this is his work on the German word for others: he rendered the musicals &lsquo;Les Misérables&rsquo; (&lsquo;The Wretched&rsquo;, 1987), &lsquo;Miss Saigon&rsquo; (1994), &lsquo;Joseph and the Amazing Technicolor Dreamcoat&rsquo; (1996) and &lsquo;RENT&rsquo; (1999) into German and wrote librettos with Heiner Lürig for Shakespeare adaptations, among them &lsquo;A Midsummer Night&rsquo;s Dream&rsquo; (2003 to 2014 in Hannover-Herrenhausen). In 2007 he taught songwriting for two semesters at Osnabrück University of Applied Sciences. Someone who pays such close attention to language is a craftsman of the text, and this fits the One, who does not let up on the craft.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallel in the same subtype: Herbert Grönemeyer and Herfried Münkler</h2>
+        <h2 class="vb-section">6. Parallel in the same subtype: Phil Collins and Ludwig Wittgenstein</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Among the SO6w7s in this Compass are also people who put their voice at the service of the community. <a href="#beruehmte-herbert-groenemeyer">Herbert Grönemeyer (SO6w7)</a> is, like Kunze, a German-language musician who takes a stand on social issues and campaigns for cohesion. <a href="#beruehmte-herfried-muenkler">Herfried Münkler (SO6w7)</a> thinks as a political scientist in structures and responsibility and speaks publicly about what threatens the common good.</p>
-          <p class="vb-intro">The difference: Grönemeyer tells of feeling, Münkler analyses, Kunze works with the word itself. What they share is the watch kept for the whole, combined with humour and delight in conversation.</p>
+          <p class="vb-intro">Among the SP1w9s in this Compass are also people who pursue their craft with inner strictness. <a href="#beruehmte-phil-collins">Phil Collins (SP1w9)</a> is, like Kunze, a musician whose effect comes from meticulous work, in the studio as on stage. <a href="#beruehmte-ludwig-wittgenstein">Ludwig Wittgenstein (SP1w9)</a> struggled as a philosopher for precision in language.</p>
+          <p class="vb-intro">The difference: Collins works on sound, Wittgenstein on thought, Kunze on the word. What they share is the inner standard they apply first of all to themselves, and a Nine-wing that softens the strictness with calm or humour.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Light and shadow of the social Six with a Seven-wing</h2>
+        <h2 class="vb-section">7. Light and shadow of the self-preservation One with a Nine-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light lies in reliability, diligence and loyalty to people and tasks. Someone who has worked for four decades with the same band and the same composer shows the strength of this subtype.</p>
-          <p class="vb-intro">The shadow of this combination is the tendency to hold on to the proven and to chafe against change. Kunze calls gender-inclusive language &lsquo;madness&rsquo;, and his radio quota demand made him a target. In 2015 his song &lsquo;Willkommen, liebe Mörder&rsquo; (&lsquo;Welcome, Dear Murderers&rsquo;) was spread by right-wing groups as an ironic comment on taking in refugees; he rejected this and explained that the song referred to the NSU murderers. This very case shows the Six&rsquo;s worry that its words will be misunderstood and turned against the community.</p>
+          <p class="vb-intro">The shadow of this combination is the tendency to hold on to what has once been right and to chafe against change. In 2015 his song &lsquo;Willkommen, liebe Mörder&rsquo; (&lsquo;Welcome, Dear Murderers&rsquo;) was spread by right-wing groups as an ironic comment on taking in refugees; he rejected this and explained that the song referred to the NSU murderers. This very case shows the One&rsquo;s worry that its words will be misunderstood and turned against its intention.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Status: &lsquo;Angebot und Nachfrage&rsquo;</h2>
+        <h2 class="vb-section">8. Status: &lsquo;Angebot und Nachfrage&rsquo;</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to the available information (as of 23 October 2026) Heinz Rudolf Kunze, aged 69, is on tour with his band &lsquo;Verstärkung&rsquo; on the &lsquo;Angebot und Nachfrage&rsquo; (&lsquo;Supply and Demand&rsquo;) tour 2026. The album of the same name was released on 12 September 2025 and reached number 5 in the German charts. In August 2025 he received the Walther von der Vogelweide Prize for his life&rsquo;s work. He has lived with his wife Gabriele in Bissendorf near Hannover since 2009.</p>
         </blockquote>
+
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
@@ -2861,11 +2868,10 @@ export function heinzRudolfKunzePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
-        {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
-        {route:"beruehmte-herbert-groenemeyer", label:"Portrait: Herbert Grönemeyer (SO6w7)"},
-        {route:"beruehmte-herfried-muenkler", label:"Portrait: Herfried Münkler (SO6w7)"},
-        {route:"beruehmte-wolfram-eilenberger", label:"Portrait: Wolfram Eilenberger (SO6w7)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SP1w9)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SP1w9)"},
       ])}
     </div>
   `);

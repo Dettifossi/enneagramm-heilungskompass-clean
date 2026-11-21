@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=523";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=524";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -28351,9 +28351,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Atze Schr\u00f6der \u2013 Sexueller Typ 7",
     teaser:"SX7w6 \u00b7 Deutsche Comedy-Kunstfigur (\u203aAlles Atze\u2039, \u203aLovemachine\u2039). Der Schimpanse mit Lockenkopf und Pilotenbrille, der als Ruhrpott-Proll Pointen setzt und seinen Namen hinter der Maske sch\u00fctzt.",
     land:"Deutschland", tags:["Comedy","Fernsehen"], gender:"m"},
-  { route:"beruehmte-heinz-rudolf-kunze", name:"Heinz Rudolf Kunze", added:"2026-10-23", subtyp:"SO6w7",
-    heading:"Heinz Rudolf Kunze \u2013 Sozialer Typ 6",
-    teaser:"SO6w7 \u00b7 geb. 1956. Deutscher Liedermacher und Texter (\u203aDein ist mein ganzes Herz\u2039, \u203aVerst\u00e4rkung\u2039). Das Erdm\u00e4nnchen mit dem Wortwitz, das seit vier Jahrzehnten mit derselben Band Wache h\u00e4lt.",
+  { route:"beruehmte-heinz-rudolf-kunze", name:"Heinz Rudolf Kunze", added:"2026-10-23", subtyp:"SE1w9",
+    heading:"Heinz Rudolf Kunze \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w9 \u00b7 geb. 1956. Deutscher Liedermacher und Texter (\u203aDein ist mein ganzes Herz\u2039, \u203aVerst\u00e4rkung\u2039). Der Adler mit dem Wortwitz, der seit vier Jahrzehnten mit derselben Band am richtigen Wort arbeitet.",
     land:"Deutschland", tags:["Musik","Literatur"], gender:"m"},
   { route:"beruehmte-joshua-richards", name:"Joshua Richards", added:"2026-10-23", subtyp:"SO8w9",
     heading:"Joshua Richards \u2013 Sozialer Typ 8",
