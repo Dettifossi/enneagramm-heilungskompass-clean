@@ -10019,7 +10019,7 @@ function praxistippsHeilpraktikerPage() {
   const TIPPS = [
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Fascia Exercises for Core Health", teaser:"Four simple exercises to counteract the effects of prolonged sitting – Dead Bug, Bird-Dog, Cat-Cow, and Cobra.", img:"../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg", kategorie:"koerper" },
     { slug:"fussreflexzonen-aktivierung", titel:"Foot Reflex Zone Activation: The Energy Boost for In Between", teaser:"With a hedgehog ball, cork ball, or wooden roller, boost circulation and the autonomic nervous system in 1–2 minutes per foot.", img:"../assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg", kategorie:"koerper" },
-    { slug:"schwung-routine", titel:"3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing", teaser:"Three simple standing swing exercises for mobility, fascia, and the whole body – no equipment, doable anywhere.", img:"../assets/schaubilder/schwung-routine/schwung-routine.jpg", kategorie:"koerper" },
+    { slug:"schwung-routine", titel:"3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing", teaser:"Three simple standing swing exercises for mobility, fascia, and the whole body – no equipment, doable anywhere.", img:"../assets/schaubilder/schwung-routine/schwung-routine-en.jpg", kategorie:"koerper" },
     { slug:"bewegung-wasser", titel:"Movement in the Element of Water: Mindful Slowness for Everyday Life", teaser:"The imagined resistance of water as an image for flowing, mindful movement – inspired by Tai Chi.", img:"../assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg", kategorie:"koerper" },
     { slug:"zungenstreck-uebung", titel:"The Tongue-Stretch Exercise for Stress Regulation: Einstein, the Vagus Nerve, and Animal Instincts", teaser:"The famous Einstein photo as a model – how consciously stretching the tongue releases acute tension via the vagus nerve.", img:"../assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg", kategorie:"koerper" },
     { slug:"energiefeld-haende", titel:"The Energy Field Between the Hands", teaser:"A simple basic exercise for greater body awareness and depth – the energetic power ball between the palms.", img:"../assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg", kategorie:"atem" },
@@ -10027,7 +10027,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"herz-tor-oeffnen", titel:"Opening the Heart Gate: Sensing Openness and Connection", teaser:"A breath-and-movement exercise that opens the chest and creates a sense of inner spaciousness.", img:"../assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg", kategorie:"atem" },
     { slug:"atem-wasserfall", titel:"The Breath Waterfall: Energetic Cleansing and Clarity", teaser:"A gentle energetic shower of breath and movement, perfect for the evening.", img:"../assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg", kategorie:"atem" },
     { slug:"atemritual-aetherische-oele", titel:"The Breathing Ritual with Essential Oils", teaser:"Why a conscious breath with the right scent works almost instantly – and which of the nine Enneagram scents matches your own type.", img:"../assets/schaubilder/atemritual-aetherische-oele/atemritual-aetherische-oele.jpg", kategorie:"atem" },
-    { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg", kategorie:"geist" },
+    { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun-en.jpg", kategorie:"geist" },
     { slug:"bewusstes-innehalten", titel:"The Practice of Conscious Pausing: ›Let It Be‹ in Everyday Life", teaser:"No physical ritual, but pure awareness – short, conscious pauses in the middle of everyday life as a path back to one's own essence.", img:"../assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg", kategorie:"geist" },
     { slug:"ich-illusion", titel:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self", teaser:"A gentle, in-depth look at the conditioned self, Enneagram fixations, and the liberating question of who's really steering here.", img:"../assets/portraits/Ich-Illusion.jpeg", kategorie:"geist" },
     { slug:"turiya-enneagramm", titel:"The Observer Behind the Pattern – The Enneagram and the Turiya State According to Ramana Maharshi", teaser:"How the nine Enneagram fixations can be understood as nine ways of fleeing one's own still center – and the way back through self-inquiry.", img:"../assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg", kategorie:"geist" },
@@ -10369,7 +10369,7 @@ function schwungRoutinePage() {
       </div>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="../assets/schaubilder/schwung-routine/schwung-routine.jpg"
+        <img src="../assets/schaubilder/schwung-routine/schwung-routine-en.jpg"
              alt="Three exercises of the swing routine: alternating arm swing, double arm swing, full-body rotation"
              class="psycho-img" />
       </div>
@@ -10656,7 +10656,7 @@ function vitruvEnneagrammPage() {
       <p class="lead-small">Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1rem;">
-        <img src="../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg"
+        <img src="../assets/schaubilder/vitruv-enneagramm/kreis-der-neun-en.jpg"
              alt="Three positions of the exercise: horizontal expansion in the square, vertical stretch to the sky, Enneagram circle unfolding"
              class="psycho-img" />
       </div>
