@@ -50308,7 +50308,7 @@ function _switchLangVoice(evt, url, audioFile) {
     audio.addEventListener('ended', go);
     audio.play().catch(go);
   } catch (e) { go(); return; }
-  setTimeout(go, 4000);
+  setTimeout(go, 12000);   // nur Notausgang; normal wechselt die Seite erst nach der Ansage
 }
 
 // Hilfsfunktionen für die nachgeladenen Porträt-Dateien (statt zirkulärem Import von dieser Datei)
