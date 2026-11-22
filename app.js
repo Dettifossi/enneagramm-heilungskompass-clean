@@ -64860,7 +64860,7 @@ function showTagesimpuls(force) {
     localStorage.setItem(IMPULS_KEY, today);
   });
   card.querySelector(".tagesimpuls-card__actions .tagesimpuls-card__share").addEventListener("click", () => {
-    const shareText = `\u201e${impuls.impuls}\u201c \u2014 Detlef Rathmer\nhttps://dettifossi.github.io/enneagramm-heilungskompass/`;
+    const shareText = `\u201e${impuls.impuls}\u201c \u2014 Detlef Rathmer\n\ud83d\udd0a Zum Lesen und Anh\u00f6ren: https://kompass.verlagshausrathmer.com/impuls/k${String(dayOfYear % TAGESIMPULSE.length).padStart(3, "0")}.html`;
     if (navigator.share) { navigator.share({ text: shareText }); }
     else { window.open("https://wa.me/?text=" + encodeURIComponent(shareText), "_blank"); }
   });
