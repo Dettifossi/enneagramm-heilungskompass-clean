@@ -64822,7 +64822,7 @@ function showTagesimpuls(force) {
       <div class="tagesimpuls-card__text">${paragraphs}</div>
       <p class="tagesimpuls-card__impuls"><em>${impuls.impuls}</em></p>
       <p class="tagesimpuls-card__autor">\u2014 Detlef Rathmer</p>
-      <button class="tagesimpuls-card__share tagesimpuls-card__audio" hidden style="width:100%;margin-top:0.6rem">\ud83d\udd0a Anh\u00f6ren mit Detlef</button>
+      <button class="tagesimpuls-card__share tagesimpuls-card__audio" hidden style="width:100%;margin-top:0.6rem;display:flex;align-items:center;justify-content:center;gap:8px"><img src="assets/detlef-rund.jpg" alt="" width="24" height="24" style="width:24px;height:24px;border-radius:50%;object-fit:cover;border:1px solid currentColor;flex:none"><span class="tagesimpuls-card__lbl">Anh\u00f6ren mit Detlef</span></button>
       <p class="tagesimpuls-card__voice" hidden style="font-size:0.78rem;opacity:0.7;margin:0.4rem 0 0">Vorgelesen von Detlef Rathmer, digital vertont, mit Zustimmung des Autors.</p>
       <div class="tagesimpuls-card__actions">
         <button class="tagesimpuls-card__btn">Den Impuls merken \u2726</button>
@@ -64835,11 +64835,11 @@ function showTagesimpuls(force) {
   // Vorlesen mit Detlefs Stimme (Aufnahmen auf R2; der Knopf erscheint nur, wenn es die Aufnahme f\u00fcr diesen Tag gibt)
   const au = new Audio("https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/impulse/de/k" + String(dayOfYear % TAGESIMPULSE.length).padStart(3, "0") + ".mp3");
   au.preload = "metadata";
-  const auBtn = card.querySelector(".tagesimpuls-card__audio"), auNote = card.querySelector(".tagesimpuls-card__voice");
+  const auBtn = card.querySelector(".tagesimpuls-card__audio"), auLbl = card.querySelector(".tagesimpuls-card__lbl"), auNote = card.querySelector(".tagesimpuls-card__voice");
   au.addEventListener("loadedmetadata", () => { auBtn.hidden = false; auNote.hidden = false; });
-  au.addEventListener("ended", () => { auBtn.textContent = "\ud83d\udd0a Anh\u00f6ren mit Detlef"; });
-  au.addEventListener("pause", () => { auBtn.textContent = "\ud83d\udd0a Anh\u00f6ren mit Detlef"; });
-  au.addEventListener("play", () => { auBtn.textContent = "\u23f8 Pause"; });
+  au.addEventListener("ended", () => { auLbl.textContent = "Anh\u00f6ren mit Detlef"; });
+  au.addEventListener("pause", () => { auLbl.textContent = "Anh\u00f6ren mit Detlef"; });
+  au.addEventListener("play", () => { auLbl.textContent = "\u23f8 Pause"; });
   auBtn.addEventListener("click", () => { if (au.paused) { au.play().catch(() => {}); } else { au.pause(); } });
   requestAnimationFrame(() => requestAnimationFrame(() => card.classList.add("tagesimpuls-overlay--open")));
   const close = () => {
