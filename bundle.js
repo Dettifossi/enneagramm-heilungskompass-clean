@@ -64822,7 +64822,7 @@ function showTagesimpuls(force) {
       <div class="tagesimpuls-card__text">${paragraphs}</div>
       <p class="tagesimpuls-card__impuls"><em>${impuls.impuls}</em></p>
       <p class="tagesimpuls-card__autor">\u2014 Detlef Rathmer</p>
-      <button class="tagesimpuls-card__share tagesimpuls-card__audio" hidden style="width:100%;margin-top:0.6rem;display:flex;align-items:center;justify-content:center;gap:8px"><img src="assets/detlef-rund.jpg" alt="" width="24" height="24" style="width:24px;height:24px;border-radius:50%;object-fit:cover;border:1px solid currentColor;flex:none"><span class="tagesimpuls-card__lbl">Anh\u00f6ren mit Detlef</span></button>
+      <button class="tagesimpuls-card__share tagesimpuls-card__audio" hidden style="width:100%;margin-top:0.6rem;display:flex;align-items:center;justify-content:center;gap:10px;min-height:56px;font-size:1.02rem"><img src="assets/detlef-rund.jpg" alt="" width="40" height="40" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:1px solid currentColor;flex:none"><span class="tagesimpuls-card__lbl">Anh\u00f6ren mit Detlef</span></button>
       <p class="tagesimpuls-card__voice" hidden style="font-size:0.78rem;opacity:0.7;margin:0.4rem 0 0">Vorgelesen von Detlef Rathmer, digital vertont, mit Zustimmung des Autors.</p>
       <div class="tagesimpuls-card__actions">
         <button class="tagesimpuls-card__btn">Den Impuls merken \u2726</button>
