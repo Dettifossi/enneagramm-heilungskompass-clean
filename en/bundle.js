@@ -13130,7 +13130,18 @@ function _gsPickVoice() {
     null;
 }
 
+function _gsUnlockAudio() {
+  try {
+    if (!_gsAu) _gsAu = new Audio();
+    _gsAu.muted = true; _gsAu.src = "sounds/scan/scan1.mp3";
+    const p = _gsAu.play();
+    const back = () => { try { _gsAu.pause(); _gsAu.muted = false; _gsAu.currentTime = 0; } catch (e) {} };
+    if (p && p.then) p.then(back, back); else back();
+  } catch (e) {}
+}
+
 function _gsUnlockSpeech() {
+  _gsUnlockAudio();
   if (!_gsVoiceOn || !("speechSynthesis" in window)) return;
   try {
     const u = new SpeechSynthesisUtterance(" ");
@@ -13139,20 +13150,33 @@ function _gsUnlockSpeech() {
   } catch (e) {}
 }
 
+var _gsAu = null;
 function _gsSpeakAndWait(text) {
   return new Promise(resolve => {
-    if (!_gsVoiceOn || !("speechSynthesis" in window)) return resolve();
+    if (!_gsVoiceOn) return resolve();
     let done = false;
     const finish = () => { if (!done) { done = true; resolve(); } };
+    const geraet = () => {
+      if (!("speechSynthesis" in window)) return finish();
+      try {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = "en-US"; u.rate = 0.9; u.pitch = 1.05;
+        if (_gsFemaleVoice) u.voice = _gsFemaleVoice;
+        u.onend = finish; u.onerror = finish;
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(u);
+        setTimeout(finish, _GS_SPEECH_MAX_MS);
+      } catch (e) { finish(); }
+    };
+    // Detlefs Stimme (Aufnahmen sounds/scan/scanN.mp3); nur wenn sie nicht lädt, spricht das Gerät
     try {
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = "en-US"; u.rate = 0.9; u.pitch = 1.05;
-      if (_gsFemaleVoice) u.voice = _gsFemaleVoice;
-      u.onend = finish; u.onerror = finish;
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.speak(u);
-      setTimeout(finish, _GS_SPEECH_MAX_MS);
-    } catch (e) { finish(); }
+      if (!_gsAu) _gsAu = new Audio();
+      _gsAu.onended = finish; _gsAu.onerror = () => { if (!done) geraet(); };
+      _gsAu.src = "sounds/scan/scan" + (_gsStep + 1) + ".mp3";
+      const p = _gsAu.play();
+      if (p && p.catch) p.catch(() => { if (!done) geraet(); });
+      setTimeout(finish, 20000);
+    } catch (e) { geraet(); }
   });
 }
 
@@ -44608,6 +44632,8 @@ function showTagesimpuls(force) {
       <div class="tagesimpuls-card__text">${paragraphs}</div>
       <p class="tagesimpuls-card__impuls"><em>${impuls.impuls}</em></p>
       <p class="tagesimpuls-card__autor">— Detlef Rathmer</p>
+      <button class="tagesimpuls-card__share tagesimpuls-card__audio" hidden style="width:100%;margin-top:0.6rem;display:flex;align-items:center;justify-content:center;gap:10px;min-height:56px;font-size:1.02rem"><img src="../assets/detlef-rund2.jpg" alt="" width="40" height="40" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:1px solid currentColor;flex:none"><span class="tagesimpuls-card__lbl">Listen with Detlef</span></button>
+      <p class="tagesimpuls-card__voice" hidden style="font-size:0.78rem;opacity:0.7;margin:0.4rem 0 0">Read by Detlef Rathmer, digitally voiced, with the author's consent.</p>
       <div class="tagesimpuls-card__actions">
         <button class="tagesimpuls-card__btn">Save This Impulse ✦</button>
         <button class="tagesimpuls-card__share">↗ Share</button>
@@ -44616,8 +44642,18 @@ function showTagesimpuls(force) {
     </div>
   `;
   document.body.appendChild(card);
+  // Listen with Detlef (recordings on R2; the button only appears if the recording for this day exists)
+  const au = new Audio("https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/impulse/en/k" + String(dayOfYear % TAGESIMPULSE_EN.length).padStart(3, "0") + ".mp3");
+  au.preload = "metadata";
+  const auBtn = card.querySelector(".tagesimpuls-card__audio"), auLbl = card.querySelector(".tagesimpuls-card__lbl"), auNote = card.querySelector(".tagesimpuls-card__voice");
+  au.addEventListener("loadedmetadata", () => { auBtn.hidden = false; auNote.hidden = false; });
+  au.addEventListener("ended", () => { auLbl.textContent = "Listen with Detlef"; });
+  au.addEventListener("pause", () => { auLbl.textContent = "Listen with Detlef"; });
+  au.addEventListener("play", () => { auLbl.textContent = "\u23f8 Pause"; });
+  auBtn.addEventListener("click", () => { if (au.paused) { au.play().catch(() => {}); } else { au.pause(); } });
   requestAnimationFrame(() => requestAnimationFrame(() => card.classList.add("tagesimpuls-overlay--open")));
   const close = () => {
+    try { au.pause(); } catch (e) {}
     localStorage.setItem(IMPULS_KEY, today);
     card.classList.remove("tagesimpuls-overlay--open");
     setTimeout(() => card.remove(), 350);
@@ -44627,13 +44663,13 @@ function showTagesimpuls(force) {
     _saveImpuls(impuls, today);
     const btn = e.currentTarget;
     btn.style.display = "none";
-    card.querySelector(".tagesimpuls-card__share").style.display = "none";
+    card.querySelector(".tagesimpuls-card__actions .tagesimpuls-card__share").style.display = "none";
     const hint = card.querySelector(".tagesimpuls-card__saved-hint");
     hint.style.display = "block";
     hint.querySelector("a").addEventListener("click", () => { close(); go("gemerkte-impulse"); });
     localStorage.setItem(IMPULS_KEY, today);
   });
-  card.querySelector(".tagesimpuls-card__share").addEventListener("click", () => {
+  card.querySelector(".tagesimpuls-card__actions .tagesimpuls-card__share").addEventListener("click", () => {
     const shareText = `„${impuls.impuls}“ \u2014 Detlef Rathmer\nhttps://dettifossi.github.io/enneagramm-heilungskompass/`;
     if (navigator.share) { navigator.share({ text: shareText }); }
     else { window.open("https://wa.me/?text=" + encodeURIComponent(shareText), "_blank"); }

@@ -37876,10 +37876,10 @@ function _tqProgress(step) {
 // Dialog an einen der beiden Berater schickt.
 
 const _GS_STEPS = [
-  { prompt: "Schauen Sie ganz entspannt direkt in die Kamera Ihres Smartphones \u2013 der Rahmen zeigt nur den Aufnahmebereich.", sub: "Frontal", say: "Schauen Sie ganz entspannt direkt in die Kamera Ihres Smartphones. Der Rahmen zeigt nur den Aufnahmebereich \u2013 Ihr Blick bleibt an der Kamera." },
-  { prompt: "Drehen Sie nur den Kopf ganz sacht nach links \u2013 der Blick bleibt weiterhin an der Kamera Ihres Smartphones.", sub: "Sanft nach links", say: "Jetzt drehen Sie den Kopf ganz sacht nach links. Der Blick bleibt dabei weiterhin an der Kamera Ihres Smartphones." },
-  { prompt: "Und jetzt ganz sacht nach rechts \u2013 der Blick bleibt weiterhin an der Kamera Ihres Smartphones.", sub: "Sanft nach rechts", say: "Und jetzt ganz sacht nach rechts. Der Blick bleibt weiterhin an der Kamera Ihres Smartphones." },
-  { prompt: "Zum Abschluss noch einmal direkt in die Kamera Ihres Smartphones schauen.", sub: "Frontal", say: "Zum Abschluss schauen Sie noch einmal direkt in die Kamera Ihres Smartphones." },
+  { prompt: "Schau ganz entspannt direkt in die Kamera deines Smartphones \u2013 der Rahmen zeigt nur den Aufnahmebereich.", sub: "Frontal", say: "Schau ganz entspannt direkt in die Kamera deines Smartphones. Der Rahmen zeigt nur den Aufnahmebereich \u2013 dein Blick bleibt an der Kamera." },
+  { prompt: "Dreh nur den Kopf ganz sacht nach links \u2013 der Blick bleibt weiterhin an der Kamera deines Smartphones.", sub: "Sanft nach links", say: "Jetzt dreh den Kopf ganz sacht nach links. Der Blick bleibt dabei weiterhin an der Kamera deines Smartphones." },
+  { prompt: "Und jetzt ganz sacht nach rechts \u2013 der Blick bleibt weiterhin an der Kamera deines Smartphones.", sub: "Sanft nach rechts", say: "Und jetzt ganz sacht nach rechts. Der Blick bleibt weiterhin an der Kamera deines Smartphones." },
+  { prompt: "Zum Abschluss noch einmal direkt in die Kamera deines Smartphones schauen.", sub: "Frontal", say: "Zum Abschluss schau noch einmal direkt in die Kamera deines Smartphones." },
 ];
 const _GS_SETTLE_MS = 2200;
 const _GS_COUNTDOWN_MS = 3200;
@@ -38055,7 +38055,18 @@ function _gsPickVoice() {
     null;
 }
 
+function _gsUnlockAudio() {
+  try {
+    if (!_gsAu) _gsAu = new Audio();
+    _gsAu.muted = true; _gsAu.src = "sounds/scan/scan1.mp3";
+    const p = _gsAu.play();
+    const back = () => { try { _gsAu.pause(); _gsAu.muted = false; _gsAu.currentTime = 0; } catch (e) {} };
+    if (p && p.then) p.then(back, back); else back();
+  } catch (e) {}
+}
+
 function _gsUnlockSpeech() {
+  _gsUnlockAudio();
   if (!_gsVoiceOn || !("speechSynthesis" in window)) return;
   try {
     const u = new SpeechSynthesisUtterance(" ");
@@ -38064,20 +38075,33 @@ function _gsUnlockSpeech() {
   } catch (e) {}
 }
 
+var _gsAu = null;
 function _gsSpeakAndWait(text) {
   return new Promise(resolve => {
-    if (!_gsVoiceOn || !("speechSynthesis" in window)) return resolve();
+    if (!_gsVoiceOn) return resolve();
     let done = false;
     const finish = () => { if (!done) { done = true; resolve(); } };
+    const geraet = () => {
+      if (!("speechSynthesis" in window)) return finish();
+      try {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = "de-DE"; u.rate = 0.9; u.pitch = 1.05;
+        if (_gsFemaleVoice) u.voice = _gsFemaleVoice;
+        u.onend = finish; u.onerror = finish;
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(u);
+        setTimeout(finish, _GS_SPEECH_MAX_MS);
+      } catch (e) { finish(); }
+    };
+    // Detlefs Stimme (Aufnahmen sounds/scan/scanN.mp3); nur wenn sie nicht lädt, spricht das Gerät
     try {
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = "de-DE"; u.rate = 0.9; u.pitch = 1.05;
-      if (_gsFemaleVoice) u.voice = _gsFemaleVoice;
-      u.onend = finish; u.onerror = finish;
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.speak(u);
-      setTimeout(finish, _GS_SPEECH_MAX_MS);
-    } catch (e) { finish(); }
+      if (!_gsAu) _gsAu = new Audio();
+      _gsAu.onended = finish; _gsAu.onerror = () => { if (!done) geraet(); };
+      _gsAu.src = "sounds/scan/scan" + (_gsStep + 1) + ".mp3";
+      const p = _gsAu.play();
+      if (p && p.catch) p.catch(() => { if (!done) geraet(); });
+      setTimeout(finish, 20000);
+    } catch (e) { geraet(); }
   });
 }
 
