@@ -12282,9 +12282,9 @@ function verlagsAppsSection(opts) {
       const schild = EN ? (p.schild_en || p.schild || "") : (p.schild || "");
       const href = EN ? (p.href_en || p.href) : p.href;
       const icon = p.icon ? `<img src="${esc(BASE + p.icon)}" alt="" loading="lazy" width="48" height="48" style="width:48px;height:48px;flex-shrink:0;border-radius:10px;object-fit:contain;background:#f4efe3;padding:4px;box-sizing:border-box;" onerror="this.style.display='none'">` : "";
-      const link = (p.bald || !href)
+      const link = (!href)
         ? `<span class="deepen-link deepen-link--pending">coming soon</span>`
-        : `<a class="deepen-link" href="${esc(/^https?:/.test(href) ? href : BASE + href)}" target="_blank" rel="noopener">Open →</a>`;
+        : `<a class="deepen-link" href="${esc(/^https?:/.test(href) ? href : BASE + href)}" target="_blank" rel="noopener">${p.bald ? "Learn more, coming soon" : "Open"} →</a>`;
       return `<article style="display:flex;gap:.9rem;align-items:flex-start;min-width:0;overflow-wrap:anywhere;">${icon}<div style="min-width:0;"><h2 style="margin-top:0;font-size:1.05rem;">${esc(name)}${schild ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(schild)}</small>` : ""}</h2><p>${esc(kurz)}</p>${link}</div></article>`;
     }).join("");
     const K = d.kostenlos;
