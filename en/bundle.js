@@ -8585,6 +8585,8 @@ function startPage() {
       </a>
     </section>
 
+    <div style="margin-top:2.2rem;">${verlagsAppsSection({nofree:true})}</div>
+
     ${legalFooter()}
   `);
 }
@@ -12266,7 +12268,7 @@ function zahlenFaktenPage() {
 }
 
 // Apps des Verlagshauses (Bibliothek): zur Laufzeit aus der zentralen Liste, letzter Stand in localStorage
-function verlagsAppsSection() {
+function verlagsAppsSection(opts) {
   const KEY = "kompass_verlagsapps_v1", BASE = "https://www.verlagshausrathmer.com/";
   const EN = true;
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -12295,7 +12297,7 @@ function verlagsAppsSection() {
       const kicon = K.icon ? `<img src="${esc(BASE + K.icon)}" alt="" loading="lazy" width="56" height="56" style="width:56px;height:56px;flex-shrink:0;border-radius:12px;object-fit:contain;background:#f4efe3;padding:5px;box-sizing:border-box;" onerror="this.style.display='none'">` : "";
       if (kh) free = `<a href="${esc(/^https?:/.test(kh) ? kh : BASE + kh)}" target="_blank" rel="noopener" style="display:flex;gap:1rem;align-items:center;max-width:720px;margin:1.2rem auto;padding:1rem 1.2rem;border:2px solid #c9a227;border-radius:14px;color:inherit;text-decoration:none;background:rgba(201,162,39,.08);">${kicon}<div><span style="display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#c9a227;color:#fff;border-radius:999px;padding:.1rem .6rem;margin-bottom:.35rem;">Free · worldwide</span><h2 style="margin:.1rem 0;">${esc(kn)}${ks ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(ks)}</small>` : ""}</h2><p style="margin:.2rem 0.4rem;">${esc(kk)}</p><span class="deepen-link">See it for free →</span></div></a>`;
     }
-    return `<div class="narrow centered" id="verlags-apps"><h2>The Publisher's Apps</h2><p class="lead-small">Verlagshaus Rathmer offers several apps on the Enneagram, self-knowledge and healing. Each is a tool of its own, grown out of a book. Tap an app to open it.</p></div>${free}<div class="narrow centered"><h3>Our apps on board</h3></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:0 1rem;">${cards}</div>`;
+    return `<div class="narrow centered" id="verlags-apps"><h2>The Publisher's Apps</h2><p class="lead-small">Verlagshaus Rathmer offers several apps on the Enneagram, self-knowledge and healing. Each is a tool of its own, grown out of a book. Tap an app to open it.</p></div>${(opts && opts.nofree) ? "" : free}<div class="narrow centered"><h3>Our apps on board</h3></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:0 1rem;">${cards}</div>`;
   };
   let cached = null;
   try { cached = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) {}
