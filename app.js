@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=524";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=525";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -28084,9 +28084,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"RJ Mitte \u2013 Sexueller Typ 2",
     teaser:"SX2w3 \u00b7 1992\u20132026. US-amerikanischer Schauspieler (Walter White Jr. in \u203aBreaking Bad\u2039), Botschafter für Inklusion. Das Kamel, das früh Verantwortung trug und Behinderung ohne Selbstmitleid sichtbar machte.",
     land:"USA", tags:["Schauspiel","Film"], gender:"m"},
-  { route:"beruehmte-sulli", name:"Sulli", added:"2026-10-26", subtyp:"SE3w2",
+  { route:"beruehmte-sulli", name:"Sulli", added:"2026-10-26", subtyp:"SE3w4",
     heading:"Sulli \u2013 Selbsterhaltender Typ 3",
-    teaser:"SE3w2 \u00b7 1994\u20132019. Südkoreanische Sängerin und Schauspielerin (f(x), \u203aReal\u2039, \u203aGoblin\u2039). Der Waschbär, der das erwartete Idol-Bild aufs Spiel setzte und Anderssein sichtbar machen wollte.",
+    teaser:"SE3w4 \u00b7 1994\u20132019. Südkoreanische Sängerin und Schauspielerin (f(x), \u203aReal\u2039, \u203aGoblin\u2039). Der Waschbär, der das erwartete Idol-Bild aufs Spiel setzte und Anderssein sichtbar machen wollte.",
     land:"Südkorea", tags:["Musik","Schauspiel"], gender:"f"},
   { route:"beruehmte-martha-graham", name:"Martha Graham", added:"2026-10-26", subtyp:"SO4w3",
     heading:"Martha Graham \u2013 Sozialer Typ 4",

@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=521";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=522";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -2333,9 +2333,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"RJ Mitte \u2013 Sexual Type 2",
     teaser:"SX2w3 \u00b7 1992\u20132026. American actor (Walter White Jr. in \u2018Breaking Bad\u2019), advocate for inclusion. The Camel who took on responsibility early and made disability visible without self-pity.",
     land:"USA", tags:["Schauspiel","Film"], gender:"m"},
-{ route:"beruehmte-sulli", name:"Sulli", added:"2026-10-26", subtyp:"SE3w2",
+{ route:"beruehmte-sulli", name:"Sulli", added:"2026-10-26", subtyp:"SE3w4",
     heading:"Sulli \u2013 Self-Preservation Type 3",
-    teaser:"SP3w2 \u00b7 1994\u20132019. South Korean singer and actress (f(x), \u2018Real\u2019, \u2018Goblin\u2019). The Raccoon who put the expected idol image at risk and wanted otherness to be visible.",
+    teaser:"SP3w4 \u00b7 1994\u20132019. South Korean singer and actress (f(x), \u2018Real\u2019, \u2018Goblin\u2019). The Raccoon who put the expected idol image at risk and wanted otherness to be visible.",
     land:"South Korea", tags:["Musik","Schauspiel"], gender:"f"},
 { route:"beruehmte-martha-graham", name:"Martha Graham", added:"2026-10-26", subtyp:"SO4w3",
     heading:"Martha Graham \u2013 Social Type 4",

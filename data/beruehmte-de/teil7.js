@@ -2945,7 +2945,7 @@ export function sulliPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sulli-portrait.jpg" alt="Sulli – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sulli</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel &middot; Kontratyp der Drei</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel &middot; Kontratyp der Drei</p>
         <p class="krim-portrait-subtitle">Südkoreanische Sängerin und Schauspielerin (Choi Jin-ri), 1994&ndash;2019 &ndash; Tierentsprechung: Waschbär</p>
       </div>
       <div class="page-content">
@@ -2962,9 +2962,9 @@ export function sulliPortraitPage() {
           <p class="vb-intro">Man würde von einer Drei erwarten, das Bild zu optimieren; Sulli setzte es aufs Spiel. Dahinter lässt sich der Zug erkennen, sich sicher zu fühlen, indem man nicht mehr spielt, was andere sehen wollen. Das bleibt eine Lesart: Die Quellen nennen sie ›unkonventionell‹, von einem Subtyp sprechen sie nicht.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Zweierflügel: Wärme, Fans, Zuwendung</h2>
+        <h2 class="vb-section">3. Der Viererflügel: Eigenart, Tiefe, Echtheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> macht die Drei beziehungsorientiert und empfänglich dafür, wie andere sie sehen. Bei Sulli kann man darin die Seite erkennen, der die Reaktion des Publikums nicht gleichgültig war: Sie meldete sich nach der Wikipedia-Seite 2014 aus dem Showgeschäft ab, weil sie von böswilligen Kommentaren und Gerüchten erschöpft war, darunter falsche Schwangerschaftsgerüchte. Dieselbe Wärme zeigt sich in der Haltung, mit der sie 2019 als Moderatorin der JTBC2-Sendung ›The Night of Hate Comments‹ (›Die Nacht der Hasskommentare‹) auf Beschimpfungen reagierte: so heiter, dass man sie ›die Atombombe der Hasskommentare‹ nannte.</p>
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> macht die Drei nachdenklicher, individueller und empfindsamer für das Echte hinter dem Bild. Bei Sulli kann man darin die Seite erkennen, die sich mit der polierten Rolle nicht zufriedengab und ein eigenes Gesicht zeigen wollte, ungeschminkt und ohne das erwartete Idol-Bild (siehe Abschnitt 2). Auch dass sie sich nach der Wikipedia-Seite 2014 aus dem Showgeschäft abmeldete, weil sie von böswilligen Kommentaren und Gerüchten erschöpft war, darunter falsche Schwangerschaftsgerüchte, lässt sich so lesen: Sie überspielte die Verletzung nicht, sondern machte sie sichtbar. Dieselbe Eigenart zeigt sich in der Haltung, mit der sie 2019 als Moderatorin der JTBC2-Sendung ›The Night of Hate Comments‹ (›Die Nacht der Hasskommentare‹) auf Beschimpfungen reagierte: so heiter, dass man sie ›die Atombombe der Hasskommentare‹ nannte.</p>
           <p class="vb-intro">Aus der Sendung stammt ihr Satz: ›I wish people would look at me and think, ›Well, someone like that exists!‹ Accept the difference.‹ – »Ich wünschte, die Leute sähen mich an und dächten: ›Na, so jemand gibt es also!‹ Akzeptiert den Unterschied.«</p>
         </blockquote>
 
@@ -2974,10 +2974,10 @@ export function sulliPortraitPage() {
           <p class="vb-intro">Nach der Pause trat sie im August 2015 offiziell aus f(x) aus und wandte sich der Schauspielerei und Werbung zu. 2017 spielte sie im Neo-Noir-Thriller ›Real‹ an der Seite von Kim Soo-hyun; in diesem Jahr war sie die in Südkorea am häufigsten gegoogelte Person. Im Juni 2019 erschien ihre erste Single-EP ›Goblin‹, deren Stücke sie nach Wikipedia mitgeschrieben und mitproduziert hat. Für die zweite Staffel der Netflix-Serie ›Persona‹ war sie als Hauptrolle besetzt, als sie starb.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallelen im selben Subtyp: Hong Chau und Maria Callas</h2>
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Norah Jones und Billie Lourd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mit <a href="#beruehmte-hong-chau">Hong Chau (SE3w2)</a> teilt Sulli die Herkunft aus einem asiatischen Umfeld und den frühen Weg ins Berufsleben, doch Chau arbeitet im Ensemble und im Hintergrund, Sulli stand im grellen Licht. <a href="#beruehmte-maria-callas">Maria Callas (SE3w2)</a> zeigt, wie dieselbe Konstellation sich in einem öffentlichen Leben aufreiben kann, in dem Leistung, Image und Privates ständig verhandelt werden.</p>
-          <p class="vb-intro">Dass beide Frauen im Rampenlicht standen, obwohl der Subtyp eigentlich die unauffällige Substanz sucht, ist selbst ein Teil des Musters: Der Waschbär wird nicht immer in die Rolle gelassen, die zu ihm passt.</p>
+          <p class="vb-intro">Mit <a href="#beruehmte-norah-jones">Norah Jones (SE3w4)</a> teilt Sulli die Musik als Beruf, doch Jones zog sich bewusst aus dem Rampenlicht zurück, während Sulli im grellen Licht stand. <a href="#beruehmte-billie-lourd">Billie Lourd (SE3w4)</a>, Schauspielerin und Tochter von Carrie Fisher, erarbeitet sich ihren Platz Rolle für Rolle und zeigt, wie dieselbe Konstellation sich ihren eigenen Weg sucht.</p>
+          <p class="vb-intro">Dass alle drei Frauen im Rampenlicht standen, obwohl der Subtyp eigentlich die unauffällige Substanz sucht, ist selbst ein Teil des Musters: Der Waschbär wird nicht immer in die Rolle gelassen, die zu ihm passt.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Ende und was danach geschah</h2>
@@ -2988,7 +2988,7 @@ export function sulliPortraitPage() {
 
         <h2 class="vb-section">7. Was bleibt: Anderssein darf sichtbar sein</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die selbsterhaltende Drei mit Zweierflügel trägt viel, solange das Gegenüber freundlich zurückschaut. Wer wie Sulli zugleich öffentlich ist und sich weigert, das erwartete Bild zu erfüllen, zahlt dafür oft einen hohen Preis. Heilsam wäre für diesen Subtyp die Erfahrung, dass Halt nicht erst durch Haltung entsteht, sondern schon im bloßen Dasein liegt. Ihr Satz ›Accept the difference‹ (›Akzeptiert den Unterschied‹) bleibt ein stiller Auftrag an alle, die zuschauen.</p>
+          <p class="vb-intro">Die selbsterhaltende Drei mit Viererflügel trägt viel, solange sie sich in dem wiedererkennt, was sie zeigt. Wer wie Sulli zugleich öffentlich ist und sich weigert, das erwartete Bild zu erfüllen, zahlt dafür oft einen hohen Preis. Heilsam wäre für diesen Subtyp die Erfahrung, dass Halt nicht erst durch Haltung entsteht, sondern schon im bloßen Dasein liegt. Ihr Satz ›Accept the difference‹ (›Akzeptiert den Unterschied‹) bleibt ein stiller Auftrag an alle, die zuschauen.</p>
           <p class="vb-intro"><strong>Hinweis:</strong> Wer selbst in einer seelischen Krise steckt oder an Suizid denkt, findet in Deutschland rund um die Uhr und kostenlos Hilfe bei der Telefonseelsorge (0800 111 0 111, 0800 111 0 222 oder 116 123).</p>
         </blockquote>
 
@@ -2999,8 +2999,8 @@ export function sulliPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-hong-chau", label:"Porträt: Hong Chau (SE3w2)"},
-        {route:"beruehmte-maria-callas", label:"Porträt: Maria Callas (SE3w2)"},
+        {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
+        {route:"beruehmte-billie-lourd", label:"Porträt: Billie Lourd (SE3w4)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>

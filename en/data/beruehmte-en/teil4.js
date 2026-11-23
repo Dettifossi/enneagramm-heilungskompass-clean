@@ -3076,7 +3076,7 @@ export function sulliPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sulli-portrait.jpg" alt="Sulli – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sulli</p>
-        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with a Two wing &middot; Countertype of the Three</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with a Four wing &middot; Countertype of the Three</p>
         <p class="krim-portrait-subtitle">South Korean singer and actress (Choi Jin-ri), 1994&ndash;2019 &ndash; animal counterpart: raccoon</p>
       </div>
       <div class="page-content">
@@ -3093,9 +3093,9 @@ export function sulliPortraitPage() {
           <p class="vb-intro">One would expect a Three to optimize the image; Sulli put it at risk. Behind this one can detect the urge to feel safe by no longer playing what others want to see. That remains a reading: the sources call her ‘unconventional’ and say nothing about a subtype.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Two wing: warmth, fans, attention to others</h2>
+        <h2 class="vb-section">3. The Four wing: individuality, depth, authenticity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two wing (w2)</strong> makes the Three relationship-oriented and receptive to how others see her. In Sulli one can recognize the side for which the audience's response was not a matter of indifference: according to Wikipedia she stepped away from show business in 2014 because she was exhausted by malicious comments and rumors, including false pregnancy rumors. The same warmth shows in the way she responded to abuse in 2019 as host of the JTBC2 show ‘The Night of Hate Comments’: so cheerfully that she was called ‘the nuclear bomb of hate comments’.</p>
+          <p class="vb-intro">The <strong>Four wing (w4)</strong> makes the Three more reflective, more individual and more sensitive to what is genuine behind the image. In Sulli one can recognize the side that was not satisfied with the polished role and wanted to show a face of her own, without make-up and without the expected idol image (see section 2). That she stepped away from show business in 2014 because she was exhausted by malicious comments and rumors, including false pregnancy rumors (according to Wikipedia), can be read in the same way: she did not play down the hurt but made it visible. The same individuality shows in the way she responded to abuse in 2019 as host of the JTBC2 show ‘The Night of Hate Comments’: so cheerfully that she was called ‘the nuclear bomb of hate comments’.</p>
           <p class="vb-intro">From the show comes her sentence: ‘I wish people would look at me and think, ‘Well, someone like that exists!’ Accept the difference.’</p>
         </blockquote>
 
@@ -3105,10 +3105,10 @@ export function sulliPortraitPage() {
           <p class="vb-intro">After the break she officially left f(x) in August 2015 and turned to acting and advertising. In 2017 she played in the neo-noir thriller ‘Real’ opposite Kim Soo-hyun; that year she was the most Googled person in South Korea. In June 2019 her first single album ‘Goblin’ appeared, whose tracks she co-wrote and co-produced according to Wikipedia. She was cast as the lead in the second season of the Netflix series ‘Persona’ when she died.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallels in the same subtype: Hong Chau and Maria Callas</h2>
+        <h2 class="vb-section">5. Parallels in the same subtype: Norah Jones and Billie Lourd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">With <a href="#beruehmte-hong-chau">Hong Chau (SP3w2)</a> Sulli shares an Asian background and an early start in working life, but Chau works in the ensemble and in the background while Sulli stood in the glare of the spotlight. <a href="#beruehmte-maria-callas">Maria Callas (SP3w2)</a> shows how the same constellation can be worn down in a public life in which performance, image and private life are constantly negotiated.</p>
-          <p class="vb-intro">That both women stood in the spotlight even though the subtype actually seeks inconspicuous substance is itself part of the pattern: the raccoon is not always allowed into the role that suits it.</p>
+          <p class="vb-intro">With <a href="#beruehmte-norah-jones">Norah Jones (SP3w4)</a> Sulli shares music as a profession, but Jones deliberately withdrew from the spotlight while Sulli stood in its glare. <a href="#beruehmte-billie-lourd">Billie Lourd (SP3w4)</a>, an actress and the daughter of Carrie Fisher, works her way into her own place role by role and shows how the same constellation finds its own path.</p>
+          <p class="vb-intro">That all three women stood in the spotlight even though the subtype actually seeks inconspicuous substance is itself part of the pattern: the raccoon is not always allowed into the role that suits it.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The end and what followed</h2>
@@ -3119,7 +3119,7 @@ export function sulliPortraitPage() {
 
         <h2 class="vb-section">7. What remains: being different may be visible</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation Three with a Two wing carries a great deal as long as the other side looks back kindly. Someone who, like Sulli, is public and at the same time refuses to fulfill the expected image often pays a high price. What would heal this subtype is the experience that support does not first arise through stance but already lies in mere existence. Her sentence ‘Accept the difference’ remains a quiet task for everyone who watches.</p>
+          <p class="vb-intro">The self-preservation Three with a Four wing carries a great deal as long as she can recognize herself in what she shows. Someone who, like Sulli, is public and at the same time refuses to fulfill the expected image often pays a high price. What would heal this subtype is the experience that support does not first arise through stance but already lies in mere existence. Her sentence ‘Accept the difference’ remains a quiet task for everyone who watches.</p>
           <p class="vb-intro"><strong>Note:</strong> If you are in an emotional crisis or thinking about suicide, help is available around the clock and free of charge. In the US call or text 988; elsewhere see findahelpline.com.</p>
         </blockquote>
 
@@ -3130,8 +3130,8 @@ export function sulliPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: subtype profile"},
-        {route:"beruehmte-hong-chau", label:"Portrait: Hong Chau (SP3w2)"},
-        {route:"beruehmte-maria-callas", label:"Portrait: Maria Callas (SP3w2)"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
+        {route:"beruehmte-billie-lourd", label:"Portrait: Billie Lourd (SP3w4)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
     </div>
