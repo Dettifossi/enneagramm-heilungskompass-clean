@@ -33461,6 +33461,9 @@ function _bewertungSterneInit() {
           '<button onclick="translateReview(this)" data-translated="0" style="margin-top:0.5rem;background:none;border:none;color:var(--gold-dark,#a07830);font-size:0.75rem;cursor:pointer;padding:0;">\ud83c\udf10 \u00dcbersetzen</button>' +
           '</div>';
       }).join('');
+      const _an = document.getElementById('community-anzahl'); if (_an) _an.textContent = ' (' + liste.length + ')';
+      const _dt = document.getElementById('community-details'), _hw = document.getElementById('community-hinweis');
+      if (_dt && _hw) _dt.addEventListener('toggle', function(){ _hw.textContent = _dt.open ? _hw.dataset.open : _hw.dataset.closed; });
       section.style.display = 'block';
     }).catch(function() {});
   const sterne = document.querySelectorAll('#bwrt-sterne span');
@@ -33889,8 +33892,13 @@ function startPage() {
     </section>` : ''}
 
     <section id="community-bewertungen" style="max-width:680px;margin:1.5rem auto 0;padding:0 1rem;display:none;">
-      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:1rem;">Stimmen aus der Community</h2>
-      <div id="community-liste" style="display:flex;flex-direction:column;gap:0.8rem;"></div>
+      <details id="community-details" style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:0.2rem 1rem;">
+        <summary style="cursor:pointer;list-style:none;padding:0.8rem 0;font-size:1rem;font-weight:700;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:0.6rem;">
+          <span>Stimmen aus der Community<span id="community-anzahl" style="font-weight:400;color:var(--muted);"></span></span>
+          <span id="community-hinweis" data-open="Einklappen ▴" data-closed="Ansehen ▾" style="font-size:0.8rem;font-weight:600;color:var(--gold-dark,#a07830);white-space:nowrap;">Ansehen ▾</span>
+        </summary>
+        <div id="community-liste" style="display:flex;flex-direction:column;gap:0.8rem;padding:0.2rem 0 1rem;"></div>
+      </details>
     </section>
 
     <section style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
@@ -33899,6 +33907,16 @@ function startPage() {
         <iframe src="https://www.youtube.com/embed/z-x9k4jdJfY?playsinline=1" title="Enneagramm-Heilungskompass \u2013 Ausf\u00fchrliche Erkl\u00e4rung" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
       </div>
       <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;">10 Minuten \u2013 ein ausf\u00fchrlicher Rundgang durch alle Bereiche des Kompass.</p>
+    </section>
+
+        <section id="begegnung-frei" style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
+      <a href="https://www.verlagshausrathmer.com/enneagrammbegegnung.html" target="_blank" rel="noopener" style="display:block;text-decoration:none;color:inherit;border:2px solid var(--gold,#c4a456);border-radius:14px;padding:1.1rem 1.2rem;background:var(--ivory);">
+        <span style="display:inline-block;background:var(--gold,#c4a456);color:#10201d;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 10px;border-radius:10px;font-size:.72rem;">Kostenlos</span>
+        <h2 style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:.55rem 0 .4rem;">Die Enneagramm-Begegnung</h2>
+        <p style="font-size:.9rem;line-height:1.55;color:var(--ink);margin:0 0 .6rem;">Unsere zweite App ist wirklich kostenlos: die Enneagramm-Begegnung. Sie ist f\u00fcr Freundschaft, Austausch und Partnerschaft, f\u00fcr Menschen, die das Enneagramm kennen oder kennenlernen wollen.</p>
+        <p style="font-size:.85rem;color:var(--muted);margin:0 0 .8rem;">Daf\u00fcr ist kein Kauf n\u00f6tig. Sie ist f\u00fcr alle da, auch f\u00fcr alle, die den Kompass nutzen.</p>
+        <span style="display:inline-block;background:var(--gold,#c4a456);color:var(--anthracite,#2c2c2c);font-weight:700;font-size:.9rem;padding:.6rem 1.2rem;border-radius:8px;">Enneagramm-Begegnung kostenlos \u00f6ffnen \u2192</span>
+      </a>
     </section>
 
     ${legalFooter()}
