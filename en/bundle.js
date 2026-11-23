@@ -8089,6 +8089,24 @@ window.translateReview = function(btn) {
   } catch(e) { btn.textContent = '🌐 Translate'; }
 };
 
+// Wetter oben auf der Startseite (Wetter-API des Verlagshauses; Standort grob aus der IP, keine Abfrage)
+function _wetterLaden() {
+  var el = document.getElementById('kompass-wetter');
+  if (!el || el.dataset.geladen) return;
+  el.dataset.geladen = '1';
+  var icon = function(c){ return c===0?'\u2600\ufe0f':c===1?'\ud83c\udf24\ufe0f':c===2?'\u26c5':c===3?'\u2601\ufe0f':(c===45||c===48)?'\ud83c\udf2b\ufe0f':(c>=51&&c<=55)?'\ud83c\udf26\ufe0f':(c>=61&&c<=65)?'\ud83c\udf27\ufe0f':((c>=66&&c<=77)||c===89)?'\ud83c\udf28\ufe0f':(c>=80&&c<=82)?'\ud83c\udf26\ufe0f':c>=95?'\u26c8\ufe0f':'\ud83c\udf25\ufe0f'; };
+  fetch('https://rathmer-wetter.9rathmer.workers.dev/api/biowetter?lang=en')
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(w){
+      if (!w || !w.ok) return;
+      var wd = function(x){ return new Date(x + 'T12:00:00').toLocaleDateString('en', { weekday: 'short' }); };
+      el.innerHTML = '<span><b style="font-size:1.05rem;color:var(--ink);">' + icon(w.code) + ' ' + w.temp + ' \u00b0C</b> \u00b7 ' + _escHtml(w.text) + '</span>'
+        + '<span>\ud83e\udded ' + w.druck + ' hPa</span>'
+        + w.tage.slice(1, 4).map(function(x){ return '<span>' + wd(x.d) + ' ' + icon(x.c) + ' ' + x.min + '\u2013' + x.max + '\u00b0</span>'; }).join('');
+      el.style.display = 'flex';
+    }).catch(function(){});
+}
+
 function _bewertungSterneInit() {
   // Freigegebene Bewertungen laden
   fetch(REVIEWS_API + '/freigegeben', { cache: 'no-store' })
@@ -8297,6 +8315,7 @@ function startPage() {
 
   return shell(`
     ${onboardingOverlay()}
+    <p id="kompass-wetter" class="mut" style="display:none;flex-wrap:wrap;gap:2px 14px;align-items:center;justify-content:center;margin:.6rem 1rem 0;font-size:.85rem;color:var(--muted);" title="Weather at your location (in Germany: central Germany). Sources: German Weather Service (DWD), Open-Meteo"></p>
     <div style="position:fixed;top:calc(0.6rem + env(safe-area-inset-top));right:calc(0.75rem + env(safe-area-inset-right));z-index:10000;"><a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_de.mp3')">🇩🇪 DE</a></div>
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
@@ -49485,7 +49504,7 @@ function subtypeSchaubilderPage() {
     }
     }
     if (base === "admin") { adminPage(); requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; })); return; }
-    if (base === "start") requestAnimationFrame(_bewertungSterneInit);
+    if (base === "start") { requestAnimationFrame(_bewertungSterneInit); requestAnimationFrame(_wetterLaden); }
     if (base === "laenderzuordnungen") {
       requestAnimationFrame(window._llInitVideoObserver);
       setTimeout(function(){ requestAnimationFrame(window._llLazyLoadStep); }, 400);
