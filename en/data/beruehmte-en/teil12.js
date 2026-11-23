@@ -2595,7 +2595,6 @@ export function wolframEilenbergerPortraitPage() {
         {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
         {route:"beruehmte-herfried-muenkler", label:"Portrait: Herfried Münkler (SO6w7) – same watch, different object"},
         {route:"beruehmte-anne-applebaum", label:"Portrait: Anne Applebaum (SO6w7)"},
-        {route:"beruehmte-heinz-rudolf-kunze", label:"Portrait: Heinz Rudolf Kunze (SE6w7)"},
       ])}
     </div>
   `);

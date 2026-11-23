@@ -13,7 +13,7 @@ const T = {
         lazy: "./lazy/lebensmusterkompass.js",
         msgTier: (tier, line) => "Mein Enneagramm-Tier: " + tier + (line ? " (" + line + ")" : "") + ".\nFinde dein Tier: " + SITE + "/",
         msgSub: (n, tier, code) => "Der Tierarchetyp: " + n + " – " + tier + " (" + code + ").\nMehr dazu: " + SITE + "/subtype/" + code.toLowerCase() + "/",
-        msgScore: (lab, s) => "Subtyp-Quiz – " + lab + ": " + s + ".\nSchaffst du mehr? " + SITE + "/" },
+        msgScore: (lab, s) => (/Quiz I(?!I)/.test(lab) ? "Typ-Quiz – " : "Subtyp-Quiz – ") + lab + ": " + s + ".\nSchaffst du mehr? " + SITE + "/" },
   en: { brand: "Enneagram Healing Compass", mine: "My Enneagram type guess", tier: "My animal", find: "Find your type in the Enneagram Healing Compass",
         note: "Self-assessment – an orientation, not a verdict.", mineTier: "My Enneagram animal", archetype: "The animal archetype", btnTier: "Share animal card", beat: "Can you beat that?", tryIt: "Try it in the Enneagram Healing Compass", btn: "Share result as image", busy: "Creating …", err: "The card could not be created.",
         base: SITE + "/en/", msg: (t, tier) => "My Enneagram type guess: " + t + (tier ? " – " + tier : "") + ".\nFind your type: " + SITE + "/en/",

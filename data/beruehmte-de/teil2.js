@@ -144,27 +144,27 @@ export function cocoChanelPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-coco-chanel-portrait.jpg" alt="Coco Chanel – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Coco Chanel</p>
-        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">Französische Modeschöpferin, 1883–1971 – Tierentsprechung: Waschbär</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Französische Modeschöpferin, 1883–1971 – Tierentsprechung: Gepard</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Waschbär, der sich eine neue Herkunft nähte</h2>
+        <h2 class="vb-section">1. Der Gepard, der sich eine neue Herkunft nähte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> gilt als das Tier des selbsterhaltenden Typs 3 – ein Tier, das sich unauffällig, aber äußerst geschickt durch jede Umgebung bewegt und sich mit dem verfügbaren Material genau das erschafft, was zum Überleben nötig ist. Gabrielle Bonheur Chanel wurde 1883 unehelich in einem Armenhospital in Saumur geboren, Tochter eines fahrenden Marktschreiers und einer erschöpften Wäscherin. Ihre Mutter starb an Tuberkulose, als Gabrielle etwa elf Jahre alt war; der Vater ließ sie und ihre Schwestern kurz darauf im Waisenhaus des Klosters Aubazine zurück, wo die Nonnen ihr das Nähen beibrachten – die unmittelbare technische Wurzel ihrer späteren Karriere.</p>
-          <p class="vb-intro">Nach Jahren im Kloster arbeitete sie als Schneiderin und als Kabarettsängerin in Moulins und Vichy, wo sie durch Lieder wie ›Ko Ko Ri Ko‹ den Spitznamen ›Coco‹ erhielt. Zeit ihres Lebens erfand sie sich eine glamourösere Vergangenheit: Statt vom Waisenhaus erzählte sie von ›Tanten‹, bei denen sie aufgewachsen sei, und verschleierte konsequent ihr wahres Alter und ihre wahre Herkunft. Der Waschbär, der sich aus dem, was er vorfindet, seine eigene Geschichte formt – bei Chanel war das nicht nur die Mode, sondern die eigene Biografie selbst.</p>
+          <p class="vb-intro">Der <strong>Gepard</strong> gilt als das Tier des sozialen Typs 3 – ein Tier, das sich mit Eleganz und Tempo vor aller Augen bewegt und dessen Auftritt bestimmt, wie andere es sehen. Gabrielle Bonheur Chanel wurde 1883 unehelich in einem Armenhospital in Saumur geboren, Tochter eines fahrenden Marktschreiers und einer erschöpften Wäscherin. Ihre Mutter starb an Tuberkulose, als Gabrielle etwa elf Jahre alt war; der Vater ließ sie und ihre Schwestern kurz darauf im Waisenhaus des Klosters Aubazine zurück, wo die Nonnen ihr das Nähen beibrachten – die unmittelbare technische Wurzel ihrer späteren Karriere.</p>
+          <p class="vb-intro">Nach Jahren im Kloster arbeitete sie als Schneiderin und als Kabarettsängerin in Moulins und Vichy, wo sie durch Lieder wie ›Ko Ko Ri Ko‹ den Spitznamen ›Coco‹ erhielt. Zeit ihres Lebens erfand sie sich eine glamourösere Vergangenheit: Statt vom Waisenhaus erzählte sie von ›Tanten‹, bei denen sie aufgewachsen sei, und verschleierte konsequent ihr wahres Alter und ihre wahre Herkunft. Der Gepard, der sein eigenes Bild entwirft – bei Chanel war das nicht nur die Mode, sondern die eigene Biografie selbst.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch praktischen Erfolg</h2>
+        <h2 class="vb-section">2. Die soziale Drei: Ansehen als Währung, ein Name als Marke</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht nach Naranjo Sicherheit nicht durch öffentliches Strahlen wie die soziale Drei, sondern durch konkrete, praktische Kompetenz und wirtschaftliche Unabhängigkeit. Finanziert zunächst von ihrem Liebhaber Étienne Balsan, dann von Arthur ›Boy‹ Capel, baute Chanel aus einem Hutgeschäft eine eigenständige, profitable Modemarke auf – ihre prägendsten Innovationen waren dabei nie reiner Zierrat, sondern radikal praktisch: der Jersey-Stoff, zuvor nur für Herrenunterwäsche verwendet, billig und dehnbar; das kleine Schwarze von 1926, bewusst als möglichst breit zugängliche Einfachheit konzipiert; Modeschmuck statt echter Steine; das Parfum Chanel No. 5.</p>
-          <p class="vb-intro">Am deutlichsten zeigt sich die SE3 darin, dass sie Frauen konsequent aus dem Korsett und den starren Silhouetten der Belle Époque befreite – hin zu lockerer, tatsächlich tragbarer Kleidung. Kein Design um des Designs willen, sondern Funktionalität und Komfort als Geschäftsgrundlage: Sicherheit durch das, was tatsächlich funktioniert und gebraucht wird, nicht durch bloßen Glanz.</p>
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht nach Naranjo Geltung im Gefüge der Gesellschaft: Ansehen, Einfluss und einen Namen, der etwas bedeutet. Sie macht Erfolg nicht nur zu ihrem Ziel, sondern zu ihrer Daseinsform. Finanziert zunächst von ihrem Liebhaber Étienne Balsan, dann von Arthur ›Boy‹ Capel, baute Chanel aus einem Hutgeschäft eine eigenständige, profitable Modemarke auf – ihre prägendsten Innovationen waren dabei nie reiner Zierrat, sondern radikal praktisch: der Jersey-Stoff, zuvor nur für Herrenunterwäsche verwendet, billig und dehnbar; das kleine Schwarze von 1926, bewusst als möglichst breit zugängliche Einfachheit konzipiert; Modeschmuck statt echter Steine; das Parfum Chanel No. 5.</p>
+          <p class="vb-intro">Am deutlichsten zeigt sich die SO3 darin, dass Chanel ihren Namen zur Marke machte und sich selbst zum Gesicht dieser Marke. Sie befreite Frauen aus dem Korsett und den starren Silhouetten der Belle Époque – hin zu lockerer, tatsächlich tragbarer Kleidung –, und der Stil, den sie dafür schuf, wurde zum Maßstab, an dem man sie erkannte: Ansehen durch ein Bild, das für viele zugänglich war und doch unverwechselbar ihres blieb.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Viererflügel: Der nie verwundene Verlust</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine melancholische, dramatisierende Tiefe – der eigene Erfolg wird nicht nüchtern verwaltet, sondern mit einer tragischen, einzigartigen Lebenserzählung unterlegt. Als Boy Capel, die große Liebe ihres Lebens, 1919 bei einem Autounfall starb, ließ sich Chanel sofort zur Unfallstelle fahren. Noch 25 Jahre später sagte sie ihrem Freund Paul Morand: ›Sein Tod war ein furchtbarer Schlag für mich. Mit dem Verlust Capels verlor ich alles. Was folgte, war kein glückliches Leben mehr.‹ Kein anderer Verlust in ihrem Leben wurde je in ähnlicher Weise thematisiert – die Trauer blieb über Jahrzehnte unverarbeitet zentral.</p>
-          <p class="vb-intro">Auch ihre berühmt scharfe Zunge passt in dieses Bild: Über einen Rivalen soll sie gesagt haben, er ›kleide Frauen nicht ein, er polstere sie‹ – Distanzierung durch demonstrative Überlegenheit statt durch Wärme. Über sich selbst sagte sie einmal: ›Ich bin ein widerwärtiger Mensch.‹ Diese Mischung aus morbider Selbstinszenierung, nie verwundenem Verlust und schneidender sozialer Abgrenzung ist die typische Handschrift der SE3w4 – Erfolg als Schutzschild, das eine tiefe, nie ganz geschlossene Wunde umgibt.</p>
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine melancholische, dramatisierende Tiefe – das öffentliche Bild wird nicht nüchtern gepflegt, sondern mit einer tragischen, einzigartigen Lebenserzählung unterlegt. Als Boy Capel, die große Liebe ihres Lebens, 1919 bei einem Autounfall starb, ließ sich Chanel sofort zur Unfallstelle fahren. Noch 25 Jahre später sagte sie ihrem Freund Paul Morand: ›Sein Tod war ein furchtbarer Schlag für mich. Mit dem Verlust Capels verlor ich alles. Was folgte, war kein glückliches Leben mehr.‹ Kein anderer Verlust in ihrem Leben wurde je in ähnlicher Weise thematisiert – die Trauer blieb über Jahrzehnte unverarbeitet zentral.</p>
+          <p class="vb-intro">Auch ihre berühmt scharfe Zunge passt in dieses Bild: Über einen Rivalen soll sie gesagt haben, er ›kleide Frauen nicht ein, er polstere sie‹ – Distanzierung durch demonstrative Überlegenheit statt durch Wärme. Über sich selbst sagte sie einmal: ›Ich bin ein widerwärtiger Mensch.‹ Diese Mischung aus morbider Selbstinszenierung, nie verwundenem Verlust und schneidender sozialer Abgrenzung ist die typische Handschrift der SO3w4 – ein glänzendes öffentliches Bild, das eine tiefe, nie ganz geschlossene Wunde umgibt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Kontroverse: Kollaboration und Arisierungsversuch im besetzten Paris</h2>
@@ -173,16 +173,16 @@ export function cocoChanelPortraitPage() {
           <p class="vb-intro">1941 versuchte sie zudem, die deutschen Arisierungsgesetze zu nutzen, um ihren jüdischen Geschäftspartnern, den Brüdern Wertheimer, die Kontrolle über Parfums Chanel und damit über ihr eigenes Parfum No. 5 vollständig zu entreißen – sie scheiterte nur, weil die Wertheimers ihre Anteile vorausschauend auf einen christlichen Strohmann übertragen hatten. Nach Kriegsende ging sie für rund ein Jahrzehnt ins Schweizer Exil, wohl auch dank Churchills Fürsprache einer formellen Anklage entgangen, bevor sie 1954 ihr Modehaus neu eröffnete.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Viererflügel</h2>
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei mit Viererflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Beste an der SE3w4 zeigt sich darin, dass aus purer wirtschaftlicher Notwendigkeit eine der einflussreichsten Neuerfindungen der Frauenmode des 20. Jahrhunderts wurde – praktisch, tragbar, für viele erreichbar, nicht nur für eine schmale Elite. Der Antrieb der Drei ist <strong>Selbstbetrug</strong> – die Überzeugung, der eigene Wert bemesse sich ausschließlich am sichtbaren Erfolg.</p>
-          <p class="vb-intro">Bei Chanel zeigt sich das doppelt: einerseits in der lebenslangen Fiktion einer glanzvolleren Herkunft, andererseits im opportunistischen Versuch, unter der NS-Besatzung ihre eigene wirtschaftliche Position auf Kosten jüdischer Geschäftspartner zu sichern – Sicherheit wurde hier über jede moralische Grenze hinweg gesucht. Der Viererflügel verstärkt das ins Tragische: Der nie verwundene Verlust Capels und die schneidende Distanz zu anderen Menschen zeigen, wie sehr der äußere Erfolg eine innere, nie geschlossene Lücke überdeckte.</p>
+          <p class="vb-intro">Das Beste an der SO3w4 zeigt sich darin, dass aus purer wirtschaftlicher Notwendigkeit eine der einflussreichsten Neuerfindungen der Frauenmode des 20. Jahrhunderts wurde – praktisch, tragbar, für viele erreichbar, nicht nur für eine schmale Elite. Der Antrieb der Drei ist <strong>Selbstbetrug</strong> – die Überzeugung, der eigene Wert bemesse sich ausschließlich am sichtbaren Erfolg.</p>
+          <p class="vb-intro">Bei Chanel zeigt sich das doppelt: einerseits in der lebenslangen Fiktion einer glanzvolleren Herkunft, andererseits im opportunistischen Versuch, unter der NS-Besatzung ihre eigene wirtschaftliche Position auf Kosten jüdischer Geschäftspartner zu sichern – das eigene Gewicht und die Kontrolle über den eigenen Namen wurden hier über jede moralische Grenze hinweg verteidigt. Der Viererflügel verstärkt das ins Tragische: Der nie verwundene Verlust Capels und die schneidende Distanz zu anderen Menschen zeigen, wie sehr der äußere Erfolg eine innere, nie geschlossene Lücke überdeckte.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Vom Bild zur echten Sicherheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Entwicklungsweg der Drei führt von der Überzeugung <em>Ich bin nur wertvoll durch sichtbaren Erfolg</em> zur Erkenntnis <em>Ich bin wertvoll, so wie ich bin.</em> Für die SE3w4 bedeutet das insbesondere, die eigene tragische Lebenserzählung nicht länger als Rechtfertigung für rücksichtslose Selbstsicherung zu benötigen – und zuzulassen, dass echte Trauer verarbeitet statt zur lebenslangen, unangetasteten Wunde stilisiert wird.</p>
-          <p class="vb-intro">Ähnlich wie Madame Tussaud (SE3w4) – die sich ebenfalls eine eigene, teils dramatisierte Lebenslegende schuf, um aus prekären Verhältnissen heraus ein eigenständiges, sicheres Geschäft aufzubauen – zeigt auch Chanel dieselbe Grundbewegung der SE3w4: Die eigene Herkunft wird umgeschrieben, damit der Aufstieg lückenlos und selbstverständlich wirkt. Der eigentliche Heilungsschritt läge darin, die reale, unperfekte Geschichte anzuerkennen, statt sie durch eine kontrollierte, tragisch-glanzvolle Version zu ersetzen.</p>
+          <p class="vb-intro">Der Entwicklungsweg der Drei führt von der Überzeugung <em>Ich bin nur wertvoll durch sichtbaren Erfolg</em> zur Erkenntnis <em>Ich bin wertvoll, so wie ich bin.</em> Für die SO3w4 bedeutet das insbesondere, die eigene tragische Lebenserzählung nicht länger als Bühne und Rechtfertigung für rücksichtslose Selbstbehauptung zu benötigen – und zuzulassen, dass echte Trauer verarbeitet statt zur lebenslangen, unangetasteten Wunde stilisiert wird.</p>
+          <p class="vb-intro">Ähnlich wie <a href="#beruehmte-karl-lagerfeld">Karl Lagerfeld (SO3w4)</a> – der das Haus Chanel ab 1983 führte und sich selbst in ein Symbol verwandelte – zeigt auch Chanel die Grundbewegung der SO3w4: Das eigene Bild wird bewusst gestaltet und kontrolliert, damit der Aufstieg lückenlos und selbstverständlich wirkt. Der eigentliche Heilungsschritt läge darin, die reale, unperfekte Geschichte anzuerkennen, statt sie durch eine kontrollierte, tragisch-glanzvolle Version zu ersetzen.</p>
         </blockquote>
 
       </div>
@@ -191,8 +191,8 @@ export function cocoChanelPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-madame-tussaud", label:"Porträt: Madame Tussaud (SE3w4)"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-karl-lagerfeld", label:"Porträt: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-winston-churchill", label:"Porträt: Winston Churchill (SE8w9)"},
       ])}
     </div>
@@ -590,6 +590,7 @@ export function willieNelsonPortraitPage() {
         {route:"beruehmte-owen-wilson", label:"Porträt: Owen Wilson (SX9w1)"},
         {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
         {route:"beruehmte-gary-cooper", label:"Porträt: Gary Cooper (SX9w1)"},
+        {route:"beruehmte-rod-stewart", label:"Porträt: Rod Stewart (SX9w1)"},
       ])}
     </div>
   `);
@@ -1748,7 +1749,7 @@ export function madameTussaudPortraitPage() {
         {route:"subtype/se3", label:"SE3 &ndash; Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-osho", label:"Portr\u00e4t: Osho (SE3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
-        {route:"beruehmte-coco-chanel", label:"Portr\u00e4t: Coco Chanel (SE3w4)"},
+        {route:"beruehmte-coco-chanel", label:"Portr\u00e4t: Coco Chanel (SO3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
       ])}
     </div>

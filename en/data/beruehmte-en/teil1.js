@@ -2513,6 +2513,7 @@ export function bruceSpringsteenPortraitPage() {
         {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
         {route:"beruehmte-viggo-mortensen", label:"Portrait: Viggo Mortensen (SX9w1)"},
+        {route:"beruehmte-rod-stewart", label:"Portrait: Rod Stewart (SX9w1)"},
       ])}
     </div>
   `);

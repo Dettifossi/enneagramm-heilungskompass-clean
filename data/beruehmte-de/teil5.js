@@ -752,7 +752,6 @@ export function herbertGroenomeyerPortraitPage() {
         {route:"beruehmte-james-corden", label:"Portr\u00e4t: James Corden (SO6w7)"},
         {route:"beruehmte-jonah-hill", label:"Portr\u00e4t: Jonah Hill (SO6w7)"},
         {route:"beruehmte-anne-applebaum", label:"Porträt: Anne Applebaum (SO6w7)"},
-        {route:"beruehmte-heinz-rudolf-kunze", label:"Porträt: Heinz Rudolf Kunze (SO6w7)"},
       ])}
     </div>
   `);
@@ -2758,51 +2757,58 @@ export function heinzRudolfKunzePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heinz-rudolf-kunze-portrait.jpg" alt="Heinz Rudolf Kunze – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-heinz-rudolf-kunze-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Heinz Rudolf Kunze</p>
-        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Liedermacher und Texter, geb. 1956 &ndash; Verstärkung &ndash; Tierentsprechung: Erdmännchen</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Liedermacher und Texter, geb. 1956 &ndash; Verstärkung &ndash; Tierentsprechung: Adler</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Das Erdmännchen: der Wachposten aus Osnabrück</h2>
+        <h2 class="vb-section">1. Der Adler: der Prüfer aus Osnabrück</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Erdmännchen</strong> richtet sich auf und schaut, ob die Gruppe sicher ist, bevor es selbst frisst. Heinz Rudolf Kunze kam am 30. November 1956 in einem Flüchtlingslager bei Espelkamp zur Welt. Die Familie zog oft um, Ende 1963 ließ sie sich in Osnabrück nieder. Sein Vater war nach eigener Darstellung in der Autobiografie ›Werdegang‹ (2021) Offizier der Waffen-SS gewesen und wurde 1956 aus sowjetischer Gefangenschaft entlassen. Ein Kind, das in dieser Familiengeschichte aufwächst, lernt früh, auf Autorität, Schuld und Verlässlichkeit zu achten.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> kreist hoch über dem Gelände und prüft lange, bevor er zugreift. Heinz Rudolf Kunze kam am 30. November 1956 in einem Flüchtlingslager bei Espelkamp zur Welt. Die Familie zog oft um, Ende 1963 ließ sie sich in Osnabrück nieder. Sein Vater war nach eigener Darstellung in der Autobiografie ›Werdegang‹ (2021) Offizier der Waffen-SS gewesen und wurde 1956 aus sowjetischer Gefangenschaft entlassen. Ein Kind, das in dieser Familiengeschichte aufwächst, lernt früh, auf Autorität, Schuld und Verlässlichkeit zu achten.</p>
           <p class="vb-intro">Er besuchte in Osnabrück das Graf-Stauffenberg-Gymnasium, machte ein Abitur mit einem Schnitt von 1,4 und wurde Stipendiat der Studienstiftung des deutschen Volkes. Er studierte Germanistik und Philosophie und legte beide Staatsexamina für das Lehramt am Gymnasium ab, unterrichtete aber nie. Die Dissertation über den Gottesbegriff bei Spinoza und Schelling blieb nach dem ersten Plattenvertrag 1980 unvollendet.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die soziale Sechs: Pflicht und Zugehörigkeit</h2>
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: der Maßstab nach innen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sechs sucht Sicherheit, und Claudio Naranjo beschrieb die <strong>soziale Sechs (SO6)</strong> als den Subtyp der Pflicht und der Wärme: Sicherheit entsteht durch Zugehörigkeit, Regeln und verlässliche Bindungen. Bei Kunze zeigt sich das in der Treue zu seinen Gruppen. Seine Band ›Verstärkung‹ besteht seit den frühen Achtzigern, mit dem Komponisten Heiner Lürig schreibt er seit ›Dein ist mein ganzes Herz‹ (1985) zusammen, dazu kommt das akustische Trio ›Räuberzivil‹. Der langjährige Musikdirektor und Weggefährte gehört zu seinem Kreis.</p>
-          <p class="vb-intro">Auch seine öffentlichen Rollen tragen die Handschrift des Pflichtgefühls für die Gemeinschaft. Er war lange SPD-Mitglied und trat 1996 wegen der Rechtschreibreform aus. Im selben Jahr sprach er als Sprecher von rund 600 deutschsprachigen Künstlern für eine Radioquote zugunsten deutscher Rockmusik, eine Forderung, für die er viel Kritik erntete. Rund dreieinhalb Jahre arbeitete er als Sachverständiger in der Enquete-Kommission ›Kultur in Deutschland‹ des Bundestags mit. Hier zeigt sich die Sechs im sozialen Dienst: Er sorgt sich um die Regeln und um das Gefüge, in dem Sprache und Kultur leben.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihren Anspruch nicht in erster Linie nach außen, sondern nach innen. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis: die leise, ständige Frage, ob man der Sache wirklich gerecht wird. Bei Kunze zeigt sich das in der Gründlichkeit: ein Abitur mit einem Schnitt von 1,4, die Studienstiftung, zwei Staatsexamina und eine Dissertation über Spinoza und Schelling, die unvollendet blieb, als 1980 der erste Plattenvertrag kam. Auch seine Arbeitsweise ist die der Eins, die sich auf Verlässliches stützt: Seine Band ›Verstärkung‹ besteht seit den frühen Achtzigern, mit dem Komponisten Heiner Lürig schreibt er seit ›Dein ist mein ganzes Herz‹ (1985) zusammen, dazu kommt das akustische Trio ›Räuberzivil‹.</p>
+          <p class="vb-intro">Die Ausdauer der Eins zeigt sich in der Fülle: mehr als 500 Lieder und nach eigener Angabe rund 13.000 Texte insgesamt. Wer so viel schreibt und dabei gleichbleibend hohe Ansprüche an Genauigkeit stellt, arbeitet nicht aus Laune, sondern aus innerer Verpflichtung.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Siebenerflügel: Witz und Wortspiel</h2>
+        <h2 class="vb-section">3. Der Neunerflügel: Ironie als Gelassenheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt der Sechs Leichtigkeit, Neugier und Humor. Bei Kunze ist der Flügel deutlich hörbar: Die Wortspiele, die ironische Brechung und die Lust am Sprachspiel sind seine Markenzeichen, schon seit den frühen Platten. Eines seiner Alben heißt ›Können vor Lachen‹ (2023). Er tritt als Schauspieler in Fernsehserien auf, darunter ›In aller Freundschaft‹, ›Großstadtrevier‹ und zwei ›Tatort‹-Folgen, und moderiert seit Juni 2020 den Podcast ›Durch die Brille gefragt‹.</p>
-          <p class="vb-intro">Hinter dem Witz steht die Wachsamkeit der Sechs. Die Ironie hält Abstand, schützt vor zu viel Pathos und erlaubt, auch Ernstes zu sagen, ohne sich zu verraten. Die Siebenerseite zeigt sich in der Fülle: Mehr als 500 Lieder und nach eigener Angabe rund 13.000 Texte insgesamt.</p>
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> macht die Eins gelassener und verträglicher und mildert ihre Strenge durch Ruhe und Humor. Bei Kunze ist das hörbar: Die Wortspiele, die ironische Brechung und die Lust am Sprachspiel sind seine Markenzeichen, schon seit den frühen Platten. Eines seiner Alben heißt ›Können vor Lachen‹ (2023). Er tritt als Schauspieler in Fernsehserien auf, darunter ›In aller Freundschaft‹, ›Großstadtrevier‹ und zwei ›Tatort‹-Folgen, und moderiert seit Juni 2020 den Podcast ›Durch die Brille gefragt‹.</p>
+          <p class="vb-intro">Hinter dem Witz steht der Anspruch der Eins. Die Ironie hält Abstand, schützt vor zu viel Pathos und erlaubt, auch Ernstes zu sagen, ohne zu predigen. So bleibt die Strenge erträglich, für ihn selbst und für sein Publikum.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Die Substanz: Wort, Lied und Übersetzung</h2>
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als Ringen um das richtige Wort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong>. Bei der SE1 richtet er sich zunächst nach innen, als Maßstab an das eigene Können; wo Sprache und Kultur nach Kunzes Überzeugung Schaden nehmen, wird er öffentlich. Er war lange SPD-Mitglied und trat 1996 wegen der Rechtschreibreform aus. Im selben Jahr sprach er als Sprecher von rund 600 deutschsprachigen Künstlern für eine Radioquote zugunsten deutscher Rockmusik, eine Forderung, für die er viel Kritik erntete. Rund dreieinhalb Jahre arbeitete er als Sachverständiger in der Enquete-Kommission ›Kultur in Deutschland‹ des Bundestags mit.</p>
+          <p class="vb-intro">Hier zeigt sich die Eins im Dienst an der Richtigkeit: Er sorgt sich um die Regeln, nach denen Sprache und Kultur leben. Auch gendergerechte Sprache nennt er ›Irrsinn‹, und mit seiner Radioquoten-Forderung machte er sich zur Zielscheibe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Substanz: Wort, Lied und Übersetzung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Kunze gilt in der deutschen Popmusik als literarischer Texter. Früh wurde er als philosophischer Liedermacher in der Tradition Bob Dylans eingeordnet, ein Spötter prägte dafür das Wort ›Niedermacher‹. Seine Stärke ist die Verbindung aus Bildung und Alltagssprache: Er schreibt Zeilen, die sich im Kopf festsetzen, weil sie Doppelsinn, Zitat und Beobachtung ineinanderlegen. 1982 bekam sein Album ›Eine Form von Gewalt‹ den Deutschen Schallplattenpreis, 1985 folgte mit ›Dein ist mein ganzes Herz‹ sein größter Singlehit.</p>
-          <p class="vb-intro">Dazu kommt die Arbeit am deutschen Wort für andere: Er übertrug die Musicals ›Les Misérables‹ (›Die Elenden‹, 1987), ›Miss Saigon‹ (1994), ›Joseph and the Amazing Technicolor Dreamcoat‹ (1996) und ›RENT‹ (1999) ins Deutsche und schrieb mit Heiner Lürig Libretti für Shakespeare-Bearbeitungen, darunter ›Ein Sommernachtstraum‹ (2003 bis 2014 in Hannover-Herrenhausen). 2007 lehrte er zwei Semester Songtexte an der Hochschule Osnabrück. Wer so genau auf Sprache achtet, ist ein Handwerker des Textes, und dazu passt, dass die Sechs gerne auf bewährten Regeln aufbaut.</p>
+          <p class="vb-intro">Dazu kommt die Arbeit am deutschen Wort für andere: Er übertrug die Musicals ›Les Misérables‹ (›Die Elenden‹, 1987), ›Miss Saigon‹ (1994), ›Joseph and the Amazing Technicolor Dreamcoat‹ (1996) und ›RENT‹ (1999) ins Deutsche und schrieb mit Heiner Lürig Libretti für Shakespeare-Bearbeitungen, darunter ›Ein Sommernachtstraum‹ (2003 bis 2014 in Hannover-Herrenhausen). 2007 lehrte er zwei Semester Songtexte an der Hochschule Osnabrück. Wer so genau auf Sprache achtet, ist ein Handwerker des Textes, und dazu passt die Eins, die an ihrem Handwerk nicht nachlässt.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallele im selben Subtyp: Herbert Grönemeyer und Herfried Münkler</h2>
+        <h2 class="vb-section">6. Parallele im selben Subtyp: Phil Collins und Ludwig Wittgenstein</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Auch unter den SO6w7ern dieses Kompasses stehen Menschen, die ihre Stimme in den Dienst der Gemeinschaft stellen. <a href="#beruehmte-herbert-groenemeyer">Herbert Grönemeyer (SO6w7)</a> ist wie Kunze ein deutschsprachiger Musiker, der gesellschaftlich Haltung zeigt und sich für Zusammenhalt einsetzt. <a href="#beruehmte-herfried-muenkler">Herfried Münkler (SO6w7)</a> denkt als Politikwissenschaftler in Strukturen und Verantwortung und äußert sich öffentlich zu dem, was dem Gemeinwesen droht.</p>
-          <p class="vb-intro">Der Unterschied: Grönemeyer erzählt vom Gefühl, Münkler analysiert, Kunze arbeitet mit dem Wort selbst. Die Gemeinsamkeit ist die Wache für das Ganze, verbunden mit Humor und Freude am Gespräch.</p>
+          <p class="vb-intro">Auch unter den SE1w9ern dieses Kompasses stehen Menschen, die ihr Handwerk mit innerer Strenge betreiben. <a href="#beruehmte-phil-collins">Phil Collins (SE1w9)</a> ist wie Kunze ein Musiker, dessen Wirkung aus akribischer Arbeit kommt, im Studio wie auf der Bühne. <a href="#beruehmte-ludwig-wittgenstein">Ludwig Wittgenstein (SE1w9)</a> rang als Philosoph um die Genauigkeit der Sprache.</p>
+          <p class="vb-intro">Der Unterschied: Collins arbeitet am Klang, Wittgenstein am Gedanken, Kunze am Wort. Gemeinsam ist der innere Maßstab, den sie zuerst an sich selbst anlegen, und ein Neunerflügel, der die Strenge mit Ruhe oder Humor mildert.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Licht und Schatten der sozialen Sechs mit Siebenerflügel</h2>
+        <h2 class="vb-section">7. Licht und Schatten der selbsterhaltenden Eins mit Neunerflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht zeigt sich in der Verlässlichkeit, im Fleiß und in der Treue zu Menschen und Aufgaben. Wer seit vier Jahrzehnten mit derselben Band und demselben Komponisten arbeitet, zeigt die Stärke dieses Subtyps.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Neigung, am Bewährten festzuhalten und sich bei Veränderung zu reiben. Kunze nennt gendergerechte Sprache ›Irrsinn‹, und seine Radioquoten-Forderung machte ihn zur Zielscheibe. 2015 wurde sein Lied ›Willkommen, liebe Mörder‹ von rechten Gruppen als ironischer Kommentar zur Aufnahme von Flüchtlingen weiterverbreitet; er wies das zurück und erklärte, das Lied beziehe sich auf die Mörder des NSU. Gerade dieser Fall zeigt die Sorge der Sechs, dass ihre Worte missverstanden und gegen die Gemeinschaft gewendet werden.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Neigung, am einmal Richtigen festzuhalten und sich bei Veränderung zu reiben. 2015 wurde sein Lied ›Willkommen, liebe Mörder‹ von rechten Gruppen als ironischer Kommentar zur Aufnahme von Flüchtlingen weiterverbreitet; er wies das zurück und erklärte, das Lied beziehe sich auf die Mörder des NSU. Gerade dieser Fall zeigt die Sorge der Eins, dass ihre Worte falsch verstanden und gegen ihre Absicht gewendet werden.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Stand: ›Angebot und Nachfrage‹</h2>
+        <h2 class="vb-section">8. Stand: ›Angebot und Nachfrage‹</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Heinz Rudolf Kunze, 69 Jahre alt, mit seiner Band ›Verstärkung‹ auf der ›Angebot und Nachfrage‹-Tour 2026 unterwegs. Das gleichnamige Album erschien am 12. September 2025 und erreichte Platz 5 der deutschen Charts. Im August 2025 erhielt er den Walther-von-der-Vogelweide-Preis für sein Lebenswerk. Er lebt seit 2009 mit seiner Frau Gabriele in Bissendorf bei Hannover.</p>
         </blockquote>
+
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
@@ -2810,11 +2816,10 @@ export function heinzRudolfKunzePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
-        {route:"lebensmusterkompass/so6", label:"Lebensmusterkompass: SO6 – Erdmännchen"},
-        {route:"beruehmte-herbert-groenemeyer", label:"Porträt: Herbert Grönemeyer (SO6w7)"},
-        {route:"beruehmte-herfried-muenkler", label:"Porträt: Herfried Münkler (SO6w7)"},
-        {route:"beruehmte-wolfram-eilenberger", label:"Porträt: Wolfram Eilenberger (SO6w7)"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-phil-collins", label:"Porträt: Phil Collins (SE1w9)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Porträt: Ludwig Wittgenstein (SE1w9)"},
       ])}
     </div>
   `);

@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=521";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=524";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -146,6 +146,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.j
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
+const rodStewartPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "rodStewartPortraitPage");
 const jamesStewartPortraitPage = () => _lazyPage("./data/beruehmte-de/teil14.js", "jamesStewartPortraitPage");
 const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "marieleMillowitschPortraitPage");
 const georgPreussePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "georgPreussePortraitPage");
@@ -27971,6 +27972,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Paul Simon \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1941 in Newark, New Jersey. US-amerikanischer Singer-Songwriter (Simon & Garfunkel, \u203aGraceland\u2039, \u203aSeven Psalms\u2039). Die Taube, die tiefe Trauer still in Lieder fasst.",
     land:"USA", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-rod-stewart", name:"Rod Stewart", added:"2026-11-20", subtyp:"SX9w1",
+    heading:"Rod Stewart \u2013 Sexueller Typ 9",
+    teaser:"SX9w1 \u00b7 1945 in London. Englischer Sänger und Songschreiber (Jeff Beck Group, Faces, \u203aMaggie May\u2039, Great American Songbook). Das Faultier, das sich Zeit lässt und fremde Lieder in die eigene Stimme legt.",
+    land:"Großbritannien", tags:["Musik"], gender:"m"},
   { route:"beruehmte-art-garfunkel", name:"Art Garfunkel", added:"2026-10-26", subtyp:"SX9w1",
     heading:"Art Garfunkel \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 1941 in New York. US-amerikanischer Sänger, Dichter und Schauspieler (Simon & Garfunkel, \u203aBright Eyes\u2039). Das Faultier, das sich im Duo und auf langen Wanderungen ruhig bewegt.",
@@ -28346,9 +28351,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Atze Schr\u00f6der \u2013 Sexueller Typ 7",
     teaser:"SX7w6 \u00b7 Deutsche Comedy-Kunstfigur (\u203aAlles Atze\u2039, \u203aLovemachine\u2039). Der Schimpanse mit Lockenkopf und Pilotenbrille, der als Ruhrpott-Proll Pointen setzt und seinen Namen hinter der Maske sch\u00fctzt.",
     land:"Deutschland", tags:["Comedy","Fernsehen"], gender:"m"},
-  { route:"beruehmte-heinz-rudolf-kunze", name:"Heinz Rudolf Kunze", added:"2026-10-23", subtyp:"SO6w7",
-    heading:"Heinz Rudolf Kunze \u2013 Sozialer Typ 6",
-    teaser:"SO6w7 \u00b7 geb. 1956. Deutscher Liedermacher und Texter (\u203aDein ist mein ganzes Herz\u2039, \u203aVerst\u00e4rkung\u2039). Das Erdm\u00e4nnchen mit dem Wortwitz, das seit vier Jahrzehnten mit derselben Band Wache h\u00e4lt.",
+  { route:"beruehmte-heinz-rudolf-kunze", name:"Heinz Rudolf Kunze", added:"2026-10-23", subtyp:"SE1w9",
+    heading:"Heinz Rudolf Kunze \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w9 \u00b7 geb. 1956. Deutscher Liedermacher und Texter (\u203aDein ist mein ganzes Herz\u2039, \u203aVerst\u00e4rkung\u2039). Der Adler mit dem Wortwitz, der seit vier Jahrzehnten mit derselben Band am richtigen Wort arbeitet.",
     land:"Deutschland", tags:["Musik","Literatur"], gender:"m"},
   { route:"beruehmte-joshua-richards", name:"Joshua Richards", added:"2026-10-23", subtyp:"SO8w9",
     heading:"Joshua Richards \u2013 Sozialer Typ 8",
@@ -30484,9 +30489,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mutter Teresa – Sozialer Typ 2",
     teaser:"SO2w1 · 1910–1997. Ordensgründerin, Friedensnobelpreis 1979. Von zwölf Schwestern zu 610 Niederlassungen – und fast fünfzig Jahre verborgene spirituelle Dunkelheit hinter unerschütterlicher öffentlicher Gewissheit.",
     land:"Indien", tags:["Religion","Geschichte"], gender:"w"},
-  { route:"beruehmte-coco-chanel", name:"Coco Chanel", added:"2026-09-27", subtyp:"SE3w4",
-    heading:"Coco Chanel – Selbsterhaltender Typ 3",
-    teaser:"SE3w4 · 1883–1971. Französische Modeschöpferin. Vom Waisenhaus zur Weltmarke, lebenslang gepflegte Herkunftslegende, nie verwundener Verlust – und Kollaboration mit der NS-Besatzung im Kampf um die eigene Sicherheit.",
+  { route:"beruehmte-coco-chanel", name:"Coco Chanel", added:"2026-09-27", subtyp:"SO3w4",
+    heading:"Coco Chanel – Sozialer Typ 3",
+    teaser:"SO3w4 · 1883–1971. Französische Modeschöpferin. Vom Waisenhaus zur Weltmarke, lebenslang gepflegte Herkunftslegende, nie verwundener Verlust – und Kollaboration mit der NS-Besatzung im Kampf um die eigene Position.",
     land:"Frankreich", tags:["Mode","Geschichte"], gender:"w"},
   { route:"beruehmte-aylin-tezel", name:"Aylin Tezel", added:"2026-09-27", subtyp:"SE3w2",
     heading:"Aylin Tezel – Selbsterhaltender Typ 3",
@@ -33642,7 +33647,7 @@ function startPage() {
 
   return shell(`
     ${onboardingOverlay()}
-    <div style="position:fixed;top:calc(0.6rem + env(safe-area-inset-top));right:calc(0.75rem + env(safe-area-inset-right));z-index:10000;"><a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_en.mp3')">\ud83c\uddec\ud83c\udde7 EN</a></div>
+    <div style="position:absolute;top:calc(0.6rem + env(safe-area-inset-top));right:calc(0.75rem + env(safe-area-inset-right));z-index:10000;display:flex;align-items:center;justify-content:flex-end;gap:6px;"><a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_en.mp3')">\ud83c\uddec\ud83c\udde7 EN</a></div>
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
       <p class="eyebrow">${text.meta.modelLine}</p>
@@ -33652,6 +33657,7 @@ function startPage() {
       ${profileGlimpse}
     </section>
 
+    <div style="text-align:center;margin:0 0 0.8rem;"><button data-route="impuls-heute" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">\u25c8 Impuls f\u00fcr heute \u2013 lesen und anh\u00f6ren mit Detlef</button></div>
     <div style="text-align:center;margin:0 0 0.8rem;">${_gsLatestUpdateBadgeHTML()}</div>
     ${neuigkeitenSection()}
 
@@ -36699,9 +36705,10 @@ function libraryPage() {
       <h1>${copy.headline}</h1>
       <p class="lead-small">${copy.lead}</p>
     </section>
-    <section class="library-grid">
+    <nav class="jump-chips" aria-label="Springen zu"><button type="button" data-jump="werk-sektion">Bücher</button><button type="button" data-jump="verlags-apps">Apps</button><button type="button" data-jump="interview">Interview</button></nav>
+    <section class="library-grid library-grid--areas">
       ${architectureAreas
-        .map((area) => `<article><h2>${area.title}</h2><p>${area.text}</p></article>`)
+        .map((area) => `<article class="area-tile" data-route="${area.route}" role="link" tabindex="0"><h2>${area.title}</h2><p>${area.text}</p></article>`)
         .join("")}
     </section>
     <section class="formula-overview">
@@ -36720,7 +36727,8 @@ function libraryPage() {
         .join("")}
     </section>
     ${werkSection()}
-    <section style="background:#2c2c2c;padding:3.5rem 1.5rem;text-align:center;">
+    ${verlagsAppsSection()}
+    <section id="interview" style="background:#2c2c2c;padding:3.5rem 1.5rem;text-align:center;">
       <div style="max-width:700px;margin:0 auto;">
         <div style="color:#c4a456;font-size:0.78rem;letter-spacing:0.25em;text-transform:uppercase;margin-bottom:0.8rem;">Interview \u00b7 22 Minuten</div>
         <h2 style="font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.5rem,3vw,2rem);font-weight:400;color:#f5e9d0;margin:0 0 0.8rem;line-height:1.35;">\u00bbWarum dein Enneagrammtyp<br>deine Gesundheit bestimmt\u00ab</h2>
@@ -37031,6 +37039,55 @@ function zahlenFaktenPage() {
   `);
 }
 
+// Apps des Verlagshauses (Bibliothek): zur Laufzeit aus der zentralen Liste, letzter Stand in localStorage
+function verlagsAppsSection() {
+  const KEY = "kompass_verlagsapps_v1", BASE = "https://www.verlagshausrathmer.com/";
+  const EN = false;
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const cleanKurz = (s) => String(s || "").split(/(?<=[.!?])\s+/).filter((x) => !/[€$]|\bEUR\b|gratis|erhältlich|\b[Ff]ree\b|available|\btrial\b|Probeversion/i.test(x)).join(" ").replace(/­/g, "");
+  const render = (d) => {
+    const items = ((d && d.reihenfolge_apps) || []).filter((id) => id !== "kompass" && d.produkte && d.produkte[id]).map((id) => d.produkte[id]);
+    if (!items.length) return "";
+    const cards = items.map((p) => {
+      const name = EN ? (p.name_en || p.name) : p.name;
+      const kurz = cleanKurz(EN ? (p.kurz_en || p.kurz) : p.kurz);
+      const schild = EN ? (p.schild_en || p.schild || "") : (p.schild || "");
+      const href = EN ? (p.href_en || p.href) : p.href;
+      const icon = p.icon ? `<img src="${esc(BASE + p.icon)}" alt="" loading="lazy" width="48" height="48" style="width:48px;height:48px;flex-shrink:0;border-radius:10px;object-fit:contain;background:#f4efe3;padding:4px;box-sizing:border-box;" onerror="this.style.display='none'">` : "";
+      const link = (p.bald || !href)
+        ? `<span class="deepen-link deepen-link--pending">demnächst</span>`
+        : `<a class="deepen-link" href="${esc(/^https?:/.test(href) ? href : BASE + href)}" target="_blank" rel="noopener">Öffnen →</a>`;
+      return `<article style="display:flex;gap:.9rem;align-items:flex-start;min-width:0;overflow-wrap:anywhere;">${icon}<div style="min-width:0;"><h2 style="margin-top:0;font-size:1.05rem;">${esc(name)}${schild ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(schild)}</small>` : ""}</h2><p>${esc(kurz)}</p>${link}</div></article>`;
+    }).join("");
+    const K = d.kostenlos;
+    let free = "";
+    if (K) {
+      const kh = EN ? (K.href_en || K.href) : K.href;
+      const kn = EN ? (K.name_en || K.name) : K.name;
+      const kk = EN ? (K.kurz_en || K.kurz) : K.kurz;
+      const ks = EN ? (K.schild_en || K.schild || "") : (K.schild || "");
+      const kicon = K.icon ? `<img src="${esc(BASE + K.icon)}" alt="" loading="lazy" width="56" height="56" style="width:56px;height:56px;flex-shrink:0;border-radius:12px;object-fit:contain;background:#f4efe3;padding:5px;box-sizing:border-box;" onerror="this.style.display='none'">` : "";
+      if (kh) free = `<a href="${esc(/^https?:/.test(kh) ? kh : BASE + kh)}" target="_blank" rel="noopener" style="display:flex;gap:1rem;align-items:center;max-width:720px;margin:1.2rem auto;padding:1rem 1.2rem;border:2px solid #c9a227;border-radius:14px;color:inherit;text-decoration:none;background:rgba(201,162,39,.08);">${kicon}<div><span style="display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#c9a227;color:#fff;border-radius:999px;padding:.1rem .6rem;margin-bottom:.35rem;">Kostenlos · weltweit</span><h2 style="margin:.1rem 0;">${esc(kn)}${ks ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(ks)}</small>` : ""}</h2><p style="margin:.2rem 0.4rem;">${esc(kk)}</p><span class="deepen-link">Kostenlos ansehen →</span></div></a>`;
+    }
+    return `<div class="narrow centered" id="verlags-apps"><h2>Die Apps des Verlagshauses</h2><p class="lead-small">Das Verlagshaus Rathmer bietet mehrere Apps zum Enneagramm, zur Selbsterkenntnis und zur Heilkunde an. Jede ist ein eigenes Werkzeug, aus einem Buch entstanden. Tippen Sie auf eine App, um sie zu öffnen.</p></div>${free}<div class="narrow centered"><h3>Unsere Apps an Bord</h3></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:0 1rem;">${cards}</div>`;
+  };
+  let cached = null;
+  try { cached = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) {}
+  const fill = (d) => {
+    const html = render(d);
+    const el = document.getElementById("verlagsapps-section");
+    if (el) { el.innerHTML = html; el.style.display = html ? "" : "none"; }
+  };
+  setTimeout(() => {
+    fetch(BASE + "verknuepfungen.json", { cache: "no-cache" })
+      .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then((d) => { if (d && d.produkte && d.reihenfolge_apps) { try { localStorage.setItem(KEY, JSON.stringify({ produkte: d.produkte, reihenfolge_apps: d.reihenfolge_apps, kostenlos: d.kostenlos || null })); } catch (e) {} fill(d); } })
+      .catch(() => {});
+  }, 0);
+  const first = render(cached);
+  return `<section id="verlagsapps-section" style="${first ? "" : "display:none"}">${first}</section>`;
+}
+
 function werkSection() {
   const w = text.werk;
   const filterLabels = {
@@ -37068,11 +37125,12 @@ function werkSection() {
   }).join("");
 
   return `
-    <section class="werk">
+    <section class="werk" id="werk-sektion">
       <div class="section-divider"><span>${w.title}</span></div>
       <p class="lead-small werk__lead">${w.lead}</p>
       <div class="werk-filterbar">${filterBar}</div>
-      <div class="werk-grid">${cards}</div>
+      <div class="werk-grid werk-grid--collapsed">${cards}</div>
+      <p class="werk-more-wrap"><button type="button" class="werk-more" data-werk-more>Alle Bücher anzeigen</button></p>
     </section>
   `;
 }
@@ -37818,10 +37876,10 @@ function _tqProgress(step) {
 // Dialog an einen der beiden Berater schickt.
 
 const _GS_STEPS = [
-  { prompt: "Schauen Sie ganz entspannt direkt in die Kamera Ihres Smartphones \u2013 der Rahmen zeigt nur den Aufnahmebereich.", sub: "Frontal", say: "Schauen Sie ganz entspannt direkt in die Kamera Ihres Smartphones. Der Rahmen zeigt nur den Aufnahmebereich \u2013 Ihr Blick bleibt an der Kamera." },
-  { prompt: "Drehen Sie nur den Kopf ganz sacht nach links \u2013 der Blick bleibt weiterhin an der Kamera Ihres Smartphones.", sub: "Sanft nach links", say: "Jetzt drehen Sie den Kopf ganz sacht nach links. Der Blick bleibt dabei weiterhin an der Kamera Ihres Smartphones." },
-  { prompt: "Und jetzt ganz sacht nach rechts \u2013 der Blick bleibt weiterhin an der Kamera Ihres Smartphones.", sub: "Sanft nach rechts", say: "Und jetzt ganz sacht nach rechts. Der Blick bleibt weiterhin an der Kamera Ihres Smartphones." },
-  { prompt: "Zum Abschluss noch einmal direkt in die Kamera Ihres Smartphones schauen.", sub: "Frontal", say: "Zum Abschluss schauen Sie noch einmal direkt in die Kamera Ihres Smartphones." },
+  { prompt: "Schau ganz entspannt direkt in die Kamera deines Smartphones \u2013 der Rahmen zeigt nur den Aufnahmebereich.", sub: "Frontal", say: "Schau ganz entspannt direkt in die Kamera deines Smartphones. Der Rahmen zeigt nur den Aufnahmebereich \u2013 dein Blick bleibt an der Kamera." },
+  { prompt: "Dreh nur den Kopf ganz sacht nach links \u2013 der Blick bleibt weiterhin an der Kamera deines Smartphones.", sub: "Sanft nach links", say: "Jetzt dreh den Kopf ganz sacht nach links. Der Blick bleibt dabei weiterhin an der Kamera deines Smartphones." },
+  { prompt: "Und jetzt ganz sacht nach rechts \u2013 der Blick bleibt weiterhin an der Kamera deines Smartphones.", sub: "Sanft nach rechts", say: "Und jetzt ganz sacht nach rechts. Der Blick bleibt weiterhin an der Kamera deines Smartphones." },
+  { prompt: "Zum Abschluss noch einmal direkt in die Kamera deines Smartphones schauen.", sub: "Frontal", say: "Zum Abschluss schau noch einmal direkt in die Kamera deines Smartphones." },
 ];
 const _GS_SETTLE_MS = 2200;
 const _GS_COUNTDOWN_MS = 3200;
@@ -37997,7 +38055,18 @@ function _gsPickVoice() {
     null;
 }
 
+function _gsUnlockAudio() {
+  try {
+    if (!_gsAu) _gsAu = new Audio();
+    _gsAu.muted = true; _gsAu.src = "sounds/scan/scan1.mp3";
+    const p = _gsAu.play();
+    const back = () => { try { _gsAu.pause(); _gsAu.muted = false; _gsAu.currentTime = 0; } catch (e) {} };
+    if (p && p.then) p.then(back, back); else back();
+  } catch (e) {}
+}
+
 function _gsUnlockSpeech() {
+  _gsUnlockAudio();
   if (!_gsVoiceOn || !("speechSynthesis" in window)) return;
   try {
     const u = new SpeechSynthesisUtterance(" ");
@@ -38006,20 +38075,33 @@ function _gsUnlockSpeech() {
   } catch (e) {}
 }
 
+var _gsAu = null;
 function _gsSpeakAndWait(text) {
   return new Promise(resolve => {
-    if (!_gsVoiceOn || !("speechSynthesis" in window)) return resolve();
+    if (!_gsVoiceOn) return resolve();
     let done = false;
     const finish = () => { if (!done) { done = true; resolve(); } };
+    const geraet = () => {
+      if (!("speechSynthesis" in window)) return finish();
+      try {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = "de-DE"; u.rate = 0.9; u.pitch = 1.05;
+        if (_gsFemaleVoice) u.voice = _gsFemaleVoice;
+        u.onend = finish; u.onerror = finish;
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(u);
+        setTimeout(finish, _GS_SPEECH_MAX_MS);
+      } catch (e) { finish(); }
+    };
+    // Detlefs Stimme (Aufnahmen sounds/scan/scanN.mp3); nur wenn sie nicht lädt, spricht das Gerät
     try {
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = "de-DE"; u.rate = 0.9; u.pitch = 1.05;
-      if (_gsFemaleVoice) u.voice = _gsFemaleVoice;
-      u.onend = finish; u.onerror = finish;
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.speak(u);
-      setTimeout(finish, _GS_SPEECH_MAX_MS);
-    } catch (e) { finish(); }
+      if (!_gsAu) _gsAu = new Audio();
+      _gsAu.onended = finish; _gsAu.onerror = () => { if (!done) geraet(); };
+      _gsAu.src = "sounds/scan/scan" + (_gsStep + 1) + ".mp3";
+      const p = _gsAu.play();
+      if (p && p.catch) p.catch(() => { if (!done) geraet(); });
+      setTimeout(finish, 20000);
+    } catch (e) { geraet(); }
   });
 }
 
@@ -40267,10 +40349,26 @@ function bindEvents() {
       const filter = btn.dataset.werkFilter;
       document.querySelectorAll("[data-werk-filter]").forEach(b => b.classList.remove("is-active"));
       btn.classList.add("is-active");
+      const _wg = document.querySelector(".werk-grid"); if (_wg) _wg.classList.remove("werk-grid--collapsed");
+      const _wm = document.querySelector(".werk-more-wrap"); if (_wm) _wm.remove();
       document.querySelectorAll(".werk-card").forEach(card => {
         const match = filter === "all" || card.dataset.category === filter;
         card.style.display = match ? "" : "none";
       });
+    });
+  });
+
+  document.querySelectorAll("[data-werk-more]").forEach((b) => {
+    b.addEventListener("click", () => {
+      const g = document.querySelector(".werk-grid");
+      if (g) g.classList.remove("werk-grid--collapsed");
+      b.parentElement.remove();
+    });
+  });
+  document.querySelectorAll("[data-jump]").forEach((b) => {
+    b.addEventListener("click", () => {
+      const t = document.getElementById(b.dataset.jump);
+      if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 
@@ -45692,7 +45790,7 @@ function _cquizGameOverScreen() {
   const best = _cquizGetBest(st.level);
   const pct = Math.round((st.score / CQUIZ_TOTAL_ROUNDS) * 100);
   let msg;
-  if (pct >= 90) msg = "Außergewöhnlich &ndash; Sie erkennen die 27 Subtypen auf einen Blick!";
+  if (pct >= 90) msg = st.level === 1 ? "Außergewöhnlich &ndash; Sie erkennen die neun Typen auf einen Blick!" : "Außergewöhnlich &ndash; Sie erkennen die 27 Subtypen auf einen Blick!";
   else if (pct >= 70) msg = "Sehr gut! Die Karikaturen prägen sich bei Ihnen schon deutlich ein.";
   else if (pct >= 40) msg = "Solide Runde &ndash; mit mehr Übung wird der Blick noch sicherer.";
   else msg = "Ein Anfang &ndash; das Zuordnen braucht Übung. Nochmal versuchen?";
@@ -64748,6 +64846,8 @@ function showTagesimpuls(force) {
       <div class="tagesimpuls-card__text">${paragraphs}</div>
       <p class="tagesimpuls-card__impuls"><em>${impuls.impuls}</em></p>
       <p class="tagesimpuls-card__autor">\u2014 Detlef Rathmer</p>
+      <button class="tagesimpuls-card__share tagesimpuls-card__audio" hidden style="width:100%;margin-top:0.6rem;display:flex;align-items:center;justify-content:center;gap:10px;min-height:56px;font-size:1.02rem"><img src="assets/detlef-rund2.jpg" alt="" width="40" height="40" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:1px solid currentColor;flex:none"><span class="tagesimpuls-card__lbl">Anh\u00f6ren mit Detlef</span></button>
+      <p class="tagesimpuls-card__voice" hidden style="font-size:0.78rem;opacity:0.7;margin:0.4rem 0 0">Vorgelesen von Detlef Rathmer, digital vertont, mit Zustimmung des Autors.</p>
       <div class="tagesimpuls-card__actions">
         <button class="tagesimpuls-card__btn">Den Impuls merken \u2726</button>
         <button class="tagesimpuls-card__share">\u2197 Teilen</button>
@@ -64756,8 +64856,18 @@ function showTagesimpuls(force) {
     </div>
   `;
   document.body.appendChild(card);
+  // Vorlesen mit Detlefs Stimme (Aufnahmen auf R2; der Knopf erscheint nur, wenn es die Aufnahme f\u00fcr diesen Tag gibt)
+  const au = new Audio("https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/impulse/de/k" + String(dayOfYear % TAGESIMPULSE.length).padStart(3, "0") + ".mp3");
+  au.preload = "metadata";
+  const auBtn = card.querySelector(".tagesimpuls-card__audio"), auLbl = card.querySelector(".tagesimpuls-card__lbl"), auNote = card.querySelector(".tagesimpuls-card__voice");
+  au.addEventListener("loadedmetadata", () => { auBtn.hidden = false; auNote.hidden = false; });
+  au.addEventListener("ended", () => { auLbl.textContent = "Anh\u00f6ren mit Detlef"; });
+  au.addEventListener("pause", () => { auLbl.textContent = "Anh\u00f6ren mit Detlef"; });
+  au.addEventListener("play", () => { auLbl.textContent = "\u23f8 Pause"; });
+  auBtn.addEventListener("click", () => { if (au.paused) { au.play().catch(() => {}); } else { au.pause(); } });
   requestAnimationFrame(() => requestAnimationFrame(() => card.classList.add("tagesimpuls-overlay--open")));
   const close = () => {
+    try { au.pause(); } catch (e) {}
     localStorage.setItem(IMPULS_KEY, today);
     card.classList.remove("tagesimpuls-overlay--open");
     setTimeout(() => card.remove(), 350);
@@ -64767,14 +64877,14 @@ function showTagesimpuls(force) {
     _saveImpuls(impuls, today);
     const btn = e.currentTarget;
     btn.style.display = "none";
-    card.querySelector(".tagesimpuls-card__share").style.display = "none";
+    card.querySelector(".tagesimpuls-card__actions .tagesimpuls-card__share").style.display = "none";
     const hint = card.querySelector(".tagesimpuls-card__saved-hint");
     hint.style.display = "block";
     hint.querySelector("a").addEventListener("click", () => { close(); go("gemerkte-impulse"); });
     localStorage.setItem(IMPULS_KEY, today);
   });
-  card.querySelector(".tagesimpuls-card__share").addEventListener("click", () => {
-    const shareText = `\u201e${impuls.impuls}\u201c \u2014 Detlef Rathmer\nhttps://dettifossi.github.io/enneagramm-heilungskompass/`;
+  card.querySelector(".tagesimpuls-card__actions .tagesimpuls-card__share").addEventListener("click", () => {
+    const shareText = `\u201e${impuls.impuls}\u201c \u2014 Detlef Rathmer\n\ud83d\udd0a Zum Lesen und Anh\u00f6ren: https://kompass.verlagshausrathmer.com/impuls/k${String(dayOfYear % TAGESIMPULSE.length).padStart(3, "0")}.html`;
     if (navigator.share) { navigator.share({ text: shareText }); }
     else { window.open("https://wa.me/?text=" + encodeURIComponent(shareText), "_blank"); }
   });
@@ -68319,6 +68429,7 @@ const ROUTES = {
       "beruehmte-happy-anderson": happyAndersonPortraitPage,
       "beruehmte-paul-simon": paulSimonPortraitPage,
       "beruehmte-art-garfunkel": artGarfunkelPortraitPage,
+      "beruehmte-rod-stewart": rodStewartPortraitPage,
       "beruehmte-john-neumeier": johnNeumeierPortraitPage,
       "beruehmte-sulli": sulliPortraitPage,
       "beruehmte-rj-mitte": rjMittePortraitPage,
@@ -70374,7 +70485,7 @@ function _switchLangVoice(evt, url, audioFile) {
     audio.addEventListener('ended', go);
     audio.play().catch(go);
   } catch (e) { go(); return; }
-  setTimeout(go, 4000);
+  setTimeout(go, 12000);   // nur Notausgang; normal wechselt die Seite erst, wenn die Ansage zu Ende ist
 }
 window._switchLangVoice = _switchLangVoice;
 

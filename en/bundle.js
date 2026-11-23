@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=518";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=521";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -160,6 +160,7 @@ const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "p
 const beltracchiMalerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "beltracchiMalerPortraitPage");
 const janoschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "janoschPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "artGarfunkelPortraitPage");
+const rodStewartPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "rodStewartPortraitPage");
 const jamesStewartPortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "jamesStewartPortraitPage");
 const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "marieleMillowitschPortraitPage");
 const georgPreussePortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "georgPreussePortraitPage");
@@ -2220,6 +2221,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Janosch \u2013 Sexual Type 9",
     teaser:"SX9w1 \u00b7 Horst Eckert, born 1931 in Hindenburg (Upper Silesia), died on 3 November 2026 on Tenerife. Children\u2019s author and illustrator (\u2018Oh, wie sch\u00f6n ist Panama\u2019, Tigerente). The Sloth who found his happiness for two in his own house.",
     land:"Germany", tags:["Literature","Children\u2019s books","Art"], gender:"m"},
+{ route:"beruehmte-rod-stewart", name:"Rod Stewart", added:"2026-11-20", subtyp:"SX9w1",
+    heading:"Rod Stewart \u2013 Sexual Type 9",
+    teaser:"SX9w1 \u00b7 born 1945 in London. English singer and songwriter (Jeff Beck Group, Faces, \u2018Maggie May\u2019, Great American Songbook). The Sloth who takes its time and makes other people\u2019s songs its own.",
+    land:"United Kingdom", tags:["Musik"], gender:"m"},
 { route:"beruehmte-art-garfunkel", name:"Art Garfunkel", added:"2026-10-26", subtyp:"SX9w1",
     heading:"Art Garfunkel \u2013 Sexual Type 9",
     teaser:"SX9w1 \u00b7 born 1941 in New York. American singer, poet and actor (Simon & Garfunkel, \u2018Bright Eyes\u2019). The Sloth who moves calmly in the duo and on long walks.",
@@ -2587,9 +2592,9 @@ const BERUEHMT_PORTRAITS = [
   heading:"Atze Schr\u00f6der \u2013 Sexual Type 7",
   teaser:"SX7w6 \u00b7 German comedy character (\u2018Alles Atze\u2019, \u2018Lovemachine\u2019). The chimpanzee with curls and aviator glasses who delivers punchlines as a Ruhr-area lout and protects his name behind the mask.",
   land:"Germany", tags:["Comedy","Fernsehen"], gender:"m"},
-{ route:"beruehmte-heinz-rudolf-kunze", name:"Heinz Rudolf Kunze", added:"2026-10-23", subtyp:"SE6w7",
-  heading:"Heinz Rudolf Kunze \u2013 Social Type 6",
-  teaser:"SO6w7 \u00b7 b. 1956. German singer-songwriter and lyricist (\u2018Dein ist mein ganzes Herz\u2019, \u2018Verst\u00e4rkung\u2019). The meerkat with the wit that has kept watch with the same band for four decades.",
+{ route:"beruehmte-heinz-rudolf-kunze", name:"Heinz Rudolf Kunze", added:"2026-10-23", subtyp:"SE1w9",
+  heading:"Heinz Rudolf Kunze \u2013 Self-Preservation Type 1",
+  teaser:"SP1w9 \u00b7 b. 1956. German singer-songwriter and lyricist (\u2018Dein ist mein ganzes Herz\u2019, \u2018Verst\u00e4rkung\u2019). The eagle with the wit that has worked for four decades with the same band on the right word.",
   land:"Germany", tags:["Musik","Literatur"], gender:"m"},
 { route:"beruehmte-joshua-richards", name:"Joshua Richards", added:"2026-10-23", subtyp:"SE8w9",
   heading:"Joshua Richards \u2013 Social Type 8",
@@ -4677,9 +4682,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mother Teresa – Social Type 2",
     teaser:"SO2w1 · 1910–1997. Founder of a religious order, Nobel Peace Prize 1979. From twelve sisters to 610 foundations – and nearly fifty years of hidden spiritual darkness behind unshakeable public certainty.",
     land:"India", tags:["Religion","History"], gender:"f"},
-{ route:"beruehmte-coco-chanel", name:"Coco Chanel", added:"2026-09-27", subtyp:"SE3w4",
-    heading:"Coco Chanel – Self-Preservation Type 3",
-    teaser:"SP3w4 · 1883–1971. French fashion designer. From orphanage to global brand, a lifelong curated origin legend, a never-resolved loss – and collaboration with the Nazi occupation in the fight for her own security.",
+{ route:"beruehmte-coco-chanel", name:"Coco Chanel", added:"2026-09-27", subtyp:"SO3w4",
+    heading:"Coco Chanel – Social Type 3",
+    teaser:"SO3w4 · 1883–1971. French fashion designer. From orphanage to global brand, a lifelong curated origin legend, a never-resolved loss – and collaboration with the Nazi occupation in the fight for her own position.",
     land:"France", tags:["Fashion","History"], gender:"f"},
 { route:"beruehmte-aylin-tezel", name:"Aylin Tezel", added:"2026-09-27", subtyp:"SE3w2",
     heading:"Aylin Tezel – Self-Preservation Type 3",
@@ -8299,6 +8304,7 @@ function startPage() {
       ${profileGlimpse}
     </section>
 
+    <div style="text-align:center;margin:0 0 0.8rem;"><button data-route="impuls-heute" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">\u25c8 Today\u2019s impulse \u2013 read and listen with Detlef</button></div>
     <div style="text-align:center;margin:0 0 0.8rem;">${_gsLatestUpdateBadgeHTML()}</div>
     ${neuigkeitenSection()}
 
@@ -10013,7 +10019,7 @@ function praxistippsHeilpraktikerPage() {
   const TIPPS = [
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Fascia Exercises for Core Health", teaser:"Four simple exercises to counteract the effects of prolonged sitting – Dead Bug, Bird-Dog, Cat-Cow, and Cobra.", img:"../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg", kategorie:"koerper" },
     { slug:"fussreflexzonen-aktivierung", titel:"Foot Reflex Zone Activation: The Energy Boost for In Between", teaser:"With a hedgehog ball, cork ball, or wooden roller, boost circulation and the autonomic nervous system in 1–2 minutes per foot.", img:"../assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg", kategorie:"koerper" },
-    { slug:"schwung-routine", titel:"3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing", teaser:"Three simple standing swing exercises for mobility, fascia, and the whole body – no equipment, doable anywhere.", img:"../assets/schaubilder/schwung-routine/schwung-routine.jpg", kategorie:"koerper" },
+    { slug:"schwung-routine", titel:"3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing", teaser:"Three simple standing swing exercises for mobility, fascia, and the whole body – no equipment, doable anywhere.", img:"../assets/schaubilder/schwung-routine/schwung-routine-en.jpg", kategorie:"koerper" },
     { slug:"bewegung-wasser", titel:"Movement in the Element of Water: Mindful Slowness for Everyday Life", teaser:"The imagined resistance of water as an image for flowing, mindful movement – inspired by Tai Chi.", img:"../assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg", kategorie:"koerper" },
     { slug:"zungenstreck-uebung", titel:"The Tongue-Stretch Exercise for Stress Regulation: Einstein, the Vagus Nerve, and Animal Instincts", teaser:"The famous Einstein photo as a model – how consciously stretching the tongue releases acute tension via the vagus nerve.", img:"../assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg", kategorie:"koerper" },
     { slug:"energiefeld-haende", titel:"The Energy Field Between the Hands", teaser:"A simple basic exercise for greater body awareness and depth – the energetic power ball between the palms.", img:"../assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg", kategorie:"atem" },
@@ -10021,7 +10027,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"herz-tor-oeffnen", titel:"Opening the Heart Gate: Sensing Openness and Connection", teaser:"A breath-and-movement exercise that opens the chest and creates a sense of inner spaciousness.", img:"../assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg", kategorie:"atem" },
     { slug:"atem-wasserfall", titel:"The Breath Waterfall: Energetic Cleansing and Clarity", teaser:"A gentle energetic shower of breath and movement, perfect for the evening.", img:"../assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg", kategorie:"atem" },
     { slug:"atemritual-aetherische-oele", titel:"The Breathing Ritual with Essential Oils", teaser:"Why a conscious breath with the right scent works almost instantly – and which of the nine Enneagram scents matches your own type.", img:"../assets/schaubilder/atemritual-aetherische-oele/atemritual-aetherische-oele.jpg", kategorie:"atem" },
-    { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg", kategorie:"geist" },
+    { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun-en.jpg", kategorie:"geist" },
     { slug:"bewusstes-innehalten", titel:"The Practice of Conscious Pausing: ›Let It Be‹ in Everyday Life", teaser:"No physical ritual, but pure awareness – short, conscious pauses in the middle of everyday life as a path back to one's own essence.", img:"../assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg", kategorie:"geist" },
     { slug:"ich-illusion", titel:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self", teaser:"A gentle, in-depth look at the conditioned self, Enneagram fixations, and the liberating question of who's really steering here.", img:"../assets/portraits/Ich-Illusion.jpeg", kategorie:"geist" },
     { slug:"turiya-enneagramm", titel:"The Observer Behind the Pattern – The Enneagram and the Turiya State According to Ramana Maharshi", teaser:"How the nine Enneagram fixations can be understood as nine ways of fleeing one's own still center – and the way back through self-inquiry.", img:"../assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg", kategorie:"geist" },
@@ -10363,7 +10369,7 @@ function schwungRoutinePage() {
       </div>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="../assets/schaubilder/schwung-routine/schwung-routine.jpg"
+        <img src="../assets/schaubilder/schwung-routine/schwung-routine-en.jpg"
              alt="Three exercises of the swing routine: alternating arm swing, double arm swing, full-body rotation"
              class="psycho-img" />
       </div>
@@ -10650,7 +10656,7 @@ function vitruvEnneagrammPage() {
       <p class="lead-small">Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1rem;">
-        <img src="../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg"
+        <img src="../assets/schaubilder/vitruv-enneagramm/kreis-der-neun-en.jpg"
              alt="Three positions of the exercise: horizontal expansion in the square, vertical stretch to the sky, Enneagram circle unfolding"
              class="psycho-img" />
       </div>
@@ -11864,9 +11870,10 @@ function libraryPage() {
       <h1>${copy.headline}</h1>
       <p class="lead-small">${copy.lead}</p>
     </section>
-    <section class="library-grid">
+    <nav class="jump-chips" aria-label="Springen zu"><button type="button" data-jump="werk-sektion">Books</button><button type="button" data-jump="verlags-apps">Apps</button></nav>
+    <section class="library-grid library-grid--areas">
       ${architectureAreas
-        .map((area) => `<article><h2>${area.title}</h2><p>${area.text}</p></article>`)
+        .map((area) => `<article class="area-tile" data-route="${area.route}" role="link" tabindex="0"><h2>${area.title}</h2><p>${area.text}</p></article>`)
         .join("")}
     </section>
     <section class="formula-overview">
@@ -11964,6 +11971,7 @@ function libraryPage() {
         .join("")}
     </section>
     ${werkSection()}
+    ${verlagsAppsSection()}
 
     <section class="narrow" style="margin-top:2rem;">
       <p class="eyebrow">Further reading</p>
@@ -12220,6 +12228,55 @@ function zahlenFaktenPage() {
   `);
 }
 
+// Apps des Verlagshauses (Bibliothek): zur Laufzeit aus der zentralen Liste, letzter Stand in localStorage
+function verlagsAppsSection() {
+  const KEY = "kompass_verlagsapps_v1", BASE = "https://www.verlagshausrathmer.com/";
+  const EN = true;
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const cleanKurz = (s) => String(s || "").split(/(?<=[.!?])\s+/).filter((x) => !/[€$]|\bEUR\b|gratis|erhältlich|\b[Ff]ree\b|available|\btrial\b|Probeversion/i.test(x)).join(" ").replace(/­/g, "");
+  const render = (d) => {
+    const items = ((d && d.reihenfolge_apps) || []).filter((id) => id !== "kompass" && d.produkte && d.produkte[id]).map((id) => d.produkte[id]);
+    if (!items.length) return "";
+    const cards = items.map((p) => {
+      const name = EN ? (p.name_en || p.name) : p.name;
+      const kurz = cleanKurz(EN ? (p.kurz_en || p.kurz) : p.kurz);
+      const schild = EN ? (p.schild_en || p.schild || "") : (p.schild || "");
+      const href = EN ? (p.href_en || p.href) : p.href;
+      const icon = p.icon ? `<img src="${esc(BASE + p.icon)}" alt="" loading="lazy" width="48" height="48" style="width:48px;height:48px;flex-shrink:0;border-radius:10px;object-fit:contain;background:#f4efe3;padding:4px;box-sizing:border-box;" onerror="this.style.display='none'">` : "";
+      const link = (p.bald || !href)
+        ? `<span class="deepen-link deepen-link--pending">coming soon</span>`
+        : `<a class="deepen-link" href="${esc(/^https?:/.test(href) ? href : BASE + href)}" target="_blank" rel="noopener">Open →</a>`;
+      return `<article style="display:flex;gap:.9rem;align-items:flex-start;min-width:0;overflow-wrap:anywhere;">${icon}<div style="min-width:0;"><h2 style="margin-top:0;font-size:1.05rem;">${esc(name)}${schild ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(schild)}</small>` : ""}</h2><p>${esc(kurz)}</p>${link}</div></article>`;
+    }).join("");
+    const K = d.kostenlos;
+    let free = "";
+    if (K) {
+      const kh = EN ? (K.href_en || K.href) : K.href;
+      const kn = EN ? (K.name_en || K.name) : K.name;
+      const kk = EN ? (K.kurz_en || K.kurz) : K.kurz;
+      const ks = EN ? (K.schild_en || K.schild || "") : (K.schild || "");
+      const kicon = K.icon ? `<img src="${esc(BASE + K.icon)}" alt="" loading="lazy" width="56" height="56" style="width:56px;height:56px;flex-shrink:0;border-radius:12px;object-fit:contain;background:#f4efe3;padding:5px;box-sizing:border-box;" onerror="this.style.display='none'">` : "";
+      if (kh) free = `<a href="${esc(/^https?:/.test(kh) ? kh : BASE + kh)}" target="_blank" rel="noopener" style="display:flex;gap:1rem;align-items:center;max-width:720px;margin:1.2rem auto;padding:1rem 1.2rem;border:2px solid #c9a227;border-radius:14px;color:inherit;text-decoration:none;background:rgba(201,162,39,.08);">${kicon}<div><span style="display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#c9a227;color:#fff;border-radius:999px;padding:.1rem .6rem;margin-bottom:.35rem;">Free · worldwide</span><h2 style="margin:.1rem 0;">${esc(kn)}${ks ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(ks)}</small>` : ""}</h2><p style="margin:.2rem 0.4rem;">${esc(kk)}</p><span class="deepen-link">See it for free →</span></div></a>`;
+    }
+    return `<div class="narrow centered" id="verlags-apps"><h2>The Publisher's Apps</h2><p class="lead-small">Verlagshaus Rathmer offers several apps on the Enneagram, self-knowledge and healing. Each is a tool of its own, grown out of a book. Tap an app to open it.</p></div>${free}<div class="narrow centered"><h3>Our apps on board</h3></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:0 1rem;">${cards}</div>`;
+  };
+  let cached = null;
+  try { cached = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) {}
+  const fill = (d) => {
+    const html = render(d);
+    const el = document.getElementById("verlagsapps-section");
+    if (el) { el.innerHTML = html; el.style.display = html ? "" : "none"; }
+  };
+  setTimeout(() => {
+    fetch(BASE + "verknuepfungen.json", { cache: "no-cache" })
+      .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then((d) => { if (d && d.produkte && d.reihenfolge_apps) { try { localStorage.setItem(KEY, JSON.stringify({ produkte: d.produkte, reihenfolge_apps: d.reihenfolge_apps, kostenlos: d.kostenlos || null })); } catch (e) {} fill(d); } })
+      .catch(() => {});
+  }, 0);
+  const first = render(cached);
+  return `<section id="verlagsapps-section" style="${first ? "" : "display:none"}">${first}</section>`;
+}
+
 function werkSection() {
   const w = text.werk;
   const filterLabels = {
@@ -12257,11 +12314,12 @@ function werkSection() {
   }).join("");
 
   return `
-    <section class="werk">
+    <section class="werk" id="werk-sektion">
       <div class="section-divider"><span>${w.title}</span></div>
       <p class="lead-small werk__lead">${w.lead}</p>
       <div class="werk-filterbar">${filterBar}</div>
-      <div class="werk-grid">${cards}</div>
+      <div class="werk-grid werk-grid--collapsed">${cards}</div>
+      <p class="werk-more-wrap"><button type="button" class="werk-more" data-werk-more>Show all books</button></p>
     </section>
   `;
 }
@@ -13073,7 +13131,18 @@ function _gsPickVoice() {
     null;
 }
 
+function _gsUnlockAudio() {
+  try {
+    if (!_gsAu) _gsAu = new Audio();
+    _gsAu.muted = true; _gsAu.src = "sounds/scan/scan1.mp3";
+    const p = _gsAu.play();
+    const back = () => { try { _gsAu.pause(); _gsAu.muted = false; _gsAu.currentTime = 0; } catch (e) {} };
+    if (p && p.then) p.then(back, back); else back();
+  } catch (e) {}
+}
+
 function _gsUnlockSpeech() {
+  _gsUnlockAudio();
   if (!_gsVoiceOn || !("speechSynthesis" in window)) return;
   try {
     const u = new SpeechSynthesisUtterance(" ");
@@ -13082,20 +13151,33 @@ function _gsUnlockSpeech() {
   } catch (e) {}
 }
 
+var _gsAu = null;
 function _gsSpeakAndWait(text) {
   return new Promise(resolve => {
-    if (!_gsVoiceOn || !("speechSynthesis" in window)) return resolve();
+    if (!_gsVoiceOn) return resolve();
     let done = false;
     const finish = () => { if (!done) { done = true; resolve(); } };
+    const geraet = () => {
+      if (!("speechSynthesis" in window)) return finish();
+      try {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = "en-US"; u.rate = 0.9; u.pitch = 1.05;
+        if (_gsFemaleVoice) u.voice = _gsFemaleVoice;
+        u.onend = finish; u.onerror = finish;
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(u);
+        setTimeout(finish, _GS_SPEECH_MAX_MS);
+      } catch (e) { finish(); }
+    };
+    // Detlefs Stimme (Aufnahmen sounds/scan/scanN.mp3); nur wenn sie nicht lädt, spricht das Gerät
     try {
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = "en-US"; u.rate = 0.9; u.pitch = 1.05;
-      if (_gsFemaleVoice) u.voice = _gsFemaleVoice;
-      u.onend = finish; u.onerror = finish;
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.speak(u);
-      setTimeout(finish, _GS_SPEECH_MAX_MS);
-    } catch (e) { finish(); }
+      if (!_gsAu) _gsAu = new Audio();
+      _gsAu.onended = finish; _gsAu.onerror = () => { if (!done) geraet(); };
+      _gsAu.src = "sounds/scan/scan" + (_gsStep + 1) + ".mp3";
+      const p = _gsAu.play();
+      if (p && p.catch) p.catch(() => { if (!done) geraet(); });
+      setTimeout(finish, 20000);
+    } catch (e) { geraet(); }
   });
 }
 
@@ -19074,10 +19156,26 @@ function bindEvents() {
       const filter = btn.dataset.werkFilter;
       document.querySelectorAll("[data-werk-filter]").forEach(b => b.classList.remove("is-active"));
       btn.classList.add("is-active");
+      const _wg = document.querySelector(".werk-grid"); if (_wg) _wg.classList.remove("werk-grid--collapsed");
+      const _wm = document.querySelector(".werk-more-wrap"); if (_wm) _wm.remove();
       document.querySelectorAll(".werk-card").forEach(card => {
         const match = filter === "all" || card.dataset.category === filter;
         card.style.display = match ? "" : "none";
       });
+    });
+  });
+
+  document.querySelectorAll("[data-werk-more]").forEach((b) => {
+    b.addEventListener("click", () => {
+      const g = document.querySelector(".werk-grid");
+      if (g) g.classList.remove("werk-grid--collapsed");
+      b.parentElement.remove();
+    });
+  });
+  document.querySelectorAll("[data-jump]").forEach((b) => {
+    b.addEventListener("click", () => {
+      const t = document.getElementById(b.dataset.jump);
+      if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 
@@ -44535,6 +44633,8 @@ function showTagesimpuls(force) {
       <div class="tagesimpuls-card__text">${paragraphs}</div>
       <p class="tagesimpuls-card__impuls"><em>${impuls.impuls}</em></p>
       <p class="tagesimpuls-card__autor">— Detlef Rathmer</p>
+      <button class="tagesimpuls-card__share tagesimpuls-card__audio" hidden style="width:100%;margin-top:0.6rem;display:flex;align-items:center;justify-content:center;gap:10px;min-height:56px;font-size:1.02rem"><img src="../assets/detlef-rund2.jpg" alt="" width="40" height="40" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:1px solid currentColor;flex:none"><span class="tagesimpuls-card__lbl">Listen with Detlef</span></button>
+      <p class="tagesimpuls-card__voice" hidden style="font-size:0.78rem;opacity:0.7;margin:0.4rem 0 0">Read by Detlef Rathmer, digitally voiced, with the author's consent.</p>
       <div class="tagesimpuls-card__actions">
         <button class="tagesimpuls-card__btn">Save This Impulse ✦</button>
         <button class="tagesimpuls-card__share">↗ Share</button>
@@ -44543,8 +44643,18 @@ function showTagesimpuls(force) {
     </div>
   `;
   document.body.appendChild(card);
+  // Listen with Detlef (recordings on R2; the button only appears if the recording for this day exists)
+  const au = new Audio("https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/impulse/en/k" + String(dayOfYear % TAGESIMPULSE_EN.length).padStart(3, "0") + ".mp3");
+  au.preload = "metadata";
+  const auBtn = card.querySelector(".tagesimpuls-card__audio"), auLbl = card.querySelector(".tagesimpuls-card__lbl"), auNote = card.querySelector(".tagesimpuls-card__voice");
+  au.addEventListener("loadedmetadata", () => { auBtn.hidden = false; auNote.hidden = false; });
+  au.addEventListener("ended", () => { auLbl.textContent = "Listen with Detlef"; });
+  au.addEventListener("pause", () => { auLbl.textContent = "Listen with Detlef"; });
+  au.addEventListener("play", () => { auLbl.textContent = "\u23f8 Pause"; });
+  auBtn.addEventListener("click", () => { if (au.paused) { au.play().catch(() => {}); } else { au.pause(); } });
   requestAnimationFrame(() => requestAnimationFrame(() => card.classList.add("tagesimpuls-overlay--open")));
   const close = () => {
+    try { au.pause(); } catch (e) {}
     localStorage.setItem(IMPULS_KEY, today);
     card.classList.remove("tagesimpuls-overlay--open");
     setTimeout(() => card.remove(), 350);
@@ -44554,14 +44664,14 @@ function showTagesimpuls(force) {
     _saveImpuls(impuls, today);
     const btn = e.currentTarget;
     btn.style.display = "none";
-    card.querySelector(".tagesimpuls-card__share").style.display = "none";
+    card.querySelector(".tagesimpuls-card__actions .tagesimpuls-card__share").style.display = "none";
     const hint = card.querySelector(".tagesimpuls-card__saved-hint");
     hint.style.display = "block";
     hint.querySelector("a").addEventListener("click", () => { close(); go("gemerkte-impulse"); });
     localStorage.setItem(IMPULS_KEY, today);
   });
-  card.querySelector(".tagesimpuls-card__share").addEventListener("click", () => {
-    const shareText = `„${impuls.impuls}“ \u2014 Detlef Rathmer\nhttps://dettifossi.github.io/enneagramm-heilungskompass/`;
+  card.querySelector(".tagesimpuls-card__actions .tagesimpuls-card__share").addEventListener("click", () => {
+    const shareText = `\u201c${impuls.impuls}\u201d \u2014 Detlef Rathmer\n\ud83d\udd0a Read and listen: https://kompass.verlagshausrathmer.com/en/impuls/k${String(dayOfYear % TAGESIMPULSE_EN.length).padStart(3, "0")}.html`;
     if (navigator.share) { navigator.share({ text: shareText }); }
     else { window.open("https://wa.me/?text=" + encodeURIComponent(shareText), "_blank"); }
   });
@@ -48156,7 +48266,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-robbie-coltrane": robbieColtranePortraitPage,
       "beruehmte-happy-anderson": happyAndersonPortraitPage,
       "beruehmte-paul-simon": paulSimonPortraitPage,
-      "beruehmte-art-garfunkel": artGarfunkelPortraitPage, "beruehmte-janosch": janoschPortraitPage, "beruehmte-wolfgang-beltracchi": beltracchiMalerPortraitPage,
+      "beruehmte-rod-stewart": rodStewartPortraitPage, "beruehmte-art-garfunkel": artGarfunkelPortraitPage, "beruehmte-janosch": janoschPortraitPage, "beruehmte-wolfgang-beltracchi": beltracchiMalerPortraitPage,
       "beruehmte-john-neumeier": johnNeumeierPortraitPage,
       "beruehmte-sulli": sulliPortraitPage,
       "beruehmte-rj-mitte": rjMittePortraitPage,
@@ -50199,7 +50309,7 @@ function _switchLangVoice(evt, url, audioFile) {
     audio.addEventListener('ended', go);
     audio.play().catch(go);
   } catch (e) { go(); return; }
-  setTimeout(go, 4000);
+  setTimeout(go, 12000);   // nur Notausgang; normal wechselt die Seite erst nach der Ansage
 }
 
 // Hilfsfunktionen für die nachgeladenen Porträt-Dateien (statt zirkulärem Import von dieser Datei)

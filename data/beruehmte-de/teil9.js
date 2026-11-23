@@ -1653,7 +1653,7 @@ export function winstonChurchillPortraitPage() {
         {route:"beruehmte-helmut-kohl", label:"Portr\u00e4t: Helmut Kohl (SE8w9) \u2013 ebenfalls Staatsmann, derselbe Subtyp"},
         {route:"krankheitsportraets-winston-churchill", label:"Krankheitsportr\u00e4t: Winston Churchill (SE8w9)"},
         {route:"krankheitsportraets-golda-meir", label:"Krankheitsporträt: Golda Meir (SE8w9)"},
-        {route:"beruehmte-coco-chanel", label:"Porträt: Coco Chanel (SE3w4)"},
+        {route:"beruehmte-coco-chanel", label:"Porträt: Coco Chanel (SO3w4)"},
         {route:"beruehmte-ryke-geerd-hamer", label:"Porträt: Ryke Geerd Hamer (SE8w9)"},
         {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bibel-Porträt: Der Hauptmann unter dem Kreuz (SE8w9)"},
       ])}
@@ -2189,7 +2189,6 @@ export function herfriedMuenklerPortraitPage() {
         {route:"beruehmte-anne-applebaum", label:"Porträt: Anne Applebaum (SO6w7)"},
         {route:"beruehmte-donata-hopfen", label:"Porträt: Donata Hopfen (SO6w7)"},
         {route:"beruehmte-wolfram-eilenberger", label:"Porträt: Wolfram Eilenberger (SO6w7) – dieselbe Wache, andere Gefahr"},
-        {route:"beruehmte-heinz-rudolf-kunze", label:"Porträt: Heinz Rudolf Kunze (SO6w7)"},
       ])}
     </div>
   `);

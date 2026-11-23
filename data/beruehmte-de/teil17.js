@@ -3251,6 +3251,7 @@ export function artGarfunkelPortraitPage() {
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
         {route:"beruehmte-gary-cooper", label:"Porträt: Gary Cooper (SX9w1)"},
         {route:"beruehmte-james-stewart", label:"Porträt: James Stewart (SX9w1)"},
+        {route:"beruehmte-rod-stewart", label:"Porträt: Rod Stewart (SX9w1)"},
       ])}
     </div>
   `);
@@ -3398,6 +3399,76 @@ export function oliverReedPortraitPage() {
         {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
         {route:"beruehmte-gunter-gabriel", label:"Porträt: Gunter Gabriel (SO8w9)"},
         {route:"beruehmte-joshua-richards", label:"Porträt: Joshua Richards (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+export function rodStewartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rod-stewart-portrait.jpg" alt="Rod Stewart – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rod Stewart</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Englischer Sänger und Songschreiber, geb. 1945 in London &ndash; Jeff Beck Group, Faces, Solokarriere &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: Gelassenheit, die weit kommt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> lässt sich nicht hetzen. Es hängt im Ast, bewegt sich sparsam und erreicht trotzdem, was es erreichen will. Roderick David Stewart wurde am 10. Januar 1945 in Highgate im Norden Londons geboren, als jüngstes von fünf Kindern von Robert und Elsie Stewart. Der Vater stammte aus Schottland. Die Familie lebte in einfachen Verhältnissen.</p>
+          <p class="vb-intro">Früh gehörte seine Liebe dem Fußball. Anfang der 1960er Jahre gab er eine Lehre beim FC Brentford auf, um Musiker zu werden. Dem Fußball blieb er verbunden: Er gilt als lebenslanger Anhänger von Celtic Glasgow, wie die Männer seiner Familie. Der Weg in die Musik kam nicht als Sprung, sondern als Weitergehen. Er trat zwei Jahre lang allein auf, bevor ihn 1967 die Jeff Beck Group als Sänger und Songschreiber aufnahm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: sich im Gegenüber finden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach Claudio Naranjo ist die sexuelle Neun der Subtyp der <em>Vereinigung</em>: Sie sucht nicht die Gruppe, sondern ein einzelnes Gegenüber, einen Menschen oder ein Werk, und geht darin auf, bis die eigene Kontur zurücktritt. Bei Stewart besteht die Laufbahn auffallend aus Verbindungen. Auf die Jeff Beck Group folgte 1969 die Band Faces, in die ihn der Gitarrist Ronnie Wood holte. Dort fand seine raue, warme Stimme ihren Platz im Zusammenspiel.</p>
+          <p class="vb-intro">Als Solist trug er später oft die Lieder anderer. In den frühen 2000er Jahren veröffentlichte er eine Reihe erfolgreicher Alben mit Stücken aus dem <em>Great American Songbook</em>. Man kann das als Zug der sexuellen Neun lesen: die eigene Stimme als Gefäß für das, was ein anderer geschrieben hat, bis beides eins wird. Das ist eine Lesart und kein Beleg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Maß und Pflege</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun Maßstab und Ordnung. Das zeigt sich bei Stewart in Dingen, die Regeln und Geduld verlangen. Der Fußball ist eines davon. Ein anderes ist die Modelleisenbahn, die als sein wichtigstes Hobby gilt: eine kleine Welt, in der jedes Teil seinen Platz hat. Auch die Songbook-Alben pflegen einen Kanon. Sie sind kein Experiment, sondern Handwerk an gutem Material.</p>
+          <p class="vb-intro">Zur Neun mit Einserflügel passt, dass sie das Maß im Vertrauten sucht. Die Neuerung kommt leise, durch Sorgfalt, nicht durch Bruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Stimme, Lied und Erinnerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1971 erschien sein Album ›Every Picture Tells a Story‹. Es stand zugleich mit der Single ›Maggie May‹ an der Spitze der Charts in Großbritannien und in den USA. Es folgten Jahrzehnte als Sänger und Solist. Über die verkauften Tonträger gehen die Angaben auseinander. Nach Wikipedia sind es mehr als 120 Millionen weltweit.</p>
+          <p class="vb-intro">2012 erschien seine Autobiografie ›Rod: The Autobiography‹. 2016 wurde er für seine Verdienste um Musik und Wohltätigkeit zum Ritter geschlagen und trägt seitdem den Titel Sir.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit der sexuellen Neun im Einserflügel steht er neben <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a>, <a href="#beruehmte-bruce-springsteen">Bruce Springsteen (SX9w1)</a>, <a href="#beruehmte-willie-nelson">Willie Nelson (SX9w1)</a> und <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a>, Musikern, die ihre Kunst als Teil eines größeren, verbundenen Wegs verstehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heller Teil dieser Konstellation ist die Wärme der Stimme und die Fähigkeit, ein Lied zu tragen und einem Gegenüber Raum zu geben. Der Schatten der Neun liegt im Ausweichen vor Konflikten und im Verschwimmen der eigenen Position. Über sein Privatleben liegen mir keine belegten eigenen Aussagen vor, die das stützen, und das Porträt vermutet nichts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: von der Verschmelzung zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Weg der Neun führt vom Aufgehen im anderen zu einer eigenen, hörbaren Stimme. Die Autobiografie lässt sich als ein Schritt in diese Richtung lesen, denn dort spricht er in eigenen Worten. Auch die Songbook-Alben sind mehr als Nachsingen: Sie zeigen, wie eine Stimme ein fremdes Lied zu ihrem eigenen macht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-art-garfunkel", label:"Porträt: Art Garfunkel (SX9w1)"},
+        {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1)"},
+        {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>
   `);
