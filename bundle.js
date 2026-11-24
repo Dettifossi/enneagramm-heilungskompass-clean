@@ -34311,7 +34311,9 @@ const _C = _A("Der Code deiner Persönlichkeit", "code-persoenlichkeit-app.html"
 const _B = _A("Die Sprache unserer Beziehungen", "die-sprache-unserer-beziehungen-app.html", "The Language of Our Relationships", "the-language-of-our-relationships-app.html");
 const _M = _A("Meta-Intelligenz", "meta-intelligenz-app.html", "Meta-Intelligence", "meta-intelligence-app.html");
 const _W = _A("Stille & Weite", "stille-und-weite.html", "Stillness & Space", "stille-and-space.html");
+const _Z = _A("Enneagramm-Zoo", "enneagramm-zoo-app.html", "Enneagram Zoo", "enneagram-zoo-app.html");
 const APP_ZU_BUCH = {
+  "enneagramm-zoo": _Z, "archetypen-der-tiere": _Z, "archetypen-der-tiere-im-enneagramm": _Z,
   "die-verborgene-dynamik-der-27-subtypen": _S, "the-hidden-dynamics-of-the-27-subtypes": _S,
   "der-code-deiner-persoenlichkeit": _C, "the-code-of-your-personality": _C,
   "die-sprache-unserer-beziehungen": _B, "sprache-unserer-beziehungen": _B,
