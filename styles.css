@@ -5935,3 +5935,9 @@ p, li, .vb-intro { text-wrap: pretty; }
   .werk-more-wrap { display: block; text-align: center; margin: 14px 0 0; }
   .werk-more { min-height: 44px; padding: 0 22px; border-radius: 999px; border: 1px solid var(--line); background: rgba(255, 250, 240, 0.9); color: var(--ink); font: inherit; font-weight: 600; cursor: pointer; }
 }
+
+/* Hinweis auf die passende App unter dem Buchtipp (24.11.2026) */
+.book-tip-app { display: flex; align-items: center; gap: .6rem; margin: .4rem 0 0; padding: .5rem .9rem; border: 1px dashed var(--line); border-radius: 10px; font-size: .88rem; text-decoration: none; color: var(--ink); background: transparent; }
+.book-tip-app:hover { border-color: var(--gold); }
+.book-tip-app strong { color: var(--copper); }
+.book-tip-app span:nth-child(2) { flex: 1; }

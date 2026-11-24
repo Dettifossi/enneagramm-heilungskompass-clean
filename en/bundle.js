@@ -9240,7 +9240,38 @@ const BOOK_EN_AMAZON = {
     title: "The Code of Your Personality",
   },
 };
-export function bookTip(buchId, teaser, title) {
+export const APP_BASE = "https://www.verlagshausrathmer.com/";
+const _A = (n, h, ne, he) => ({ de: { n: n, h: h }, en: ne ? { n: ne, h: he } : null });
+const _S = _A("Die verborgene Dynamik der 27 Subtypen", "die-verborgene-dynamik-der-27-subtypen-app.html", "The Hidden Dynamics of the 27 Subtypes", "the-hidden-dynamics-of-the-27-subtypes-app.html");
+const _C = _A("Der Code deiner Persönlichkeit", "code-persoenlichkeit-app.html", "The Code of Your Personality", "code-of-your-personality-app.html");
+const _B = _A("Die Sprache unserer Beziehungen", "die-sprache-unserer-beziehungen-app.html", "The Language of Our Relationships", "the-language-of-our-relationships-app.html");
+const _M = _A("Meta-Intelligenz", "meta-intelligenz-app.html", "Meta-Intelligence", "meta-intelligence-app.html");
+const _W = _A("Stille & Weite", "stille-und-weite.html", "Stillness & Space", "stille-and-space.html");
+const APP_ZU_BUCH = {
+  "die-verborgene-dynamik-der-27-subtypen": _S, "the-hidden-dynamics-of-the-27-subtypes": _S,
+  "der-code-deiner-persoenlichkeit": _C, "the-code-of-your-personality": _C,
+  "die-sprache-unserer-beziehungen": _B, "sprache-unserer-beziehungen": _B,
+  "die-sprache-unserer-sexualitaet": _A("Die Sprache unserer Sexualität", "die-sprache-unserer-sexualitaet-app.html", "The Language of Our Sexuality", "the-language-of-our-sexuality-app.html"),
+  "fuehrung-mit-fundament": _A("Führung mit Fundament", "fuehrung-mit-fundament-app.html", "Leadership with Foundation", "leadership-with-foundation-app.html"),
+  "meta-intelligenz": _M, "meta-intelligenz-das-hoerbuch": _M,
+  "in-der-tiefe-der-zeit": _A("In der Tiefe der Zeit (App-Hörbuch)", "in-der-tiefe-der-zeit-app.html", "In der Tiefe der Zeit (app audiobook)", "in-the-depth-of-time-audio-app.html"),
+  "wenn-die-stille-brennt": _A("Burnout – Wenn die Stille brennt", "burnout-wenn-die-stille-brennt-app.html", "Burnout – When Silence Burns", "burnout-when-silence-burns-app.html"),
+  "chrono-ennea-typ-ernaehrung-im-rhythmus-der-organe": _A("Chrono-Ennea-Typ", "chrono-ennea-typ-app.html", "Chrono Ennea Type", "chrono-ennea-type-app.html"),
+  "heilung-als-erinnerung": _A("Heilung verstehen", "heilung-verstehen-app.html", "Understanding Healing", "understanding-healing-app.html"),
+  "sei-still-und-wisse-ich-bin-gott": _W, "nichts-und-alles": _W, "der-raum-hinter-allem": _W,
+  "enneagramm-biochemie": _A("Enneagramm-Biochemie", "https://enneagramm-biochemie.9rathmer.workers.dev/start", "Enneagram Biochemistry", "https://enneagramm-biochemie.9rathmer.workers.dev/start-en"),
+  "die-enneagramm-aromatherapie": _A("Enneagramm-Aromatherapie", "https://aromatherapie-app.9rathmer.workers.dev/start", "Enneagram Aromatherapy", "https://aromatherapie-app.9rathmer.workers.dev/start-en"),
+  "rathmer-s-repertorium-gebundene-ausgabe": _A("Rathmer’s Repertorium", "repertorium.html", "Rathmer’s Repertory", "repertory.html"),
+  "rathmer-s-grosses-enneagramm-lexikon-von-a-z-taschenbuch": _A("Enneagramm-Lexikon", "enneagramm-lexikon-app.html", null, null),
+};
+function appTip(buchId, lg) {
+  const a = APP_ZU_BUCH[buchId], x = a && a[lg];
+  if (!x) return "";
+  const href = /^https?:/.test(x.h) ? x.h : APP_BASE + x.h;
+  return `<a class="book-tip-app" href="${href}" target="_blank" rel="noopener"><span>\ud83d\udcf1</span><span><strong>${lg === "en" ? "Also as an app:" : "Auch als App:"}</strong> ${x.n}</span><span>\u2192</span></a>`;
+}
+
+function bookTip(buchId, teaser, title) {
   const enBook = BOOK_EN_AMAZON[buchId];
   const href = enBook ? enBook.url : `${VERLAG_BASE}${buchId}`;
   const displayTitle = enBook ? enBook.title : title;
@@ -9253,7 +9284,7 @@ export function bookTip(buchId, teaser, title) {
       </div>
       <span class="book-tip__arrow">→</span>
     </a>
-  `;
+  ` + appTip(buchId, "en");
 }
 
 const ANIMAL_RESEARCHER_MATCHES = [
