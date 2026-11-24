@@ -24,7 +24,7 @@ export function zweiWegeEgoSelbsterkenntnisPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">2. Der Ego-Weg in der ersten Lebenshälfte: legitim und natürlich</h2>
-        <p class="vb-intro" style="margin-bottom:0;">In der ersten Lebenshälfte ist es völlig natürlich und sogar sinnvoll, zunächst den Ego-Weg zu gehen. In dieser Phase sind wir viel empfänglicher für den Tun-Modus: Wir wollen etwas aufbauen, unseren Platz finden, schaffen, machen, betonen. Es geht darum, ein funktionsfähiges, gesundes Ego zu entwickeln, das in der Welt bestehen kann. Das gehört zum Menschsein dazu, und es wäre unnatürlich, es zu verurteilen.</p>
+        <p class="vb-intro" style="margin-bottom:0;">In der ersten Lebenshälfte ist es völlig natürlich und sogar sinnvoll, zunächst den Ego-Weg zu gehen. In dieser Phase sind wir viel empfänglicher für den Tun- oder Haben-Modus: Wir wollen etwas aufbauen, unseren Platz finden, schaffen, machen, betonen. Es geht darum, ein funktionsfähiges, gesundes Ego zu entwickeln, das in der Welt bestehen kann. Das gehört zum Menschsein dazu, und es wäre unnatürlich, es zu verurteilen.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">3. Die Wende der Lebensmitte: wenn Optimieren nicht mehr genügt</h2>

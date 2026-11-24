@@ -24,7 +24,7 @@ export function zweiWegeEgoSelbsterkenntnisPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">2. The ego path in the first half of life: legitimate and natural</h2>
-        <p class="vb-intro" style="margin-bottom:0;">In the first half of life it is entirely natural, and even sensible, to walk the ego path first. In this phase we are much more receptive to the doing mode: we want to build something, find our place, create, do, assert ourselves. The task is to develop a functioning, healthy ego that can stand its ground in the world. That is part of being human, and it would be unnatural to condemn it.</p>
+        <p class="vb-intro" style="margin-bottom:0;">In the first half of life it is entirely natural, and even sensible, to walk the ego path first. In this phase we are much more receptive to the doing or having mode: we want to build something, find our place, create, do, assert ourselves. The task is to develop a functioning, healthy ego that can stand its ground in the world. That is part of being human, and it would be unnatural to condemn it.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">3. The turning point of midlife: when optimizing is no longer enough</h2>
