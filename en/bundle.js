@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=522";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=523";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -201,6 +201,7 @@ const sonntagsgeschichtePage = () => _lazyPage("./data/sonntagsgeschichte-en.js"
 const stresslinienSymmetriePage = () => _lazyPage("./data/stresslinien-symmetrie-en.js", "stresslinienSymmetriePage");
 const reizeFastenRuhetagPage = () => _lazyPage("./data/praxistipps-en/reize-fasten-ruhetag.js", "reizeFastenRuhetagPage");
 const gluecklichDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-en/gluecklich-drei-gewohnheiten.js", "gluecklichDreiGewohnheitenPage");
+const zweiWegeEgoSelbsterkenntnisPage = () => _lazyPage("./data/praxistipps-en/zwei-wege-ego-selbsterkenntnis.js", "zweiWegeEgoSelbsterkenntnisPage");
  _lazyPage("./data/praxistipps-en/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "emilyBluntPortraitPage");
@@ -10087,6 +10088,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"gluck-keine-ankunft", titel:"Happiness Is Not an Arrival: Why ‘Once I Have …’ Does Not Hold", teaser:"The most common thinking error about happiness: tying it to a future condition. Why the brain plays along and how attention can be turned back to the present, with concrete gratitude and one simple question.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluck-keine-ankunft/gluck-keine-ankunft-1.jpg", kategorie:"geist" },
     { slug:"reize-fasten-ruhetag", titel:"Fasting from Stimulation: A Quiet Day as a Restart for Drive and Attention", teaser:"When everything feels flat and the phone is more exciting than your own goals: a quiet day with little stimulation, gentle activities and the order effort before reward, plus suggestions for everyday life.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/reize-fasten-ruhetag/reize-fasten-ruhetag-1-en.jpg", kategorie:"geist" },
     { slug:"gluecklich-drei-gewohnheiten", titel:"Happiness Grows in Small Things: Collect Wins, Savor Good Moments, Look Forward", teaser:"Why contentment is so hard to hold on to and how three small habits help: three small wins in the evening, holding good moments for 20 seconds, one thing to look forward to each week.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluecklich-drei-gewohnheiten/gluecklich-drei-gewohnheiten-1.jpg", kategorie:"geist" },
+    { slug:"zwei-wege-ego-selbsterkenntnis", titel:"Two Paths with the Enneagram: From Building the Ego to Self-Knowledge", teaser:"Why self-optimization with the Enneagram reaches its limits: the ego path of the first half of life, the turning point of midlife and the path of self-knowledge.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/zwei-wege-ego-selbsterkenntnis/zwei-wege-ego-selbsterkenntnis-1.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -10181,6 +10183,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "gluecklich-drei-gewohnheiten") {
     return gluecklichDreiGewohnheitenPage();
+  }
+  if (param === "zwei-wege-ego-selbsterkenntnis") {
+    return zweiWegeEgoSelbsterkenntnisPage();
   }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();

@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=525";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=526";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -187,6 +187,7 @@ const sonntagsgeschichtePage = () => _lazyPage("./data/sonntagsgeschichte-de.js"
 const stresslinienSymmetriePage = () => _lazyPage("./data/stresslinien-symmetrie-de.js", "stresslinienSymmetriePage");
 const reizeFastenRuhetagPage = () => _lazyPage("./data/praxistipps-de/reize-fasten-ruhetag.js", "reizeFastenRuhetagPage");
 const gluecklichDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-de/gluecklich-drei-gewohnheiten.js", "gluecklichDreiGewohnheitenPage");
+const zweiWegeEgoSelbsterkenntnisPage = () => _lazyPage("./data/praxistipps-de/zwei-wege-ego-selbsterkenntnis.js", "zweiWegeEgoSelbsterkenntnisPage");
  _lazyPage("./data/praxistipps-de/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
@@ -34920,6 +34921,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"gluck-keine-ankunft", titel:"Glück ist keine Ankunft: warum ›Wenn erst …‹ nicht trägt", teaser:"Der häufigste Denkfehler beim Glück: es an eine künftige Bedingung zu knüpfen. Warum das Gehirn dabei mitspielt und wie sich die Aufmerksamkeit zurück in die Gegenwart lenken lässt, mit konkreter Dankbarkeit und einer einfachen Frage.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluck-keine-ankunft/gluck-keine-ankunft-1.jpg", kategorie:"geist" },
     { slug:"reize-fasten-ruhetag", titel:"Reize fasten: ein ruhiger Tag als Neustart für Antrieb und Aufmerksamkeit", teaser:"Wenn alles flach wirkt und das Handy spannender ist als die eigenen Ziele: ein ruhiger Tag mit wenig Reizen, sanften Tätigkeiten und der Reihenfolge Aufwand vor Belohnung, dazu Anregungen für den Alltag.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/reize-fasten-ruhetag/reize-fasten-ruhetag-1-de.jpg", kategorie:"geist" },
     { slug:"gluecklich-drei-gewohnheiten", titel:"Glück entsteht im Kleinen: Erfolge sammeln, Gutes auskosten, sich freuen", teaser:"Warum sich Zufriedenheit so schwer halten lässt und wie drei kleine Gewohnheiten helfen: drei kleine Erfolge am Abend, gute Momente 20 Sekunden festhalten, eine Vorfreude pro Woche.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluecklich-drei-gewohnheiten/gluecklich-drei-gewohnheiten-1.jpg", kategorie:"geist" },
+    { slug:"zwei-wege-ego-selbsterkenntnis", titel:"Zwei Wege mit dem Enneagramm: vom Ego-Aufbau zur Selbsterkenntnis", teaser:"Warum Selbstoptimierung mit dem Enneagramm an Grenzen stößt: der Ego-Weg der ersten Lebenshälfte, die Wende der Lebensmitte und der Weg der Selbsterkenntnis.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/zwei-wege-ego-selbsterkenntnis/zwei-wege-ego-selbsterkenntnis-1.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -35020,6 +35022,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "gluecklich-drei-gewohnheiten") {
     return gluecklichDreiGewohnheitenPage();
+  }
+  if (param === "zwei-wege-ego-selbsterkenntnis") {
+    return zweiWegeEgoSelbsterkenntnisPage();
   }
 
   return shell(`
