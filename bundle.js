@@ -33560,11 +33560,11 @@ function updatesPage() {
   const entries = (typeof CHANGELOG !== "undefined" ? CHANGELOG : []);
   const rows = entries.map(e => {
     const dateStr = _formatGermanDate(e.date);
-    if (unlocked) {
+    if (unlocked || e.open) {
       return `<li style="display:flex;gap:1rem;align-items:baseline;padding:0.9rem 0;border-bottom:1px solid var(--border);">
         <span style="flex-shrink:0;width:6.5rem;font-size:0.78rem;color:var(--muted);font-family:-apple-system,sans-serif;">${dateStr}</span>
         ${e.route
-          ? `<a href="#" onclick="event.preventDefault();go('${e.route}')" style="color:var(--ink);text-decoration:underline;text-decoration-color:var(--copper);text-underline-offset:2px;font-size:0.92rem;">${e.text}</a>`
+          ? `<a href="${(!unlocked && e.href) ? e.href : '#'}"${(!unlocked && e.href) ? ' target="_blank" rel="noopener"' : ''} onclick="${(!unlocked && e.href) ? '' : "event.preventDefault();go('" + e.route + "')"}" style="color:var(--ink);text-decoration:underline;text-decoration-color:var(--copper);text-underline-offset:2px;font-size:0.92rem;">${e.text}</a>`
           : `<span style="font-size:0.92rem;color:var(--ink);">${e.text}</span>`}
       </li>`;
     }
@@ -33601,11 +33601,11 @@ function neuigkeitenSection() {
   const latest = CHANGELOG.reduce((a, b) => a.date > b.date ? a : b).date;
   const unlocked = hasHeilwissen();
   const items = neu.map(e => {
-    if (unlocked) {
+    if (unlocked || e.open) {
       return `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
       <span style="color:var(--copper,#b87830);flex-shrink:0;">\u2726</span>
       ${e.route
-        ? `<a href="#" onclick="event.preventDefault();go('${e.route}')" style="color:var(--ink,#2c2824);text-decoration:underline;text-decoration-color:var(--copper,#b87830);text-underline-offset:2px;">${e.text}</a>`
+        ? `<a href="${(!unlocked && e.href) ? e.href : '#'}"${(!unlocked && e.href) ? ' target="_blank" rel="noopener"' : ''} onclick="${(!unlocked && e.href) ? '' : "event.preventDefault();go('" + e.route + "')"}" style="color:var(--ink,#2c2824);text-decoration:underline;text-decoration-color:var(--copper,#b87830);text-underline-offset:2px;">${e.text}</a>`
         : `<span>${e.text}</span>`}
     </li>`;
     }
