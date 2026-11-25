@@ -15,7 +15,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOME = os.path.expanduser("~/Projects/verlagshaus-rathmer-homepage/verknuepfungen.json")
 V = json.load(open(HOME, encoding="utf8"))
 # Erscheinungsdatum neuer Apps (für "Ganz neu erschienen"); neueste zuerst in der Rotation
-NEU = {"klangkompass": "2026-11-25", "fuehrung": "2026-11-16", "chrono": "2026-11-17", "meta": "2026-11-17", "code": "2026-11-17"}
+NEU = {"zoo": "2026-11-25", "klangkompass": "2026-11-25", "fuehrung": "2026-11-16", "chrono": "2026-11-17", "meta": "2026-11-17", "code": "2026-11-17"}
 apps = []
 for k in V["reihenfolge_apps"]:
     p = V["produkte"].get(k)
