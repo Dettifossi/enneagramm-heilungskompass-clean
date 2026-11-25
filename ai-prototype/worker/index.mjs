@@ -109,23 +109,35 @@ async function askGemini(question, chunks, encyclopediaChunks, apiKey, lang) {
   ].join("\n\n");
 
   const systemInstruction = lang === "en" ? SYSTEM_INSTRUCTION_EN : SYSTEM_INSTRUCTION_DE;
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${apiKey}`;
   const body = {
     systemInstruction: { parts: [{ text: systemInstruction }] },
     contents: [{ role: "user", parts: [{ text: `Kontext:\n${context}\n\nFrage: ${question}` }] }],
   };
 
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
-  });
-
-  if (!res.ok) {
-    throw new Error(`Gemini API Fehler ${res.status}: ${await res.text()}`);
+  // Bei Überlastung (429/500/503) kurz warten und erneut versuchen, danach auf ein zweites Modell ausweichen.
+  const MODELS = ["gemini-flash-lite-latest", "gemini-flash-latest"];
+  let last = "";
+  for (const model of MODELS) {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+      const res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        return data?.candidates?.[0]?.content?.parts?.[0]?.text || "(keine Antwort erhalten)";
+      }
+      last = `Gemini API Fehler ${res.status} (${model}): ${await res.text()}`;
+      if (![429, 500, 503].includes(res.status)) throw new Error(last);
+      console.error(last.slice(0, 300));
+      await new Promise((r) => setTimeout(r, 1500));
+    }
   }
-  const data = await res.json();
-  return data?.candidates?.[0]?.content?.parts?.[0]?.text || "(keine Antwort erhalten)";
+  const err = new Error(last);
+  err.overload = true;
+  throw err;
 }
 
 // ---------------------------------------------------------------------------
@@ -1004,6 +1016,9 @@ export default {
       // Details nur ins Worker-Log, nicht an den Besucher (kann Hinweise auf
       // Schnittstellen und Konfiguration enthalten).
       console.error("Worker-Fehler:", err && err.stack ? err.stack : err);
+      if (err && err.overload) {
+        return jsonResponse(request, { error: "Der Wegweiser ist gerade stark ausgelastet. Bitte in einer Minute noch einmal fragen. / The guide is very busy right now. Please ask again in a minute." }, 503);
+      }
       return jsonResponse(request, { error: "Interner Fehler. Bitte später erneut versuchen." }, 500);
     }
   },
