@@ -608,6 +608,7 @@ const IGNORED_PAYMENT_LINKS = [
   "plink_1Ud5gTHPQz587peg3Ny0i1dC", // Die Sprache unserer Sexualität (eigene App)
   "plink_1Ud8DJHPQz587peg1C5ArjwL", // Die verborgene Dynamik der 27 Subtypen (eigene App)
   "plink_1UeJJYHPQz587pegDEExSJwA", // Burnout – Wenn die Stille brennt (eigene App)
+  "plink_1UfadlHPQz587pegoXixphSR", // Klangkompass (eigene App)
 ];
 
 async function handleStripeWebhook(request, env) {
