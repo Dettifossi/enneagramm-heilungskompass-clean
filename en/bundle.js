@@ -8214,7 +8214,7 @@ function updatesPage() {
       return `<li style="display:flex;gap:1rem;align-items:baseline;padding:0.9rem 0;border-bottom:1px solid var(--border);">
         <span style="flex-shrink:0;width:7.5rem;font-size:0.78rem;color:var(--muted);font-family:-apple-system,sans-serif;">${dateStr}</span>
         ${e.route
-          ? `<a href="${(!unlocked && e.href) ? (e.href_en || e.href) : '#'}"${(!unlocked && e.href) ? ' target="_blank" rel="noopener"' : ''} onclick="${(!unlocked && e.href) ? '' : "event.preventDefault();go('" + e.route + "')"}" style="color:var(--ink);text-decoration:underline;text-decoration-color:var(--copper);text-underline-offset:2px;font-size:0.92rem;">${e.text_en || e.text}</a>`
+          ? `<a href="${e.href ? (e.href_en || e.href) : '#'}"${e.href ? ' target="_blank" rel="noopener"' : ''} onclick="${e.href ? '' : "event.preventDefault();go('" + e.route + "')"}" style="color:var(--ink);text-decoration:underline;text-decoration-color:var(--copper);text-underline-offset:2px;font-size:0.92rem;">${e.text_en || e.text}</a>`
           : `<span style="font-size:0.92rem;color:var(--ink);">${e.text_en || e.text}</span>`}
       </li>`;
     }
@@ -8255,7 +8255,7 @@ function neuigkeitenSection() {
       return `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
       <span style="color:var(--copper,#b87830);flex-shrink:0;">✦</span>
       ${e.route
-        ? `<a href="${(!unlocked && e.href) ? (e.href_en || e.href) : '#'}"${(!unlocked && e.href) ? ' target="_blank" rel="noopener"' : ''} onclick="${(!unlocked && e.href) ? '' : "event.preventDefault();go('" + e.route + "')"}" style="color:var(--ink,#2c2824);text-decoration:underline;text-decoration-color:var(--copper,#b87830);text-underline-offset:2px;">${e.text_en || e.text}</a>`
+        ? `<a href="${e.href ? (e.href_en || e.href) : '#'}"${e.href ? ' target="_blank" rel="noopener"' : ''} onclick="${e.href ? '' : "event.preventDefault();go('" + e.route + "')"}" style="color:var(--ink,#2c2824);text-decoration:underline;text-decoration-color:var(--copper,#b87830);text-underline-offset:2px;">${e.text_en || e.text}</a>`
         : `<span>${e.text_en || e.text}</span>`}
     </li>`;
     }
