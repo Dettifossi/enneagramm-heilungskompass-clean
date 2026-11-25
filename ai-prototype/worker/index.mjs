@@ -730,7 +730,7 @@ function corsHeaders(request) {
   return {
     "Access-Control-Allow-Origin": allowOrigin,
     "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type, X-Session-Token, X-Admin-Code",
+    "Access-Control-Allow-Headers": "Content-Type, X-Session-Token, X-Admin-Code, X-App-Token",
     Vary: "Origin",
   };
 }
