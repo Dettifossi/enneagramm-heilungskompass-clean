@@ -3360,7 +3360,7 @@ export function wolfgangVoelzPortraitPage() {
 
         <h2 class="vb-section">6. Was die Typisierung trägt und was offen bleibt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Typisierung stützt sich auf die Wikipedia, das Filmportal und Nachrufe, also auf belegte Lebensdaten, Rollen und einige wörtlich überlieferte Aussagen. Nicht ausgewertet ist die Biografie ›Benjamin und Wolfgang Völz – Eine Biografie‹ von Ralph Keim (2010). Offen bleibt auch, wie die Jahre zwischen Kriegsende und der Übersiedlung 1947 verliefen; die herangezogenen Quellen schildern sie nicht. Die Deutung als SO8w7 ist deshalb eine begründete Lesart, kein Befund.</p>
+          <p class="vb-intro">Die Typisierung stützt sich auf die Wikipedia, das Filmportal und Nachrufe, also auf belegte Lebensdaten, Rollen und einige wörtlich überlieferte Aussagen. Nicht ausgewertet ist die Biografie ›Benjamin und Wolfgang Völz – Eine Biografie‹ von Ralph Keim (2010). Offen bleibt auch, wie die Jahre zwischen Kriegsende und der Übersiedlung 1947 verliefen; die herangezogenen Quellen schildern sie nicht.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Späte Jahre, Tod und Einordnung</h2>
