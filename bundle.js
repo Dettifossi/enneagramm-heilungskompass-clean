@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=526";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=527";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -567,6 +567,7 @@ const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js"
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
 const clausTheoGaertnerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "clausTheoGaertnerPortraitPage");
 const oliverReedPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "oliverReedPortraitPage");
+const wolfgangVoelzPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "wolfgangVoelzPortraitPage");
 const michaelFassbenderPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "michaelFassbenderPortraitPage");
 const paulDanoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "paulDanoPortraitPage");
 const axelPrahlPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "axelPrahlPortraitPage");
@@ -27732,6 +27733,10 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-claus-theo-gaertner", name:"Claus Theo G\u00e4rtner", added:"2026-11-07", subtyp:"SE1w9",
     heading:"Claus Theo G\u00e4rtner \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 geb. 1943 in Berlin. Schauspieler, 32 Jahre \u203aMatula\u2039 in \u203aEin Fall f\u00fcr zwei\u2039. Der Adler, der still genau hinsieht. Tierentsprechung: Adler.",
+    land:"Deutschland", tags:["Schauspiel","Film"], gender:"m"},
+  { route:"beruehmte-wolfgang-voelz", name:"Wolfgang V\u00f6lz", added:"2026-11-26", subtyp:"SO8w7",
+    heading:"Wolfgang V\u00f6lz \u2013 Sozialer Typ 8",
+    teaser:"SO8w7 \u00b7 1930\u20132018. Schauspieler und Synchronsprecher: K\u00e4pt\u2019n Blaub\u00e4r, Mario de Monti in \u203aRaumpatrouille Orion\u2039, die deutsche Stimme von Walter Matthau und Peter Falk. Der L\u00f6we, der bei aller Brummigkeit f\u00fcr sein Rudel da ist. Tierentsprechung: L\u00f6we.",
     land:"Deutschland", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-oliver-reed", name:"Oliver Reed", added:"2026-11-12", subtyp:"SO8w9",
     heading:"Oliver Reed \u2013 Sozialer Typ 8",
@@ -69099,7 +69104,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-paul-dano": paulDanoPortraitPage, "beruehmte-axel-prahl": axelPrahlPortraitPage, "beruehmte-marisa-burger": marisaBurgerPortraitPage, "beruehmte-igor-jeftic": igorJefticPortraitPage, "beruehmte-alexander-duda": alexanderDudaPortraitPage, "beruehmte-max-mueller": maxMuellerPortraitPage, "beruehmte-jan-josef-liefers": janJosefLiefersPortraitPage, "beruehmte-anna-loos": annaLoosPortraitPage, "beruehmte-otto-waalkes": ottoWaalkesPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-wolfgang-voelz": wolfgangVoelzPortraitPage, "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-paul-dano": paulDanoPortraitPage, "beruehmte-axel-prahl": axelPrahlPortraitPage, "beruehmte-marisa-burger": marisaBurgerPortraitPage, "beruehmte-igor-jeftic": igorJefticPortraitPage, "beruehmte-alexander-duda": alexanderDudaPortraitPage, "beruehmte-max-mueller": maxMuellerPortraitPage, "beruehmte-jan-josef-liefers": janJosefLiefersPortraitPage, "beruehmte-anna-loos": annaLoosPortraitPage, "beruehmte-otto-waalkes": ottoWaalkesPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
@@ -70611,7 +70616,7 @@ document.addEventListener("click", async (e) => {
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=19"))).then(m => m.mountPdfButton("de")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=20"))).then(m => m.mountPdfButton("de")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {

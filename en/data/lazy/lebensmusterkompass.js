@@ -88,7 +88,7 @@ export const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Lion",
     kernthema: "Strength used not for oneself, but for the pride (Naranjo: Friendship and Brotherhood)",
-    beispiele: ["Oliver Reed", "Joshua Richards", "Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "John Gotti", "Dr. Laurence Frank", "High Priest Caiaphas", "Jon Hamm", "Gunter Gabriel", "Gabi Garcia"],
+    beispiele: ["Oliver Reed", "Joshua Richards", "Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "John Gotti", "Dr. Laurence Frank", "High Priest Caiaphas", "Jon Hamm", "Gunter Gabriel", "Gabi Garcia", "Wolfgang Völz"],
     fingerabdruecke: [
       {
         titel: "Strength used not for oneself, but for the pride",
@@ -98,7 +98,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Mere presence is enough – no constant roaring needed",
         beschreibung: "Authority and impact arise not through the permanent demonstration of power, but through a physical and mental presence felt as soon as it enters a room.",
-        beleg: "Bud Spencer: 'The lion doesn't need to roar to have an effect. Its presence alone is enough ... When the pride is in danger, it rises. Until then, it's simply there'."
+        beleg: "Bud Spencer: 'The lion doesn't need to roar to have an effect. Its presence alone is enough ... When the pride is in danger, it rises. Until then, it's simply there'; Wolfgang Völz, who for six decades stayed present as the reliable man at the hero's side and with his distinctive voice, without pushing himself to the front."
       },
       {
         titel: "Precise, chosen intervention instead of indiscriminate confrontation",

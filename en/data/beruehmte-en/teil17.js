@@ -3269,3 +3269,74 @@ export function lisaKauffPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangVoelzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-voelz-portrait.jpg" alt="Wolfgang Völz – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Völz</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Actor and dubbing voice, 1930&ndash;2018 &ndash; Käpt'n Blaubär, Mario de Monti in ›Raumpatrouille Orion‹ &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion: A Child of the Free City of Danzig</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Lion</strong> does not lead in order to shine, but to hold his place in the pride. Wolfgang Völz was born on 16 August 1930 in Danzig-Langfuhr, then the Free City of Danzig; his birth name was Wolfgang Otto Isaak. He was nine when the war began in 1939, so he grew up through the war years. The sources used here give only outlines of his childhood and family: according to one account, customers of his mother helped him to his first children's roles in the theatre.</p>
+          <p class="vb-intro">After a baker's apprenticeship he changed trades, took acting lessons and, according to the available information, studied acting in Hanover. In 1954 he first stood in front of a film camera in a small role in Rudolf Jugert's comedy ›Ihre große Prüfung‹ (›Their Great Test‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Strength in Service of the Ensemble</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> described the social Eight as the type of friendship and brotherhood: a strength that serves not self-assertion but the cohesion of a group one feels responsible for. In Völz this can be linked to the shape of his working life. He was not a star who outshone an ensemble but the reliable man at the hero's side: in ›Raumpatrouille Orion‹ (›Space Patrol Orion‹, 1966) he played Lieutenant Mario de Monti, the armaments officer at the side of Commander Cliff Allister McLane (Dietmar Schönherr). He belonged to the ensemble of the Berlin cabaret ›Die Stachelschweine‹ (›The Porcupines‹). And both his children, Benjamin and Rebecca, also work in dubbing: a small pride within the same craft. He was married from 1955 to Roswitha Karwath.</p>
+          <p class="vb-intro">The drawing shows full, combed-back hair with a few strands standing up on top, a high forehead with one deep crease across the middle, and heavy lids over alert, kindly searching eyes with pouches beneath. The nose is broad and strong, below it a thick moustache over a closed, faintly smiling mouth. The chin is round and soft, and he wears a dark jacket over a white shirt collar. The face looks like what the sources say about him: gruff at first glance, warm on longer looking.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: Playfulness and Joy in Storytelling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Eight humour, playfulness and the joy of telling stories. The German film database filmportal describes his manner as ›bärbeißig-liebenswert‹ (gruff yet lovable): a rough tone with the pleasure of play shining through, which is exactly the mixture that suits an Eight with a Seven-wing. The Seven becomes visible in what he voiced: from 1991 he lent his voice to Käpt'n Blaubär (Captain Bluebear) in ›Die Sendung mit der Maus‹ (›The Show with the Mouse‹), the old sea-dog who keeps telling new, unbelievable tales. He voiced Samson in ›Sesamstraße‹ (the German ›Sesame Street‹) and the walrus Sopho in ›Der kleine Eisbär‹ (›The Little Polar Bear‹), and he took part in ›Pumuckl und der blaue Klabauter‹ (›Pumuckl and the Blue Sea-Goblin‹, 1991&ndash;1994).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Face, Voice and Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Völz exceptional was the breadth with which he stayed present in German everyday life for six decades. Filmportal counts more than 150 film and over 600 television productions. He appeared in the Edgar Wallace films and in the crime series ›Stahlnetz‹ (›Steel Net‹), as Johann in ›Graf Yoster gibt sich die Ehre‹ (›Count Yoster Does Himself the Honour‹) and as Mario de Monti in ›Raumpatrouille Orion‹, a series that became a cult classic.</p>
+          <p class="vb-intro">Then there is the dubbing work. He was the German voice of Walter Matthau, Peter Falk, Mel Brooks and Peter Ustinov, and he voiced Otto in ›Captain Future‹ (1978). Anyone who has these performers in mind recognises a common thread: a rough surface, warmth underneath and plenty of comedy. That can be linked to the register Völz also filled as an actor. His honours range from the Federal Cross of Merit (1991) through the Order of Merit of the State of Berlin (2002) to the Ohrkanus Prize for lifetime achievement (2011).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the Same Subtype: Carsten Stahl and Jon Hamm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-carsten-stahl">Carsten Stahl (SO8w7)</a> shares subtype and wing: with him too the strength is there for those standing beside him, only it goes into schools, while with Völz it went into nurseries and living rooms. <a href="#beruehmte-jon-hamm">Jon Hamm (SO8w7)</a> combines a commanding presence with comic versatility, likewise an Eight whose Seven-wing supplies the lightness. A contrast is <a href="#beruehmte-bud-spencer">Bud Spencer (SO8w9)</a>: he too has the rough surface with good nature beneath, but with a Nine-wing he is calmer and has less appetite for spinning yarns.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. What the Typing Supports and What Stays Open</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The typing rests on publicly documented life data, roles and the descriptions of his manner in reference works. For this portrait no first-hand accounts were available on his inner life, his childhood and wartime, his family life or his own statements. The biography ›Benjamin und Wolfgang Völz – Eine Biografie‹ (›Benjamin and Wolfgang Völz – A Biography‹) by Ralph Keim (2010) offers a way to go deeper. The reading as SO8w7 is therefore a reasoned interpretation, not a finding.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Late Years, Death and Perspective</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2014 Völz suffered a stroke. Wolfgang Völz died on 2 May 2018 in Berlin at the age of 87.</p>
+          <p class="vb-intro">For the social Eight with a Seven-wing, a path of development lies in allowing the vulnerable side behind the rough surface and in using strength not only for others but also for oneself. In Völz the successful part of this can be recognised in the warmth that is still associated with his voice.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"beruehmte-carsten-stahl", label:"Portrait: Carsten Stahl (SO8w7)"},
+        {route:"beruehmte-jon-hamm", label:"Portrait: Jon Hamm (SO8w7)"},
+        {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

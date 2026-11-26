@@ -3311,3 +3311,74 @@ export function lisaKauffPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangVoelzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-voelz-portrait.jpg" alt="Wolfgang Völz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Völz</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Synchronsprecher, 1930&ndash;2018 &ndash; Käpt'n Blaubär, Mario de Monti in ›Raumpatrouille Orion‹ &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe: ein Kind der Freien Stadt Danzig</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> führt nicht, um zu glänzen, sondern um seinen Platz im Rudel zu halten. Wolfgang Völz wurde am 16. August 1930 in Danzig-Langfuhr geboren, damals Freie Stadt Danzig; sein Geburtsname lautete Wolfgang Otto Isaak. Mit Kriegsbeginn 1939 war er neun Jahre alt, er wuchs also in den Kriegsjahren auf. Über Kindheit und Familie liegen in den hier herangezogenen Quellen nur Umrisse vor: Nach einer Überlieferung verschafften Kunden seiner Mutter ihm erste Kinderrollen am Theater.</p>
+          <p class="vb-intro">Nach einer Bäckerlehre wechselte er das Fach, nahm Schauspielunterricht und studierte nach den vorliegenden Angaben Schauspiel in Hannover. 1954 stand er in Rudolf Jugerts Komödie ›Ihre große Prüfung‹ erstmals vor der Filmkamera, in einer kleinen Rolle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Stärke im Dienst des Ensembles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> beschrieb die soziale Acht als den Typus der Freundschaft und Bruderschaft: eine Stärke, die nicht der Selbstbehauptung dient, sondern dem Zusammenhalt einer Gruppe, für die man sich verantwortlich fühlt. Bei Völz lässt sich das mit der Form seines Berufslebens verbinden. Er war kein Star, der ein Ensemble überstrahlte, sondern der verlässliche Mann an der Seite der Hauptfigur: In ›Raumpatrouille Orion‹ (1966) spielte er Leutnant Mario de Monti, den Armierungsoffizier an der Seite von Commander Cliff Allister McLane (Dietmar Schönherr). Er gehörte zum Ensemble des Berliner Kabaretts ›Die Stachelschweine‹. Und seine beiden Kinder, Benjamin und Rebecca, arbeiten ebenfalls in der Synchronisation: ein kleines Rudel im selben Handwerk. Verheiratet war er seit 1955 mit Roswitha Karwath.</p>
+          <p class="vb-intro">Die Zeichnung zeigt volles, zurückgekämmtes Haar, aus dem oben einzelne Strähnen aufstehen, eine hohe Stirn mit einer tiefen Querfalte in der Mitte und schwere Lider über wachen, freundlich prüfenden Augen mit Tränensäcken. Die Nase ist breit und kräftig, darunter sitzt ein dichter Schnurrbart über einem geschlossenen, leicht schmunzelnden Mund. Das Kinn ist rund und weich, dazu trägt er ein dunkles Jackett über einem weißen Hemdkragen. Das Gesicht wirkt wie das, was die Quellen von ihm sagen: auf den ersten Blick brummig, bei längerem Hinsehen warm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Spiellust und Erzählfreude</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Acht Humor, Spiellust und die Freude am Erzählen. Das Filmportal beschreibt seine Art als bärbeißig-liebenswert: ein rauer Ton, hinter dem die Freude am Spiel durchscheint, und genau diese Mischung passt zu einer Acht mit Siebenerflügel. Sichtbar wird die Sieben in dem, was er sprach: In der ›Sendung mit der Maus‹ lieh er ab 1991 Käpt'n Blaubär seine Stimme, dem Seebären, der immer neue, unglaubliche Geschichten erzählt. Er sprach Samson in der ›Sesamstraße‹ und das Walross Sopho in ›Der kleine Eisbär‹, und er wirkte in ›Pumuckl und der blaue Klabauter‹ (1991&ndash;1994) mit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Gesicht, Stimme und Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Völz außergewöhnlich machte, war die Breite, mit der er über sechs Jahrzehnte im deutschen Alltag präsent blieb. Das Filmportal zählt mehr als 150 Film- und über 600 Fernsehproduktionen. Zu sehen war er in den Edgar-Wallace-Filmen und in der Krimiserie ›Stahlnetz‹, als Johann in ›Graf Yoster gibt sich die Ehre‹ und als Mario de Monti in ›Raumpatrouille Orion‹, einer Serie, die zum Kult geworden ist.</p>
+          <p class="vb-intro">Hinzu kommt die Synchronarbeit. Er war die deutsche Stimme von Walter Matthau, Peter Falk, Mel Brooks und Peter Ustinov und sprach Otto in ›Captain Future‹ (1978). Wer diese Darsteller vor Augen hat, erkennt eine Gemeinsamkeit: raue Oberfläche, Wärme darunter und viel Komik. Das lässt sich mit dem Fach verbinden, das Völz auch als Schauspieler ausfüllte. Die Auszeichnungen reichen vom Bundesverdienstkreuz (1991) über den Verdienstorden des Landes Berlin (2002) bis zum Ohrkanus-Preis für sein Lebenswerk (2011).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Carsten Stahl und Jon Hamm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-carsten-stahl">Carsten Stahl (SO8w7)</a> teilt Subtyp und Flügel: Auch bei ihm ist die Kraft für die da, die neben ihm stehen, nur geht sie bei Stahl in die Schulen, bei Völz in die Kinderzimmer und Wohnstuben. <a href="#beruehmte-jon-hamm">Jon Hamm (SO8w7)</a> verbindet tragende Präsenz mit komödiantischer Vielseitigkeit, ebenfalls eine Acht, deren Siebenerflügel die Leichtigkeit liefert. Ein Kontrast ist <a href="#beruehmte-bud-spencer">Bud Spencer (SO8w9)</a>: Auch bei ihm gibt es die raue Oberfläche mit Gutmütigkeit darunter, doch mit Neunerflügel eher ruhiger und mit weniger Lust am Fabulieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Was die Typisierung trägt und was offen bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Typisierung stützt sich auf öffentlich belegte Lebensdaten, Rollen und die Beschreibung seiner Art in Nachschlagewerken. Zu seinem Innenleben, zu Kindheit und Kriegszeit, zum Familienleben oder zu eigenen Aussagen lagen für dieses Porträt keine Selbstzeugnisse vor. Eine Vertiefung bietet die Biografie ›Benjamin und Wolfgang Völz – Eine Biografie‹ von Ralph Keim (2010). Die Deutung als SO8w7 ist deshalb eine begründete Lesart, kein Befund.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Späte Jahre, Tod und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2014 erlitt Völz einen Schlaganfall. Wolfgang Völz starb am 2. Mai 2018 in Berlin im Alter von 87 Jahren.</p>
+          <p class="vb-intro">Für die soziale Acht mit Siebenerflügel liegt ein Entwicklungsweg darin, hinter der rauen Oberfläche auch das Verletzliche zuzulassen und die Stärke nicht nur für andere, sondern auch für sich selbst einzusetzen. Bei Völz lässt sich der gelungene Teil davon in der Wärme erkennen, die bis heute mit seiner Stimme verbunden wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-carsten-stahl", label:"Porträt: Carsten Stahl (SO8w7)"},
+        {route:"beruehmte-jon-hamm", label:"Porträt: Jon Hamm (SO8w7)"},
+        {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
