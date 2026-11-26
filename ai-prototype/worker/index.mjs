@@ -608,6 +608,7 @@ async function handleBillingPortal(request, env) {
 }
 
 const IGNORED_PAYMENT_LINKS = [
+  "plink_1Ug9c2HPQz587pegiBMpINwT", // Autogenes Training (eigene App)
   "plink_1Uff5THPQz587pegOrnzIISv", // Heilung verstehen (eigene App)
   "plink_1UfeNKHPQz587peg9FYsKTkW", // Enneagramm-Weltreise (eigene App)
   "plink_1UfdrMHPQz587peg73qve71a", // Enneagramm-Lexikon (eigene App)
