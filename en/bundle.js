@@ -7527,7 +7527,7 @@ function inhaltsübersichtPage() {
             Everything in a Single App
           </p>
           <p style="font-size:0.86rem;color:var(--muted);margin:0 0 1.1rem;line-height:1.55;">
-            One-time purchase &middot; Access guaranteed for at least 5 years &middot; Constantly growing
+            One-time purchase &middot; Access guaranteed for at least 12 months &middot; Constantly growing
           </p>
           <button data-route="freischalt"
             style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;
@@ -7873,7 +7873,7 @@ function onboardingOverlay() {
             <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--gold,#c4a456);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;color:#1a1208;flex-shrink:0;">3</div>
             <div>
               <strong style="color:var(--ink);font-size:0.95rem;">Unlock full access</strong>
-              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">For all 27 subtype profiles · Remedies &amp; natural healing · Hundreds of charts · Portraits of famous personalities · Enneagram profiling · Music &amp; sound · Practical applications · regular expansion · access guaranteed for at least 5 years.</p>
+              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">For all 27 subtype profiles · Remedies &amp; natural healing · Hundreds of charts · Portraits of famous personalities · Enneagram profiling · Music &amp; sound · Practical applications · regular expansion · access guaranteed for at least 12 months.</p>
             </div>
           </div>
         </div>
@@ -11836,7 +11836,7 @@ function kaufenPage() {
         </ul>
         <h3>Who is this for?</h3>
         <p>For everyone who already knows their Enneagram type and wants to go deeper. For therapists, counsellors and coaches. For people who want to truly understand themselves — not superficially, but really.</p>
-        <h3>One-time purchase — access guaranteed for at least 5 years:</h3>
+        <h3>One-time purchase — access guaranteed for at least 12 months:</h3>
         <p>$ 89 — one-time, no subscription. All updates during the term included.</p>
  <p>There are two ways in: <strong>full access</strong> ($ 89) or, as an easy start, the <strong>Portrait Edition</strong> ($ 44, further down). Switching is possible at any time, your $ 44 is credited.</p>
       </div>
@@ -11875,7 +11875,7 @@ function kaufenPage() {
  <li>✓ Over ${(Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100).toLocaleString("en-US")} portraits: famous personalities, criminal cases, illness, astrology and Bible portraits</li>
  <li>✓ Life, illness and crime pattern compasses</li>
  <li>✓ Enneagram Memory</li>
- <li>✓ Access guaranteed for at least 5 years, new portraits in that time included</li>
+ <li>✓ Access guaranteed for at least 12 months, new portraits in that time included</li>
  <li>✓ Upgrade to full access at any time, your $ 44 is credited</li>
  </ul>
  <p style="font-size:.88rem;color:var(--muted);line-height:1.5;margin:0 0 1.2rem;">Not included: the 27 subtype profiles, the remedies, the type tests, and the charts and tools. These come with full access.</p>
@@ -11900,7 +11900,7 @@ function wegweiserPremiumPage() {
       <p class="eyebrow">Wegweiser Premium</p>
       <h1 style="font-size:2rem;margin-bottom:.5rem;">More than 40 books, right in the conversation</h1>
       <p class="lead-small" style="margin-bottom:.8rem;">The Guide is the AI assistant built into the Enneagram Healing Compass. Normally it only searches the app's content – with Premium, it also draws on Detlef Rathmer's entire published body of work.</p>
-      <p style="font-size:.85rem;color:var(--muted,#886);background:var(--cream,#f9f6f0);border-radius:10px;padding:.7rem 1rem;margin-bottom:2rem;">ℹ️ This is an optional add-on subscription for the Guide's book expansion – your one-time app purchase ($89) is unaffected and stays valid, with access guaranteed for at least 5 years, with or without Premium.</p>
+      <p style="font-size:.85rem;color:var(--muted,#886);background:var(--cream,#f9f6f0);border-radius:10px;padding:.7rem 1rem;margin-bottom:2rem;">ℹ️ This is an optional add-on subscription for the Guide's book expansion – your one-time app purchase ($89) is unaffected and stays valid, with the minimum access term promised at purchase, with or without Premium.</p>
     </section>
     <section class="narrow" style="padding:0 1rem 1.5rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
@@ -44554,7 +44554,7 @@ function freischaltPage() {
           <li><strong style="color:var(--ink);">Hundreds of charts</strong> – Enneagram, spirituality, philosophy, music & more</li>
           <li><strong style="color:var(--ink);">All 3 type tests</strong> – diagnosis, structure & motivation test with personal evaluation</li>
           <li><strong style="color:var(--ink);">Interactive learning games</strong> – Enneagram Memory, Flashcards, Compatibility Check & Growth Journal</li>
-          <li><strong style="color:var(--ink);">One-time purchase</strong> – access guaranteed for at least 5 years, constantly growing</li>
+          <li><strong style="color:var(--ink);">One-time purchase</strong> – access guaranteed for at least 12 months, constantly growing</li>
         </ul>
 
         <div class="freischalt-card__angebote" style="justify-content:center;">
