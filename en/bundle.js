@@ -1957,7 +1957,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Germany", tags:["Acting","Film"], gender:"m"},
 { route:"beruehmte-wolfgang-voelz", name:"Wolfgang V\u00f6lz", added:"2026-11-26", subtyp:"SO8w7",
     heading:"Wolfgang V\u00f6lz \u2013 Social Type 8",
-    teaser:"SO8w7 \u00b7 1930\u20132018. Actor and dubbing voice: K\u00e4pt\u2019n Blaub\u00e4r, Mario de Monti in \u2018Raumpatrouille Orion\u2019, the German voice of Walter Matthau and Peter Falk. The lion who, for all his gruffness, is there for his pride. Animal correspondence: Lion.",
+    teaser:"SO8w7 \u00b7 1930\u20132018. Actor and dubbing voice: K\u00e4pt\u2019n Blaub\u00e4r, Majestix, Mario de Monti in \u2018Raumpatrouille Orion\u2019, the German voice of Walter Matthau and Mel Brooks. The lion who, for all his gruffness, is there for his pride. Animal correspondence: Lion.",
     land:"Germany", tags:["Acting","Film"], gender:"m"},
 { route:"beruehmte-oliver-reed", name:"Oliver Reed", added:"2026-11-12", subtyp:"SO8w9",
     heading:"Oliver Reed \u2013 Social Type 8",

@@ -27736,7 +27736,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Deutschland", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-wolfgang-voelz", name:"Wolfgang V\u00f6lz", added:"2026-11-26", subtyp:"SO8w7",
     heading:"Wolfgang V\u00f6lz \u2013 Sozialer Typ 8",
-    teaser:"SO8w7 \u00b7 1930\u20132018. Schauspieler und Synchronsprecher: K\u00e4pt\u2019n Blaub\u00e4r, Mario de Monti in \u203aRaumpatrouille Orion\u2039, die deutsche Stimme von Walter Matthau und Peter Falk. Der L\u00f6we, der bei aller Brummigkeit f\u00fcr sein Rudel da ist. Tierentsprechung: L\u00f6we.",
+    teaser:"SO8w7 \u00b7 1930\u20132018. Schauspieler und Synchronsprecher: K\u00e4pt\u2019n Blaub\u00e4r, Majestix, Mario de Monti in \u203aRaumpatrouille Orion\u2039, die deutsche Stimme von Walter Matthau und Mel Brooks. Der L\u00f6we, der bei aller Brummigkeit f\u00fcr sein Rudel da ist. Tierentsprechung: L\u00f6we.",
     land:"Deutschland", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-oliver-reed", name:"Oliver Reed", added:"2026-11-12", subtyp:"SO8w9",
     heading:"Oliver Reed \u2013 Sozialer Typ 8",
