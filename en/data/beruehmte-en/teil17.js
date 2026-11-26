@@ -3318,7 +3318,7 @@ export function wolfgangVoelzPortraitPage() {
 
         <h2 class="vb-section">6. What the Typing Supports and What Stays Open</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The typing rests on Wikipedia, filmportal and obituaries, that is, on documented life data, roles and a few statements handed down word for word. The biography ›Benjamin und Wolfgang Völz – Eine Biografie‹ (›Benjamin and Wolfgang Völz – A Biography‹) by Ralph Keim (2010) was not evaluated. It also remains open how the years between the end of the war and the move in 1947 went; the sources used here do not describe them. The reading as SO8w7 is therefore a reasoned interpretation, not a finding.</p>
+          <p class="vb-intro">The typing rests on Wikipedia, filmportal and obituaries, that is, on documented life data, roles and a few statements handed down word for word. The biography ›Benjamin und Wolfgang Völz – Eine Biografie‹ (›Benjamin and Wolfgang Völz – A Biography‹) by Ralph Keim (2010) was not evaluated. It also remains open how the years between the end of the war and the move in 1947 went; the sources used here do not describe them.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Late Years, Death and Perspective</h2>
