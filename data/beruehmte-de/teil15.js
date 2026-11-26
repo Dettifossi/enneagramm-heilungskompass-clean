@@ -3311,3 +3311,77 @@ export function lisaKauffPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangVoelzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-voelz-portrait.jpg" alt="Wolfgang Völz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Völz</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Synchronsprecher, 1930&ndash;2018 &ndash; Käpt'n Blaubär, Majestix, Mario de Monti in ›Raumpatrouille Orion‹ &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe: ein Junge ohne Vater in der Freien Stadt Danzig</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> führt nicht, um zu glänzen, sondern um seinen Platz im Rudel zu halten. Wolfgang Otto Isaak Völz wurde am 16. August 1930 in Danzig-Langfuhr geboren, im selben Haus wie der Schauspieler Eddi Arent, mit dem er später oft gemeinsam vor der Kamera stand. Sein Vater kam kurz vor seiner Geburt bei einem Verkehrsunfall ums Leben. Die Mutter, Hildegard Völz, betrieb in Danzig ein Käse- und Milchwarengeschäft; Kunden der Mutter verschafften dem Jungen erste Kinderrollen im Theater. 1947 siedelte er mit Mutter, Großmutter und drei Tanten nach Hasperde bei Hameln über. Ein Junge ohne Vater in einem Haushalt aus Frauen: Es liegt nahe, darin eine frühe Schule des Selbststehens und Beschützens zu sehen, auch wenn die herangezogenen Quellen dazu nichts Näheres sagen.</p>
+          <p class="vb-intro">In Hameln absolvierte er zunächst eine Bäckerlehre, nahm dann in Hannover Schauspielunterricht und lernte bei Theodor Becker und Max Gaede. 1949 debütierte er als Page in Schillers ›Don Karlos‹ am Landestheater Hannover. Es folgten Engagements in Goslar und Osnabrück, 1952 die Rückkehr nach Hannover und ab 1955 die Berliner Bühnen. 1954 stand er in Rudolf Jugerts Komödie ›Ihre große Prüfung‹ erstmals vor der Filmkamera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Stärke im Dienst des Ensembles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> beschrieb die soziale Acht als den Typus der Freundschaft und Bruderschaft: eine Stärke, die nicht der Selbstbehauptung dient, sondern dem Zusammenhalt einer Gruppe, für die man sich verantwortlich fühlt. Bei Völz lässt sich das mit der Form seines Berufslebens verbinden. Er sah sich selbst als ›allerersten Mann der zweiten Klasse‹, und sein Freund Dietmar Schönherr verglich ihn dagegen mit Walter Matthau. Mit Schönherr verband ihn seit den 1950er-Jahren eine enge Freundschaft; als Leutnant Mario de Monti an der Seite von Commander McLane in ›Raumpatrouille Orion‹ (1966) gelang beiden der größte Erfolg ihrer Filmlaufbahn. In ›Graf Yoster gibt sich die Ehre‹ spielte er ab 1967 in 76 Folgen den vorbestraften Chauffeur Johann, der einem aristokratischen Amateurdetektiv hilft, Fälle in den ›besseren Kreisen‹ zu lösen: der Mann an der Seite des Helden, der Loyalität vor Glanz stellt. Er erinnerte sich gern an diese Rolle, in der er unter anderem zwei Rolls-Royce ›kaputtfahren durfte‹.</p>
+          <p class="vb-intro">Auch privat spiegelt sich das Rudel. Seit 1955 war er mit der Tänzerin Roswitha Völz, geborene Karwath, verheiratet, die auch bei den Dreharbeiten zu ›Raumpatrouille Orion‹ mitwirkte. Beide Kinder, Benjamin und Rebecca, arbeiten ebenfalls als Synchronsprecher; über ihn und seinen Sohn ist eine gemeinsame Biografie erschienen. Politisch war er SPD-Mitglied, 1994 Mitglied der Bundesversammlung und spielte bei den Stachelschweinen politisches Kabarett, was er augenzwinkernd mit den Worten erklärte: ›Ich bin eine absolut linke Socke.‹</p>
+          <p class="vb-intro">Die Zeichnung zeigt volles, zurückgekämmtes Haar, aus dem oben einzelne Strähnen aufstehen, eine hohe Stirn mit einer tiefen Querfalte in der Mitte und schwere Lider über wachen, freundlich prüfenden Augen mit Tränensäcken. Die Nase ist breit und kräftig, darunter sitzt ein dichter Schnurrbart über einem geschlossenen, leicht schmunzelnden Mund. Das Kinn ist rund und weich, dazu trägt er ein dunkles Jackett über einem weißen Hemdkragen. Das Gesicht wirkt wie das, was die Quellen von ihm sagen: auf den ersten Blick brummig, bei längerem Hinsehen warm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Spiellust, Selbstironie und Erzählfreude</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Acht Humor, Spiellust und die Freude am Erzählen. Das Filmportal beschreibt seine Art als bärbeißig-liebenswert: ein rauer Ton, hinter dem das Vergnügen am Spiel durchscheint. Die Direktheit der Acht und der Humor der Sieben treffen sich in seinen eigenen Worten: ›Ich habe an die 600 Fernsehrollen gespielt. Es war immer die gleiche Grütze.‹ Dass er mit dem Namen Wolfgang Otto Isaak Treppengeländer geboren worden sei, setzte er selbst in einer Talkshow als Scherz in die Welt; die Mär fand sogar Einzug in mindestens zwei Bücher, bis sein Enkel sie im Januar 2018 aufklärte. 2004 und 2007 nahm er in den ›Wixxer‹-Filmen als seniler Scotland-Yard-Chef seine früheren Rollen selbstironisch aufs Korn.</p>
+          <p class="vb-intro">Am deutlichsten wird die Sieben in der Figur, die ihn über Generationen hinweg bekannt machte: Käpt'n Blaubär, der Seebär, der immer neue, unglaubliche Geschichten erzählt. Ab 1991 sprach er ihn in den Hörspielen ›Käpt'n Blaubärs Geschichten‹ und ›Käpt'n Blaubärs Seemannsgarn‹ und in der ›Sendung mit der Maus‹, 1999 auch im Film; 1998 erhielt er für seine Mitwirkung den Münchhausen-Preis, benannt nach dem Lügenbaron. 1994 spielte er in ›Pumuckl und der blaue Klabauter‹ den Steuermann des Schiffes und sprach zugleich die Stimme des blauen Klabauters, 1999 wieder in ›Pumuckls Abenteuer‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Stimme, Bühne und Breite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Wikipedia nennt seine Stimme ›markant und vielseitig‹, und diese Stimme war sein Kapital über Jahrzehnte. Das Filmportal zählt mehr als 150 Film- und über 600 Fernsehproduktionen. Er stand neben Hans Albers und Gert Fröbe vor der Kamera, spielte in Edgar-Wallace-Filmen, in den Krimiserien ›Stahlnetz‹ und ›Das Kriminalmuseum‹ und arbeitete mit experimentellen Regisseuren wie Rosa von Praunheim (›Der Einstein des Sex‹). Er wirkte in einem der ersten AIDS-Aufklärungsspots mit und sprach Werbung (›Toyota: Nichts ist unmöglich‹, Käpt'n Iglo).</p>
+          <p class="vb-intro">In der Synchronisation war er die deutsche Stimme von Peter Ustinov, Mel Brooks, Michel Piccoli und Walter Matthau, den er als seinen Lieblingsschauspieler beim Synchronsprechen bezeichnete; bei Matthau sprach er unter anderem Albert Einstein in ›I.Q.‹. Er sprach Ernest Borgnine als Dominic Santini in ›Airwolf‹ und Dana Elcar als Pete Thornton in ›MacGyver‹, im Zeichentrick Majestix in ›Asterix‹, den Androiden Otto in ›Captain Future‹ und den Wirt Butterblume in ›Der Herr der Ringe: Die Gefährten‹. Auffällig viele dieser Figuren sind Autoritäten mit Gemüt: Häuptling, Chef, Wirt, Kapitän, Offizier. Das lässt sich gut mit einer Acht verbinden, die Verantwortung trägt, ohne die Wärme zu verlieren.</p>
+          <p class="vb-intro">Die Auszeichnungen: Verdienstkreuz am Bande der Bundesrepublik Deutschland (1991), Münchhausen-Preis (1998), Verdienstorden des Landes Berlin (2002) und der Ohrkanus-Hörbuch- und Hörspielpreis für sein Lebenswerk (2011).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Carsten Stahl und Jon Hamm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-carsten-stahl">Carsten Stahl (SO8w7)</a> teilt Subtyp und Flügel: Auch bei ihm ist die Kraft für die da, die neben ihm stehen, nur geht sie bei Stahl in die Schulen, bei Völz in die Kinderzimmer und Wohnstuben. <a href="#beruehmte-jon-hamm">Jon Hamm (SO8w7)</a> verbindet tragende Präsenz mit komödiantischer Vielseitigkeit, ebenfalls eine Acht, deren Siebenerflügel die Leichtigkeit liefert. Ein Kontrast ist <a href="#beruehmte-bud-spencer">Bud Spencer (SO8w9)</a>: Auch bei ihm gibt es die raue Oberfläche mit Gutmütigkeit darunter, doch mit Neunerflügel eher ruhiger und mit weniger Lust am Fabulieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Was die Typisierung trägt und was offen bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Typisierung stützt sich auf die Wikipedia, das Filmportal und Nachrufe, also auf belegte Lebensdaten, Rollen und einige wörtlich überlieferte Aussagen. Nicht ausgewertet ist die Biografie ›Benjamin und Wolfgang Völz – Eine Biografie‹ von Ralph Keim (2010). Offen bleibt auch, wie die Jahre zwischen Kriegsende und der Übersiedlung 1947 verliefen; die herangezogenen Quellen schildern sie nicht. Die Deutung als SO8w7 ist deshalb eine begründete Lesart, kein Befund.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Späte Jahre, Tod und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Völz blieb bis in die 2010er-Jahre als Schauspieler aktiv, zuletzt meist in Nebenrollen. 2014 erlitt er einen Schlaganfall. Wolfgang Völz starb am 2. Mai 2018 im Alter von 87 Jahren in seinem Wohnhaus in Berlin-Wilmersdorf; seine Asche wurde am 6. Juni 2018 im Kolumbarium des Friedhofs Wilmersdorf beigesetzt.</p>
+          <p class="vb-intro">Für die soziale Acht mit Siebenerflügel liegt ein Entwicklungsweg darin, hinter der rauen Oberfläche auch das Verletzliche zuzulassen und die Stärke nicht nur für andere, sondern auch für sich selbst einzusetzen. Bei Völz lässt sich der gelungene Teil davon in der Selbstironie erkennen, mit der er seine eigene Laufbahn betrachtete.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-carsten-stahl", label:"Porträt: Carsten Stahl (SO8w7)"},
+        {route:"beruehmte-jon-hamm", label:"Porträt: Jon Hamm (SO8w7)"},
+        {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

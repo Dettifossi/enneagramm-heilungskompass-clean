@@ -88,7 +88,7 @@ export const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Löwe",
     kernthema: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird (Naranjo: Freundschaft und Bruderschaft)",
-    beispiele: ["Oliver Reed", "Joshua Richards", "Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "John Gotti", "Dr. Laurence Frank", "Natascha Ochsenknecht", "Der Hohepriester Kaiphas", "Jon Hamm", "Gunter Gabriel", "Gabi Garcia"],
+    beispiele: ["Oliver Reed", "Joshua Richards", "Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "John Gotti", "Dr. Laurence Frank", "Natascha Ochsenknecht", "Der Hohepriester Kaiphas", "Jon Hamm", "Gunter Gabriel", "Gabi Garcia", "Wolfgang Völz"],
     fingerabdruecke: [
       {
         titel: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird",
@@ -98,7 +98,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Bloße Präsenz genügt – kein ständiges Brüllen nötig",
         beschreibung: "Autorität und Wirkung entstehen nicht durch permanente Demonstration von Macht, sondern durch eine körperliche und mentale Präsenz, die man spürt, sobald sie einen Raum betritt.",
-        beleg: "Bud Spencer: ›Der Löwe muss nicht brüllen, um zu wirken. Seine Präsenz allein ist genug … Wenn das Rudel in Gefahr ist, steht er auf. Bis dahin ist er einfach da‹."
+        beleg: "Bud Spencer: ›Der Löwe muss nicht brüllen, um zu wirken. Seine Präsenz allein ist genug … Wenn das Rudel in Gefahr ist, steht er auf. Bis dahin ist er einfach da‹; Wolfgang Völz, der über sechs Jahrzehnte als verlässlicher Mann an der Seite der Hauptfigur und mit seiner markanten Stimme präsent blieb, ohne sich in den Vordergrund zu spielen."
       },
       {
         titel: "Präzises, gewähltes Eingreifen statt wahlloser Konfrontation",

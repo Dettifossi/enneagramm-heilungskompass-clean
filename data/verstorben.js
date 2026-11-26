@@ -514,4 +514,5 @@ export const VERSTORBEN = new Set([
   "beruehmte-henri-rousseau",
   "beruehmte-heinz-erhardt",
   "beruehmte-oliver-reed",
+  "beruehmte-wolfgang-voelz",
 ]);
