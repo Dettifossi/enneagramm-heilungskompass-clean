@@ -8284,6 +8284,29 @@ function neuigkeitenSection() {
     </section>`;
 }
 
+// Startseite: Klappfaecher merken sich auf dem Geraet, ob sie offen sind
+function _fachOffen(id, standard) {
+  let v = null;
+  try { v = localStorage.getItem("kompass:fach-" + id); } catch (e) {}
+  if (v === "1") return "open";
+  if (v === "0") return "";
+  return standard ? "open" : "";
+}
+function _startHinweisGesehen() {
+  try { return !!localStorage.getItem("kompass:start-neu-gesehen"); } catch (e) { return true; }
+}
+document.addEventListener("click", (e) => {
+  const kopf = e.target.closest("summary");
+  const fach = kopf && kopf.parentElement;
+  if (fach && fach.dataset.fach) {
+    try { localStorage.setItem("kompass:fach-" + fach.dataset.fach, fach.open ? "0" : "1"); } catch (err) {}
+  }
+  if (e.target.closest(".start-hinweis__ok")) {
+    try { localStorage.setItem("kompass:start-neu-gesehen", "1"); } catch (err) {}
+    e.target.closest(".start-hinweis").remove();
+  }
+});
+
 function startPage() {
   const p = state.profile;
   const copy = text.routes.start;
@@ -8315,7 +8338,7 @@ function startPage() {
   ` : `
     <button class="primary" data-route="profile">Choose my subtype →</button>
     <button class="secondary" data-route="leseprobe">View app sample</button>
-    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Buy access · from $ 44 →</button>
+    <button class="ghost-link" data-route="kaufen">Buy access · from $ 44 →</button>
     <button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Already purchased? Activate access here →</button>
   `;
 
@@ -8334,60 +8357,30 @@ function startPage() {
 
     <div style="text-align:center;margin:0 0 0.8rem;"><button data-route="impuls-heute" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">\u25c8 Today\u2019s impulse \u2013 read and listen with Detlef</button></div>
     <div style="text-align:center;margin:0 0 0.8rem;">${_gsLatestUpdateBadgeHTML()}</div>
-    ${neuigkeitenSection()}
+    ${firstVisit && !localStorage.getItem("kompass:changelog-seen") ? "" : neuigkeitenSection()}
 
-    <section style="max-width:680px;margin:0 auto 0;padding:0 1rem 0.8rem;">
-      <div style="text-align:center;margin-bottom:0.8rem;">
-        ${_wegweiserPremiumActive ? `
-        <button class="wegweiser-premium-open" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
-                  border:1px solid var(--copper,#a5652f);background:var(--copper,#a5652f);color:#fff;
-                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
-          ✨ Premium active – Go to the Guide
-        </button>` : `
-        <button data-route="wegweiser-premium" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
-                  border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
-                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
-          ✨ Wegweiser Premium – discover access to 40+ books
-        </button>`}
+    ${(!firstVisit && !_startHinweisGesehen()) ? `<div class="start-hinweis"><span>The start page has been rearranged. Everything is still there, much of it in the folders further down.</span><button type="button" class="start-hinweis__ok">Got it</button></div>` : ''}
+    <details class="start-fach start-fach--neu" data-fach="neu" ${_fachOffen("neu", firstVisit)}>
+      <summary>New here? How to begin</summary>
+      <div class="start-fach__innen">
+        <ol class="start-neu">
+          <li><button type="button" class="ghost-link" data-route="profile">Choose or find your type →</button></li>
+          <li>At first, read just one section of your profile</li>
+          <li><button type="button" class="ghost-link" data-route="impuls-heute">Look at today’s impulse →</button></li>
+        </ol>
+        <p><strong>Everything else can wait.</strong></p>
+        <a href="./vorstellung.html#video" target="_blank" rel="noopener" class="ghost-link">🎬 Watch the 2½-minute video</a>
       </div>
-      <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
-        <a href="https://www.verlagshausrathmer.com" target="_blank" rel="noopener"
-           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
-                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
-                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
-          📚 Verlagshaus Rathmer <span style="font-weight:400;opacity:.75;">(Publishing House)</span>
-        </a>
-        <a href="https://psychologische-homoeopathie.de" target="_blank" rel="noopener"
-           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
-                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
-                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
-          🌿 Naturheilpraxis Rathmer <span style="font-weight:400;opacity:.75;">(Naturopathic Practice)</span>
-        </a>
-        <a href="https://enneascholars.de" target="_blank" rel="noopener"
-           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
-                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
-                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
-          🎓 Ennea Scholars <span style="font-weight:400;opacity:.75;">(David L. Rathmer's work)</span>
-        </a>
-      </div>
-      <div style="text-align:center;margin-top:0.7rem;">
-        <button class="support-trigger-btn" style="background:none;border:none;color:var(--gold-dark,#8a6a1a);font-size:0.82rem;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:0.3rem;">💛 Become a Project Supporter</button>
-      </div>
-    </section>
+    </details>
 
-    <section class="start-paths">
-      <div class="start-path start-path--known">
-        <div class="start-path__icon">◎</div>
-        <h2 class="start-path__title">I know my Subtype</h2>
-        <p class="start-path__body">Select your Subtype and explore Remedies, TCM assignments, childhood imprints, music, and personal development paths.</p>
-        <button class="start-path__btn" data-route="profile">Choose Subtype →</button>
-        <p style="font-size:0.78rem;color:var(--muted);margin:0.8rem 0 0;">Prefer a personal conversation? <a href="javascript:void(0)" data-route="gesichts-scan" style="color:var(--copper,#a5603d);">Book a type consultation with Detlef or David Rathmer →</a></p>
-      </div>
-      <div class="start-path start-path--unknown">
-        <div class="start-path__icon">◇</div>
-        <h2 class="start-path__title">I don't know my Type yet</h2>
-        <p class="start-path__body">For an accurate type determination, we recommend one of the following tests or a personal type consultation.</p>
-        <div class="start-path__actions">
+    <div class="start-tafeln">
+    <button type="button" class="start-tafel start-tafel--haupt" data-route="profile"><span class="start-tafel__icon" aria-hidden="true">◎</span><span class="start-tafel__titel">I know my subtype</span><span class="start-tafel__sub">Choose it and begin</span></button>
+    <details class="start-fach" data-fach="suche" ${_fachOffen("suche")}>
+      <summary class="start-tafel"><span class="start-tafel__icon" aria-hidden="true">◇</span><span class="start-tafel__titel">I am looking for my type</span><span class="start-tafel__sub">Short tests, some free</span></summary>
+      <div class="start-fach__innen">
+    <p class="start-path__body">For an accurate type determination, we recommend one of the following tests or a personal type consultation.</p>
+
+    <div class="start-path__actions">
           <div class="start-path__test-row">
             <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Which Animal Am I?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">Quick Test &middot; 3 Questions &middot; 1 Minute</span></button>
             <button class="start-path__btn start-path__btn--test" data-route="motivations-schnelltest">
@@ -8398,6 +8391,8 @@ function startPage() {
               <span class="start-path__test-label">Finding my type</span>
               <span class="start-path__test-sub">Search &amp; rubrics &middot; collect statements &middot; no questionnaire</span>
             </button>
+            <details class="start-mehr" data-fach="tests" ${_fachOffen("tests")}><summary>More tests</summary>
+            <div class="start-path__test-row">
             <button class="start-path__btn start-path__btn--test start-path__btn--diag${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "diagnosetest" : "freischalt/heilwissen"}">
               <span class="start-path__test-label">Diagnosis Test${hasHeilwissen() ? "" : " 🔒"}</span>
               <span class="start-path__test-sub">Quick start · 9 Profiles</span>
@@ -8414,44 +8409,13 @@ function startPage() {
               <span class="start-path__test-label">Consciousness Level Self-Test${hasHeilwissen() ? "" : " 🔒"}</span>
               <span class="start-path__test-sub">Where am I right now? · Mirror for Advanced Users</span>
             </button>
+            </div></details>
           </div>
-        </div>
-        <div class="start-path__berater">
-          <div class="start-path__berater-card">
-            <strong class="start-path__berater-name">Detlef Rathmer</strong>
-            <ul class="start-path__berater-list">
-              <li>Therapist</li>
-              <li>Enneagram Typing</li>
-              <li>Consciousness<br>Development</li>
-            </ul>
-            <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturopathic Practice Detlef Rathmer → psychologische-homoeopathie.de</a>
-            <a class="start-path__btn" href="https://www.psychologische-homoeopathie.de/enneagramm-foto-typisierung.html" target="_blank" rel="noopener" style="display:block;margin:0.6rem 0;background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);color:var(--anthracite,#2c2c2c);font-weight:700;">📷 Book photo typing online – €119 (German page)</a>
-            <div class="start-path__berater-actions">
-              <a class="start-path__btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">✉ E-Mail</a>
-              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp</a>
-            </div>
-          </div>
-          <div class="start-path__berater-card">
-            <strong class="start-path__berater-name">David L. Rathmer</strong>
-            <ul class="start-path__berater-list">
-              <li>Enneagram Profiling</li>
-              <li>Enneagram Typing</li>
-              <li>Ennea Scholars</li>
-            </ul>
-            <a class="start-path__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagram Profiling for Executives &amp; Organizations → enneascholars.de</a>
-            <div class="start-path__berater-actions">
-              <a class="start-path__btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">✉ E-Mail</a>
-              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915901902479?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp</a>
-            </div>
-          </div>
-        </div>
-        <div style="text-align:center;margin-top:1.2rem;">
-          <button class="start-path__btn" data-route="gesichts-scan" style="background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);">📷 Optional: Prepare a Face Scan or Video for Your Consultation</button>
-          <p style="font-size:0.78rem;color:var(--muted);margin:0.5rem 0 0;">Voluntary – not required to book a consultation.</p>
-        </div>
       </div>
-    </section>
-
+    </details>
+    <details class="start-fach" data-fach="verstehen" ${_fachOffen("verstehen")}>
+      <summary class="start-tafel"><span class="start-tafel__icon" aria-hidden="true">📖</span><span class="start-tafel__titel">Understand and have it explained</span><span class="start-tafel__sub">Explanations and videos</span></summary>
+      <div class="start-fach__innen">
     <section style="max-width:680px;margin:0 auto;padding:2rem 1rem 0.5rem;">
       <details style="border:1px solid var(--border);border-radius:12px;overflow:hidden;">
         <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
@@ -8519,6 +8483,94 @@ function startPage() {
       </div>
     </section>
 
+    <section style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
+      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.8rem;">🎬 The Compass, explained in detail</h2>
+      <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 8px 24px rgba(0,0,0,0.18);">
+        <iframe src="https://www.youtube.com/embed/edYAaR6Un0I?playsinline=1" title="Enneagram Healing Compass – Detailed Walkthrough" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+      <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;">10 minutes – a detailed tour through every area of the Compass.</p>
+    </section>
+      </div>
+    </details>
+    <details class="start-fach" data-fach="beratung" ${_fachOffen("beratung")}>
+      <summary class="start-tafel"><span class="start-tafel__icon" aria-hidden="true">💬</span><span class="start-tafel__titel">Personal consultation</span><span class="start-tafel__sub">With Detlef or David</span></summary>
+      <div class="start-fach__innen">
+    <p style="font-size:0.78rem;color:var(--muted);margin:0.8rem 0 0;">Prefer a personal conversation? <a href="javascript:void(0)" data-route="gesichts-scan" style="color:var(--copper,#a5603d);">Book a type consultation with Detlef or David Rathmer →</a></p>
+
+    <div class="start-beratung"><div class="start-path__berater">
+          <div class="start-path__berater-card">
+            <strong class="start-path__berater-name">Detlef Rathmer</strong>
+            <ul class="start-path__berater-list">
+              <li>Therapist</li>
+              <li>Enneagram Typing</li>
+              <li>Consciousness<br>Development</li>
+            </ul>
+            <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturopathic Practice Detlef Rathmer → psychologische-homoeopathie.de</a>
+            <a class="start-path__btn" href="https://www.psychologische-homoeopathie.de/enneagramm-foto-typisierung.html" target="_blank" rel="noopener" style="display:block;margin:0.6rem 0;background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);color:var(--anthracite,#2c2c2c);font-weight:700;">📷 Book photo typing online – €119 (German page)</a>
+            <div class="start-path__berater-actions">
+              <a class="start-path__btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">✉ E-Mail</a>
+              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+          <div class="start-path__berater-card">
+            <strong class="start-path__berater-name">David L. Rathmer</strong>
+            <ul class="start-path__berater-list">
+              <li>Enneagram Profiling</li>
+              <li>Enneagram Typing</li>
+              <li>Ennea Scholars</li>
+            </ul>
+            <a class="start-path__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagram Profiling for Executives &amp; Organizations → enneascholars.de</a>
+            <div class="start-path__berater-actions">
+              <a class="start-path__btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">✉ E-Mail</a>
+              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915901902479?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:1.2rem;">
+          <button class="start-path__btn" data-route="gesichts-scan" style="background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);">📷 Optional: Prepare a Face Scan or Video for Your Consultation</button>
+          <p style="font-size:0.78rem;color:var(--muted);margin:0.5rem 0 0;">Voluntary – not required to book a consultation.</p></div>
+      </div>
+    </details>
+    <details class="start-fach" data-fach="apps" ${_fachOffen("apps")}>
+      <summary class="start-tafel"><span class="start-tafel__icon" aria-hidden="true">⚓</span><span class="start-tafel__titel">More apps and publishing house</span><span class="start-tafel__sub">Apps, publishing, practice</span></summary>
+      <div class="start-fach__innen">
+    <section id="begegnung-frei" style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
+      <a href="https://www.verlagshausrathmer.com/enneagram-encounter.html" target="_blank" rel="noopener" style="display:block;text-decoration:none;color:inherit;border:2px solid var(--gold,#c4a456);border-radius:14px;padding:1.1rem 1.2rem;background:var(--ivory);">
+        <span style="display:inline-block;background:var(--gold,#c4a456);color:#10201d;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 10px;border-radius:10px;font-size:.72rem;">Free</span>
+        <h2 style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:.55rem 0 .4rem;">The Enneagram Encounter</h2>
+        <p style="font-size:.9rem;line-height:1.55;color:var(--ink);margin:0 0 .6rem;">Our second app is truly free: the Enneagram Encounter. It is for friendship, exchange and partnership, for people who know or want to learn about the Enneagram.</p>
+        <p style="font-size:.85rem;color:var(--muted);margin:0 0 .8rem;">No purchase needed. It is there for everyone, including everyone who uses the Compass.</p>
+        <span style="display:inline-block;background:var(--gold,#c4a456);color:var(--anthracite,#2c2c2c);font-weight:700;font-size:.9rem;padding:.6rem 1.2rem;border-radius:8px;">Open the Enneagram Encounter for free →</span>
+      </a>
+    </section>
+
+    <div style="margin-top:2.2rem;">${verlagsAppsSection({nofree:true})}</div>
+
+    <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
+        <a href="https://www.verlagshausrathmer.com" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
+                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
+                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
+          📚 Verlagshaus Rathmer <span style="font-weight:400;opacity:.75;">(Publishing House)</span>
+        </a>
+        <a href="https://psychologische-homoeopathie.de" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
+                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
+                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
+          🌿 Naturheilpraxis Rathmer <span style="font-weight:400;opacity:.75;">(Naturopathic Practice)</span>
+        </a>
+        <a href="https://enneascholars.de" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
+                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
+                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
+          🎓 Ennea Scholars <span style="font-weight:400;opacity:.75;">(David L. Rathmer's work)</span>
+        </a>
+      </div>
+      </div>
+    </details>
+    <details class="start-fach" data-fach="modell" ${_fachOffen("modell")}>
+      <summary class="start-tafel"><span class="start-tafel__icon" aria-hidden="true">✦</span><span class="start-tafel__titel">About the model, voices and tips</span><span class="start-tafel__sub">Background, reviews</span></summary>
+      <div class="start-fach__innen">
     <section class="model-credit">
       <p class="model-credit__label">Behind the Model</p>
       <p class="model-credit__text">The Enneagram Healing Compass is based on the jointly developed work of <strong>Detlef Rathmer</strong> (therapy &amp; healing) and <strong>David L. Rathmer</strong> (Enneagram Profiling for executives &amp; organizations).</p>
@@ -8573,25 +8625,26 @@ function startPage() {
       </details>
     </section>
 
-    <section style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
-      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.8rem;">🎬 The Compass, explained in detail</h2>
-      <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 8px 24px rgba(0,0,0,0.18);">
-        <iframe src="https://www.youtube.com/embed/edYAaR6Un0I?playsinline=1" title="Enneagram Healing Compass – Detailed Walkthrough" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+    <div style="text-align:center;margin-top:0.7rem;">
+        <button class="support-trigger-btn" style="background:none;border:none;color:var(--gold-dark,#8a6a1a);font-size:0.82rem;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:0.3rem;">💛 Become a Project Supporter</button>
       </div>
-      <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;">10 minutes – a detailed tour through every area of the Compass.</p>
-    </section>
+      </div>
+    </details>
+    </div>
 
-        <section id="begegnung-frei" style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
-      <a href="https://www.verlagshausrathmer.com/enneagram-encounter.html" target="_blank" rel="noopener" style="display:block;text-decoration:none;color:inherit;border:2px solid var(--gold,#c4a456);border-radius:14px;padding:1.1rem 1.2rem;background:var(--ivory);">
-        <span style="display:inline-block;background:var(--gold,#c4a456);color:#10201d;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 10px;border-radius:10px;font-size:.72rem;">Free</span>
-        <h2 style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:.55rem 0 .4rem;">The Enneagram Encounter</h2>
-        <p style="font-size:.9rem;line-height:1.55;color:var(--ink);margin:0 0 .6rem;">Our second app is truly free: the Enneagram Encounter. It is for friendship, exchange and partnership, for people who know or want to learn about the Enneagram.</p>
-        <p style="font-size:.85rem;color:var(--muted);margin:0 0 .8rem;">No purchase needed. It is there for everyone, including everyone who uses the Compass.</p>
-        <span style="display:inline-block;background:var(--gold,#c4a456);color:var(--anthracite,#2c2c2c);font-weight:700;font-size:.9rem;padding:.6rem 1.2rem;border-radius:8px;">Open the Enneagram Encounter for free →</span>
-      </a>
-    </section>
-
-    <div style="margin-top:2.2rem;">${verlagsAppsSection({nofree:true})}</div>
+    <div class="start-wegweiser"><div style="text-align:center;margin-bottom:0.8rem;">
+        ${_wegweiserPremiumActive ? `
+        <button class="wegweiser-premium-open" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
+                  border:1px solid var(--copper,#a5652f);background:var(--copper,#a5652f);color:#fff;
+                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
+          ✨ Premium active – Go to the Guide
+        </button>` : `
+        <button data-route="wegweiser-premium" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
+                  border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
+                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
+          ✨ Wegweiser Premium – discover access to 40+ books
+        </button>`}
+      </div></div>
 
     ${legalFooter()}
   `);

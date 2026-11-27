@@ -5941,3 +5941,33 @@ p, li, .vb-intro { text-wrap: pretty; }
 .book-tip-app:hover { border-color: var(--gold); }
 .book-tip-app strong { color: var(--copper); }
 .book-tip-app span:nth-child(2) { flex: 1; }
+
+/* Startseite: Klappfaecher (27.11.2026) */
+.start-tafeln{max-width:680px;margin:1.2rem auto 0;padding:0 .8rem;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;grid-auto-flow:row dense;align-items:stretch}
+.start-tafel{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:.35rem;min-height:132px;height:100%;box-sizing:border-box;padding:1rem .6rem;cursor:pointer;font-family:inherit;color:var(--ink);list-style:none}
+button.start-tafel,.start-tafeln>details{border:1px solid var(--border);border-radius:16px;background:var(--ivory)}
+button.start-tafel--haupt{border:2px solid var(--gold,#c4a456);width:100%}
+.start-tafeln>details:first-of-type{border:2px solid var(--gold,#c4a456)}
+.start-tafeln>details[open]{grid-column:1/-1;min-width:0}
+.start-tafeln>details[open]>summary{min-height:0;height:auto}
+.start-tafel__icon{font-size:1.9rem;line-height:1.1;color:var(--gold-dark,#8a6a1a)}
+.start-tafel__titel{font-weight:700;font-size:1rem;line-height:1.3;overflow-wrap:break-word}
+.start-tafel__sub{font-size:.8rem;color:var(--muted);line-height:1.35}
+.start-fach--neu{max-width:652px;margin:1rem auto;border:1px solid var(--border);border-radius:16px;background:var(--ivory)}
+.start-fach>summary::-webkit-details-marker,.start-mehr>summary::-webkit-details-marker{display:none}
+.start-fach--neu>summary,.start-mehr>summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:.6rem;font-weight:700;color:var(--ink)}
+.start-fach--neu>summary{padding:1rem 1.1rem}
+.start-fach--neu>summary::after,.start-mehr>summary::after{content:"▸";color:var(--gold-dark,#8a6a1a)}
+.start-fach--neu[open]>summary::after,.start-mehr[open]>summary::after{content:"▾"}
+.start-tafeln>details>summary::after{content:"▾";font-size:.8rem;color:var(--gold-dark,#8a6a1a)}
+.start-tafeln>details[open]>summary::after{content:"▴"}
+.start-fach__innen{padding:0 .4rem 1rem;min-width:0}
+.start-fach__innen section{padding-left:.4rem;padding-right:.4rem}
+.start-fach__innen .start-path__body{padding:0 .6rem;text-align:center}
+.start-neu{margin:.2rem 0 .6rem;padding-left:2rem;line-height:1.7}
+.start-fach--neu .start-fach__innen{padding:0 1.1rem 1rem}
+.start-mehr>summary{padding:.7rem .2rem;font-size:.9rem}
+.start-wegweiser{text-align:center;margin:1.2rem auto 0;padding:0 1rem}
+.start-beratung .start-path__berater{margin-top:.4rem}
+.start-hinweis{max-width:648px;margin:1rem auto 0;padding:.8rem 1rem;border:1px solid var(--gold,#c4a456);border-radius:12px;background:var(--ivory);font-size:.9rem;display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.start-hinweis__ok{border:1px solid var(--gold,#c4a456);background:transparent;color:var(--ink);border-radius:20px;padding:.3rem 1rem;cursor:pointer}

@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=526";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=527";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -567,6 +567,7 @@ const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js"
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
 const clausTheoGaertnerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "clausTheoGaertnerPortraitPage");
 const oliverReedPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "oliverReedPortraitPage");
+const wolfgangVoelzPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "wolfgangVoelzPortraitPage");
 const michaelFassbenderPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "michaelFassbenderPortraitPage");
 const paulDanoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "paulDanoPortraitPage");
 const axelPrahlPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "axelPrahlPortraitPage");
@@ -27733,6 +27734,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Claus Theo G\u00e4rtner \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 geb. 1943 in Berlin. Schauspieler, 32 Jahre \u203aMatula\u2039 in \u203aEin Fall f\u00fcr zwei\u2039. Der Adler, der still genau hinsieht. Tierentsprechung: Adler.",
     land:"Deutschland", tags:["Schauspiel","Film"], gender:"m"},
+  { route:"beruehmte-wolfgang-voelz", name:"Wolfgang V\u00f6lz", added:"2026-11-26", subtyp:"SO8w7",
+    heading:"Wolfgang V\u00f6lz \u2013 Sozialer Typ 8",
+    teaser:"SO8w7 \u00b7 1930\u20132018. Schauspieler und Synchronsprecher: K\u00e4pt\u2019n Blaub\u00e4r, Majestix, Mario de Monti in \u203aRaumpatrouille Orion\u2039, die deutsche Stimme von Walter Matthau und Mel Brooks. Der L\u00f6we, der bei aller Brummigkeit f\u00fcr sein Rudel da ist. Tierentsprechung: L\u00f6we.",
+    land:"Deutschland", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-oliver-reed", name:"Oliver Reed", added:"2026-11-12", subtyp:"SO8w9",
     heading:"Oliver Reed \u2013 Sozialer Typ 8",
     teaser:"SO8w9 \u00b7 1938\u20131999. Schauspieler, \u203aHellraiser\u2039 mit Wucht und Verletzlichkeit: Bill Sikes in \u203aOliver!\u2039, Gerald Crich in \u203aWomen in Love\u2039, Proximo in \u203aGladiator\u2039. Der L\u00f6we, der in der Runde Hof hielt. Tierentsprechung: L\u00f6we.",
@@ -33438,6 +33443,24 @@ window.translateReview = function(btn) {
   } catch(e) { btn.textContent = '\ud83c\udf10 \u00dcbersetzen'; }
 }
 
+// Wetter oben auf der Startseite (Wetter-API des Verlagshauses; Standort grob aus der IP, keine Abfrage)
+function _wetterLaden() {
+  var el = document.getElementById('kompass-wetter');
+  if (!el || el.dataset.geladen) return;
+  el.dataset.geladen = '1';
+  var icon = function(c){ return c===0?'\u2600\ufe0f':c===1?'\ud83c\udf24\ufe0f':c===2?'\u26c5':c===3?'\u2601\ufe0f':(c===45||c===48)?'\ud83c\udf2b\ufe0f':(c>=51&&c<=55)?'\ud83c\udf26\ufe0f':(c>=61&&c<=65)?'\ud83c\udf27\ufe0f':((c>=66&&c<=77)||c===89)?'\ud83c\udf28\ufe0f':(c>=80&&c<=82)?'\ud83c\udf26\ufe0f':c>=95?'\u26c8\ufe0f':'\ud83c\udf25\ufe0f'; };
+  fetch('https://rathmer-wetter.9rathmer.workers.dev/api/biowetter?lang=de')
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(w){
+      if (!w || !w.ok) return;
+      var wd = function(x){ return new Date(x + 'T12:00:00').toLocaleDateString('de', { weekday: 'short' }); };
+      el.innerHTML = '<span><b style="font-size:1.05rem;color:var(--ink);">' + icon(w.code) + ' ' + w.temp + ' \u00b0C</b> \u00b7 ' + _escHtml(w.text) + '</span>'
+        + '<span>\ud83e\udded ' + w.druck + ' hPa</span>'
+        + w.tage.slice(1, 4).map(function(x){ return '<span>' + wd(x.d) + ' ' + icon(x.c) + ' ' + x.min + '\u2013' + x.max + '\u00b0</span>'; }).join('');
+      el.style.display = 'flex';
+    }).catch(function(){});
+}
+
 function _bewertungSterneInit() {
 
 // Freigegebene Bewertungen laden
@@ -33462,6 +33485,9 @@ function _bewertungSterneInit() {
           '<button onclick="translateReview(this)" data-translated="0" style="margin-top:0.5rem;background:none;border:none;color:var(--gold-dark,#a07830);font-size:0.75rem;cursor:pointer;padding:0;">\ud83c\udf10 \u00dcbersetzen</button>' +
           '</div>';
       }).join('');
+      const _an = document.getElementById('community-anzahl'); if (_an) _an.textContent = ' (' + liste.length + ')';
+      const _dt = document.getElementById('community-details'), _hw = document.getElementById('community-hinweis');
+      if (_dt && _hw) _dt.addEventListener('toggle', function(){ _hw.textContent = _dt.open ? _hw.dataset.open : _hw.dataset.closed; });
       section.style.display = 'block';
     }).catch(function() {});
   const sterne = document.querySelectorAll('#bwrt-sterne span');
@@ -33539,11 +33565,11 @@ function updatesPage() {
   const entries = (typeof CHANGELOG !== "undefined" ? CHANGELOG : []);
   const rows = entries.map(e => {
     const dateStr = _formatGermanDate(e.date);
-    if (unlocked) {
+    if (unlocked || e.open) {
       return `<li style="display:flex;gap:1rem;align-items:baseline;padding:0.9rem 0;border-bottom:1px solid var(--border);">
         <span style="flex-shrink:0;width:6.5rem;font-size:0.78rem;color:var(--muted);font-family:-apple-system,sans-serif;">${dateStr}</span>
         ${e.route
-          ? `<a href="#" onclick="event.preventDefault();go('${e.route}')" style="color:var(--ink);text-decoration:underline;text-decoration-color:var(--copper);text-underline-offset:2px;font-size:0.92rem;">${e.text}</a>`
+          ? `<a href="${e.href ? e.href : '#'}"${e.href ? ' target="_blank" rel="noopener"' : ''} onclick="${e.href ? '' : "event.preventDefault();go('" + e.route + "')"}" style="color:var(--ink);text-decoration:underline;text-decoration-color:var(--copper);text-underline-offset:2px;font-size:0.92rem;">${e.text}</a>`
           : `<span style="font-size:0.92rem;color:var(--ink);">${e.text}</span>`}
       </li>`;
     }
@@ -33580,11 +33606,11 @@ function neuigkeitenSection() {
   const latest = CHANGELOG.reduce((a, b) => a.date > b.date ? a : b).date;
   const unlocked = hasHeilwissen();
   const items = neu.map(e => {
-    if (unlocked) {
+    if (unlocked || e.open) {
       return `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
       <span style="color:var(--copper,#b87830);flex-shrink:0;">\u2726</span>
       ${e.route
-        ? `<a href="#" onclick="event.preventDefault();go('${e.route}')" style="color:var(--ink,#2c2824);text-decoration:underline;text-decoration-color:var(--copper,#b87830);text-underline-offset:2px;">${e.text}</a>`
+        ? `<a href="${e.href ? e.href : '#'}"${e.href ? ' target="_blank" rel="noopener"' : ''} onclick="${e.href ? '' : "event.preventDefault();go('" + e.route + "')"}" style="color:var(--ink,#2c2824);text-decoration:underline;text-decoration-color:var(--copper,#b87830);text-underline-offset:2px;">${e.text}</a>`
         : `<span>${e.text}</span>`}
     </li>`;
     }
@@ -33610,6 +33636,29 @@ function neuigkeitenSection() {
       </div>
     </section>`;
 }
+
+// Startseite: Klappfaecher merken sich auf dem Geraet, ob sie offen sind
+function _fachOffen(id, standard) {
+  let v = null;
+  try { v = localStorage.getItem("kompass:fach-" + id); } catch (e) {}
+  if (v === "1") return "open";
+  if (v === "0") return "";
+  return standard ? "open" : "";
+}
+function _startHinweisGesehen() {
+  try { return !!localStorage.getItem("kompass:start-neu-gesehen"); } catch (e) { return true; }
+}
+document.addEventListener("click", (e) => {
+  const kopf = e.target.closest("summary");
+  const fach = kopf && kopf.parentElement;
+  if (fach && fach.dataset.fach) {
+    try { localStorage.setItem("kompass:fach-" + fach.dataset.fach, fach.open ? "0" : "1"); } catch (err) {}
+  }
+  if (e.target.closest(".start-hinweis__ok")) {
+    try { localStorage.setItem("kompass:start-neu-gesehen", "1"); } catch (err) {}
+    e.target.closest(".start-hinweis").remove();
+  }
+});
 
 function startPage() {
   const p = state.profile;
@@ -33642,12 +33691,13 @@ function startPage() {
   ` : `
     <button class="primary" data-route="profile">Meinen Subtyp w\u00e4hlen \u2192</button>
     <button class="secondary" data-route="leseprobe">App-Leseprobe ansehen</button>
-    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Zugang kaufen \u00b7 ab \u20ac\u202f39 \u2192</button>
+    <button class="ghost-link" data-route="kaufen">Zugang kaufen \u00b7 ab \u20ac\u202f39 \u2192</button>
     <button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Bereits gekauft? Zugang hier aktivieren \u2192</button>
   `;
 
   return shell(`
     ${onboardingOverlay()}
+    <p id="kompass-wetter" class="mut" style="display:none;flex-wrap:wrap;gap:2px 14px;align-items:center;justify-content:center;margin:.6rem 1rem 0;font-size:.85rem;color:var(--muted);" title="Wetter an deinem Ort (in Deutschland: Mitte Deutschland). Quellen: Deutscher Wetterdienst (DWD), Open-Meteo"></p>
     <div style="position:absolute;top:calc(0.6rem + env(safe-area-inset-top));right:calc(0.75rem + env(safe-area-inset-right));z-index:10000;display:flex;align-items:center;justify-content:flex-end;gap:6px;"><a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_en.mp3')">\ud83c\uddec\ud83c\udde7 EN</a></div>
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
@@ -33660,60 +33710,30 @@ function startPage() {
 
     <div style="text-align:center;margin:0 0 0.8rem;"><button data-route="impuls-heute" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">\u25c8 Impuls f\u00fcr heute \u2013 lesen und anh\u00f6ren mit Detlef</button></div>
     <div style="text-align:center;margin:0 0 0.8rem;">${_gsLatestUpdateBadgeHTML()}</div>
-    ${neuigkeitenSection()}
+    ${firstVisit && !localStorage.getItem("kompass:changelog-seen") ? "" : neuigkeitenSection()}
 
-    <section style="max-width:680px;margin:0 auto 0;padding:0 1rem 0.8rem;">
-      <div style="text-align:center;margin-bottom:0.8rem;">
-        ${_wegweiserPremiumActive ? `
-        <button class="wegweiser-premium-open" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
-                  border:1px solid var(--copper,#a5652f);background:var(--copper,#a5652f);color:#fff;
-                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
-          ✨ Premium aktiv – Zum Wegweiser
-        </button>` : `
-        <button data-route="wegweiser-premium" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
-                  border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
-                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
-          ✨ Wegweiser Premium – Zugriff auf 40+ Bücher entdecken
-        </button>`}
+    ${(!firstVisit && !_startHinweisGesehen()) ? `<div class="start-hinweis"><span>Die Startseite ist neu geordnet. Es ist alles noch da, vieles jetzt in den Fächern weiter unten.</span><button type="button" class="start-hinweis__ok">Verstanden</button></div>` : ''}
+    <details class="start-fach start-fach--neu" data-fach="neu" ${_fachOffen("neu", firstVisit)}>
+      <summary>Neu hier? So fangen Sie an</summary>
+      <div class="start-fach__innen">
+        <ol class="start-neu">
+          <li><button type="button" class="ghost-link" data-route="profile">Ihren Typ wählen oder finden →</button></li>
+          <li>In Ihrem Profil zunächst nur einen Abschnitt lesen</li>
+          <li><button type="button" class="ghost-link" data-route="impuls-heute">Den Impuls für heute ansehen →</button></li>
+        </ol>
+        <p><strong>Alles andere darf warten.</strong></p>
+        <a href="./vorstellung.html#video" target="_blank" rel="noopener" class="ghost-link">🎬 2½-Minuten-Video ansehen</a>
       </div>
-      <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
-        <a href="https://www.verlagshausrathmer.com" target="_blank" rel="noopener"
-           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
-                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
-                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
-          \ud83d\udcda Verlagshaus Rathmer
-        </a>
-        <a href="https://psychologische-homoeopathie.de" target="_blank" rel="noopener"
-           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
-                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
-                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
-          \ud83c\udf3f Naturheilpraxis Rathmer
-        </a>
-        <a href="https://enneascholars.de" target="_blank" rel="noopener"
-           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
-                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
-                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
-          \ud83c\udf93 Ennea Scholars
-        </a>
-      </div>
-      <div style="text-align:center;margin-top:0.7rem;">
-        <button class="support-trigger-btn" style="background:none;border:none;color:var(--gold-dark,#8a6a1a);font-size:0.82rem;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:0.3rem;">\ud83d\udc9b Projekt-F\u00f6rderer werden</button>
-      </div>
-    </section>
+    </details>
 
-    <section class="start-paths">
-      <div class="start-path start-path--known">
-        <div class="start-path__icon">\u25ce</div>
-        <h2 class="start-path__title">Ich kenne meinen Subtyp</h2>
-        <p class="start-path__body">W\u00e4hlen Sie Ihren Subtyp und erkunden Sie Heilmittel, TCM-Zuordnung, Kindheitspr\u00e4gung, Musik und pers\u00f6nliche Entwicklungswege.</p>
-        <button class="start-path__btn" data-route="profile">Subtyp w\u00e4hlen \u2192</button>
-        <p style="font-size:0.78rem;color:var(--muted);margin:0.8rem 0 0;">Lieber im pers\u00f6nlichen Gespr\u00e4ch? <a href="javascript:void(0)" data-route="gesichts-scan" style="color:var(--copper,#a5603d);">Typberatung bei Detlef oder David Rathmer vereinbaren \u2192</a></p>
-      </div>
-      <div class="start-path start-path--unknown">
-        <div class="start-path__icon">\u25c7</div>
-        <h2 class="start-path__title">Ich kenne meinen Typ noch nicht</h2>
-        <p class="start-path__body">F\u00fcr eine genaue Typbestimmung empfehlen wir einen der nachfolgenden Tests oder eine pers\u00f6nliche Typberatung.</p>
-        <div class="start-path__actions">
+    <div class="start-tafeln">
+    <button type="button" class="start-tafel start-tafel--haupt" data-route="profile"><span class="start-tafel__icon" aria-hidden="true">◎</span><span class="start-tafel__titel">Ich kenne meinen Subtyp</span><span class="start-tafel__sub">Subtyp wählen und loslegen</span></button>
+    <details class="start-fach" data-fach="suche" ${_fachOffen("suche")}>
+      <summary class="start-tafel"><span class="start-tafel__icon" aria-hidden="true">◇</span><span class="start-tafel__titel">Ich suche meinen Typ</span><span class="start-tafel__sub">Kurze Tests, auch kostenlos</span></summary>
+      <div class="start-fach__innen">
+    <p class="start-path__body">F\u00fcr eine genaue Typbestimmung empfehlen wir einen der nachfolgenden Tests oder eine pers\u00f6nliche Typberatung.</p>
+
+    <div class="start-path__actions">
           <div class="start-path__test-row">
             <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Welches Tier bin ich?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">Kurztest &middot; 3 Fragen &middot; 1 Minute</span></button>
             <button class="start-path__btn start-path__btn--test" data-route="motivations-schnelltest">
@@ -33724,6 +33744,8 @@ function startPage() {
               <span class="start-path__test-label">Meinen Typ finden</span>
               <span class="start-path__test-sub">Suchen &amp; Rubriken &middot; Sätze sammeln &middot; ohne Fragebogen</span>
             </button>
+            <details class="start-mehr" data-fach="tests" ${_fachOffen("tests")}><summary>Weitere Tests</summary>
+            <div class="start-path__test-row">
             <button class="start-path__btn start-path__btn--test start-path__btn--diag${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "diagnosetest" : "freischalt/heilwissen"}">
               <span class="start-path__test-label">Diagnose-Test${hasHeilwissen() ? "" : " \ud83d\udd12"}</span>
               <span class="start-path__test-sub">Schnelleinstieg \u00b7 9 Profile</span>
@@ -33740,44 +33762,13 @@ function startPage() {
               <span class="start-path__test-label">Bewusstseinsgrad-Selbsttest${hasHeilwissen() ? "" : " \ud83d\udd12"}</span>
               <span class="start-path__test-sub">Wo stehe ich gerade? \u00b7 Spiegel f\u00fcr Fortgeschrittene</span>
             </button>
+            </div></details>
           </div>
-        </div>
-        <div class="start-path__berater">
-          <div class="start-path__berater-card">
-            <strong class="start-path__berater-name">Detlef Rathmer</strong>
-            <ul class="start-path__berater-list">
-              <li>Therapeut</li>
-              <li>Enneagrammtypisierung</li>
-              <li>Bewusstseins-<br>entwicklung</li>
-            </ul>
-            <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturheilpraxis Detlef Rathmer \u2192 psychologische-homoeopathie.de</a>
-            <a class="start-path__btn" href="https://www.psychologische-homoeopathie.de/enneagramm-foto-typisierung.html" target="_blank" rel="noopener" style="display:block;margin:0.6rem 0;background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);color:var(--anthracite,#2c2c2c);font-weight:700;">\ud83d\udcf7 Foto-Typisierung online buchen \u2013 119\u00a0\u20ac</a>
-            <div class="start-path__berater-actions">
-              <a class="start-path__btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">\u2709 E-Mail</a>
-              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
-            </div>
-          </div>
-          <div class="start-path__berater-card">
-            <strong class="start-path__berater-name">David L. Rathmer</strong>
-            <ul class="start-path__berater-list">
-              <li>Enneagramm-Profiling</li>
-              <li>Enneagrammtypisierung</li>
-              <li>Ennea Scholars</li>
-            </ul>
-            <a class="start-path__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagramm-Profiling f\u00fcr F\u00fchrungskr\u00e4fte &amp; Unternehmen \u2192 enneascholars.de</a>
-            <div class="start-path__berater-actions">
-              <a class="start-path__btn" href="mailto:rathmer.david.business@gmail.com?subject=Typisierungsberatung%20anfragen">\u2709 E-Mail</a>
-              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915901902479?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
-            </div>
-          </div>
-        </div>
-        <div style="text-align:center;margin-top:1.2rem;">
-          <button class="start-path__btn" data-route="gesichts-scan" style="background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);">\ud83d\udcf7 Optional: Gesichts-Scan oder Video f\u00fcr Ihre Beratung vorbereiten</button>
-          <p style="font-size:0.78rem;color:var(--muted);margin:0.5rem 0 0;">Freiwillig \u2013 keine Voraussetzung, um einen Beratungstermin zu vereinbaren.</p>
-        </div>
       </div>
-    </section>
-
+    </details>
+    <details class="start-fach" data-fach="verstehen" ${_fachOffen("verstehen")}>
+      <summary class="start-tafel"><span class="start-tafel__icon" aria-hidden="true">📖</span><span class="start-tafel__titel">Verstehen und erklärt bekommen</span><span class="start-tafel__sub">Erklärungen und Videos</span></summary>
+      <div class="start-fach__innen">
     <section style="max-width:680px;margin:0 auto;padding:2rem 1rem 0.5rem;">
       <details style="border:1px solid var(--border);border-radius:12px;overflow:hidden;">
         <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
@@ -33845,6 +33836,94 @@ function startPage() {
       </div>
     </section>
 
+    <section style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
+      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.8rem;">\ud83c\udfac Der Kompass ausf\u00fchrlich erkl\u00e4rt</h2>
+      <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 8px 24px rgba(0,0,0,0.18);">
+        <iframe src="https://www.youtube.com/embed/z-x9k4jdJfY?playsinline=1" title="Enneagramm-Heilungskompass \u2013 Ausf\u00fchrliche Erkl\u00e4rung" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+      <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;">10 Minuten \u2013 ein ausf\u00fchrlicher Rundgang durch alle Bereiche des Kompass.</p>
+    </section>
+      </div>
+    </details>
+    <details class="start-fach" data-fach="beratung" ${_fachOffen("beratung")}>
+      <summary class="start-tafel"><span class="start-tafel__icon" aria-hidden="true">💬</span><span class="start-tafel__titel">Persönliche Beratung</span><span class="start-tafel__sub">Mit Detlef oder David</span></summary>
+      <div class="start-fach__innen">
+    <p style="font-size:0.78rem;color:var(--muted);margin:0.8rem 0 0;">Lieber im pers\u00f6nlichen Gespr\u00e4ch? <a href="javascript:void(0)" data-route="gesichts-scan" style="color:var(--copper,#a5603d);">Typberatung bei Detlef oder David Rathmer vereinbaren \u2192</a></p>
+
+    <div class="start-beratung"><div class="start-path__berater">
+          <div class="start-path__berater-card">
+            <strong class="start-path__berater-name">Detlef Rathmer</strong>
+            <ul class="start-path__berater-list">
+              <li>Therapeut</li>
+              <li>Enneagrammtypisierung</li>
+              <li>Bewusstseins-<br>entwicklung</li>
+            </ul>
+            <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturheilpraxis Detlef Rathmer \u2192 psychologische-homoeopathie.de</a>
+            <a class="start-path__btn" href="https://www.psychologische-homoeopathie.de/enneagramm-foto-typisierung.html" target="_blank" rel="noopener" style="display:block;margin:0.6rem 0;background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);color:var(--anthracite,#2c2c2c);font-weight:700;">\ud83d\udcf7 Foto-Typisierung online buchen \u2013 119\u00a0\u20ac</a>
+            <div class="start-path__berater-actions">
+              <a class="start-path__btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">\u2709 E-Mail</a>
+              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+          <div class="start-path__berater-card">
+            <strong class="start-path__berater-name">David L. Rathmer</strong>
+            <ul class="start-path__berater-list">
+              <li>Enneagramm-Profiling</li>
+              <li>Enneagrammtypisierung</li>
+              <li>Ennea Scholars</li>
+            </ul>
+            <a class="start-path__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagramm-Profiling f\u00fcr F\u00fchrungskr\u00e4fte &amp; Unternehmen \u2192 enneascholars.de</a>
+            <div class="start-path__berater-actions">
+              <a class="start-path__btn" href="mailto:rathmer.david.business@gmail.com?subject=Typisierungsberatung%20anfragen">\u2709 E-Mail</a>
+              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915901902479?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:1.2rem;">
+          <button class="start-path__btn" data-route="gesichts-scan" style="background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);">\ud83d\udcf7 Optional: Gesichts-Scan oder Video f\u00fcr Ihre Beratung vorbereiten</button>
+          <p style="font-size:0.78rem;color:var(--muted);margin:0.5rem 0 0;">Freiwillig \u2013 keine Voraussetzung, um einen Beratungstermin zu vereinbaren.</p></div>
+      </div>
+    </details>
+    <details class="start-fach" data-fach="apps" ${_fachOffen("apps")}>
+      <summary class="start-tafel"><span class="start-tafel__icon" aria-hidden="true">⚓</span><span class="start-tafel__titel">Weitere Apps und Verlag</span><span class="start-tafel__sub">Apps, Verlag, Praxis</span></summary>
+      <div class="start-fach__innen">
+    <section id="begegnung-frei" style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
+      <a href="https://www.verlagshausrathmer.com/enneagrammbegegnung.html" target="_blank" rel="noopener" style="display:block;text-decoration:none;color:inherit;border:2px solid var(--gold,#c4a456);border-radius:14px;padding:1.1rem 1.2rem;background:var(--ivory);">
+        <span style="display:inline-block;background:var(--gold,#c4a456);color:#10201d;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 10px;border-radius:10px;font-size:.72rem;">Kostenlos</span>
+        <h2 style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:.55rem 0 .4rem;">Die Enneagramm-Begegnung</h2>
+        <p style="font-size:.9rem;line-height:1.55;color:var(--ink);margin:0 0 .6rem;">Unsere zweite App ist wirklich kostenlos: die Enneagramm-Begegnung. Sie ist f\u00fcr Freundschaft, Austausch und Partnerschaft, f\u00fcr Menschen, die das Enneagramm kennen oder kennenlernen wollen.</p>
+        <p style="font-size:.85rem;color:var(--muted);margin:0 0 .8rem;">Daf\u00fcr ist kein Kauf n\u00f6tig. Sie ist f\u00fcr alle da, auch f\u00fcr alle, die den Kompass nutzen.</p>
+        <span style="display:inline-block;background:var(--gold,#c4a456);color:var(--anthracite,#2c2c2c);font-weight:700;font-size:.9rem;padding:.6rem 1.2rem;border-radius:8px;">Enneagramm-Begegnung kostenlos \u00f6ffnen \u2192</span>
+      </a>
+    </section>
+
+    <div style="margin-top:2.2rem;">${verlagsAppsSection({nofree:true})}</div>
+
+    <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
+        <a href="https://www.verlagshausrathmer.com" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
+                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
+                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
+          \ud83d\udcda Verlagshaus Rathmer
+        </a>
+        <a href="https://psychologische-homoeopathie.de" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
+                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
+                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
+          \ud83c\udf3f Naturheilpraxis Rathmer
+        </a>
+        <a href="https://enneascholars.de" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
+                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
+                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
+          \ud83c\udf93 Ennea Scholars
+        </a>
+      </div>
+      </div>
+    </details>
+    <details class="start-fach" data-fach="modell" ${_fachOffen("modell")}>
+      <summary class="start-tafel"><span class="start-tafel__icon" aria-hidden="true">✦</span><span class="start-tafel__titel">Über das Modell, Stimmen und Tipps</span><span class="start-tafel__sub">Hintergrund, Bewertungen</span></summary>
+      <div class="start-fach__innen">
     <section class="model-credit">
       <p class="model-credit__label">Hinter dem Modell</p>
       <p class="model-credit__text">Der Enneagramm-Kompass beruht auf der \u00fcber Jahre gemeinsam entwickelten Arbeit von <strong>Detlef Rathmer</strong> (Therapie &amp; Heilung) und <strong>David L. Rathmer</strong> (Enneagramm-Profiling f\u00fcr F\u00fchrungskr\u00e4fte &amp; Unternehmen).</p>
@@ -33890,17 +33969,35 @@ function startPage() {
     </section>` : ''}
 
     <section id="community-bewertungen" style="max-width:680px;margin:1.5rem auto 0;padding:0 1rem;display:none;">
-      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:1rem;">Stimmen aus der Community</h2>
-      <div id="community-liste" style="display:flex;flex-direction:column;gap:0.8rem;"></div>
+      <details id="community-details" style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:0.2rem 1rem;">
+        <summary style="cursor:pointer;list-style:none;padding:0.8rem 0;font-size:1rem;font-weight:700;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:0.6rem;">
+          <span>Stimmen aus der Community<span id="community-anzahl" style="font-weight:400;color:var(--muted);"></span></span>
+          <span id="community-hinweis" data-open="Einklappen ▴" data-closed="Ansehen ▾" style="font-size:0.8rem;font-weight:600;color:var(--gold-dark,#a07830);white-space:nowrap;">Ansehen ▾</span>
+        </summary>
+        <div id="community-liste" style="display:flex;flex-direction:column;gap:0.8rem;padding:0.2rem 0 1rem;"></div>
+      </details>
     </section>
 
-    <section style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
-      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.8rem;">\ud83c\udfac Der Kompass ausf\u00fchrlich erkl\u00e4rt</h2>
-      <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 8px 24px rgba(0,0,0,0.18);">
-        <iframe src="https://www.youtube.com/embed/z-x9k4jdJfY?playsinline=1" title="Enneagramm-Heilungskompass \u2013 Ausf\u00fchrliche Erkl\u00e4rung" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+    <div style="text-align:center;margin-top:0.7rem;">
+        <button class="support-trigger-btn" style="background:none;border:none;color:var(--gold-dark,#8a6a1a);font-size:0.82rem;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:0.3rem;">\ud83d\udc9b Projekt-F\u00f6rderer werden</button>
       </div>
-      <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;">10 Minuten \u2013 ein ausf\u00fchrlicher Rundgang durch alle Bereiche des Kompass.</p>
-    </section>
+      </div>
+    </details>
+    </div>
+
+    <div class="start-wegweiser"><div style="text-align:center;margin-bottom:0.8rem;">
+        ${_wegweiserPremiumActive ? `
+        <button class="wegweiser-premium-open" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
+                  border:1px solid var(--copper,#a5652f);background:var(--copper,#a5652f);color:#fff;
+                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
+          ✨ Premium aktiv – Zum Wegweiser
+        </button>` : `
+        <button data-route="wegweiser-premium" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
+                  border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
+                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
+          ✨ Wegweiser Premium – Zugriff auf 40+ Bücher entdecken
+        </button>`}
+      </div></div>
 
     ${legalFooter()}
   `);
@@ -37078,7 +37175,7 @@ function zahlenFaktenPage() {
 }
 
 // Apps des Verlagshauses (Bibliothek): zur Laufzeit aus der zentralen Liste, letzter Stand in localStorage
-function verlagsAppsSection() {
+function verlagsAppsSection(opts) {
   const KEY = "kompass_verlagsapps_v1", BASE = "https://www.verlagshausrathmer.com/";
   const EN = false;
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -37107,7 +37204,7 @@ function verlagsAppsSection() {
       const kicon = K.icon ? `<img src="${esc(BASE + K.icon)}" alt="" loading="lazy" width="56" height="56" style="width:56px;height:56px;flex-shrink:0;border-radius:12px;object-fit:contain;background:#f4efe3;padding:5px;box-sizing:border-box;" onerror="this.style.display='none'">` : "";
       if (kh) free = `<a href="${esc(/^https?:/.test(kh) ? kh : BASE + kh)}" target="_blank" rel="noopener" style="display:flex;gap:1rem;align-items:center;max-width:720px;margin:1.2rem auto;padding:1rem 1.2rem;border:2px solid #c9a227;border-radius:14px;color:inherit;text-decoration:none;background:rgba(201,162,39,.08);">${kicon}<div><span style="display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#c9a227;color:#fff;border-radius:999px;padding:.1rem .6rem;margin-bottom:.35rem;">Kostenlos · weltweit</span><h2 style="margin:.1rem 0;">${esc(kn)}${ks ? ` <small style="font-size:.6em;font-style:italic;font-weight:400;opacity:.75;white-space:nowrap;">⚓ ${esc(ks)}</small>` : ""}</h2><p style="margin:.2rem 0.4rem;">${esc(kk)}</p><span class="deepen-link">Kostenlos ansehen →</span></div></a>`;
     }
-    return `<div class="narrow centered" id="verlags-apps"><h2>Die Apps des Verlagshauses</h2><p class="lead-small">Das Verlagshaus Rathmer bietet mehrere Apps zum Enneagramm, zur Selbsterkenntnis und zur Heilkunde an. Jede ist ein eigenes Werkzeug, aus einem Buch entstanden. Tippen Sie auf eine App, um sie zu öffnen.</p></div>${free}<div class="narrow centered"><h3>Unsere Apps an Bord</h3></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:0 1rem;">${cards}</div>`;
+    return `<div class="narrow centered" id="verlags-apps"><h2>Die Apps des Verlagshauses</h2><p class="lead-small">Das Verlagshaus Rathmer bietet mehrere Apps zum Enneagramm, zur Selbsterkenntnis und zur Heilkunde an. Jede ist ein eigenes Werkzeug, aus einem Buch entstanden. Tippen Sie auf eine App, um sie zu öffnen.</p></div>${(opts && opts.nofree) ? "" : free}<div class="narrow centered"><h3>Unsere Apps an Bord</h3></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;max-width:1100px;margin:0 auto;padding:0 1rem;">${cards}</div>`;
   };
   let cached = null;
   try { cached = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) {}
@@ -47123,7 +47220,7 @@ function lebensmusterkompassPage() {
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
           <p class="vb-intro">Diese Rubrik verfolgt ein einfaches Ziel: Statt nur allgemeine Charakterbeschreibungen zu liefern, sucht sie nach <strong>konkreten, wiederkehrenden Mustern im Lebenslauf</strong> &ndash; Handlungen, Entscheidungen, \xfcberraschende Wendepunkte &ndash;, die sich bei mehreren, unabh\xe4ngig voneinander typisierten Personen desselben Subtyps \xe4hnlich zeigen. Diese &bdquo;biografischen Fingerabdr\xfccke&ldquo; sollen helfen, eine Typisierung nicht nur anhand der bisher \xfcblichen Kriterien (etwa Blickqualit\xe4t oder Bauchgef\xfchl) vorzunehmen, sondern zus\xe4tzlich \xfcber konkrete Lebenslauflinien zu \xfcberpr\xfcfen und zu best\xe4tigen. Das ist im Rahmen dieses Kompasses ein neuer Ansatz, den es in dieser Form bislang nicht gab: neben zentralen, oft entscheidenden Kriterien wie der Blickqualit\xe4t treten damit Kriterien, die sich wie ein roter Faden durch ein ganzes Leben ziehen &ndash; und die erst sichtbar werden, wenn man sich f\xfcr einen Menschen wirklich Zeit nimmt, so wie es im Rahmen einer ausf\xfchrlichen Erstanalyse in der Enneagramm-Hom\xf6opathie geschieht.</p>
-          <p class="vb-intro"><strong>Wichtiger Hinweis zur Methode:</strong> Diese Muster sind keine au\xdfenstehend verifizierte, wissenschaftliche Beweisf\xfchrung. Sie wurden aus der internen Analyse der eigenen Fallportr\xe4ts dieses Kompasses gewonnen &ndash; und diese Portr\xe4ts wurden bereits mit einem bestimmten Blick auf den jeweiligen Subtyp geschrieben. Dieser Blick speist sich nicht nur aus den Portr\xe4ttexten selbst, sondern aus \xfcber drei\xdfig Jahren praktischer Erfahrung im Umgang mit Menschen der 27 Subtypen &ndash; Beobachtungen, die fortlaufend in die Portr\xe4ts eingeflossen sind. Es besteht daher ein methodisches Zirkularit\xe4tsrisiko: Die Muster k\xf6nnten eigene Vorannahmen widerspiegeln, statt sie unabh\xe4ngig zu best\xe4tigen. Verstehen Sie diese Rubrik als ein internes, kontinuierlich wachsendes Beobachtungsinstrument, gespeist aus jahrzehntelanger Praxiserfahrung &ndash; nicht als absolut objektiven, au\xdfenstehenden Beweis. Alle 27 Subtypen sind inzwischen ausgearbeitet &ndash; die Rubrik wird laufend aktualisiert, sobald neue Portr\xe4ts erscheinen.</p>
+          <p class="vb-intro"><strong>Hinweis:</strong> Die Lebensmuster sind aus den Fallporträts dieses Kompasses und aus mehr als dreißig Jahren Praxiserfahrung mit den 27 Subtypen gewachsen. Sie sind Beobachtungen zur Orientierung und zur Selbstreflexion, keine Diagnose. Alle 27 Subtypen sind inzwischen ausgearbeitet &ndash; die Rubrik wird laufend aktualisiert, sobald neue Porträts erscheinen.</p>
         </blockquote>
 
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:0.8rem;margin:2rem 0;">
@@ -64885,7 +64982,7 @@ function showTagesimpuls(force) {
       <p class="tagesimpuls-card__impuls"><em>${impuls.impuls}</em></p>
       <p class="tagesimpuls-card__autor">\u2014 Detlef Rathmer</p>
       <button class="tagesimpuls-card__share tagesimpuls-card__audio" hidden style="width:100%;margin-top:0.6rem;display:flex;align-items:center;justify-content:center;gap:10px;min-height:56px;font-size:1.02rem"><img src="assets/detlef-rund2.jpg" alt="" width="40" height="40" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:1px solid currentColor;flex:none"><span class="tagesimpuls-card__lbl">Anh\u00f6ren mit Detlef</span></button>
-      <p class="tagesimpuls-card__voice" hidden style="font-size:0.78rem;opacity:0.7;margin:0.4rem 0 0">Vorgelesen von Detlef Rathmer, digital vertont, mit Zustimmung des Autors.</p>
+      <p class="tagesimpuls-card__voice" hidden style="font-size:0.78rem;opacity:0.7;margin:0.4rem 0 0">Vorgelesen von Detlef Rathmer, digital vertont, mit Zustimmung des Autors. Kleine Betonungsfehler sind möglich, kein Anspruch auf Perfektion.</p>
       <div class="tagesimpuls-card__actions">
         <button class="tagesimpuls-card__btn">Den Impuls merken \u2726</button>
         <button class="tagesimpuls-card__share">\u2197 Teilen</button>
@@ -69060,7 +69157,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-paul-dano": paulDanoPortraitPage, "beruehmte-axel-prahl": axelPrahlPortraitPage, "beruehmte-marisa-burger": marisaBurgerPortraitPage, "beruehmte-igor-jeftic": igorJefticPortraitPage, "beruehmte-alexander-duda": alexanderDudaPortraitPage, "beruehmte-max-mueller": maxMuellerPortraitPage, "beruehmte-jan-josef-liefers": janJosefLiefersPortraitPage, "beruehmte-anna-loos": annaLoosPortraitPage, "beruehmte-otto-waalkes": ottoWaalkesPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-wolfgang-voelz": wolfgangVoelzPortraitPage, "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-paul-dano": paulDanoPortraitPage, "beruehmte-axel-prahl": axelPrahlPortraitPage, "beruehmte-marisa-burger": marisaBurgerPortraitPage, "beruehmte-igor-jeftic": igorJefticPortraitPage, "beruehmte-alexander-duda": alexanderDudaPortraitPage, "beruehmte-max-mueller": maxMuellerPortraitPage, "beruehmte-jan-josef-liefers": janJosefLiefersPortraitPage, "beruehmte-anna-loos": annaLoosPortraitPage, "beruehmte-otto-waalkes": ottoWaalkesPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
@@ -69670,7 +69767,7 @@ function render(opts) {
     }
     if (base === "admin") { adminPage(); requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; })); return; }
     if (base === "admin-wegweiser") { adminWegweiserCodePage(); requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; })); return; }
-    if (base === "start") requestAnimationFrame(_bewertungSterneInit);
+    if (base === "start") { requestAnimationFrame(_bewertungSterneInit); requestAnimationFrame(_wetterLaden); }
     if (base === "laenderzuordnungen") {
       requestAnimationFrame(window._llInitVideoObserver);
       setTimeout(function(){ requestAnimationFrame(window._llLazyLoadStep); }, 400);
@@ -70572,7 +70669,7 @@ document.addEventListener("click", async (e) => {
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=19"))).then(m => m.mountPdfButton("de")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=20"))).then(m => m.mountPdfButton("de")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {
