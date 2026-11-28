@@ -169,6 +169,8 @@
         });
       }
     </script>
+    <!-- muss VOR dem Aktualisierungs-Prüfer stehen, sonst meldet er ständig eine neue Version -->
+    <script src="/titelbild.js?v=1"></script>
     <script>
       // Hinweis „New version available“: erkennt während der Nutzung eine neu ausgelieferte Version und lädt
       // NIE von selbst neu (Songs, Videos, Eingaben bleiben unberührt). Der bestehende
@@ -229,6 +231,5 @@
         document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible' && Date.now() - last > 15000) chk(); });
       })();
     </script>
-  <script src="/titelbild.js?v=1"></script>
-</body>
+  </body>
 </html>
