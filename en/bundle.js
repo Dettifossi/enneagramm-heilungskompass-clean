@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=524";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=525";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -1987,9 +1987,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Alexander Duda \u2013 Self-Preservation Type 2",
     teaser:"SP2w1 \u00b7 b. 1955 in Munich. Actor, theatre director and dubbing artist, Police Director Gert Achtziger in \u2018Die Rosenheim-Cops\u2019 since 2006. The hippopotamus that stays at its place. Animal correspondence: Hippopotamus.",
     land:"Germany", tags:["Acting","Television","Theatre"], gender:"m"},
-{ route:"beruehmte-max-mueller", name:"Max M\u00fcller", added:"2026-11-15", subtyp:"SO7w6",
-    heading:"Max M\u00fcller \u2013 Social Type 7",
-    teaser:"SO7w6 \u00b7 b. 1965 in Klagenfurt. Actor and baritone, Police Sergeant Michi Mohr in \u2018Die Rosenheim-Cops\u2019 since 2002. The beaver who serves the whole from the second row. Animal correspondence: Beaver.",
+{ route:"beruehmte-max-mueller", name:"Max M\u00fcller", added:"2026-11-15", subtyp:"SE6w7",
+    heading:"Max M\u00fcller \u2013 Self-Preservation Type 6",
+    teaser:"SE6w7 \u00b7 b. 1965 in Klagenfurt. Actor and baritone, Police Sergeant Michi Mohr in \u203aDie Rosenheim-Cops\u2039 since 2002. The rabbit that finds its footing in a familiar ensemble and gives others theirs. Animal correspondence: Rabbit.",
     land:"Austria", tags:["Acting","Television","Music"], gender:"m"},
 { route:"beruehmte-jan-josef-liefers", name:"Jan Josef Liefers", added:"2026-11-15", subtyp:"SO7w6",
     heading:"Jan Josef Liefers \u2013 Social Type 7",

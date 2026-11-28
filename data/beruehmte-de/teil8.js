@@ -3321,9 +3321,9 @@ export function janJosefLiefersPortraitPage() {
           <p class="vb-intro">Das Licht liegt in Humor, Vielseitigkeit und Tatkraft, mit der Liefers eine Gemeinschaft mitreißt. Der Schatten des Siebeners liegt darin, Unangenehmes mit Witz zu überspielen; beim Sechserflügel kommt die Empfindlichkeit gegenüber Ablehnung hinzu.</p>
         </blockquote>
 
-        <h2 class="vb-section">8. Parallelen im selben Subtyp: Max Müller und Rowan Atkinson</h2>
+        <h2 class="vb-section">8. Parallele im selben Subtyp: Rowan Atkinson</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a> (SO7w6) ist als Polizeihauptmeister Michi Mohr ebenfalls über zwei Jahrzehnte Teil eines festen Serien-Ensembles und dient dem Ganzen aus der zweiten Reihe. <a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) teilt mit Liefers den Sechserflügel und die Verbindung aus Komik und Perfektion.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) teilt mit Liefers den Sechserflügel und die Verbindung aus Komik und Perfektion.</p>
         </blockquote>
 
         <h2 class="vb-section">9. Stand im November 2026</h2>
@@ -3340,7 +3340,6 @@ export function janJosefLiefersPortraitPage() {
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
         {route:"beruehmte-axel-prahl", label:"Porträt: Axel Prahl (SE9w8) – Thiel im Münsteraner Tatort"},
-        {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6)"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
         {route:"beruehmte-anna-loos", label:"Porträt: Anna Loos (SX6w7) – Schauspielerin und Sängerin"},
       ])}

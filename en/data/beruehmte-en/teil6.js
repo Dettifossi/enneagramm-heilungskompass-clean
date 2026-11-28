@@ -3324,9 +3324,9 @@ export function janJosefLiefersPortraitPage() {
           <p class="vb-intro">The light lies in humour, versatility and the drive with which Liefers carries a community along. The shadow of the Seven is to gloss over the unpleasant with wit; with the Six-wing comes a sensitivity to rejection.</p>
         </blockquote>
 
-        <h2 class="vb-section">8. Parallels in the Same Subtype: Max Müller and Rowan Atkinson</h2>
+        <h2 class="vb-section">8. Parallel in the Same Subtype: Rowan Atkinson</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a> (SO7w6) has likewise been part of a fixed series ensemble for over two decades as Police Sergeant Michi Mohr and serves the whole from the second row. <a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) shares with Liefers the Six-wing and the combination of comedy and perfection.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) shares with Liefers the Six-wing and the combination of comedy and perfection.</p>
         </blockquote>
 
         <h2 class="vb-section">9. Status in November 2026</h2>
@@ -3343,7 +3343,6 @@ export function janJosefLiefersPortraitPage() {
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
         {route:"beruehmte-axel-prahl", label:"Portrait: Axel Prahl (SP9w8) – Thiel in the Münster Tatort"},
-        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SO7w6)"},
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
         {route:"beruehmte-anna-loos", label:"Portrait: Anna Loos (SX6w7) – actress and singer"},
       ])}

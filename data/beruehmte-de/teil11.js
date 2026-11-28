@@ -3270,7 +3270,7 @@ export function axelPrahlPortraitPage() {
         {route:"beruehmte-jan-josef-liefers", label:"Porträt: Jan Josef Liefers (SO7w6) – Boerne im Münsteraner Tatort"},
         {route:"beruehmte-marisa-burger", label:"Porträt: Marisa Burger (SX3w2) – Rosenheim-Cops"},
         {route:"beruehmte-alexander-duda", label:"Porträt: Alexander Duda (SE2w1) – Rosenheim-Cops"},
-        {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6) – Rosenheim-Cops"},
+        {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SE6w7) – Rosenheim-Cops"},
         {route:"beruehmte-igor-jeftic", label:"Porträt: Igor Jeftić (SO1w2) – Rosenheim-Cops"},
       ])}
     </div>

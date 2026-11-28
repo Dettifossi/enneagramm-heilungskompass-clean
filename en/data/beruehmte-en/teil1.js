@@ -3320,7 +3320,7 @@ export function alexanderDudaPortraitPage() {
         {route:"beruehmte-joachim-llambi", label:"Portrait: Joachim Llambi (SP2w1)"},
         {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},
         {route:"beruehmte-marisa-burger", label:"Portrait: Marisa Burger (SX3w2)"},
-        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SO7w6)"},
+        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SE6w7)"},
         {route:"beruehmte-igor-jeftic", label:"Portrait: Igor Jeftić (SO1w2)"},
         {route:"beruehmte-axel-prahl", label:"Portrait: Axel Prahl (SP9w8) – Detective Thiel in the Münster Tatort"},
       ])}

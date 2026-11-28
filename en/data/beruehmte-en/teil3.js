@@ -3247,7 +3247,7 @@ export function igorJefticPortraitPage() {
         {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
         {route:"beruehmte-marisa-burger", label:"Portrait: Marisa Burger (SX3w2)"},
         {route:"beruehmte-alexander-duda", label:"Portrait: Alexander Duda (SE2w1)"},
-        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SO7w6)"},
+        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SE6w7)"},
         {route:"beruehmte-axel-prahl", label:"Portrait: Axel Prahl (SP9w8) – Detective Thiel in the Münster Tatort"},
       ])}
     </div>

@@ -3348,7 +3348,7 @@ export function marisaBurgerPortraitPage() {
         {route:"beruehmte-christina-plate", label:"Portrait: Christina Plate (SX3w2)"},
         {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
         {route:"beruehmte-alexander-duda", label:"Portrait: Alexander Duda (SE2w1)"},
-        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SO7w6)"},
+        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SE6w7)"},
         {route:"beruehmte-igor-jeftic", label:"Portrait: Igor Jeftić (SO1w2)"},
         {route:"beruehmte-axel-prahl", label:"Portrait: Axel Prahl (SP9w8) – Detective Thiel in the Münster Tatort"},
       ])}

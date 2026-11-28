@@ -3265,52 +3265,53 @@ export function maxMuellerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-max-mueller-portrait.jpg" alt="Max Müller – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-max-mueller-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Max Müller</p>
-        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
-        <p class="krim-portrait-subtitle">Schauspieler und Sänger, geb. 1965 in Klagenfurt &ndash; Tierentsprechung: Biber</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Sänger, geb. 1965 in Klagenfurt &ndash; Tierentsprechung: Kaninchen</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Biber aus Kärnten: ein Bariton wird Streifenpolizist</h2>
+        <h2 class="vb-section">1. Das Kaninchen aus Kärnten: ein Bariton wird Streifenpolizist</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> baut unermüdlich, und zwar nicht für sich allein, sondern für die Gemeinschaft, die in seinem Revier lebt. Max Müller wurde am 12. März 1965 in Klagenfurt am Wörthersee geboren. Nach Angaben von Porträts studierte er an der Hochschule für Musik und darstellende Kunst in Wien Schauspiel und Gesang. Er ist ausgebildeter Opernsänger in der Stimmlage Bariton; sein Debüt als lyrischer Bariton gab er 2002 beim Carinthischen Sommer.</p>
+          <p class="vb-intro">Das <strong>Kaninchen</strong> hat seinen Bau gern in der Nähe vertrauter Wege und kommt am liebsten dann heraus, wenn es sich auskennt. Max Müller wurde am 12. März 1965 in Klagenfurt am Wörthersee geboren. Nach Angaben von Porträts studierte er an der Hochschule für Musik und darstellende Kunst in Wien Schauspiel und Gesang. Er ist ausgebildeter Opernsänger in der Stimmlage Bariton; sein Debüt als lyrischer Bariton gab er 2002 beim Carinthischen Sommer.</p>
           <p class="vb-intro">Dem breiten Fernsehpublikum ist er als Polizeihauptmeister Michael ›Michi‹ Mohr in der ZDF-Serie ›Die Rosenheim-Cops‹ bekannt, einer Rolle, die er seit dem Start der Serie 2002 spielt. Die Quellen weichen hier leicht ab: Eine nennt schon das Jahr 2000 für die ersten Dreharbeiten.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Der soziale Siebener: Lebensfreude im Dienst der Gruppe</h2>
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Halt im Vertrauten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>soziale Siebener</strong> gilt als der <em>Kontratyp</em> (Gegentyp) der Sieben: Statt Genuss und Vergnügen für sich zu suchen, stellt er Lebensfreude, Einsatz und Planung in den Dienst einer Gemeinschaft. Claudio Naranjo sprach hier von <em>Opfer</em> (Sacrifice): Der Vergnügungssucher opfert das eigene Vergnügen, um dazuzugehören und gebraucht zu werden. Im Lebensmusterkompass dieser App steht dafür der Biber: rastloses Bauen im Dienst eines größeren Ganzen.</p>
-          <p class="vb-intro">Müller verkörpert diesen Zug in seiner Rolle wie im Beruf. Mohr ist der Mann der Streife und des Reviers, der Polizeihauptmeister, nicht der Kommissar und nicht der Star, ein Mann der Pflicht und der Gemeinschaft, der aus der zweiten Reihe heraus dem Ganzen dient.</p>
+          <p class="vb-intro">Die Sechs sucht Sicherheit, weil sie weiß, wie schnell sie fehlen kann. Die <strong>selbsterhaltende Sechs (SE6)</strong> nannte Claudio Naranjo den Subtyp der <em>Wärme</em>: Sie findet Halt in einem überschaubaren Kreis von Menschen und in verlässlichen Abläufen, und sie gewinnt diesen Halt, indem sie selbst zugewandt und verlässlich ist.</p>
+          <p class="vb-intro">Bei Müller zeigt sich das in seiner Rolle wie im Beruf. Eine Serie mit festem Ensemble, ein vertrautes Revier, wiederkehrende Abläufe: Darin ist er seit mehr als zwei Jahrzehnten zu Hause. Mohr ist der Mann der Streife, der Polizeihauptmeister, nicht der Kommissar und nicht der Star, ein Mensch, auf den sich die anderen verlassen können.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Sechserflügel: Treue und Verlässlichkeit</h2>
+        <h2 class="vb-section">3. Der Siebenerflügel: Leichtigkeit und eine zweite Welt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Loyalität, Verbindlichkeit und das Bedürfnis nach festem Boden. Das zeigt sich in der Treue zu einer einzigen Serie über mehr als zwei Jahrzehnte und in einer bemerkenswerten Entscheidung, über die Medien 2026 berichteten: Müller reduziert seine Drehtage, um sich stärker um seine Mutter zu kümmern, die in einem Pflegeheim bei Wien lebt. Sein Vater sei verstorben, und die Mutter brauche ihn jetzt. Die Figur Michi Mohr soll dennoch weiter in der Serie auftreten. Verlässlichkeit gegenüber dem Beruf und gegenüber der Familie liegen hier nebeneinander.</p>
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der vorsichtigen Sechs Beweglichkeit, Freundlichkeit und Freude an mehreren Möglichkeiten. Bei Müller passt dazu die musikalische Seite: Er ist ausgebildeter Bariton, spielt Klavier und Gitarre und pflegt diese zweite Welt neben der Serie. Auch die Wärme, mit der er seine Figur spielt, gehört hierher.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Die Substanz: aus einer Nebenrolle die Rolle des Lebens gemacht</h2>
+        <h2 class="vb-section">4. Die Substanz: aus einer kleinen Rolle die Rolle des Lebens gemacht</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Nach Medienberichten bewarb sich Müller ursprünglich für eine ganz andere Rolle, die des Kommissars an der Seite von Joseph Hannesschläger, und erhielt stattdessen die zunächst kleine Rolle eines Polizisten. Er machte daraus eine Figur, die über ein Vierteljahrhundert trägt: einen Polizisten, der im Ensemble als verlässlicher Rückhalt wirkt. Das ist handwerklich nicht trivial. Eine Figur, die nicht im Zentrum der Handlung steht, über Jahre lebendig zu halten, verlangt Genauigkeit im Kleinen: Timing, Wärme und ein Gespür dafür, wann man im Bild nur da sein darf.</p>
-          <p class="vb-intro">Dazu kommt seine musikalische Seite: Als ausgebildeter Bariton, der Klavier und Gitarre spielt, bringt er eine zweite Welt mit, die er neben der Serie pflegt. 2017 erhielt er gemeinsam mit seinen Kollegen <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a> und <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a> die Bayerische Staatsmedaille für Innere Sicherheit (›Stern der Sicherheit‹), 2019 nach Berichten außerdem eine Auszeichnung der Gewerkschaft der Polizei Hessen.</p>
+          <p class="vb-intro">2017 erhielt er gemeinsam mit seinen Kollegen <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a> und <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a> die Bayerische Staatsmedaille für Innere Sicherheit (›Stern der Sicherheit‹), 2019 nach Berichten außerdem eine Auszeichnung der Gewerkschaft der Polizei Hessen.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Das Opfer für die Familie</h2>
+        <h2 class="vb-section">5. Da sein für die Familie</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Für einen sozialen Siebener ist es aufschlussreich, dass sein sichtbarster Verzicht nicht der Gruppe am Set, sondern der Familie gilt: Er nimmt sich bewusst zurück, damit er bei seiner Mutter sein kann. Der Siebener, der sonst Freiheit und Möglichkeiten liebt, entscheidet sich hier für Bindung. Er selbst begründet es schlicht mit der Notwendigkeit.</p>
+          <p class="vb-intro">2026 berichteten Medien, dass Müller seine Drehtage reduziert, um sich stärker um seine Mutter zu kümmern, die in einem Pflegeheim bei Wien lebt. Sein Vater sei verstorben, und die Mutter brauche ihn jetzt. Die Figur Michi Mohr soll dennoch weiter in der Serie auftreten.</p>
+          <p class="vb-intro">Hier wird sichtbar, was die selbsterhaltende Sechs trägt: Bindung ist für sie gelebte Verlässlichkeit. Er gibt das Vertraute im Beruf nicht auf und ist zugleich dort, wo seine Familie ihn braucht. Er selbst begründet es schlicht mit der Notwendigkeit.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Licht und Schatten des sozialen Siebeners mit Sechserflügel</h2>
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sechs mit Siebenerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Wärme, der Hilfsbereitschaft und der Treue, mit der Müller einer Figur und einer Gemeinschaft dient. Der Schatten des sozialen Siebeners liegt darin, die eigenen Wünsche und das eigene Vergnügen zu lange zurückzustellen, damit niemand enttäuscht wird, und Unangenehmes mit Freundlichkeit zu überspielen.</p>
+          <p class="vb-intro">Das Licht liegt in der Wärme, der Treue und der Verlässlichkeit, mit der Müller einer Figur, einem Ensemble und seiner Familie verbunden bleibt. Der Siebenerflügel bringt Leichtigkeit dazu. Der Schatten der selbsterhaltenden Sechs liegt allgemein darin, das Gewohnte aus Vorsicht länger festzuhalten, als es guttut, und die eigene Sorge hinter Freundlichkeit zu verbergen.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Parallelen im selben Subtyp: Rowan Atkinson und Paul Ronzheimer</h2>
+        <h2 class="vb-section">7. Parallelen im selben Typ: Katie Couric und Milan Peschel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) teilt mit Müller den Sechserflügel und das Muster ›Zugehörigkeit statt Ausbruch‹, nur dass Atkinson es in Komik verwandelt. <a href="javascript:void(0)" data-route="beruehmte-paul-ronzheimer">Paul Ronzheimer</a> (SO7w6) zeigt den Biber, der dort baut, wo andere nicht hinkommen: ebenfalls kein Mann des Rampenlichts um seiner selbst willen, sondern ein Dienender am Werk. <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) schließlich ist als Boerne im Münsteraner ›Tatort‹ ebenfalls seit über zwanzig Jahren Teil eines festen Serien-Tandems.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-katie-couric">Katie Couric</a> (SE6w7) zeigt, wie die Sorge um die eigenen Menschen bei diesem Subtyp zum Handeln wird: Nach dem Darmkrebstod ihres Mannes setzte sie sich öffentlich für die Vorsorge ein. <a href="javascript:void(0)" data-route="beruehmte-milan-peschel">Milan Peschel</a> (SE6w5), ebenfalls Schauspieler, fand über viele Jahre im Ensemble der Berliner Volksbühne ein Haus und nennt seine Familie eine Grundierung seines Lebens. Mit dem Fünferflügel ist er der nüchterne Beobachter, Müller mit dem Siebenerflügel der Zugewandtere und Beschwingtere.</p>
         </blockquote>
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Müller spielt weiterhin Michi Mohr, seit 2026 mit reduzierten Drehtagen. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Müller ist ein sozialer Siebener mit Sechserflügel (SO7w6): Das zeigen Lebenslauf und Rolle im Enneagramm-Profiling-System von David L. Rathmer. Der Drehbeginn und einzelne Auszeichnungen werden in den Quellen nicht einheitlich angegeben.</p>
+          <p class="vb-intro">Müller spielt weiterhin Michi Mohr, seit 2026 mit reduzierten Drehtagen. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Müller ist eine selbsterhaltende Sechs mit Siebenerflügel (SE6w7): Das zeigen Lebenslauf und Rolle im Enneagramm-Profiling-System von David L. Rathmer. Der Drehbeginn und einzelne Auszeichnungen werden in den Quellen nicht einheitlich angegeben.</p>
         </blockquote>
 
       </div>
@@ -3319,10 +3320,10 @@ export function maxMuellerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
-        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
-        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
-        {route:"beruehmte-paul-ronzheimer", label:"Porträt: Paul Ronzheimer (SO7w6)"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
+        {route:"beruehmte-katie-couric", label:"Porträt: Katie Couric (SE6w7)"},
+        {route:"beruehmte-milan-peschel", label:"Porträt: Milan Peschel (SE6w5)"},
         {route:"beruehmte-marisa-burger", label:"Porträt: Marisa Burger (SX3w2)"},
         {route:"beruehmte-alexander-duda", label:"Porträt: Alexander Duda (SE2w1)"},
         {route:"beruehmte-igor-jeftic", label:"Porträt: Igor Jeftić (SO1w2)"},

@@ -3225,52 +3225,53 @@ export function maxMuellerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-max-mueller-portrait.jpg" alt="Max Müller – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-max-mueller-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Max Müller</p>
-        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with a Six-Wing</p>
-        <p class="krim-portrait-subtitle">Actor and singer, b. 1965 in Klagenfurt &ndash; Animal correspondence: Beaver</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle">Actor and singer, b. 1965 in Klagenfurt &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Beaver from Carinthia: A Baritone Becomes a Beat Cop</h2>
+        <h2 class="vb-section">1. The Rabbit from Carinthia: A Baritone Becomes a Beat Cop</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> builds tirelessly, not for itself alone but for the community that lives in its territory. Max Müller was born on 12 March 1965 in Klagenfurt am Wörthersee. According to profiles, he studied acting and singing at the University of Music and Performing Arts in Vienna. He is a trained opera singer with a baritone voice; he made his debut as a lyric baritone in 2002 at the Carinthischer Sommer (›Carinthian Summer‹) festival.</p>
+          <p class="vb-intro">The <strong>rabbit</strong> likes to have its burrow close to familiar paths and prefers to come out when it knows its way around. Max Müller was born on 12 March 1965 in Klagenfurt am Wörthersee. According to profiles, he studied acting and singing at the University of Music and Performing Arts in Vienna. He is a trained opera singer with a baritone voice; he made his debut as a lyric baritone in 2002 at the Carinthischer Sommer (›Carinthian Summer‹) festival.</p>
           <p class="vb-intro">The wide television audience knows him as Police Sergeant Michael ›Michi‹ Mohr in the ZDF series ›Die Rosenheim-Cops‹ (›The Rosenheim Cops‹), a role he has played since the series began in 2002. The sources differ slightly here: one already names the year 2000 for the first shooting.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Seven: Joie de Vivre in the Service of the Group</h2>
+        <h2 class="vb-section">2. The Self-Preservation Six: Footing in the Familiar</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Seven</strong> is regarded as the <em>counter-type</em> of the Seven: instead of seeking enjoyment and pleasure for itself, it places zest for life, commitment and planning in the service of a community. Claudio Naranjo spoke here of <em>sacrifice</em>: the pleasure-seeker gives up his own pleasure in order to belong and to be needed. In this app&rsquo;s Life Pattern Compass, this is the beaver: restless building in the service of a larger whole.</p>
-          <p class="vb-intro">Müller embodies this trait in his role and in his profession. Mohr is the man of the beat and the territory, the police sergeant, not the inspector and not the star, a man of duty and community who serves the whole from the second row.</p>
+          <p class="vb-intro">The Six seeks security because it knows how quickly it can be missing. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of <em>warmth</em>: it finds support in a manageable circle of people and in reliable routines, and it gains that support by being warm and dependable itself.</p>
+          <p class="vb-intro">With Müller this shows in his role and in his profession. A series with a fixed ensemble, a familiar beat, recurring routines: he has been at home there for more than two decades. Mohr is the man of the beat, the police sergeant, not the inspector and not the star, someone the others can rely on.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Six-Wing: Loyalty and Reliability</h2>
+        <h2 class="vb-section">3. The Seven-Wing: Lightness and a Second World</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings loyalty, commitment and the need for solid ground. This shows in his fidelity to a single series over more than two decades and in a notable decision media reported in 2026: Müller is reducing his shooting days in order to care more for his mother, who lives in a care home near Vienna. His father has died, and his mother needs him now. The character Michi Mohr is nevertheless to continue appearing in the series. Reliability toward the job and toward the family lie side by side here.</p>
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the cautious Six agility, friendliness and a delight in more than one possibility. With Müller, his musical side fits this: he is a trained baritone, plays piano and guitar and cultivates this second world alongside the series. The warmth with which he plays his character belongs here too.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Substance: Making the Role of a Lifetime From a Supporting Part</h2>
+        <h2 class="vb-section">4. The Substance: Making the Role of a Lifetime From a Small Part</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to media reports, Müller originally applied for a quite different role, that of the inspector beside Joseph Hannesschläger, and was instead offered the initially small role of a police officer. He turned it into a character that has carried over a quarter of a century: a policeman who acts as a dependable support in the ensemble. That is no trivial craft. Keeping a character who is not at the centre of the plot alive over years demands precision in small things: timing, warmth and a sense of when one may simply be there in the frame.</p>
-          <p class="vb-intro">Added to this is his musical side: as a trained baritone who plays piano and guitar, he brings a second world that he cultivates alongside the series. In 2017, together with his colleagues <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a> and <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a>, he received the Bavarian State Medal for Internal Security (›Stern der Sicherheit‹, ›Star of Security‹), and in 2019, according to reports, also an award from the Police Union in Hesse.</p>
+          <p class="vb-intro">In 2017, together with his colleagues <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a> and <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a>, he received the Bavarian State Medal for Internal Security (›Stern der Sicherheit‹, ›Star of Security‹), and in 2019, according to reports, also an award from the Police Union in Hesse.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The Sacrifice for Family</h2>
+        <h2 class="vb-section">5. Being There for Family</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">For a social Seven it is telling that his most visible renunciation is directed not at the group on set but at the family: he deliberately steps back so that he can be with his mother. The Seven, who otherwise loves freedom and possibilities, chooses attachment here. He himself justifies it simply by necessity.</p>
+          <p class="vb-intro">In 2026 media reported that Müller is reducing his shooting days in order to care more for his mother, who lives in a care home near Vienna. His father has died, and his mother needs him now. The character Michi Mohr is nevertheless to continue appearing in the series.</p>
+          <p class="vb-intro">This shows what carries the self-preservation Six: for this subtype, attachment is reliability put into practice. He does not give up the familiar ground of his work, and at the same time he is where his family needs him. He himself explains it simply by necessity.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Light and Shadow of the Social Seven with a Six-Wing</h2>
+        <h2 class="vb-section">6. Light and Shadow of the Self-Preservation Six with a Seven-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in the warmth, helpfulness and loyalty with which Müller serves a character and a community. The shadow of the social Seven is to hold back one&rsquo;s own wishes and pleasure for too long so that no one is disappointed, and to gloss over the unpleasant with friendliness.</p>
+          <p class="vb-intro">The light lies in the warmth, loyalty and reliability with which Müller stays connected to a character, an ensemble and his family. The Seven-wing adds lightness. In general, the shadow of the self-preservation Six is to hold on to the familiar out of caution for longer than is good, and to hide one&rsquo;s own worry behind friendliness.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Parallels in the Same Subtype: Rowan Atkinson and Paul Ronzheimer</h2>
+        <h2 class="vb-section">7. Parallels in the Same Type: Katie Couric and Milan Peschel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) shares with Müller the Six-wing and the pattern of ›belonging instead of breaking out‹, except that Atkinson turns it into comedy. <a href="javascript:void(0)" data-route="beruehmte-paul-ronzheimer">Paul Ronzheimer</a> (SO7w6) shows the beaver who builds where others cannot reach: likewise no man of the limelight for its own sake but a servant of the work. <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6), finally, as Boerne in the Münster ›Tatort‹, has likewise been part of a fixed series tandem for over twenty years.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-katie-couric">Katie Couric</a> (SE6w7) shows how concern for one&rsquo;s own people turns into action in this subtype: after her husband died of colon cancer, she publicly championed early screening. <a href="javascript:void(0)" data-route="beruehmte-milan-peschel">Milan Peschel</a> (SE6w5), also an actor, found a home for many years in the ensemble of the Berlin Volksbühne and calls his family a foundation of his life. With the Five-wing he is the sober observer; Müller, with the Seven-wing, is the warmer and more buoyant one.</p>
         </blockquote>
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Müller continues to play Michi Mohr, with reduced shooting days since 2026. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. Müller is a social Seven with a Six-wing (SO7w6), as his life story and role show in the Enneagram profiling system of David L. Rathmer. The start of shooting and individual awards are not given consistently in the sources.</p>
+          <p class="vb-intro">Müller continues to play Michi Mohr, with reduced shooting days since 2026. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. Müller is a self-preservation Six with a Seven-wing (SE6w7), as his life story and role show in the Enneagram profiling system of David L. Rathmer. The start of shooting and individual awards are not given consistently in the sources.</p>
         </blockquote>
 
       </div>
@@ -3279,10 +3280,10 @@ export function maxMuellerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
-        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
-        {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
-        {route:"beruehmte-paul-ronzheimer", label:"Portrait: Paul Ronzheimer (SO7w6)"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
+        {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SE6w7)"},
+        {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SE6w5)"},
         {route:"beruehmte-marisa-burger", label:"Portrait: Marisa Burger (SX3w2)"},
         {route:"beruehmte-alexander-duda", label:"Portrait: Alexander Duda (SE2w1)"},
         {route:"beruehmte-igor-jeftic", label:"Portrait: Igor Jeftić (SO1w2)"},
