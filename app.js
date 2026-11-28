@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=527";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=528";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -27766,9 +27766,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Alexander Duda \u2013 Selbsterhaltender Typ 2",
     teaser:"SE2w1 \u00b7 geb. 1955 in M\u00fcnchen. Schauspieler, Theaterregisseur und Synchronsprecher, seit 2006 Polizeidirektor Gert Achtziger in \u203aDie Rosenheim-Cops\u2039. Das Flusspferd, das an seinem Platz bleibt. Tierentsprechung: Flusspferd.",
     land:"Deutschland", tags:["Schauspiel","Fernsehen","Theater"], gender:"m"},
-  { route:"beruehmte-max-mueller", name:"Max M\u00fcller", added:"2026-11-15", subtyp:"SO7w6",
-    heading:"Max M\u00fcller \u2013 Sozialer Typ 7",
-    teaser:"SO7w6 \u00b7 geb. 1965 in Klagenfurt. Schauspieler und Bariton, seit 2002 Polizeihauptmeister Michi Mohr in \u203aDie Rosenheim-Cops\u2039. Der Biber, der aus der zweiten Reihe dem Ganzen dient. Tierentsprechung: Biber.",
+  { route:"beruehmte-max-mueller", name:"Max M\u00fcller", added:"2026-11-15", subtyp:"SE6w7",
+    heading:"Max M\u00fcller \u2013 Selbsterhaltender Typ 6",
+    teaser:"SE6w7 \u00b7 geb. 1965 in Klagenfurt. Schauspieler und Bariton, seit 2002 Polizeihauptmeister Michi Mohr in \u203aDie Rosenheim-Cops\u2039. Das Kaninchen, das im vertrauten Ensemble Halt findet und anderen Halt gibt. Tierentsprechung: Kaninchen.",
     land:"\u00d6sterreich", tags:["Schauspiel","Fernsehen","Musik"], gender:"m"},
   { route:"beruehmte-jan-josef-liefers", name:"Jan Josef Liefers", added:"2026-11-15", subtyp:"SO7w6",
     heading:"Jan Josef Liefers \u2013 Sozialer Typ 7",
